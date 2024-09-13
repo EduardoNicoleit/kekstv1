@@ -1,0 +1,10 @@
+.home {
+    background-image: url("assets/img/home/bg_img.png");
+}
+.deskHome {
+    background-image: url("assets/img/home/home_02.png");
+}
+.expertise {
+    background-image: url("assets/img/home/home_04.png");
+    height: 1076px;
+}
