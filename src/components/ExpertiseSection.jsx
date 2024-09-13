@@ -8,7 +8,7 @@ const ExpertiseSection = (props) => {
         props.expertiseData.map((data) => (
           <div
             key={data.id}
-            className={`flex py-10 ${
+            className={`flex py-10 pr-8 ${
               data.id === props.expertiseData.length ? "" : " border-b-[1px]"
             }`}
           >
