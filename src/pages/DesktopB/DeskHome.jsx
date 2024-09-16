@@ -7,6 +7,7 @@ import { selectionsData_02 } from "../../data/selections";
 import DefineCompo from "./Define";
 import CreativeCompo from "./Creative";
 import SectionTwo from "./SectionTwo";
+import Works from "./Works";
 
 const Home = () => {
   return (
@@ -44,18 +45,13 @@ const Home = () => {
 
       {/* Rest of the content */}
       <Expertise />
-      <div className="pl-16">
-        <Selection selectionsData={selectionsData_02} customClass="" />
-      </div>
-      <div className="pl-[310px] py-4">
-        <ReadMore />
-      </div>
+      <Works />
       <Divider title="Our design thinking process." />
       <DefineCompo />
       <Divider title="Get to know us." />
       <CreativeCompo />
       <Contact />
-    </div>
+    </div >
   );
 };
 

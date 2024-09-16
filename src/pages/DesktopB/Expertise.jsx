@@ -15,7 +15,6 @@ const Expertise = () => {
           <ExpertiseSection expertiseData={expertiseData} />
         </div>
       </div>
-      <Divider title="Showcase." />
     </div>
   );
 };
