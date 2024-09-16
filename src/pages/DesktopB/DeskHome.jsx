@@ -1,17 +1,48 @@
 import React from "react";
-import homeImg from "../../assets/img/home/home_03.png";
-import frameImg from "../../assets/img/home/frame_01.png";
+import ReactPlayer from "react-player";
+import Navbar from "../Navbar"; // Import Navbar
 import Expertise from "./Expertise";
 import { Selection, ReadMore, Divider, Contact } from "../../components";
 import { selectionsData_02 } from "../../data/selections";
 import DefineCompo from "./Define";
 import CreativeCompo from "./Creative";
+import SectionTwo from "./SectionTwo";
 
 const Home = () => {
   return (
     <div className="relative">
-      <img src={homeImg} alt="logo" className="h-[1208] w-full" />
-      <img src={frameImg} alt="logo" className="h-[1208] w-full" />
+      {/* Video Section (Section One) */}
+      <div id="videoSection" className="relative w-full h-[calc(100vh)]">
+        <ReactPlayer
+          url="https://www.youtube.com/watch?v=DppVAQqaNE4"
+          playing
+          loop
+          controls={false}
+          muted
+          width="100%"
+          height="100%"
+          className="absolute top-0 left-0"
+          style={{
+            transform: 'scale(1)',
+            transformOrigin: 'center',
+          }}
+          config={{
+            youtube: {
+              playerVars: { quality: 'highres', rel: 0, showinfo: 0 },
+            },
+          }}
+        />
+      </div>
+
+      {/* Navbar appears after the video */}
+      <Navbar />
+
+      {/* Section Two */}
+      <div id="sectionTwo">
+        <SectionTwo />
+      </div>
+
+      {/* Rest of the content */}
       <Expertise />
       <div className="pl-16">
         <Selection selectionsData={selectionsData_02} customClass="" />

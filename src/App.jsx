@@ -6,8 +6,7 @@ function App() {
 
   return (
     <div className="app">
-      <div className='m-[50px] border-[1px] text-white'>
-        <Navbar />
+      <div className='border-[1px] text-white'>
         <DesktopB />
         {/* <FirstPage /> */}
       </div>

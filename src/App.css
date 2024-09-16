@@ -1,10 +1,49 @@
-.home {
-    background-image: url("assets/img/home/bg_img.png");
+/* Base class for backgrounds */
+.section-background {
+    background-size: cover;
+    /* Ensures the background covers the entire section */
+    background-repeat: no-repeat;
+    /* Prevents the background from repeating */
+    background-attachment: fixed;
+    /* Makes the background stay fixed while scrolling */
+    background-position: center center;
+    /* Ensures the background stays centered */
+    min-height: 100vh;
+    /* Ensures the section has a minimum height of the viewport */
 }
-.deskHome {
-    background-image: url("assets/img/home/home_02.png");
+
+.sectionTwo {
+    background-image: url("assets/img/home/home_05.svg");
+    min-height: 114vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
+
 .expertise {
     background-image: url("assets/img/home/home_04.png");
-    height: 1076px;
+    background-size: cover;
+    /* Ensures the image covers the entire section */
+    background-repeat: no-repeat;
+    background-position: left left;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+
+    .section-background,
+    .expertise {
+        background-size: cover;
+        /* Ensures the image covers the container, even on smaller screens */
+        background-position: center;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .section-background,
+    .expertise {
+        background-size: cover;
+        background-position: center top;
+    }
 }

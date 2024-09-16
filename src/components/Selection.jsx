@@ -4,7 +4,7 @@ const Selections = (props) => {
     return (
         <div>
             {props.selectionsData && props.selectionsData.map((data) => (
-                <div key={data.id} className={`flex  text-white pt-16 ${data.id === props.selectionsData.length ? ' pb-16' : ''}`}>
+                <div key={data.id} className={`flex  text-white pt-16 mr-16 ${data.id === props.selectionsData.length ? ' pb-16' : ''}`}>
                     <div className='w-[257px] m-0 p-0'>
                     </div>
                     <div className='flex-1 m-0 p-0 border-b-[1px]'>
