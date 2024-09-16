@@ -3,8 +3,6 @@
     background-size: cover;
     /* Ensures the background covers the entire section */
     background-repeat: no-repeat;
-    /* Prevents the background from repeating */
-    background-attachment: fixed;
     /* Makes the background stay fixed while scrolling */
     background-position: center top;
     /* Ensures the background stays centered */
