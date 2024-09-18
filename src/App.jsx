@@ -1,17 +1,20 @@
-import React from 'react'
-import { Navbar, Home, Selections, FirstPage, DesktopB } from './pages';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Home } from './pages';
 import './App.css'
 
 function App() {
-
   return (
-    <div className="app">
-      <div className='m-[50px] border-[1px] text-white'>
-        <Navbar />
-        <DesktopB />
-        {/* <FirstPage /> */}
-      </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}>
+          <Route index element={<Home />} />
+          {/* <Route path="blogs" element={<Blogs />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="*" element={<NoPage />} /> */}
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 

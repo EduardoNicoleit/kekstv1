@@ -135,3 +135,27 @@ export const expertiseData = [
         content2: ""        
     }
 ]
+
+export const expertiseData2 = [
+        {
+            id: 1,
+            title: "CREATIVE COMMUNICATION & STRATEGY",
+            link_url: "",
+            content1: ["Creative Campaigns", "Naming", "Corporate Identity", "Visual Identity Systems", "Editorial Design"],
+            content2: ["Creative Consultation and Strategic Counsel", "Video & Audio (Strategy, Storyboarding, Copywriting, Production)"]
+        },
+        {
+            id: 2,
+            title: "DIGITAL EXPERIENCE & INNOVATION",
+            link_url: "",
+            content1: ["Platform Development", "User Interface and Experience Design"],
+            content2: ["Gamification", "Virtual & Augmented Reality"]
+        },
+        {
+            id: 3,
+            title: "DATA VISUALIZATION",
+            link_url: "",
+            content1: ["Data Storytelling", "Multi-Platform Data Viz (Print, Digital, Video)"],
+            content2: ["Interactive Visualization", "User Engagement Strategies"]
+        }
+    ]

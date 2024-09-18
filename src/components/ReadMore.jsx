@@ -1,8 +1,8 @@
 import React from "react";
 
-const ReadMore = () => {
+const ReadMore = (props) => {
     return (
-        <div className="font-normal text-lg pt-12 flex pl-3">
+        <div className="font-normal text-[15px] flex pl-3 font-Arial cursor-pointer">
             <p>
                 Read more
             </p>

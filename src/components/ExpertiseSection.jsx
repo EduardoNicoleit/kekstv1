@@ -1,30 +1,45 @@
 import React from "react";
 import { ReadMore } from "../components";
+import { expertiseData2 } from '../data/selections';
 
-const ExpertiseSection = (props) => {
-  return (
-    <div>
-      {props.expertiseData &&
-        props.expertiseData.map((data) => (
-          <div
-            key={data.id}
-            className={`flex py-10 pr-8 ${
-              data.id === props.expertiseData.length ? "" : " border-b-[1px]"
-            }`}
-          >
-            <div className="w-[80%]">
-              <div className="font-bold text-[62px] font-Arial">
-                {data.main}
-              </div>
-              <ReadMore linkUrl={data.link_url} />
-            </div>
-            <div className="flex-1 py-4">
-              <b>{data.content1}</b> <br />
-              {data.content2}
-            </div>
-          </div>
-        ))}
-    </div>
-  );
-};
+const ExpertiseSection = () => {
+
+    return (
+        <div>
+            {
+                expertiseData2.map((val) => (
+                    <div key={val.id} className={`text-white border-b-[1px] border-white ${val.id !== 1 ? " pt-6" : ""}`}>
+                        <div className="flex items-center justify-between">
+                            <div className="font-Arial font-bold text-[55px]">
+                                {val.title}
+                            </div>
+                            <div className="flex">
+                                <ReadMore />
+                            </div>
+                        </div>
+                        <div className="grid grid-cols-2 text-[15px] font-Helvetica pt-10 pb-12">
+                            <div className="">
+                                <div className="flex border-t-[1px] border-b-[1px] border-white">
+                                    {val.content1.map((content, index) => (
+                                        <div key={content} className={`p-1 border-white ${val.content1.length !== index + 1 ? ' border-r-[1px]' : ''}`}>
+                                            {content}
+                                        </div>
+                                    ))}
+                                </div>
+                                <div className="flex border-b-[1px] border-white">
+                                    {val.content2.map((content, index) => (
+                                        <div key={content} className={`p-1 border-white ${val.content2.length !== index + 1 ? ' border-r-[1px]' : ''}`}>
+                                            {content}
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                            <div></div>
+                        </div>
+                    </div>
+                ))
+            }
+        </div>
+    )
+}
 export default ExpertiseSection;

@@ -1,10 +1,21 @@
 .home {
-    background-image: url("assets/img/home/bg_img.png");
+    background-image: url("assets/img/home/home_05.png");
 }
 .deskHome {
     background-image: url("assets/img/home/home_02.png");
 }
 .expertise {
-    background-image: url("assets/img/home/home_04.png");
-    height: 1076px;
+    background-image: url("assets/img/home/bg_img_02.png");
+}
+.works {
+    background-image: url("assets/img/home/works_bg.png");
+}
+.process {
+    background-image: url("assets/img/home/process_bg.png");
+}
+.circle-space {
+    background-image: url("assets/img/icons/circle_04.png");    
+}
+.circle-process {
+    background-image: url("assets/img/icons/circle_04.png");
 }
