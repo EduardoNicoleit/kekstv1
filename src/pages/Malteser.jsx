@@ -1,13 +1,13 @@
 import React from "react";
 import Navbar from "./Navbar";
 
-const Volkswagen = () => {
+const Malteser = () => {
     return (
         <div className="w-[1920px] relative">
-            <div className="relative text-white bg-cover bg-center w-full h-[1090px] bg-[url('assets/img/volkswagen/volkswagen.png')]">                
+            <div className="relative text-white bg-cover bg-center w-full h-[1090px] bg-[url('assets/img/malteser/malteser.png')]">                
                 <Navbar />
                 <div className="absolute text-[160px] font-[700] leading-[184px] left-[332px] bottom-[170px]">
-                    Volkswagen
+                    Malteser
                 </div>
                 <div className="absolute bottom-0 h-[128px] px-[50px] w-full box-border">
                     <div className="flex py-[25px] h-full border-t border-b border-gray-300">
@@ -15,53 +15,78 @@ const Volkswagen = () => {
                             Overview:
                         </div>
                         <div className="w-[548px] border-r border-gray-300 pl-[25px] text-[22px] font-Arial leading-[26px] font-[400] box-border flex items-center">
-                            Crafted a targeted social media <br />
-                            campaign for Volkswagen's ESG initiatives.
+                            Enhanced Design Identity through<br />
+                            innovative data visualization.
                         </div>
                         <div className="w-[548px] border-r border-gray-300 pl-[25px] text-[22px] font-Arial leading-[26px] font-[400] box-border flex items-center">
-                            Engaged audiences with creative <br />
-                            content over a two-month period.
+                            Fostered inclusive visual communication<br /> 
+                            reflecting global support.
                         </div>
                         <div className="w-[500px] pl-[25px] pr-[50px] text-[22px] font-Arial leading-[26px] font-[400] box-border flex items-center">
-                            Transformed ESG data into relatable visuals, enhancing audience connection.
+                            Simplified intricate data into <br />
+                            compelling infographics.
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="pt-[280px] pl-[110px] pr-[264px] pb-[124px] flex relative">
+            <div className="pt-[280px] pl-[110px] pr-[264px] flex relative">
                  <div className="w-[16%] text-white text-2xl font-Helvetica font-[400] leading-[28px] box-border">                        
                     The partnership:
                 </div>
-                <div className=" w-[84%] text-white text-[40px] font-Helvetica font-[400] leading-[46px] box-border">
-                    In close collaboration with Volkswagen, we meticulously developed a social media campaign to promote and position the group's global ESG initiatives. Over two months, this campaign engaged audiences through creative posts, aiming to shift perceptions by connecting ESG actions with relatable, real-world scenarios.
+                <div className="w-[84%] flex flex-col">
+                    <div className=" text-white text-[40px] font-Helvetica font-[400] leading-[46px] box-border">
+                        In refining the Design Identity for Malteser reports, we harnessed the transformative power of infographics to effectively communicate complex information in a clear and engaging way. This approach reimagined dense datasets and detailed narratives as visually compelling stories, significantly enhancing the reports' aesthetic appeal and comprehensibility.                    
+                    </div>
                 </div>
             </div>
+
             <div className="w-full px-[50px] relative box-border">
-                <img src="/src/assets/img/volkswagen/Netclean_1.png">
-                </img>
-                <div className="py-[114px] px-[300px] text-white text-[24px] font-Helvetica font-[400] leading-[32px] box-border">
-                    Our commitment spanned from concept creation and strategic planning to the execution phase, ensuring a seamless narrative throughout. The visual strategy transformed complex data into engaging visuals, marrying numerical facts about Volkswagen's ESG efforts with elements from everyday life, such as soccer stadiums and natural landscapes, to whimsical motifs like balloons.<br /><br />
-                    This approach aimed to create an emotional connection, making the ESG initiatives both accessible and meaningful to the audience. Through careful strategy, creative conceptualization, and diligent execution, we delivered a cohesive and impactful campaign.
+
+                <div className="ml-[300px] h-[850px] mt-[114px] bg-[#ff0100]"></div>
+
+                <div className="pt-[114px] pl-[300px] text-white text-[24px] font-Helvetica font-[400] leading-[32px] box-border">
+                    <div className="pr-[300px]">
+                        Malteser International, as a global humanitarian aid organization is dedicated to supporting individuals—regardless of gender, political belief, origin or faith, striving to ensure they live a life of health and dignity. This ethos of inclusivity and support is mirrored in our communication strategy.
+                        <br /> <br />
+                        By blending design with precise data, the infographics transform the report into a memorable and informative visual journey, effectively bridging the gap between the complexity of data and the clarity of communication.
+                    </div>
                 </div>
-                <img src="/src/assets/img/volkswagen/Netclean_1(1).png">
-                </img>
-                <div className="pt-[64px] flex justify-end">
-                    <img src="/src/assets/img/volkswagen/vw-mockup.png">
+                <div className="pt-32">
+                    <img src="/src/assets/img/malteser/malteser_1.png">
                     </img>
                 </div>
-                <img className="pt-[64px]" src="/src/assets/img/volkswagen/vw_movie_3.png">
-                </img>
-                <img className="pt-[64px]" src="/src/assets/img/volkswagen/vw-mockup_4 copy.png">
-                </img>
+
+                <div className="pt-16">
+                    <img src="/src/assets/img/malteser/malteser_2.png">
+                    </img>
+                </div>
+
+                <div className="flex justify-end">
+                    <img src="/src/assets/img/malteser/malteser_3.png">
+                    </img>
+                </div>
+
+                <div className="bg-white ml-[307px] h-[850px]"></div>
+
+                <div className="pt-16">
+                    <img src="/src/assets/img/malteser/malteser_4.png">
+                    </img>
+                </div>
+
+                <div className="flex justify-end">
+                    <img src="/src/assets/img/malteser/malteser_5.png">
+                    </img>
+                </div>
+
                 <div className="w-full flex pt-16">
                     <div className="w-1/2">
-                        <div className="w-full h-[800px] bg-no-repeat bg-cover bg-[url('assets/img/volkswagen/BPI_1.png')]">
+                        <div className="w-full h-[800px] bg-no-repeat bg-cover bg-[url('assets/img/malteser/farmer_header.png')]">
                             <div className="relative pl-[43px] pt-[100px] w-[513px] h-[716px] text-white">
                                 <div className="h-[100px] text-2xl font-[700]">
-                                    bpl
+                                    Farmer Voice
                                 </div>
                                 <div className="text-[40px] font-[400] leading-[50px] font-Arial">
-                                    Partnering with bpI to spotlight its crucial role in advancing the pharmaceutical industry through engaging narratives and innovative visual strategies.
+                                    Blending tradition with innovation to empower agriculture, creating a narrative-driven, stakeholder-engaging identity.                               
                                 </div>
                                 <div className="pl-5 absolute bottom-0 flex">
                                     <div>
@@ -76,13 +101,13 @@ const Volkswagen = () => {
                         </div>
                     </div>
                     <div className="w-1/2">
-                        <div className=" w-full h-[800px] bg-no-repeat bg-[url('assets/img/volkswagen/netclean_2.png')]">
+                        <div className=" w-full h-[800px] bg-no-repeat bg-[url('assets/img/malteser/dtcp_header.png')]">
                             <div className="relative pl-[43px] pt-[100px] w-[513px] h-[716px] text-white">
                                 <div className="h-[100px] text-2xl font-[700]">
-                                    NetClean
+                                    DTCP
                                 </div>
                                 <div className="text-[40px] font-[400] leading-[50px] font-Arial">
-                                    Reinventing how annual data reports can be transformed into impactful narrative communication tools.
+                                    Infusing dynamic visual narratives and data insights to craft a trustworthy, stakeholder-engaging brand identity for DTCP.                                
                                 </div>
                                 <div className="pl-5 absolute bottom-0 flex">
                                     <div>
@@ -103,4 +128,4 @@ const Volkswagen = () => {
     )
 }
 
-export default Volkswagen;
+export default Malteser;

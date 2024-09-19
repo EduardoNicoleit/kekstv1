@@ -1,13 +1,13 @@
 import React from "react";
 import Navbar from "./Navbar";
 
-const Volkswagen = () => {
+const DTCP = () => {
     return (
         <div className="w-[1920px] relative">
-            <div className="relative text-white bg-cover bg-center w-full h-[1090px] bg-[url('assets/img/volkswagen/volkswagen.png')]">                
+            <div className="relative text-white bg-cover bg-center w-full h-[1090px] bg-[url('assets/img/dtcp/dtcp_header.png')]">                
                 <Navbar />
                 <div className="absolute text-[160px] font-[700] leading-[184px] left-[332px] bottom-[170px]">
-                    Volkswagen
+                    DTCP
                 </div>
                 <div className="absolute bottom-0 h-[128px] px-[50px] w-full box-border">
                     <div className="flex py-[25px] h-full border-t border-b border-gray-300">
@@ -15,53 +15,77 @@ const Volkswagen = () => {
                             Overview:
                         </div>
                         <div className="w-[548px] border-r border-gray-300 pl-[25px] text-[22px] font-Arial leading-[26px] font-[400] box-border flex items-center">
-                            Crafted a targeted social media <br />
-                            campaign for Volkswagen's ESG initiatives.
+                            Elevated the Annual Report with <br/>
+                            Dynamic Visual Narratives.
                         </div>
                         <div className="w-[548px] border-r border-gray-300 pl-[25px] text-[22px] font-Arial leading-[26px] font-[400] box-border flex items-center">
-                            Engaged audiences with creative <br />
-                            content over a two-month period.
+                            Transformed Complex Data into  <br />
+                            Actionable Insights.
                         </div>
                         <div className="w-[500px] pl-[25px] pr-[50px] text-[22px] font-Arial leading-[26px] font-[400] box-border flex items-center">
-                            Transformed ESG data into relatable visuals, enhancing audience connection.
+                            Crafted a Visual Identity that Reflects <br/>
+                            the Company's Trustworthiness.
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="pt-[280px] pl-[110px] pr-[264px] pb-[124px] flex relative">
+            <div className="pt-[280px] pl-[110px] pr-[264px] flex relative">
                  <div className="w-[16%] text-white text-2xl font-Helvetica font-[400] leading-[28px] box-border">                        
                     The partnership:
                 </div>
-                <div className=" w-[84%] text-white text-[40px] font-Helvetica font-[400] leading-[46px] box-border">
-                    In close collaboration with Volkswagen, we meticulously developed a social media campaign to promote and position the group's global ESG initiatives. Over two months, this campaign engaged audiences through creative posts, aiming to shift perceptions by connecting ESG actions with relatable, real-world scenarios.
+                <div className="w-[84%] flex flex-col">
+                    <div className=" text-white text-[40px] font-Helvetica font-[400] leading-[46px] box-border">
+                        Partnering with DTCP, we've transformed their Annual Reports, infusing them with a narrative that resonates with the company's unique essence; dynamic and innovative. This approach was meticulously crafted to engage stakeholders, effectively conveying the company's accomplishments and future aspirations through a blend of captivating visual storytelling and insightful infographics. By integrating these elements, we ensured that the report not only invigorate readers, but also authentically reflect our pioneering ethos.                    </div>
                 </div>
             </div>
-            <div className="w-full px-[50px] relative box-border">
-                <img src="/src/assets/img/volkswagen/Netclean_1.png">
-                </img>
-                <div className="py-[114px] px-[300px] text-white text-[24px] font-Helvetica font-[400] leading-[32px] box-border">
-                    Our commitment spanned from concept creation and strategic planning to the execution phase, ensuring a seamless narrative throughout. The visual strategy transformed complex data into engaging visuals, marrying numerical facts about Volkswagen's ESG efforts with elements from everyday life, such as soccer stadiums and natural landscapes, to whimsical motifs like balloons.<br /><br />
-                    This approach aimed to create an emotional connection, making the ESG initiatives both accessible and meaningful to the audience. Through careful strategy, creative conceptualization, and diligent execution, we delivered a cohesive and impactful campaign.
-                </div>
-                <img src="/src/assets/img/volkswagen/Netclean_1(1).png">
-                </img>
-                <div className="pt-[64px] flex justify-end">
-                    <img src="/src/assets/img/volkswagen/vw-mockup.png">
+
+            <div className="w-full px-[50px] pt-[150px] relative box-border">
+
+                <div className="flex justify-end">
+                    <img src="/src/assets/img/dtcp/dtcp_movie.png">
                     </img>
                 </div>
-                <img className="pt-[64px]" src="/src/assets/img/volkswagen/vw_movie_3.png">
-                </img>
-                <img className="pt-[64px]" src="/src/assets/img/volkswagen/vw-mockup_4 copy.png">
-                </img>
+
+                <div className="pt-[114px] pl-[300px] text-white text-[24px] font-Helvetica font-[400] leading-[32px] box-border">
+                    <div className="pr-[300px]">
+                        By presenting complex information in a visually compelling manner, we facilitated a deeper understanding of the company's performance and strategic direction. Whether it's through interactive charts, dynamic graphs, or engaging timelines, our aim was to empower stakeholders with actionable insights that inform decision-making and foster trust in DTCP.
+                    </div>
+                </div>
+
+                <div className="pt-32">
+                    <img src="/src/assets/img/dtcp/dtcp_header1.png">
+                    </img>
+                </div>
+
+                <div className="pt-16">
+                    <img src="/src/assets/img/dtcp/dtcp_3.png">
+                    </img>
+                </div>
+
+                <div className="flex justify-end">
+                    <img src="/src/assets/img/dtcp/dtcp_2.png">
+                    </img>
+                </div>
+
+                <div className="pt-16">
+                    <img src="/src/assets/img/dtcp/dtcp_1.png">
+                    </img>
+                </div>
+
+                <div>
+                    <img src="/src/assets/img/dtcp/dtcp_5.png">
+                    </img>
+                </div>
+
                 <div className="w-full flex pt-16">
                     <div className="w-1/2">
-                        <div className="w-full h-[800px] bg-no-repeat bg-cover bg-[url('assets/img/volkswagen/BPI_1.png')]">
+                        <div className="w-full h-[800px] bg-no-repeat bg-cover bg-[url('assets/img/dtcp/malteser_header.png')]">
                             <div className="relative pl-[43px] pt-[100px] w-[513px] h-[716px] text-white">
                                 <div className="h-[100px] text-2xl font-[700]">
-                                    bpl
+                                    Malteser
                                 </div>
                                 <div className="text-[40px] font-[400] leading-[50px] font-Arial">
-                                    Partnering with bpI to spotlight its crucial role in advancing the pharmaceutical industry through engaging narratives and innovative visual strategies.
+                                    Merging data with design to democratize information, crafting a visually engaging, universally accessible identity.                           
                                 </div>
                                 <div className="pl-5 absolute bottom-0 flex">
                                     <div>
@@ -76,13 +100,13 @@ const Volkswagen = () => {
                         </div>
                     </div>
                     <div className="w-1/2">
-                        <div className=" w-full h-[800px] bg-no-repeat bg-[url('assets/img/volkswagen/netclean_2.png')]">
+                        <div className=" w-full h-[800px] bg-no-repeat bg-[url('assets/img/dtcp/bp_3b.png')]">
                             <div className="relative pl-[43px] pt-[100px] w-[513px] h-[716px] text-white">
                                 <div className="h-[100px] text-2xl font-[700]">
-                                    NetClean
+                                    bp
                                 </div>
                                 <div className="text-[40px] font-[400] leading-[50px] font-Arial">
-                                    Reinventing how annual data reports can be transformed into impactful narrative communication tools.
+                                    Creating culturally tailored infographics to showcase bp's Greater Tortue Ahmeyim (GTA) FLNG project's achievements, fostering global understanding and engagement.                                
                                 </div>
                                 <div className="pl-5 absolute bottom-0 flex">
                                     <div>
@@ -103,4 +127,4 @@ const Volkswagen = () => {
     )
 }
 
-export default Volkswagen;
+export default DTCP;

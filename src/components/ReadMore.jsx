@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 const ReadMore = (props) => {
     return (
         <div className="font-normal text-[15px] flex pl-3 font-Arial cursor-pointer">
             <p>
-                Read more
+                <Link to={props.linkUrl}>Read more</Link>
             </p>
             <svg className="ml-3 pt-[2px]" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g id="arrow_outward">
