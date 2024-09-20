@@ -3,12 +3,12 @@ import Logo from '../assets/img/navbar/logo.png';
 
 const Contact = () => {
     return (
-        <div className='px-[72px] '>
-            <div className='grid grid-cols-1 xl:grid-cols-5 text-white font-Arial text-lg py-16'>
+        <div className='px-4 sm:px-[72px]'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 text-white font-Arial text-base sm:text-lg py-8 sm:py-16 gap-8'>
                 <div className='mx-auto'>
                     <img src={Logo} alt="logo" className='cursor-pointer w-[181.15px] h-[77.48px]' />
                 </div>
-                <div className='mx-auto'>
+                <div className='mx-auto hidden lg:block'> {/* Hide on small screens */}
                     <div>
                         Expertise.
                     </div>
@@ -19,7 +19,7 @@ const Contact = () => {
                         © 2023 Kekst CNC
                     </div>
                 </div>
-                <div className='mx-auto'>
+                <div className='mx-auto hidden lg:block'> {/* Hide on small screens */}
                     <div>
                         Get to know us.
                     </div>
@@ -30,7 +30,7 @@ const Contact = () => {
                         Privacy Notice
                     </div>
                 </div>
-                <div className='mx-auto'>
+                <div className='mx-auto hidden lg:block'> {/* Hide on small screens */}
                     <div>
                         Our design thinking process.
                     </div>
@@ -67,8 +67,8 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-        </div >
+        </div>
     )
 }
 
-export default Contact
+export default Contact;

@@ -8,10 +8,10 @@ const WorksDataCompo = () => {
     return (
         <div>
             <div className="relative text-white">
-                <img src={WorksDataImg} alt="" className="w-full" />
-                <div className="absolute bottom-0 top-4 w-full px-12 flex flex-col">
+                <img src={WorksDataImg} alt="" className="w-full h-auto" />
+                <div className="absolute bottom-0 top-4 w-full px-4 sm:px-12 flex flex-col">
                     <Navbar />
-                    <div className="font-Helvetica text-[90px] font-bold px-[308px] mt-auto leading-none">
+                    <div className="font-Helvetica text-[90px] font-bold px-4 sm:px-[308px] mt-auto leading-none">
                         A selection <br />of work
                     </div>
                 </div>
