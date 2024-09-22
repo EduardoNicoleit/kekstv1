@@ -5,10 +5,10 @@ import Works from './Works';
 import Process from './Process';
 import CreativeCompo from './Creative';
 import Manifesto from './Manifesto';
-import Expand from './Expand';
 import { Contact } from '../components';
+import ExpandImg from '../assets/img/home/home_05.png';
 
-const Home = () => {
+const Home = ({ isSticky, element }) => {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
@@ -17,11 +17,13 @@ const Home = () => {
             <video width="100%" height="100%" controls>
                 <source src="src/assets/video/test.mp4" type="video/mp4" />
             </video>
-            <div className="sticky top-0 z-50">
-                <Navbar />
-            </div>
+            <Navbar sticky={isSticky} />
             <div>
-                <Expand />
+                <div className="welcome">
+                    <img src={ExpandImg} alt="" className="w-full h-full" ref={element} />
+                    <div className="absolute bottom-0 top-4">
+                    </div>
+                </div>
                 <Expertise />
                 <div className='h-[300px] w-full'></div>
                 <Works />

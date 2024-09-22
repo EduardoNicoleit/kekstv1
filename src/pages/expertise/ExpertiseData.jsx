@@ -5,14 +5,12 @@ import Footer from './Footer';
 import { expertiseData5 } from '../../data/selections';
 import ExpertiseDataImg from '../../assets/img/home/expertise_data.png';
 
-const ExpertiseDataCompo = () => {
+const ExpertiseDataCompo = ({ isSticky, element }) => {
     return (
         <div>
-            <div className="sticky top-0 z-50">
-                <Navbar />
-            </div>
+            <Navbar sticky={isSticky} />
             <div className="relative text-white">
-                <img src={ExpertiseDataImg} alt="" className="w-full" />
+                <img src={ExpertiseDataImg} alt="" className="w-full" ref={element} />
                 <div className="absolute bottom-0 top-4 w-full px-12 flex flex-col">
                     <div className="font-Helvetica sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-[80px] 3xl:text-[90px] font-bold lg:px-[280px] xl:px-[308px] mt-auto sm:py-6 md:py-8 lg:py-10 xl:py-12 2xl:py-16 3xl:py-20 leading-none">
                         Data <br />visualization
@@ -83,10 +81,10 @@ const ExpertiseDataCompo = () => {
                     </div>
                 </div>
             </div>
-                <Footer />
-            tact />
+            <Footer />
+            <Contact />
         </div>
     )      
-}
+          }
 
-export default ExpertiseDataCompo;
+export default ExpertiseDataCompo;        

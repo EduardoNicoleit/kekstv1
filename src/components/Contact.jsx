@@ -62,7 +62,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className='grid grid-cols-1 pr-[78px] xl:pr-0 xl:grid-cols-5 text-white font-Arial text-lg pb-16'>
+                <div className='grid grid-cols-1 pr-[78px] xl:pl-0 xl:grid-cols-5 text-white font-Arial text-lg pb-16'>
                     <div></div>
                     <div className='py-1 xl:py-0'>
                         © 2023 Kekst CNC

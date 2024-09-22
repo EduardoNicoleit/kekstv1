@@ -2,19 +2,17 @@ import React, { useEffect } from "react";
 import Navbar from "./Navbar";
 import { Contact } from "../components";
 
-const CopReport = () => {
+const CopReport = ({ isSticky, element }) => {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
     return (
         <div className="w-[1920px] relative">
-            <div className="sticky top-0 z-50">
-                <Navbar />
-            </div>
+            <Navbar sticky={isSticky} />
             <div className="relative text-white bg-cover bg-center w-full h-full">
-                <img src="/src/assets/img/copreport/cop27_header.png" alt="" className="w-full" />
+                <img src="/src/assets/img/copreport/cop27_header.png" alt="" className="w-full" ref={element} />
                 <div className="absolute bottom-0 top-4 w-full px-12 flex flex-col font-Arial">
-                    <div className="mt-auto sm:py-6 md:py-8 lg:py-10 xl:py-12 2xl:py-16 3xl:py-20 sm:px-[270px] md:px-[270px] lg:px-[270px] xl:px-[308px]">
+                    <div className="mt-auto sm:py-6 md:py-8 lg:py-10 xl:py-12 2xl:py-16 3xl:py-20 sm:px-[300px] md:px-[300px] lg:px-[270px] xl:px-[308px]">
                         <div className="sm:text-2xl md;text-3xl lg:text-4xl xl:text-5xl 2xl:text-[55px] 3xl:text-[70px] py-3">
                             Kekst CNC
                         </div>
@@ -22,29 +20,44 @@ const CopReport = () => {
                             COP 27 Report
                         </div>
                     </div>
-                    <div className="flex border-y-[1px] border-white px-12 text-[22px] h-[128px]">
-                        <div className="w-[200px] my-4">
+                    <div className="flex border-y-[1px] border-white px-12 sm:text-4xl md:text-3xl lg:text-[22px] h-[256px] lg:h-[128px]">
+                        <div className="w-[300px] lg:w-[200px] border-r-[1px] my-5 lg:my-2 px-4 lg:px-0">
                             Overview
                         </div>
-                        <div className="grid grid-cols-3 w-full">
-                            <div className="border-x-[1px] px-10 my-4">
+                        <div className="hidden lg:grid grid-cols-3 w-full">
+                            <div className="border-x-[1px] px-10 my-2">
                                 Analyzed over 2 million <br />
                                 content pieces globally.
                             </div>
-                            <div className="px-10 my-4">
+                            <div className="px-10 my-2">
                                 Derived insights from daily<br />
                                 conversations and executive discussions<br />
                                 on LinkedIn.
                             </div>
-                            <div className="px-10 border-l my-4">
+                            <div className="px-10 border-l my-2">
                                 Enhanced understanding through data<br />
+                                visualization and visual storytelling.
+                            </div>
+                        </div>
+                        <div className="grid grid-cols-1 lg:hidden w-full items-center">
+                            <div className="px-10">
+                                Analyzed over 2 million
+                                content pieces globally.
+                            </div>
+                            <div className="px-10">
+                                Derived insights from daily
+                                conversations and executive discussions
+                                on LinkedIn.
+                            </div>
+                            <div className="px-10">
+                                Enhanced understanding through data
                                 visualization and visual storytelling.
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="pt-[280px] pl-[110px] pr-[264px] flex relative">
+            <div className="pt-[128px] lg:pt-[280px] pl-[110px] pr-[264px] flex relative">
                 <div className="w-[16%] text-white text-2xl font-Helvetica font-[400] leading-[28px] box-border">
                     The partnership:
                 </div>

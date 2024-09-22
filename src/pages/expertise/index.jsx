@@ -6,19 +6,16 @@ import { ServicesTable, Contact } from "../../components";
 import ExpertiseTable from "./ExpertiseTable";
 import Footer from './Footer';
 
-const ExpertiseCompo = () => {
+const ExpertiseCompo = ({ isSticky, element }) => {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
     return (
         <div className="">
-            <div className="sticky top-0 z-50">
-                <Navbar />
-            </div>
-            <div className="relative text-white">
-                <img src={ExpertiseImg} alt="" className="w-full" />
+            <Navbar sticky={isSticky} />
+            <div className="relative text-white welcome">
+                <img src={ExpertiseImg} alt="" className="w-full" ref={element} />
                 <div className="absolute bottom-0 top-4 w-full px-12 flex flex-col">
-
                     <div className="font-Helvetica sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-[80px] 3xl:text-[90px] font-bold lg:px-[280px] xl:px-[308px] mt-auto sm:py-6 md:py-8 lg:py-10 xl:py-12 2xl:py-16 3xl:py-20">
                         DIGITAL EXPERIENCE & <br />INNOVATION
                     </div>

@@ -4,17 +4,15 @@ import { Selection, Contact } from "../components";
 import { selectionsData } from "../data/selections";
 import WorksDataImg from '../assets/img/home/works_data.png';
 
-const WorksDataCompo = () => {
+const WorksDataCompo = ({ isSticky, element }) => {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
     return (
         <div>
-            <div className="sticky top-0 z-50">
-                <Navbar />
-            </div>
+            <Navbar sticky={isSticky} />
             <div className="relative text-white">
-                <img src={WorksDataImg} alt="" className="w-full" />
+                <img src={WorksDataImg} alt="" className="w-full" ref={element} />
                 <div className="absolute bottom-0 top-4 w-full px-12 flex flex-col">
                     <div className="font-Helvetica sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-[80px] 3xl:text-[90px] font-bold mx-auto lg:px-[280px] xl:px-[308px] mt-auto leading-none">
                         A selection <br />of work

@@ -2,43 +2,55 @@ import React, { useEffect } from "react";
 import Navbar from "./Navbar";
 import { Contact } from "../components";
 
-const FarmerVoice = () => {
+const FarmerVoice = ({ isSticky, element }) => {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
     return (
         <div className="w-[1920px] relative">
-            <div className="sticky top-0 z-50">
-                <Navbar />
-            </div>
-            <div className="relative text-white bg-cover bg-center w-full h-full">
+            <Navbar sticky={isSticky} />
+            <div className="relative text-white bg-cover bg-center w-full h-full" ref={element}>
                 <img src="/src/assets/img/farmervoice/farmer.png" alt="" className="w-full" />
                 <div className="absolute bottom-0 top-4 w-full px-12 flex flex-col font-Arial">
-                    <div className="sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-[130px] 3xl:text-[160px] font-bold sm:px-[270px] md:px-[270px] lg:px-[270px] xl:px-[308px] mt-auto sm:py-6 md:py-8 lg:py-10 xl:py-12 2xl:py-16 3xl:py-20">
+                    <div className="sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-[130px] 3xl:text-[160px] font-bold sm:px-[300px] md:px-[300px] lg:px-[270px] xl:px-[308px] mt-auto sm:py-6 md:py-8 lg:py-10 xl:py-12 2xl:py-16 3xl:py-20">
                         Farmer Voice
                     </div>
-                    <div className="flex border-y-[1px] border-white px-12 text-[22px] h-[128px]">
-                        <div className="w-[200px] border-r-[1px] my-8">
+                    <div className="flex border-y-[1px] border-white px-12 sm:text-4xl md:text-3xl lg:text-[22px] h-[256px] lg:h-[128px]">
+                        <div className="w-[300px] lg:w-[200px] border-r-[1px] my-5 lg:my-6 px-4 lg:px-0">
                             Overview
                         </div>
-                        <div className="grid grid-cols-3 w-full">
-                            <div className="border-r-[1px] px-10 my-8">
+                        <div className="hidden lg:grid grid-cols-3 w-full">
+                            <div className="border-r-[1px] px-10 my-6">
                                 Conceptualized the "Farmers Voice" brand,<br />
                                 drawing on genuine global farmer insights.
                             </div>
-                            <div className="border-r-[1px] px-10 my-8">
+                            <div className="border-r-[1px] px-10 my-6">
                                 Crafted a Corporate Identity merging<br />
                                 traditional agriculture and innovation.
                             </div>
-                            <div className="px-10 my-8">
+                            <div className="px-10 my-6">
                                 Launched a report, transforming complex<br />
+                                data into engaging stories.
+                            </div>
+                        </div>
+                        <div className="grid grid-cols-1 lg:hidden w-full items-center">
+                            <div className="px-10">
+                                Conceptualized the "Farmers Voice" brand,
+                                drawing on genuine global farmer insights.
+                            </div>
+                            <div className="px-10">
+                                Crafted a Corporate Identity merging
+                                traditional agriculture and innovation.
+                            </div>
+                            <div className="px-10">
+                                Launched a report, transforming complex
                                 data into engaging stories.
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="pt-[280px] pl-[110px] pr-[264px] flex relative">
+            <div className="pt-[128px] lg:pt-[280px] pl-[110px] pr-[264px] flex relative">
                 <div className="w-[16%] text-white text-2xl font-Helvetica font-[400] leading-[28px] box-border">
                     The partnership:
                 </div>

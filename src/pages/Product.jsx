@@ -5,17 +5,15 @@ import { ServicesTable, Contact } from "../components";
 import { expertiseData4 } from '../data/selections';
 import ProductImg from '../assets/img/home/product_bg.png';
 
-const ProductCompo = () => {
+const ProductCompo = ({ isSticky, element }) => {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
     return (
         <div>
             <div className="relative text-white">
-                <div className="sticky top-0 z-50">
-                    <Navbar />
-                </div>
-                <img src={ProductImg} alt="" className="w-full" />
+                <Navbar sticky={isSticky} />
+                <img src={ProductImg} alt="" className="w-full" ref={element} />
                 <div className="absolute bottom-0 top-4 w-full px-12 flex flex-col">
                     <div className="font-Helvetica sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-[80px] 3xl:text-[90px] font-bold lg:px-[280px] xl:px-[308px] mt-auto sm:py-6 md:py-8 lg:py-10 xl:py-12 2xl:py-16 3xl:py-20">
                         Creative <br />Communication & Strategy

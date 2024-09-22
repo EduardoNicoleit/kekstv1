@@ -4,8 +4,9 @@ import Hamburger from '../assets/hamburgerMenu.svg';
 import Close from '../assets/close.svg';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import "./Navbar.css";
 
-const Navbar = () => {
+const Navbar = ({ sticky }) => {
     const [toggle, setToggle] = useState(false);
     const menuRef = useRef(null);
 
@@ -28,7 +29,7 @@ const Navbar = () => {
     }, []);
 
     return (
-        <div className='relative w-full bg-[#210837]'>
+        <div className={sticky ? "navbar navbar-sticky" : "navbar"}>
             <div className='h-16 w-full sm:h-20 md:h-24 lg:h-[128px] flex items-center justify-between px-4 sm:px-6 md:px-8 lg:px-[128px]'>
                 <Link to="/"><img src={Logo} alt="logo" className='cursor-pointer w-32 sm:w-40 md:w-48 lg:w-[223.49px] h-auto' /></Link>
                 <div className='flex items-center'>
