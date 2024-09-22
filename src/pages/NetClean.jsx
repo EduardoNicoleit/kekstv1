@@ -1,52 +1,61 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "./Navbar";
+import { Contact } from "../components";
 
 const Netclean = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <div className="w-[1920px] relative">
-            <div className="relative text-white bg-cover bg-center w-full h-[1090px] bg-[url('assets/img/netclean/netclean.png')]">                
+            <div className="sticky top-0 z-50">
                 <Navbar />
-                <div className="absolute text-[160px] font-[700] leading-[184px] left-[332px] bottom-[170px]">
-                    Netclean
-                </div>
-                <div className="absolute bottom-0 h-[128px] px-[50px] w-full box-border">
-                    <div className="flex py-[25px] h-full border-t border-b border-gray-300">
-                        <div className="w-[268px] border-r border-gray-300 text-2xl pl-[60px] font-Arial leading-8 font-[400] box-border ">
-                            Overview:
+            </div>
+            <div className="relative text-white bg-cover bg-center w-full h-full">
+                <img src="/src/assets/img/netclean/netclean.png" alt="" className="w-full" />
+                <div className="absolute bottom-0 top-4 w-full px-12 flex flex-col font-Arial">
+                    <div className="font-Helvetica sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-[130px] 3xl:text-[160px] font-bold sm:px-[270px] md:px-[270px] lg:px-[270px] xl:px-[308px] mt-auto sm:py-6 md:py-8 lg:py-10 xl:py-12 2xl:py-16 3xl:py-20">
+                        Netclean
+                    </div>
+                    <div className="flex border-y-[1px] border-white px-12 text-[22px] h-[128px]">
+                        <div className="w-[200px] border-r-[1px] my-8">
+                            Overview
                         </div>
-                        <div className="w-[548px] border-r border-gray-300 pl-[25px] text-[22px] font-Arial leading-[26px] font-[400] box-border flex items-center">
-                            Reinvented NetClean's <br />
-                            Annual Reports strategy.
-                        </div>
-                        <div className="w-[548px] border-r border-gray-300 pl-[25px] text-[22px] font-Arial leading-[26px] font-[400] box-border flex items-center">
-                            Crafted a multi-channel, visual approach <br/> 
-                            to communicate results and core values.
-                        </div>
-                        <div className="w-[500px] pl-[25px] pr-[50px] text-[22px] font-Arial leading-[26px] font-[400] box-border flex items-center">
-                            Converted data into dynamic stories <br />
-                            for stakeholder engagement.
+                        <div className="grid grid-cols-3 w-full">
+                            <div className="border-r-[1px] px-10 my-8">
+                                Reinvented NetClean's <br />
+                                Annual Reports strategy.
+                            </div>
+                            <div className="border-r-[1px] px-10 my-8">
+                                Crafted a multi-channel, visual approach <br />
+                                to communicate results and core values.
+                            </div>
+                            <div className="px-10 my-8">
+                                Converted data into dynamic stories <br />
+                                for stakeholder engagement.
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="pt-[280px] pl-[110px] pr-[264px] flex relative">
-                 <div className="w-[16%] text-white text-2xl font-Helvetica font-[400] leading-[28px] box-border">                        
+                <div className="w-[16%] text-white text-2xl font-Helvetica font-[400] leading-[28px] box-border">
                     The partnership:
                 </div>
                 <div className="w-[84%] flex flex-col">
                     <div className=" text-white text-[40px] font-Helvetica font-[400] leading-[46px] box-border">
-                    In our partnership with NetClean, we revolutionized the concept of Annual Reports. We initiated a narrative strategy that resonated with the company's modern and bold ethos, marking a fundamental shift in how NetClean communicates its core values and achievements. 
+                        In our partnership with NetClean, we revolutionized the concept of Annual Reports. We initiated a narrative strategy that resonated with the company's modern and bold ethos, marking a fundamental shift in how NetClean communicates its core values and achievements.
                     </div>
                 </div>
             </div>
             <div className="h-[850px] ml-[360px] mt-[134px] mr-[50px] bg-white"></div>
             <div className="w-full px-[50px] relative box-border">
                 <div className="py-[114px] px-[300px] text-white text-[24px] font-Helvetica font-[400] leading-[32px] box-border">
-                Our strategy wove this narrative across various channels, creating a dialogue with stakeholders that went beyond the traditional confines of reporting. The aim was to transform static data into a compelling visual narrative, utilizing infographics, illustrations and animations not just to capture attention, but to make complex information engaging and relatable.
-                <br /><br />
-                This multi-platform execution spanned from the tangible touch of print to the interactive engagement of digital media.
-                <br /><br />
-                The result was a case study in innovation. By communicating NetClean's results and objectives through an array of narrative-driven, visually engaging content, we didn’t just report on the company's year – we brought it to life. This approach proved instrumental in driving stakeholder engagement and aligning the company’s communication strategy with its forward-thinking identity.
+                    Our strategy wove this narrative across various channels, creating a dialogue with stakeholders that went beyond the traditional confines of reporting. The aim was to transform static data into a compelling visual narrative, utilizing infographics, illustrations and animations not just to capture attention, but to make complex information engaging and relatable.
+                    <br /><br />
+                    This multi-platform execution spanned from the tangible touch of print to the interactive engagement of digital media.
+                    <br /><br />
+                    The result was a case study in innovation. By communicating NetClean's results and objectives through an array of narrative-driven, visually engaging content, we didn’t just report on the company's year – we brought it to life. This approach proved instrumental in driving stakeholder engagement and aligning the company’s communication strategy with its forward-thinking identity.
                 </div>
                 <div>
                     <img src="/src/assets/img/netclean/netclean_1.png">
@@ -119,7 +128,7 @@ const Netclean = () => {
                     </div>
                 </div>
             </div>
-
+            <Contact />
         </div>
     )
 }

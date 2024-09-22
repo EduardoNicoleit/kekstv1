@@ -1,0 +1,7 @@
+.hover-target:hover svg {
+    width: 1.75rem;
+    height: 1.75rem;
+    margin-left: 0.25rem;
+    padding-top: 0;
+}
+

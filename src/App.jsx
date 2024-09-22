@@ -39,7 +39,7 @@ function App() {
         <Route path="/works/deutsche" element={<Deutsche />} />
         <Route path="/works/dtcp" element={<Dtcp />} />
         <Route path="/works/farmerVoice" element={<FarmerVoice />} />
-        <Route path="/works/malteser" element={<Malteser />} />
+        <Route path="/works/maltesert" element={<Malteser />} />
         <Route path="/works/mars" element={<Mars />} />
         <Route path="/works/netClean" element={<NetClean />} />
         <Route path="/works/newwaters" element={<Newwaters />} />

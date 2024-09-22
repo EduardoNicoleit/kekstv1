@@ -1,35 +1,46 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "./Navbar";
+import { Contact } from "../components";
+import VolkswagenImg from '../assets/img/volkswagen/volkswagen.png';
 
 const Volkswagen = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <div className="w-[1920px] relative">
-            <div className="relative text-white bg-cover bg-center w-full h-[1090px] bg-[url('assets/img/volkswagen/volkswagen.png')]">                
+            <div className="sticky top-0 z-50">
                 <Navbar />
-                <div className="absolute text-[160px] font-[700] leading-[184px] left-[332px] bottom-[170px]">
-                    Volkswagen
-                </div>
-                <div className="absolute bottom-0 h-[128px] px-[50px] w-full box-border">
-                    <div className="flex py-[25px] h-full border-t border-b border-gray-300">
-                        <div className="w-[268px] border-r border-gray-300 text-2xl pl-[60px] font-Arial leading-8 font-[400] box-border">
-                            Overview:
+            </div>
+            <div className="relative text-white bg-cover bg-center w-full h-full">
+                <img src={VolkswagenImg} alt="" className="w-full" />
+                <div className="absolute bottom-0 top-4 w-full px-12 flex flex-col font-Arial">
+                    {/* <div className="sticky top-0 z-50">
+                        <Navbar />
+                    </div> */}
+                    <div className="font-Helvetica sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-[130px] 3xl:text-[160px] font-bold sm:px-[270px] md:px-[270px] lg:px-[270px] xl:px-[308px] mt-auto sm:py-6 md:py-8 lg:py-10 xl:py-12 2xl:py-16 3xl:py-20">
+                        Volkswagen
+                    </div>
+                    <div className="flex border-y-[1px] border-white px-12 text-[22px] h-[128px]">
+                        <div className="w-[200px] border-r-[1px] my-8">
+                            Overview
                         </div>
-                        <div className="w-[548px] border-r border-gray-300 pl-[25px] text-[22px] font-Arial leading-[26px] font-[400] box-border flex items-center">
-                            Crafted a targeted social media <br />
-                            campaign for Volkswagen's ESG initiatives.
-                        </div>
-                        <div className="w-[548px] border-r border-gray-300 pl-[25px] text-[22px] font-Arial leading-[26px] font-[400] box-border flex items-center">
-                            Engaged audiences with creative <br />
-                            content over a two-month period.
-                        </div>
-                        <div className="w-[500px] pl-[25px] pr-[50px] text-[22px] font-Arial leading-[26px] font-[400] box-border flex items-center">
-                            Transformed ESG data into relatable visuals, enhancing audience connection.
+                        <div className="grid grid-cols-3 w-full">
+                            <div className="border-r-[1px] px-10 my-8">
+                                Crafted a targeted social media <br /> campaign for Volkswagen's ESG initiatives.
+                            </div>
+                            <div className="border-r-[1px] px-10 my-8">
+                                Engaged audiences with creative <br /> content over a two-month period.
+                            </div>
+                            <div className="px-10 my-8">
+                                Transformed ESG data into relatable <br /> visuals, enhancing audience connection.
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="pt-[280px] pl-[110px] pr-[264px] pb-[124px] flex relative">
-                 <div className="w-[16%] text-white text-2xl font-Helvetica font-[400] leading-[28px] box-border">                        
+                <div className="w-[16%] text-white text-2xl font-Helvetica font-[400] leading-[28px] box-border">
                     The partnership:
                 </div>
                 <div className=" w-[84%] text-white text-[40px] font-Helvetica font-[400] leading-[46px] box-border">
@@ -37,8 +48,7 @@ const Volkswagen = () => {
                 </div>
             </div>
             <div className="w-full px-[50px] relative box-border">
-                <img src="/src/assets/img/volkswagen/Netclean_1.png">
-                </img>
+                <img src="/src/assets/img/volkswagen/Netclean_1.png" className="w-full" />
                 <div className="py-[114px] px-[300px] text-white text-[24px] font-Helvetica font-[400] leading-[32px] box-border">
                     Our commitment spanned from concept creation and strategic planning to the execution phase, ensuring a seamless narrative throughout. The visual strategy transformed complex data into engaging visuals, marrying numerical facts about Volkswagen's ESG efforts with elements from everyday life, such as soccer stadiums and natural landscapes, to whimsical motifs like balloons.<br /><br />
                     This approach aimed to create an emotional connection, making the ESG initiatives both accessible and meaningful to the audience. Through careful strategy, creative conceptualization, and diligent execution, we delivered a cohesive and impactful campaign.
@@ -98,7 +108,7 @@ const Volkswagen = () => {
                     </div>
                 </div>
             </div>
-
+            <Contact />
         </div>
     )
 }

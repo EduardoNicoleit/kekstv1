@@ -1,38 +1,47 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "./Navbar";
+import { Contact } from "../components";
 
 const Mars = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <div className="w-[1920px] relative">
-            <div className="relative text-white bg-cover bg-center w-full h-[1090px] bg-[url('assets/img/mars/Mar.png')]">                
+            <div className="sticky top-0 z-50">
                 <Navbar />
-                <div className="absolute text-[160px] font-[700] leading-[184px] left-[332px] bottom-[170px]">
-                    Mars
-                </div>
-                <div className="absolute bottom-0 h-[128px] px-[50px] w-full box-border">
-                    <div className="flex py-[25px] h-full border-t border-b border-gray-300">
-                        <div className="w-[268px] border-r border-gray-300 text-2xl pl-[60px] font-Arial leading-8 font-[400] box-border">
-                            Overview:
+            </div>
+            <div className="relative text-white bg-cover bg-center w-full h-full">
+                <img src="/src/assets/img/mars/Mar.png" alt="" className="w-full" />
+                <div className="absolute bottom-0 top-4 w-full px-12 flex flex-col font-Arial">
+                    <div className="font-Helvetica sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-[130px] 3xl:text-[160px] font-bold sm:px-[270px] md:px-[270px] lg:px-[270px] xl:px-[308px] mt-auto sm:py-6 md:py-8 lg:py-10 xl:py-12 2xl:py-16 3xl:py-20">
+                        Mars
+                    </div>
+                    <div className="flex border-y-[1px] border-white px-12 text-[22px] h-[128px]">
+                        <div className="w-[200px] border-r-[1px] my-4">
+                            Overview
                         </div>
-                        <div className="w-[548px] border-r border-gray-300 pl-[25px] text-[22px] font-Arial leading-[26px] font-[400] box-border flex items-center">
-                            Developed a holistic video campaign,<br />
-                            showcasing Mars as an AI research<br />
-                            pioneer.
-                        </div>
-                        <div className="w-[548px] border-r border-gray-300 pl-[25px] text-[22px] font-Arial leading-[26px] font-[400] box-border flex items-center">
-                            Used single-shot technique for immersive<br /> 
-                            video innovation.
-                        </div>
-                        <div className="w-[500px] pl-[25px] pr-[50px] text-[22px] font-Arial leading-[26px] font-[400] box-border flex items-center">
-                            Crafted compelling narrative with<br />
-                            meticulous storyboarding to highlight<br />
-                            Mars' AI leadership.
+                        <div className="grid grid-cols-3 w-full">
+                            <div className="border-r-[1px] px-10 my-4">
+                                Developed a holistic video campaign,<br />
+                                showcasing Mars as an AI research<br />
+                                pioneer.
+                            </div>
+                            <div className="border-r-[1px] px-10 my-4">
+                                Used single-shot technique for immersive<br />
+                                video innovation.
+                            </div>
+                            <div className="px-10 my-4">
+                                Crafted compelling narrative with<br />
+                                meticulous storyboarding to highlight<br />
+                                Mars' AI leadership.
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="pt-[280px] pl-[110px] pr-[264px] flex relative">
-                 <div className="w-[16%] text-white text-2xl font-Helvetica font-[400] leading-[28px] box-border">                        
+                <div className="w-[16%] text-white text-2xl font-Helvetica font-[400] leading-[28px] box-border">
                     The partnership:
                 </div>
                 <div className="w-[84%] flex flex-col">
@@ -142,7 +151,7 @@ const Mars = () => {
                     </div>
                 </div>
             </div>
-
+            <Contact />
         </div>
     )
 }
