@@ -51,11 +51,11 @@ const BP = ({ isSticky, element }) => {
                 </div>
             </div>
             <div className="pt-[128px] lg:pt-[280px] pl-[110px] pr-[264px] flex relative">
-                <div className="w-[16%] text-white text-2xl font-Helvetica font-[400] leading-[28px] box-border">
+                <div className="w-[16%] text-white text-2xl font-Helvetica font-normal leading-[28px] box-border">
                     The partnership:
                 </div>
                 <div className="w-[84%] flex flex-col">
-                    <div className=" text-white text-[40px] font-Helvetica font-[400] leading-[46px] box-border">
+                    <div className=" text-white text-[40px] font-Helvetica font-normal leading-[46px] box-border">
                         In collaboration with bp, we created a series of static infographics to announce the arrival and berthing of different vessels at the Greater Tortue Ahmeyim (GTA) project. These infographics were designed to be used across bp-owned channels, including bp.com and bp's social media platforms, as part of an integrated communications campaign.
                     </div>
                 </div>
@@ -68,7 +68,7 @@ const BP = ({ isSticky, element }) => {
                     </img>
                 </div>
 
-                <div className="pt-[114px] pl-[300px] text-white text-[24px] font-Helvetica font-[400] leading-[32px] box-border">
+                <div className="pt-[114px] pl-[300px] text-white text-[24px] font-Helvetica font-normal leading-[32px] box-border">
                     <div className="pr-[300px]">
                         Our goal was to engage and educate audiences about the GTA project and the critical role of the FLNG vessels. The infographics showcased the project's scale and complexity, highlighting the world-class engineering involved.
                         <br /><br />
@@ -114,10 +114,10 @@ const BP = ({ isSticky, element }) => {
                     <div className="w-1/2">
                         <div className="w-full h-[800px] bg-no-repeat bg-cover bg-[url('assets/img/bp/dtcp_geader.png')]">
                             <div className="relative pl-[43px] pt-[100px] w-[513px] h-[716px] text-white">
-                                <div className="h-[100px] text-2xl font-[700]">
+                                <div className="h-[100px] text-2xl font-bold">
                                     DTCP
                                 </div>
-                                <div className="text-[40px] font-[400] leading-[50px] font-Arial">
+                                <div className="text-[40px] font-normal leading-[50px] font-Arial">
                                     Infusing dynamic visual narratives and data insights to craft a trustworthy, stakeholder-engaging brand identity for DTCP.                                </div>
                                 <div className="pl-5 absolute bottom-0 flex">
                                     <div>
@@ -134,10 +134,10 @@ const BP = ({ isSticky, element }) => {
                     <div className="w-1/2">
                         <div className=" w-full h-[800px] bg-no-repeat bg-[url('assets/img/bp/ceo_1.png')]">
                             <div className="relative pl-[43px] pt-[100px] w-[513px] h-[716px] text-white">
-                                <div className="h-[100px] text-2xl font-[700]">
+                                <div className="h-[100px] text-2xl font-bold">
                                     CEO Tracker
                                 </div>
-                                <div className="text-[40px] font-[400] leading-[50px] font-Arial">
+                                <div className="text-[40px] font-normal leading-[50px] font-Arial">
                                     Analyzing CEO communication during turbulent times and crafting visually engaging narratives to showcase diverse leadership strategies amidst complex challenges.                                </div>
                                 <div className="pl-5 absolute bottom-0 flex">
                                     <div>

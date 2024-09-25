@@ -52,11 +52,11 @@ const CeoTracker = ({ isSticky, element }) => {
                 </div>
             </div>
             <div className="pt-[128px] lg:pt-[280px] pl-[110px] pr-[264px] flex relative">
-                <div className="w-[16%] text-white text-2xl font-Helvetica font-[400] leading-[28px] box-border">
+                <div className="w-[16%] text-white text-2xl font-Helvetica font-normal leading-[28px] box-border">
                     The partnership:
                 </div>
                 <div className="w-[84%] flex flex-col">
-                    <div className=" text-white text-[40px] font-Helvetica font-[400] leading-[46px] box-border">
+                    <div className=" text-white text-[40px] font-Helvetica font-normal leading-[46px] box-border">
                         We have released a report derived from an analysis conducted by our Keskt CNC team, revealing how executive communications teams managed during the world's tumultuous times. Thousands of posts have provided insights into how the LinkedIn algorithm operates, the top priorities for CEOs, and how executive communications adjusted amidst ongoing conflict in Europe.
                     </div>
                 </div>
@@ -69,7 +69,7 @@ const CeoTracker = ({ isSticky, element }) => {
                     </img>
                 </div>
 
-                <div className="pt-[114px] pl-[300px] text-white text-[24px] font-Helvetica font-[400] leading-[32px] box-border">
+                <div className="pt-[114px] pl-[300px] text-white text-[24px] font-Helvetica font-normal leading-[32px] box-border">
                     <div className="pr-[300px]">
                         With governments, media, and social media platforms amplifying polarization and politicization on critical societal issues, businesses and CEOs find themselves increasingly vulnerable. CEOs are seen as vital contributors to discussions on diversity, equity, and inclusion (DE&I) and sustainability, necessitating their engagement. However, they must ensure that their statements are grounded in factual information and yield tangible results rather than mere rhetoric.
                         <br /><br />
@@ -111,10 +111,10 @@ const CeoTracker = ({ isSticky, element }) => {
                     <div className="w-1/2">
                         <div className="w-full h-[800px] bg-no-repeat bg-cover bg-[url('assets/img/ceotracker/bp_3b.png')]">
                             <div className="relative pl-[43px] pt-[100px] w-[513px] h-[716px] text-white">
-                                <div className="h-[100px] text-2xl font-[700]">
+                                <div className="h-[100px] text-2xl font-bold">
                                     bp
                                 </div>
-                                <div className="text-[40px] font-[400] leading-[50px] font-Arial">
+                                <div className="text-[40px] font-normal leading-[50px] font-Arial">
                                     Creating culturally tailored infographics to showcase bp's Greater Tortue Ahmeyim (GTA) FLNG project's achievements, fostering global understanding and engagement.
                                 </div>
                                 <div className="pl-5 absolute bottom-0 flex">
@@ -132,10 +132,10 @@ const CeoTracker = ({ isSticky, element }) => {
                     <div className="w-1/2">
                         <div className=" w-full h-[800px] bg-no-repeat bg-[url('assets/img/ceotracker/DB_4.png')]">
                             <div className="relative pl-[43px] pt-[100px] w-[513px] h-[716px] text-white">
-                                <div className="h-[100px] text-2xl font-[700]">
+                                <div className="h-[100px] text-2xl font-bold">
                                     DB
                                 </div>
-                                <div className="text-[40px] font-[400] leading-[50px] font-Arial">
+                                <div className="text-[40px] font-normal leading-[50px] font-Arial">
                                     Crafting inclusive campaigns through strategic messaging and innovative visuals to redefine perceptions and engage diverse audiences.
                                 </div>
                                 <div className="pl-5 absolute bottom-0 flex">

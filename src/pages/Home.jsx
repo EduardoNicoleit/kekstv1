@@ -21,15 +21,13 @@ const Home = ({ isSticky, element }) => {
             <div>
                 <div className="welcome">
                     <img src={ExpandImg} alt="" className="w-full h-full" ref={element} />
-                    <div className="absolute bottom-0 top-4">
-                    </div>
                 </div>
                 <Expertise />
-                <div className='h-[300px] w-full'></div>
+                <div className='hidden xl:block h-[300px] w-full'></div>
                 <Works />
-                <div className="h-[300px] w-full"></div>
+                <div className="hidden xl:block h-[300px] w-full"></div>
                 <Process />
-                <div className="h-[300px] w-full"></div>
+                <div className="hidden xl:block h-[300px] w-full"></div>
                 <CreativeCompo />
                 <Manifesto />
                 <Contact />

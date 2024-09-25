@@ -51,11 +51,11 @@ const DTCP = ({ isSticky, element }) => {
                 </div>
             </div>
             <div className="pt-[128px] lg:pt-[280px] pl-[110px] pr-[264px] flex relative">
-                <div className="w-[16%] text-white text-2xl font-Helvetica font-[400] leading-[28px] box-border">
+                <div className="w-[16%] text-white text-2xl font-Helvetica font-normal leading-[28px] box-border">
                     The partnership:
                 </div>
                 <div className="w-[84%] flex flex-col">
-                    <div className=" text-white text-[40px] font-Helvetica font-[400] leading-[46px] box-border">
+                    <div className=" text-white text-[40px] font-Helvetica font-normal leading-[46px] box-border">
                         Partnering with DTCP, we've transformed their Annual Reports, infusing them with a narrative that resonates with the company's unique essence; dynamic and innovative. This approach was meticulously crafted to engage stakeholders, effectively conveying the company's accomplishments and future aspirations through a blend of captivating visual storytelling and insightful infographics. By integrating these elements, we ensured that the report not only invigorate readers, but also authentically reflect our pioneering ethos.                    </div>
                 </div>
             </div>
@@ -67,7 +67,7 @@ const DTCP = ({ isSticky, element }) => {
                     </img>
                 </div>
 
-                <div className="pt-[114px] pl-[300px] text-white text-[24px] font-Helvetica font-[400] leading-[32px] box-border">
+                <div className="pt-[114px] pl-[300px] text-white text-[24px] font-Helvetica font-normal leading-[32px] box-border">
                     <div className="pr-[300px]">
                         By presenting complex information in a visually compelling manner, we facilitated a deeper understanding of the company's performance and strategic direction. Whether it's through interactive charts, dynamic graphs, or engaging timelines, our aim was to empower stakeholders with actionable insights that inform decision-making and foster trust in DTCP.
                     </div>
@@ -102,10 +102,10 @@ const DTCP = ({ isSticky, element }) => {
                     <div className="w-1/2">
                         <div className="w-full h-[800px] bg-no-repeat bg-cover bg-[url('assets/img/dtcp/malteser_header.png')]">
                             <div className="relative pl-[43px] pt-[100px] w-[513px] h-[716px] text-white">
-                                <div className="h-[100px] text-2xl font-[700]">
+                                <div className="h-[100px] text-2xl font-bold">
                                     Malteser
                                 </div>
-                                <div className="text-[40px] font-[400] leading-[50px] font-Arial">
+                                <div className="text-[40px] font-normal leading-[50px] font-Arial">
                                     Merging data with design to democratize information, crafting a visually engaging, universally accessible identity.
                                 </div>
                                 <div className="pl-5 absolute bottom-0 flex">
@@ -123,10 +123,10 @@ const DTCP = ({ isSticky, element }) => {
                     <div className="w-1/2">
                         <div className=" w-full h-[800px] bg-no-repeat bg-[url('assets/img/dtcp/bp_3b.png')]">
                             <div className="relative pl-[43px] pt-[100px] w-[513px] h-[716px] text-white">
-                                <div className="h-[100px] text-2xl font-[700]">
+                                <div className="h-[100px] text-2xl font-bold">
                                     bp
                                 </div>
-                                <div className="text-[40px] font-[400] leading-[50px] font-Arial">
+                                <div className="text-[40px] font-normal leading-[50px] font-Arial">
                                     Creating culturally tailored infographics to showcase bp's Greater Tortue Ahmeyim (GTA) FLNG project's achievements, fostering global understanding and engagement.
                                 </div>
                                 <div className="pl-5 absolute bottom-0 flex">

@@ -58,11 +58,11 @@ const CopReport = ({ isSticky, element }) => {
                 </div>
             </div>
             <div className="pt-[128px] lg:pt-[280px] pl-[110px] pr-[264px] flex relative">
-                <div className="w-[16%] text-white text-2xl font-Helvetica font-[400] leading-[28px] box-border">
+                <div className="w-[16%] text-white text-2xl font-Helvetica font-normal leading-[28px] box-border">
                     The partnership:
                 </div>
                 <div className="w-[84%] flex flex-col">
-                    <div className=" text-white text-[40px] font-Helvetica font-[400] leading-[46px] box-border">
+                    <div className=" text-white text-[40px] font-Helvetica font-normal leading-[46px] box-border">
                         We launched a report for COP 27, grounded in an analysis of over 2 million content pieces from various regions and media sources. Our analysis included earned media, trade press, and social media content from Europe, the Middle East, and the US.
                     </div>
                 </div>
@@ -75,7 +75,7 @@ const CopReport = ({ isSticky, element }) => {
                     </img>
                 </div>
 
-                <div className="pt-[114px] pl-[300px] text-white text-[24px] font-Helvetica font-[400] leading-[32px] box-border">
+                <div className="pt-[114px] pl-[300px] text-white text-[24px] font-Helvetica font-normal leading-[32px] box-border">
                     <div className="pr-[300px]">
                         By analyzing and correlating the most distinct and interesting data points, we crafted a compelling global narrative. Data visualization and visual storytelling in the report played a crucial role in enhancing understanding, discovering insights, and informing decision-making.
                         <br /><br />
@@ -109,10 +109,10 @@ const CopReport = ({ isSticky, element }) => {
                     <div className="w-1/2">
                         <div className="w-full h-[800px] bg-no-repeat bg-cover bg-[url('assets/img/copreport/DB_4.png')]">
                             <div className="relative pl-[43px] pt-[100px] w-[513px] h-[716px] text-white">
-                                <div className="h-[100px] text-2xl font-[700]">
+                                <div className="h-[100px] text-2xl font-bold">
                                     DB
                                 </div>
-                                <div className="text-[40px] font-[400] leading-[50px] font-Arial">
+                                <div className="text-[40px] font-normal leading-[50px] font-Arial">
                                     Crafting inclusive campaigns through strategic messaging and innovative visuals to redefine perceptions and engage diverse audiences.
                                 </div>
                                 <div className="pl-5 absolute bottom-0 flex">
@@ -130,10 +130,10 @@ const CopReport = ({ isSticky, element }) => {
                     <div className="w-1/2">
                         <div className=" w-full h-[800px] bg-no-repeat bg-[url('assets/img/copreport/BP_1.png')]">
                             <div className="relative pl-[43px] pt-[100px] w-[513px] h-[716px] text-white">
-                                <div className="h-[100px] text-2xl font-[700]">
+                                <div className="h-[100px] text-2xl font-bold">
                                     bpl
                                 </div>
-                                <div className="text-[40px] font-[400] leading-[50px] font-Arial">
+                                <div className="text-[40px] font-normal leading-[50px] font-Arial">
                                     Partnering with bpI to spotlight its crucial role in advancing the pharmaceutical industry through engaging narratives and innovative visual strategies.
                                 </div>
                                 <div className="pl-5 absolute bottom-0 flex">

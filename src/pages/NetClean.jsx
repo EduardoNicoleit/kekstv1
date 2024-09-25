@@ -51,18 +51,18 @@ const Netclean = ({ isSticky, element }) => {
                 </div>
             </div>
             <div className="pt-[128px] lg:pt-[280px] pl-[110px] pr-[264px] flex relative">
-                <div className="w-[16%] text-white text-2xl font-Helvetica font-[400] leading-[28px] box-border">
+                <div className="w-[16%] text-white text-2xl font-Helvetica font-normal leading-[28px] box-border">
                     The partnership:
                 </div>
                 <div className="w-[84%] flex flex-col">
-                    <div className=" text-white text-[40px] font-Helvetica font-[400] leading-[46px] box-border">
+                    <div className=" text-white text-[40px] font-Helvetica font-normal leading-[46px] box-border">
                         In our partnership with NetClean, we revolutionized the concept of Annual Reports. We initiated a narrative strategy that resonated with the company's modern and bold ethos, marking a fundamental shift in how NetClean communicates its core values and achievements.
                     </div>
                 </div>
             </div>
             <div className="h-[850px] ml-[360px] mt-[134px] mr-[50px] bg-white"></div>
             <div className="w-full px-[50px] relative box-border">
-                <div className="py-[114px] px-[300px] text-white text-[24px] font-Helvetica font-[400] leading-[32px] box-border">
+                <div className="py-[114px] px-[300px] text-white text-[24px] font-Helvetica font-normal leading-[32px] box-border">
                     Our strategy wove this narrative across various channels, creating a dialogue with stakeholders that went beyond the traditional confines of reporting. The aim was to transform static data into a compelling visual narrative, utilizing infographics, illustrations and animations not just to capture attention, but to make complex information engaging and relatable.
                     <br /><br />
                     This multi-platform execution spanned from the tangible touch of print to the interactive engagement of digital media.
@@ -99,10 +99,10 @@ const Netclean = ({ isSticky, element }) => {
                     <div className="w-1/2">
                         <div className="w-full h-[800px] bg-no-repeat bg-cover bg-[url('assets/img/netclean/vw.png')]">
                             <div className="relative pl-[43px] pt-[100px] w-[513px] h-[716px] text-white">
-                                <div className="h-[100px] text-2xl font-[700]">
+                                <div className="h-[100px] text-2xl font-bold">
                                     bpl
                                 </div>
-                                <div className="text-[40px] font-[400] leading-[50px] font-Arial">
+                                <div className="text-[40px] font-normal leading-[50px] font-Arial">
                                     Partnering with Volkswagen to enhance their global ESG narrative, from strategic audience engagement to shaping future sustainability pathways.
                                 </div>
                                 <div className="pl-5 absolute bottom-0 flex">
@@ -120,10 +120,10 @@ const Netclean = ({ isSticky, element }) => {
                     <div className="w-1/2">
                         <div className=" w-full h-[800px] bg-no-repeat bg-[url('assets/img/netclean/PHI_copy.png')]">
                             <div className="relative pl-[43px] pt-[100px] w-[513px] h-[716px] text-white">
-                                <div className="h-[100px] text-2xl font-[700]">
+                                <div className="h-[100px] text-2xl font-bold">
                                     NetClean
                                 </div>
-                                <div className="text-[40px] font-[400] leading-[50px] font-Arial">
+                                <div className="text-[40px] font-normal leading-[50px] font-Arial">
                                     Crafting a video campaign that showcases how artificial intelligence tools are revolutionizing research methodologies within Mars, positioning them at the forefront of innovative exploration.
                                 </div>
                                 <div className="pl-5 absolute bottom-0 flex">

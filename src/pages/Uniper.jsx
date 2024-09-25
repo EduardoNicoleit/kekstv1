@@ -4,9 +4,9 @@ import { Contact } from "../components";
 import UniperImg from '../assets/img/uniper/uniper.png';
 
 const Uniper = ({ isSticky, element }) => {
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, []);
+    // useEffect(() => {
+    //     window.scrollTo(0, 0);
+    // }, []);
     return (
         <div className="w-[1920px] relative">
             <Navbar sticky={isSticky} />
@@ -17,7 +17,7 @@ const Uniper = ({ isSticky, element }) => {
                         Uniper
                     </div>
                     <div className="flex border-y-[1px] border-white px-12 sm:text-4xl md:text-3xl lg:text-[22px] h-[256px] lg:h-[128px]">
-                        <div className="w-[300px] lg:w-[200px] border-r-[1px] my-5 lg:my-5 px-4 lg:px-0">
+                        <div className="w-[300px] lg:w-[262px] border-r-[1px] my-5 lg:my-5 px-4 lg:px-0">
                             Overview
                         </div>
                         <div className="hidden lg:grid grid-cols-3 w-full">
@@ -51,22 +51,22 @@ const Uniper = ({ isSticky, element }) => {
                     </div>
                 </div>
             </div>
-            <div className="pt-[128px] lg:pt-[280px] pl-[110px] pr-[264px] flex relative">
-                <div className="w-[16%] text-white text-2xl font-Helvetica font-[400] leading-[28px] box-border">
+            <div className="py-[128px] pl-[110px] pr-[264px] flex relative">
+                <div className="w-[16%] text-white text-2xl font-Helvetica leading-[28px] box-border">
                     The partnership:
                 </div>
                 <div className="w-[84%] flex flex-col">
-                    <div className=" text-white text-[40px] font-Helvetica font-[400] leading-[46px] box-border">
+                    <div className=" text-white text-[40px] font-Helvetica leading-[46px] box-border">
                         In 2023, we launched an ambitious campaign for Uniper, developing a unique visual identity alongside a diverse range of outputs. From the creation of a compelling concept slogan, to strategic deployment and execution across various media, including video and in-house channels, the "Beating Heart of Energy" campaign positions Uniper as the linchpin of the energy infrastructure. This initiative underscores Uniper's durability, dedication to sustainability and significant efforts towards facilitating a seamless and green energy shift.
                     </div>
                 </div>
             </div>
             <div className="w-full px-[50px] relative box-border">
-                <div className="pt-[128px]">
+                <div className="">
                     <img src="/src/assets/img/uniper/uniper_movie.png">
                     </img>
                 </div>
-                <div className="py-[114px] px-[300px] text-white text-[24px] font-Helvetica font-[400] leading-[32px] box-border">
+                <div className="py-[114px] px-[300px] text-white text-[24px] font-Helvetica leading-[32px] box-border">
                     The beating heart, a vibrant force essential for life serves as a powerful metaphor for Uniper's role in the energy system. Just as the heart meticulously orchestrates the delivery of life-sustaining blood through an intricate network of vessels, Uniper ensures the seamless distribution of energy across its vast network. The heart's relentless rhythm, critical for survival, mirrors Uniper's commitment to providing an uninterrupted energy supply to its customers across Europe, highlighting the profound consequences of even brief interruptions.
                     <br /><br />
                     This comparison extends further when considering adaptability and resilience. Like a heart that strengthens through exercise, Uniper has evolved by learning from past challenges, adapting to market demands to become more resilient and efficient. Similarly, Uniper's remarkable flexibility in meeting customers' energy needs mirrors the heart's dynamic response to the body's demands, ensuring that energy flows seamlessly to match the fluctuating demands of the market and the evolving needs of consumers.
@@ -105,12 +105,12 @@ const Uniper = ({ isSticky, element }) => {
                 </div>
                 <div className="w-full flex pt-16">
                     <div className="w-1/2">
-                        <div className="w-full h-[800px] bg-no-repeat bg-cover bg-[url('assets/img/uniper/header_0.png')]">
+                        <div className="w-full h-[800px] bg-cover bg-[url('assets/img/uniper/header_0.png')]">
                             <div className="relative pl-[43px] pt-[100px] w-[513px] h-[716px] text-white">
-                                <div className="h-[100px] text-2xl font-[700]">
+                                <div className="h-[100px] text-2xl font-bold">
                                     Mars
                                 </div>
-                                <div className="text-[40px] font-[400] leading-[50px] font-Arial">
+                                <div className="text-[40px] leading-[50px] font-Arial">
                                     Crafting a video campaign that showcases how artificial intelligence tools are revolutionizing research methodologies within Mars, positioning them at the forefront of innovative exploration.
                                 </div>
                                 <div className="pl-5 absolute bottom-0 flex">
@@ -128,10 +128,10 @@ const Uniper = ({ isSticky, element }) => {
                     <div className="w-1/2">
                         <div className=" w-full h-[800px] bg-no-repeat bg-[url('assets/img/uniper/newwaters_4.png')]">
                             <div className="relative pl-[43px] pt-[100px] w-[513px] h-[716px] text-white">
-                                <div className="h-[100px] text-2xl font-[700]">
+                                <div className="h-[100px] text-2xl font-bold">
                                     Newwaters
                                 </div>
-                                <div className="text-[40px] font-[400] leading-[50px] font-Arial">
+                                <div className="text-[40px] leading-[50px] font-Arial">
                                     Crafting NewWaters' corporate identity to embody fluid innovation in a transforming market.
                                 </div>
                                 <div className="pl-5 absolute bottom-0 flex">

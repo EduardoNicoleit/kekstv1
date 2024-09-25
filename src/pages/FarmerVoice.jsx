@@ -51,11 +51,11 @@ const FarmerVoice = ({ isSticky, element }) => {
                 </div>
             </div>
             <div className="pt-[128px] lg:pt-[280px] pl-[110px] pr-[264px] flex relative">
-                <div className="w-[16%] text-white text-2xl font-Helvetica font-[400] leading-[28px] box-border">
+                <div className="w-[16%] text-white text-2xl font-Helvetica font-normal leading-[28px] box-border">
                     The partnership:
                 </div>
                 <div className="w-[84%] flex flex-col">
-                    <div className=" text-white text-[40px] font-Helvetica font-[400] leading-[46px] box-border">
+                    <div className=" text-white text-[40px] font-Helvetica font-normal leading-[46px] box-border">
                         Launched in September 2023, the Branding and Corporate Identity for Bayer's "Farmers Voice" initiative artfully merges traditional agricultural motifs with modern elements, encapsulating the synergy of longstanding farming traditions with contemporary agricultural innovations. The scope of our work spanned from the initial naming of the initiative to the comprehensive creation of its Corporate Design.
                     </div>
                 </div>
@@ -64,7 +64,7 @@ const FarmerVoice = ({ isSticky, element }) => {
             <div className="ml-[350px] h-[850px] mt-[114px] bg-white"></div>
 
             <div className="w-full px-[50px] relative box-border">
-                <div className="pt-[114px] pl-[300px] text-white text-[24px] font-Helvetica font-[400] leading-[32px] box-border">
+                <div className="pt-[114px] pl-[300px] text-white text-[24px] font-Helvetica font-normal leading-[32px] box-border">
                     <div className="pr-[300px]">
                         With its earthy color palette and clean lines, the design vividly embodies the initiative's fundamental values, highlighting Bayer's commitment to agriculture and farmer empowerment. This design framework not only bolsters Bayer’s outreach efforts, but also sets the stage for an insightful annual report that explores shifts in farming practices and challenges, illustrating the initiative's dynamic and responsive nature.
                         <br /> <br />
@@ -113,10 +113,10 @@ const FarmerVoice = ({ isSticky, element }) => {
                     <div className="w-1/2">
                         <div className="w-full h-[800px] bg-no-repeat bg-cover bg-[url('assets/img/farmervoice/newwaters.png')]">
                             <div className="relative pl-[43px] pt-[100px] w-[513px] h-[716px] text-white">
-                                <div className="h-[100px] text-2xl font-[700]">
+                                <div className="h-[100px] text-2xl font-bold">
                                     Newwaters
                                 </div>
-                                <div className="text-[40px] font-[400] leading-[50px] font-Arial">
+                                <div className="text-[40px] font-normal leading-[50px] font-Arial">
                                     Crafting NewWaters' corporate identity to embody fluid innovation in a transforming market.
                                 </div>
                                 <div className="pl-5 absolute bottom-0 flex">
@@ -134,10 +134,10 @@ const FarmerVoice = ({ isSticky, element }) => {
                     <div className="w-1/2">
                         <div className=" w-full h-[800px] bg-no-repeat bg-[url('assets/img/farmervoice/malteser.png')]">
                             <div className="relative pl-[43px] pt-[100px] w-[513px] h-[716px] text-white">
-                                <div className="h-[100px] text-2xl font-[700]">
+                                <div className="h-[100px] text-2xl font-bold">
                                     Malteser
                                 </div>
-                                <div className="text-[40px] font-[400] leading-[50px] font-Arial">
+                                <div className="text-[40px] font-normal leading-[50px] font-Arial">
                                     Merging data with design to democratize information, crafting a visually engaging, universally accessible identity.                                </div>
                                 <div className="pl-5 absolute bottom-0 flex">
                                     <div>

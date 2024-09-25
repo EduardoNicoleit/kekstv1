@@ -29,40 +29,44 @@ const Navbar = ({ sticky }) => {
     }, []);
 
     return (
-        <div className={sticky ? "navbar navbar-sticky" : "navbar"}>
-            <div className='h-16 w-full sm:h-20 md:h-24 lg:h-[128px] flex items-center justify-between px-4 sm:px-6 md:px-8 lg:px-[128px]'>
-                <Link to="/"><img src={Logo} alt="logo" className='cursor-pointer w-32 sm:w-40 md:w-48 lg:w-[223.49px] h-auto' /></Link>
-                <div className='flex items-center'>
-                    <div className="hidden lg:flex h-[50px] py-[13px] px-4 text-white">
-                        <ul className='flex gap-[70px] text-sm sm:text-base md:text-lg lg:text-xl'>
-                            <li className="hover:text-gray-400 flex items-center"><Link to="/">Expertise.</Link></li>
-                            <li className="hover:text-gray-400 flex items-center"><Link to="/">Our work</Link></li>
-                            <li className="hover:text-gray-400 flex items-center"><Link to="/">Get to know us.</Link></li>
-                            <li className="hover:text-gray-400 flex items-center"><Link to="/">Our design thinking process.</Link></li>
-                            <li className="hover:text-gray-400 flex items-center"><Link to="/">Our Manifesto</Link></li>
-                            <li className="hover:text-gray-400 flex items-center"><Link to="/">Let's talk.</Link></li>
-                        </ul>
+        <div
+            className={sticky ? "navbar navbar-sticky h-12 md:h-12 lg:h-[83px] xl:h-[108px] 2xl:h-[120px]" : "navbar h-12 md:h-12 lg:h-[83px] xl:h-[108px] 2xl:h-[120px] 2xl:pt-[82px]"}>
+            <div className='w-full py-8'>
+                <div className='pl-[17px] md:pl-4 lg:pl-12 2xl:pl-[128px] border-white h-16 w-full sm:h-20 md:h-24 2xl:h-[120px] flex items-center justify-between'>
+                    <Link to="/"><img src={Logo} alt="logo" className='cursor-pointer h-[35px] md:h-[32px] lg:h-[50px] xl:h-[77px] w-[101px] md:w-[93px] lg:w-[144px] xl:w-[222px] 2xl:h-auto 2xl:w-auto' /></Link>
+                    <div className='flex w-full 2xl:pl-[50px] 3xl:pl-[70px] justify-between'>
+                        <div className="xl:pl-[50px] lg:flex h-[50px] py-[13px] font-Arial font-normal text-white">
+                            <ul className='hidden 2xl:flex 2xl:gap-[50px] 3xl:gap-[70px] text-lg'>
+                                <li className="hover:text-gray-400 flex items-center"><Link to="/">Expertise</Link></li>
+                                <li className="hover:text-gray-400 flex items-center"><Link to="/">Our work</Link></li>
+                                <li className="hover:text-gray-400 flex items-center"><Link to="/">Get to know us</Link></li>
+                                <li className="hover:text-gray-400 flex items-center"><Link to="/">Our design thinking process</Link></li>
+                                <li className="hover:text-gray-400 flex items-center"><Link to="/">Our Manifesto</Link></li>
+                                <li className="hover:text-gray-400 flex items-center"><Link to="/">Let's talk</Link></li>
+                            </ul>
+                        </div>
+                        <motion.div
+                            whileTap={{ scale: 0.6 }}
+                            className="block 2xl:hidden cursor-pointer items-center h-full my-auto" // Center vertically
+                            onClick={handleToggle}
+                        >
+                            <div className='text-white uppercase font-Helvetica font-normal text-[11px] md:text-xs lg:text-[14px] xl:text-[22px] md:py-[7px] lg:py-[10px] xl:py-4 2xl:py-4 md:px-[11px] lg:px-[18px] xl:px-7 2xl:px-7 border-white border-0 md:border-[1px] mr-[17px] md:mr-4 lg:mr-12 2xl:mr-[128px]'>
+                                Menu
+                            </div>
+                        </motion.div>
                     </div>
-                    <motion.div
-                        whileTap={{ scale: 0.6 }}
-                        className="lg:hidden cursor-pointer flex items-center h-full" // Center vertically
-                        onClick={handleToggle}
-                    >
-                        <img src={toggle ? Close : Hamburger} alt="menu" className="w-6 h-6 invert" />
-                    </motion.div>
                 </div>
             </div>
-
             {/* Mobile menu */}
             {toggle && (
-                <div ref={menuRef} className="lg:hidden fixed top-16 left-0 w-full bg-[#210837] bg-opacity-90 text-white z-50">
+                <div ref={menuRef} className="2xl:hidden fixed top-16 left-0 w-full bg-[#210837] bg-opacity-90 text-white z-50">
                     <ul className='flex flex-col items-start py-4 px-4 sm:px-6 md:px-8 text-sm sm:text-base md:text-lg'>
-                        <li className="py-2 w-full hover:text-gray-400"><Link to="/" onClick={handleToggle}>Expertise.</Link></li>
+                        <li className="py-2 w-full hover:text-gray-400"><Link to="/" onClick={handleToggle}>Expertise</Link></li>
                         <li className="py-2 w-full hover:text-gray-400"><Link to="/" onClick={handleToggle}>Our work</Link></li>
                         <li className="py-2 w-full hover:text-gray-400"><Link to="/" onClick={handleToggle}>Get to know us.</Link></li>
-                        <li className="py-2 w-full hover:text-gray-400"><Link to="/" onClick={handleToggle}>Our design thinking process.</Link></li>
+                        <li className="py-2 w-full hover:text-gray-400"><Link to="/" onClick={handleToggle}>Our design thinking process</Link></li>
                         <li className="py-2 w-full hover:text-gray-400"><Link to="/" onClick={handleToggle}>Our Manifesto</Link></li>
-                        <li className="py-2 w-full hover:text-gray-400"><Link to="/" onClick={handleToggle}>Let's talk.</Link></li>
+                        <li className="py-2 w-full hover:text-gray-400"><Link to="/" onClick={handleToggle}>Let's talk</Link></li>
                     </ul>
                 </div>
             )}

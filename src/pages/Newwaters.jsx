@@ -57,11 +57,11 @@ const Newwaters = ({ isSticky, element }) => {
                 </div>
             </div>
             <div className="pt-[128px] lg:pt-[280px] pl-[110px] pr-[264px] flex relative">
-                <div className="w-[16%] text-white text-2xl font-Helvetica font-[400] leading-[28px] box-border">
+                <div className="w-[16%] text-white text-2xl font-Helvetica font-normal leading-[28px] box-border">
                     The partnership:
                 </div>
                 <div className="w-[84%] flex flex-col">
-                    <div className=" text-white text-[40px] font-Helvetica font-[400] leading-[46px] box-border">
+                    <div className=" text-white text-[40px] font-Helvetica font-normal leading-[46px] box-border">
                         Embarking on a journey of transformation, we partnered with NewWaters, an American firm at the cusp of a significant shift due to the owner's commencement on new business horizons. Our mission was to reimagine and redefine its corporate identity, resulting in a captivating visual language that mirrors the essence and ambitions of NewWaters.
                     </div>
                 </div>
@@ -71,7 +71,7 @@ const Newwaters = ({ isSticky, element }) => {
                     <img src="/src/assets/img/newwaters/newwaters_movie.png">
                     </img>
                 </div>
-                <div className="pt-[114px] pl-[300px] text-white text-[24px] font-Helvetica font-[400] leading-[32px] box-border">
+                <div className="pt-[114px] pl-[300px] text-white text-[24px] font-Helvetica font-normal leading-[32px] box-border">
                     <div className="pr-[300px]">
                         By weaving together elegance and symbolism, we introduced a wave pattern that not only signifies fluidity and adaptability but also encapsulates the transformative power of water. The clever interplay between the letters 'N' and 'W' within this design serves as a testament to the brand's innovative spirit, seamlessly blending the initials of NewWaters into the fabric of its new identity, thereby enhancing its aquatic narrative in a manner that is both understated and striking.
                         <br /> <br />
@@ -103,10 +103,10 @@ const Newwaters = ({ isSticky, element }) => {
                     <div className="w-1/2">
                         <div className="w-full h-[800px] bg-no-repeat bg-cover bg-[url('assets/img/newwaters/uniper_2.png')]">
                             <div className="relative pl-[43px] pt-[100px] w-[513px] h-[716px] text-white">
-                                <div className="h-[100px] text-2xl font-[700]">
+                                <div className="h-[100px] text-2xl font-bold">
                                     Uniper
                                 </div>
-                                <div className="text-[40px] font-[400] leading-[50px] font-Arial">
+                                <div className="text-[40px] font-normal leading-[50px] font-Arial">
                                     Shaping Uniper's campaign to position them as the heartbeat of an evolving energy landscape.
                                 </div>
                                 <div className="pl-5 absolute bottom-0 flex">
@@ -124,10 +124,10 @@ const Newwaters = ({ isSticky, element }) => {
                     <div className="w-1/2">
                         <div className=" w-full h-[800px] bg-no-repeat bg-[url('assets/img/newwaters/farmer_header.png')]">
                             <div className="relative pl-[43px] pt-[100px] w-[513px] h-[716px] text-white">
-                                <div className="h-[100px] text-2xl font-[700]">
+                                <div className="h-[100px] text-2xl font-bold">
                                     Farmer
                                 </div>
-                                <div className="text-[40px] font-[400] leading-[50px] font-Arial">
+                                <div className="text-[40px] font-normal leading-[50px] font-Arial">
                                     Blending tradition with innovation to empower agriculture, creating a narrative-driven, stakeholder-engaging identity.
                                 </div>
                                 <div className="pl-5 absolute bottom-0 flex">
