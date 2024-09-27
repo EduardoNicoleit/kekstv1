@@ -8,6 +8,15 @@ module.exports = {
         'Helvetica': ['Helvetica', 'sans-serif'],
         // montserrat: ['Montserrat','sans-serif'],
       },
+      screens: {
+        '3xl': '1920px',
+      },
+      fontSize: {
+        'xxs': '0.65rem',
+      },
+      spacing: {
+        '128': '32rem',
+      },
     },
   },
   plugins: [],

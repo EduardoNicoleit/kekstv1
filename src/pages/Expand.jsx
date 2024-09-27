@@ -7,7 +7,6 @@ const ExpandCompo = () => {
         <div className="relative">
             <img src={ExpandImg} alt="" className="w-full" />
             <div className="absolute bottom-0 top-4">
-                <Navbar />
             </div>
         </div>
     )

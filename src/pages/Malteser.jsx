@@ -1,41 +1,62 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "./Navbar";
+import { Contact } from "../components";
 
-const Malteser = () => {
+const Malteser = ({ isSticky, element }) => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <div className="w-[1920px] relative">
-            <div className="relative text-white bg-cover bg-center w-full h-[1090px] bg-[url('assets/img/malteser/malteser.png')]">                
-                <Navbar />
-                <div className="absolute text-[160px] font-[700] leading-[184px] left-[332px] bottom-[170px]">
-                    Malteser
-                </div>
-                <div className="absolute bottom-0 h-[128px] px-[50px] w-full box-border">
-                    <div className="flex py-[25px] h-full border-t border-b border-gray-300">
-                        <div className="w-[268px] border-r border-gray-300 text-2xl pl-[60px] font-Arial leading-8 font-[400] box-border">
-                            Overview:
+            <Navbar sticky={isSticky} />
+            <div className="relative text-white bg-cover bg-center w-full h-full">
+                <img src="/src/assets/img/malteser/malteser.png" alt="" className="w-full" ref={element} />
+                <div className="absolute bottom-0 top-4 w-full px-12 flex flex-col font-Arial">
+                    <div className="sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-[130px] 3xl:text-[160px] font-bold sm:px-[300px] md:px-[300px] lg:px-[270px] xl:px-[308px] mt-auto sm:py-6 md:py-8 lg:py-10 xl:py-12 2xl:py-16 3xl:py-20">
+                        Malteser
+                    </div>
+                    <div className="flex border-y-[1px] border-white px-12 sm:text-4xl md:text-3xl lg:text-[22px] h-[256px] lg:h-[128px]">
+                        <div className="w-[300px] lg:w-[200px] border-r-[1px] my-5 lg:my-6 px-4 lg:px-0">
+                            Overview
                         </div>
-                        <div className="w-[548px] border-r border-gray-300 pl-[25px] text-[22px] font-Arial leading-[26px] font-[400] box-border flex items-center">
-                            Enhanced Design Identity through<br />
-                            innovative data visualization.
+                        <div className="hidden lg:grid grid-cols-3 w-full">
+                            <div className="border-r-[1px] px-10 my-6">
+                                Enhanced Design Identity through<br />
+                                innovative data visualization.
+                            </div>
+                            <div className="border-r-[1px] px-10 my-6">
+                                Fostered inclusive visual communication<br />
+                                reflecting global support.
+                            </div>
+                            <div className="px-10 my-6">
+                                Simplified intricate data into <br />
+                                compelling infographics.
+                            </div>
                         </div>
-                        <div className="w-[548px] border-r border-gray-300 pl-[25px] text-[22px] font-Arial leading-[26px] font-[400] box-border flex items-center">
-                            Fostered inclusive visual communication<br /> 
-                            reflecting global support.
-                        </div>
-                        <div className="w-[500px] pl-[25px] pr-[50px] text-[22px] font-Arial leading-[26px] font-[400] box-border flex items-center">
-                            Simplified intricate data into <br />
-                            compelling infographics.
+                        <div className="grid grid-cols-1 lg:hidden w-full items-center">
+                            <div className="px-10">
+                                Enhanced Design Identity through
+                                innovative data visualization.
+                            </div>
+                            <div className="px-10">
+                                Fostered inclusive visual communication
+                                reflecting global support.
+                            </div>
+                            <div className="px-10">
+                                Simplified intricate data into
+                                compelling infographics.
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="pt-[280px] pl-[110px] pr-[264px] flex relative">
-                 <div className="w-[16%] text-white text-2xl font-Helvetica font-[400] leading-[28px] box-border">                        
+            <div className="pt-[128px] lg:pt-[280px] pl-[110px] pr-[264px] flex relative">
+                <div className="w-[16%] text-white text-2xl font-Helvetica font-normal leading-[28px] box-border">
                     The partnership:
                 </div>
                 <div className="w-[84%] flex flex-col">
-                    <div className=" text-white text-[40px] font-Helvetica font-[400] leading-[46px] box-border">
-                        In refining the Design Identity for Malteser reports, we harnessed the transformative power of infographics to effectively communicate complex information in a clear and engaging way. This approach reimagined dense datasets and detailed narratives as visually compelling stories, significantly enhancing the reports' aesthetic appeal and comprehensibility.                    
+                    <div className=" text-white text-[40px] font-Helvetica font-normal leading-[46px] box-border">
+                        In refining the Design Identity for Malteser reports, we harnessed the transformative power of infographics to effectively communicate complex information in a clear and engaging way. This approach reimagined dense datasets and detailed narratives as visually compelling stories, significantly enhancing the reports' aesthetic appeal and comprehensibility.
                     </div>
                 </div>
             </div>
@@ -44,7 +65,7 @@ const Malteser = () => {
 
                 <div className="ml-[300px] h-[850px] mt-[114px] bg-[#ff0100]"></div>
 
-                <div className="pt-[114px] pl-[300px] text-white text-[24px] font-Helvetica font-[400] leading-[32px] box-border">
+                <div className="pt-[114px] pl-[300px] text-white text-[24px] font-Helvetica font-normal leading-[32px] box-border">
                     <div className="pr-[300px]">
                         Malteser International, as a global humanitarian aid organization is dedicated to supporting individuals—regardless of gender, political belief, origin or faith, striving to ensure they live a life of health and dignity. This ethos of inclusivity and support is mirrored in our communication strategy.
                         <br /> <br />
@@ -82,11 +103,11 @@ const Malteser = () => {
                     <div className="w-1/2">
                         <div className="w-full h-[800px] bg-no-repeat bg-cover bg-[url('assets/img/malteser/farmer_header.png')]">
                             <div className="relative pl-[43px] pt-[100px] w-[513px] h-[716px] text-white">
-                                <div className="h-[100px] text-2xl font-[700]">
+                                <div className="h-[100px] text-2xl font-bold">
                                     Farmer Voice
                                 </div>
-                                <div className="text-[40px] font-[400] leading-[50px] font-Arial">
-                                    Blending tradition with innovation to empower agriculture, creating a narrative-driven, stakeholder-engaging identity.                               
+                                <div className="text-[40px] font-normal leading-[50px] font-Arial">
+                                    Blending tradition with innovation to empower agriculture, creating a narrative-driven, stakeholder-engaging identity.
                                 </div>
                                 <div className="pl-5 absolute bottom-0 flex">
                                     <div>
@@ -103,11 +124,11 @@ const Malteser = () => {
                     <div className="w-1/2">
                         <div className=" w-full h-[800px] bg-no-repeat bg-[url('assets/img/malteser/dtcp_header.png')]">
                             <div className="relative pl-[43px] pt-[100px] w-[513px] h-[716px] text-white">
-                                <div className="h-[100px] text-2xl font-[700]">
+                                <div className="h-[100px] text-2xl font-bold">
                                     DTCP
                                 </div>
-                                <div className="text-[40px] font-[400] leading-[50px] font-Arial">
-                                    Infusing dynamic visual narratives and data insights to craft a trustworthy, stakeholder-engaging brand identity for DTCP.                                
+                                <div className="text-[40px] font-normal leading-[50px] font-Arial">
+                                    Infusing dynamic visual narratives and data insights to craft a trustworthy, stakeholder-engaging brand identity for DTCP.
                                 </div>
                                 <div className="pl-5 absolute bottom-0 flex">
                                     <div>
@@ -123,7 +144,7 @@ const Malteser = () => {
                     </div>
                 </div>
             </div>
-
+            <Contact />
         </div>
     )
 }

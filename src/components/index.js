@@ -4,5 +4,7 @@ import ExpertiseSection from "./ExpertiseSection";
 import Selection from "./Selection";
 import ReadMore from "./ReadMore";
 import ServicesTable from './ServicesTabel';
+import ExpertiseCustomCompo from './ExpertiseCustomCompo'
+import MainBorder from './MainBorder'
 
-export { Contact, Divider, ExpertiseSection, Selection, ReadMore, ServicesTable }
+export { Contact, Divider, ExpertiseSection, Selection, ReadMore, ServicesTable, ExpertiseCustomCompo, MainBorder }
