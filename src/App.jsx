@@ -21,7 +21,7 @@ import {
   Volkswagen
 } from './pages';
 import './App.css'
-import useSticky from './hooks/useSticky';
+import useSticky from './components/hooks/useSticky';
 
 function App() {
   const { isSticky, element } = useSticky()
