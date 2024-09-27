@@ -5,7 +5,7 @@ const ExpertiseTableCompo = () => {
         <div className="text-white font-Helvetica">
             <div className="border-t-[1px] border-white">
                 <div className="flex">
-                    <div className="hidden lg:block lg:w-[103px] xl:w-[242px] 2xl:w-[365px] border-r-[1px] border-white">
+                    <div className="hidden lg:block flex-none lg:w-[46px] xl:w-[154px] 2xl:w-[308px] border-r-[1px] border-white">
                     </div>
                     <div className="w-full">
                         <div className="md:h-20 lg:h-60"></div>

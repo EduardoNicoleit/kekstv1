@@ -4,9 +4,9 @@ import locationImg from '../assets/img/home/location.png'
 import creativeImg from '../assets/img/home/creative_bg.png'
 
 const CreativeCompo = () => {
-    // useEffect(() => {
-    //     window.scrollTo(0, 0);
-    // }, []);
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <div>
             <div className="text-white font-Arial relative">

@@ -6,7 +6,7 @@ import { worksData } from "../data/selections";
 const WorksCompo = () => {
     return (
         <div className="relative">
-            <div className="bg-[url('assets/img/home/works_bg.png')] bg-contain bg-inherit w-full px-[8px] sm:px-6 md:px-[45px] lg:px-[45px] xl:px-[50px]">
+            <div className="bg-[url('assets/img/home/works_bg.png')] bg-no-repeat bg-cover w-full px-[8px] sm:px-6 md:px-[45px] lg:px-[45px] xl:px-[50px]">
                 <div className="bottom-0 top-0 md:top-2 lg:top-3 xl:top-0 w-full border-x-[1px] xl:border-none border-white py-6 sm:py-8 xl:py-[50px]">
                     <div className="flex text-white pb-[50px]">
                         <div className="flex w-full items-center">
@@ -25,7 +25,7 @@ const WorksCompo = () => {
                     <Selection selectionsData={worksData} />
                     <div className="flex text-white px-0 sm:px-8 md:px-[74px] xl:px-[308px] items-center py-8">
                         <div className="hover:bg-[#7a6b87] flex transition-all duration-300 ease-in-out items-center">
-                            <p className="font-Arial font-bold text-sm sm:text-sm md:text-lg xl:text-2xl py-0 2xl:py-12 pl-5 pr-2 box-border">
+                            <p className="font-Arial font-bold text-sm sm:text-sm md:text-lg xl:text-2xl py-0 2xl:my-6 pl-5 pr-2 box-border">
                                 <Link to="/works">MORE WORKS</Link>
                             </p>
                             <svg

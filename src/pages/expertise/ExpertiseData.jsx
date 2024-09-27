@@ -8,40 +8,40 @@ import ExpertiseDataMobileImg from '../../assets/img/home/expertise_data_mobile.
 
 const ExpertiseDataCompo = ({ isSticky, element }) => {
     return (
-        <div>
-            <div className="hidden sm:block">
+        <div className="relative">
+            <div className="hidden lg:block">
                 <Navbar sticky={isSticky} />
                 <div className="relative text-white welcome">
                     <img src={ExpertiseDataImg} alt="" className="w-full" ref={element} />
-                    <div className="px-6 md:px-[45px] xl:px-[50px] w-full absolute bottom-0">
+                    <div className="px-2 xl:px-[25px] 2xl:px-[45px] 3xl:px-[50px] w-full absolute bottom-0">
                         <div className="flex flex-col ">
-                            <div className="font-Helvetica text-[30px] sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-[80px] 3xl:text-[90px] font-bold sm:pl-8 md:pl-9 lg:pl-[93px] xl:pl-[180px] 2xl:pl-[308px] mt-auto py-14 sm:py-6 md:py-8 lg:py-10 xl:py-12 2xl:py-16 3xl:py-20">
+                            <div className="font-Helvetica text-[30px] sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-[80px] 3xl:text-[90px] font-bold sm:pl-8 md:pl-[33px] lg:pl-[46px] xl:pl-[154px] 2xl:pl-[308px] mt-auto py-14 sm:py-6 md:py-8 lg:py-10 xl:py-12 2xl:py-16 3xl:py-20">
                                 Data <br />visualization
                             </div>
-                            <div className="hidden sm:block xl:hidden font-Helvetica text-base sm:pl-8 md:pl-9 lg:pl-[93px] py-2">
+                            <div className="hidden sm:block 2xl:hidden font-Helvetica text-base sm:pl-8 md:pl-[33px] lg:pl-[46px] xl:pl-[154px] py-2">
                                 Our Services:
                             </div>
-                            <div className="hidden sm:block border-y-[1px] xl:border-x-0 border-white border-x-[1px]">
+                            <div className="hidden sm:block border-y-[1px] xl:border-x-0 border-white">
                                 <ServicesTable serviceData={expertiseData5} />
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="px-6 md:px-[45px] xl:px-[50px]">
-                    <div className="border-x-[1px] xl:border-none border-white">
-                        <p className="sm:px-8 md:px-10 lg:px-[93px] xl:px-[190px] 2xl:px-[308px] font-Helvetica font-bold text-16px sm:text-[20px] md:text-[24px] lg:text-[40px] xl:text-[36px] 2xl:text-[42px] 3xl:text-[50px] sm:py-10 md:py-[74px] text-white leading-none">
+                <div className="px-2 xl:px-[25px] 2xl:px-[45px] 3xl:px-[50px]">
+                    <div>
+                        <p className="sm:px-8 md:px-[33px] lg:px-[46px] xl:px-[154px] 2xl:px-[308px] font-Helvetica font-bold text-16px sm:text-[20px] md:text-[24px] lg:text-[40px] xl:text-[36px] 2xl:text-[42px] 3xl:text-[50px] sm:py-10 md:py-[74px] text-white leading-none">
                             <span className="text-[#9F81BF]">We specialize in making data compelling with powerful visual storytelling.</span> Our expertise spans all forms of data visualization, including dynamic infographics and interactive platforms, for both print and digital. We're dedicated to turning complex data into clear, visually impactful stories that inform and drive engagement and insight.
                         </p>
-                        <div className="text-white font-Helvetica border-t-[1px]">
-                            <div className="border-white">
+                        <div className="text-white font-Helvetica">
+                            <div className="border-t-[1px] border-white">
                                 <div className="flex">
-                                    <div className="hidden lg:block lg:w-[102px] xl:w-[220px] 2xl:w-[382px] border-r-[1px] border-white">
+                                    <div className="hidden border-r-[1px] flex-none lg:block lg:w-[46px] xl:w-[154px] 2xl:w-[308px]">
                                     </div>
                                     <div className="w-full">
                                         <div className="lg:h-20 xl:h-60 px-[250px] border-white"></div>
                                         <div className="grid grid-cols-2">
                                             <div>
-                                                <div className="sm:h-[650px] md:h-[650px] lg:h-[620px] xl:h-[755px] border-r-[1px] border-t-[1px] relative">
+                                                <div className="sm:h-[650px] md:h-[650px] lg:h-[620px] xl:h-[755px] border-t-[1px] border-r-[1px] relative">
                                                     <div className="sm:p-9 md:p-10 lg:p-16">
                                                         <div className="sm:text-[24px] md:text-[30px] lg:text-3xl xl:text-3xl 2xl:text-4xl 3xl:text-[45px] ">
                                                             NARRATIVE DATA<br />EXPLORATION
@@ -54,7 +54,7 @@ const ExpertiseDataCompo = ({ isSticky, element }) => {
                                                         01
                                                     </div>
                                                 </div>
-                                                <div className="sm:h-[650px] md:h-[650px] lg:h-[620px] xl:h-[755px] border-t-[1px] relative border-r-[1px]">
+                                                <div className="sm:h-[650px] md:h-[650px] lg:h-[620px] xl:h-[755px] border-t-[1px] border-r-[1px] relative">
                                                     <div className="sm:p-9 md:p-10 lg:p-16">
                                                         <div className="sm:text-[24px] md:text-[30px] lg:text-3xl xl:text-3xl 2xl:text-4xl 3xl:text-[45px]">
                                                             CREATING LASTING
@@ -97,6 +97,8 @@ const ExpertiseDataCompo = ({ isSticky, element }) => {
             </div>
             <div className="block sm:hidden">
                 <ExpertiseCustomCompo
+                    title1="Data"
+                    title2="visualization"
                     img={ExpertiseDataMobileImg}
                     mainText1="We specialize in making data compelling with powerful visual storytelling."
                     mainText2="Our expertise spans all forms of data visualization, including dynamic infographics and interactive platforms, for both print and digital. We're dedicated to turning complex data into clear, visually impactful stories that inform and drive engagement and insight."
@@ -104,6 +106,9 @@ const ExpertiseDataCompo = ({ isSticky, element }) => {
                     expertiseData={expertiseDataList}
                 />
             </div>
+            <div className="absolute 
+            w-[calc(100vw-16px)] xl:w-[calc(100vw-50px)] 2xl:w-[calc(100vw-90px)] 3xl:w-[calc(100vw-100px)]
+            h-full border border-solid border-white top-2 xl:top-[25px] 2xl:top-[45px] 3xl:top-[50px] left-1/2 -translate-x-1/2"></div>
         </div>
     )
 }

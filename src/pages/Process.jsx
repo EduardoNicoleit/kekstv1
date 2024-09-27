@@ -51,7 +51,7 @@ const ProcessCompo = () => {
     }
     return (
         <div className="">
-            <div className="bg-[url('assets/img/home/process_bg.png')] bg-contain bg-inherit w-full text-white font-Arial px-[8px] sm:px-6 md:px-[45px] xl:p-[50px] bottom-0 top-0">
+            <div className="bg-[url('assets/img/home/process_bg.png')] bg-no-repeat bg-cover w-full text-white font-Arial px-[8px] sm:px-6 md:px-[45px] xl:p-[50px] bottom-0 top-0">
                 <div className="bottom-0 top-0 md:top-2 lg:top-3 xl:top-0 w-full border-x-[1px] xl:border-none border-white py-6 sm:py-8 xl:py-[50px]">
                     <div className="flex text-white">
                         <div className="flex w-full items-center">

@@ -4,7 +4,7 @@ import { ExpertiseSection } from "../components";
 const Expertise = () => {
     return (
         <div className="">
-            <div className="bg-[url('assets/img/home/expertise_bg.png')] bg-contain bg-inherit w-full px-[8px] sm:px-6 md:px-[45px] lg:px-[45px] xl:px-[50px]">
+            <div className="bg-[url('assets/img/home/expertise_bg.png')] bg-inherit bg-no-repeat bg-cover w-full px-[8px] sm:px-6 md:px-[45px] lg:px-[45px] xl:px-[50px]">
                 <div className="bottom-0 top-0 w-full border-x-[1px] xl:border-none border-white py-6 sm:py-8 xl:py-[50px]">
                     <div className="flex text-white">
                         <div className="flex w-full items-center">

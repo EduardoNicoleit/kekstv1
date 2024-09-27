@@ -21,7 +21,6 @@ import Newwaters from "./Newwaters";
 import Uniper from "./Uniper";
 import Volkswagen from "./Volkswagen";
 
-
 export {
     Navbar,
     Home,
@@ -44,5 +43,5 @@ export {
     NetClean,
     Newwaters,
     Uniper,
-    Volkswagen
+    Volkswagen,
 }

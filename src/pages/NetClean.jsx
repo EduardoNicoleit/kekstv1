@@ -7,133 +7,186 @@ const Netclean = ({ isSticky, element }) => {
         window.scrollTo(0, 0);
     }, []);
     return (
-        <div className="w-[1920px] relative">
+        <div className="relative">
             <Navbar sticky={isSticky} />
-            <div className="relative text-white bg-cover bg-center w-full h-full">
-                <img src="/src/assets/img/netclean/netclean.png" alt="" className="w-full" ref={element} />
-                <div className="absolute bottom-0 top-4 w-full px-12 flex flex-col font-Arial">
-                    <div className="font-Helvetica sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-[130px] 3xl:text-[160px] font-bold sm:px-[300px] md:px-[300px] lg:px-[270px] xl:px-[308px] mt-auto sm:py-6 md:py-8 lg:py-10 xl:py-12 2xl:py-16 3xl:py-20">
-                        Netclean
-                    </div>
-                    <div className="flex border-y-[1px] border-white px-12 sm:text-4xl md:text-3xl lg:text-[22px] h-[256px] lg:h-[128px]">
-                        <div className="w-[300px] lg:w-[200px] border-r-[1px] my-5 lg:my-6 px-4 lg:px-0">
-                            Overview
-                        </div>
-                        <div className="hidden lg:grid grid-cols-3 w-full">
-                            <div className="border-r-[1px] px-10 my-6">
-                                Reinvented NetClean's <br />
-                                Annual Reports strategy.
-                            </div>
-                            <div className="border-r-[1px] px-10 my-6">
-                                Crafted a multi-channel, visual approach <br />
-                                to communicate results and core values.
-                            </div>
-                            <div className="px-10 my-6">
-                                Converted data into dynamic stories <br />
-                                for stakeholder engagement.
+            <div className="relative text-white welcome" ref={element}>
+                <img src="/src/assets/img/netclean/netclean.png" alt="" className="w-full hidden md:block" />
+                <img src="/src/assets/img/netclean/netclean_mobile.png" alt="" className="w-full block md:hidden" />
+                <div className="w-full absolute bottom-0 font-Arial">
+                    <div className="flex flex-col font-Helvetica px-[8px] xl:px-[25px] 2xl:px-[45px] 3xl:px-[50px]">
+                        <div className="flex">
+                            <div className="w-[33px] lg:w-[60px] 2xl:w-[299px] flex-none"></div>
+                            <div>
+                                <div className="font-Helvetica font-bold mt-auto
+                        text-[30px] leading-[34px] md:text-[50px] md:leading-[57px]
+                        lg:text-[70px]
+                        xl:text-[160px]       
+                        lg:leading-[80px] xl:leading-[184px]                                         
+                        py-14 sm:py-6 md:py-10 lg:py-10 xl:py-5 2xl:py-16 3xl:py-20">
+                                    Netclean
+                                </div>
                             </div>
                         </div>
-                        <div className="grid grid-cols-1 lg:hidden w-full items-center">
-                            <div className="px-10">
-                                Reinvented NetClean's
-                                Annual Reports strategy.
-                            </div>
-                            <div className="px-10">
-                                Crafted a multi-channel, visual approach
-                                to communicate results and core values.
-                            </div>
-                            <div className="px-10">
-                                Converted data into dynamic stories
-                                for stakeholder engagement.
+                        <div className="hidden lg:block">
+                            <div className="lg:flex-col 2xl:flex-row flex border-white border-y-[1px]
+                                sm:text-4xl md:text-3xl lg:text-[22px] lg:h-[220px] xl:h-[188px] 2xl:h-[128px] items-start 2xl:items-center"
+                            >
+                                <div className="lg:pl-[60px] 2xl:pl-4 lg:py-4 xl:py-5 2xl:py-0
+                            w-[300px] lg:w-[200px] 2xl:w-[318px]                            
+                            ">
+                                    Overview
+                                </div>
+                                <div className="lg:grid grid-cols-3 w-full items-start 2xl:items-center ">
+                                    <div className="pl-[60px] 2xl:pl-8 pr-4 xl:border-l-0 2xl:border-l-[1px] leading-tight h-full">
+                                        Reinvented NetClean's
+                                        Annual Reports strategy.
+                                    </div>
+                                    <div className="pl-8 pr-4 border-l-[1px] leading-tight h-full">
+                                        Crafted a multi-channel, visual approach
+                                        to communicate results and core values.
+                                    </div>
+                                    <div className="pl-8 pr-4 border-l-[1px] leading-tight h-full">
+                                        Converted data into dynamic stories
+                                        for stakeholder engagement.
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="pt-[128px] lg:pt-[280px] pl-[110px] pr-[264px] flex relative">
-                <div className="w-[16%] text-white text-2xl font-Helvetica font-normal leading-[28px] box-border">
-                    The partnership:
+            <div className="px-[8px] xl:px-[25px] 2xl:px-[45px] 3xl:px-[50px]">
+                <div className="block lg:hidden font-Helvetica font-normal py-[41px] text-white pl-6 sm:pl-[33px]">
+                    <div className="text-[12px] leading-[14px] uppercase">
+                        Overview
+                    </div>
+                    <div className="text-[13px] leading-[15px] py-3 border-b-[1px]">
+                        Reinvented NetClean's
+                        Annual Reports strategy.
+                    </div>
+                    <div className="text-[13px] leading-[15px] py-3 border-b-[1px]">
+                        Crafted a multi-channel, visual approach
+                        to communicate results and core values.
+                    </div>
+                    <div className="text-[13px] leading-[15px] py-3 border-b-[1px]">
+                        Converted data into dynamic stories
+                        for stakeholder engagement.
+                    </div>
                 </div>
-                <div className="w-[84%] flex flex-col">
-                    <div className=" text-white text-[40px] font-Helvetica font-normal leading-[46px] box-border">
+                <div className="flex flex-col 2xl:flex-row md:pt-[10px] lg:pt-10 xl:pt-[156px] 2xl:pt-[211px] pb-10 lg:pb-20 xl:pb-[106px] 2xl:pb-[134px] w-full font-Helvetica  text-white ">
+                    <div className="text-start 2xl:text-center font-normal
+                        text-[12px] md:text-lg 2xl:text-2xl 
+                        pt-3
+                        xl:w-full 2xl:w-[299px]
+                        flex-none
+                        px-[33px] lg:px-[60px] 2xl:px-0
+                        py-6 2xl:py-0                        
+                        ">
+                        The partnership:
+                    </div>
+                    <div className="font-bold md:font-normal text-[17px] md:text-[28px] 2xl:text-[40px] px-[33px] lg:px-[60px] 2xl:px-0 w-full leading-tight">
                         In our partnership with NetClean, we revolutionized the concept of Annual Reports. We initiated a narrative strategy that resonated with the company's modern and bold ethos, marking a fundamental shift in how NetClean communicates its core values and achievements.
                     </div>
                 </div>
-            </div>
-            <div className="h-[850px] ml-[360px] mt-[134px] mr-[50px] bg-white"></div>
-            <div className="w-full px-[50px] relative box-border">
-                <div className="py-[114px] px-[300px] text-white text-[24px] font-Helvetica font-normal leading-[32px] box-border">
-                    Our strategy wove this narrative across various channels, creating a dialogue with stakeholders that went beyond the traditional confines of reporting. The aim was to transform static data into a compelling visual narrative, utilizing infographics, illustrations and animations not just to capture attention, but to make complex information engaging and relatable.
-                    <br /><br />
-                    This multi-platform execution spanned from the tangible touch of print to the interactive engagement of digital media.
-                    <br /><br />
-                    The result was a case study in innovation. By communicating NetClean's results and objectives through an array of narrative-driven, visually engaging content, we didn’t just report on the company's year – we brought it to life. This approach proved instrumental in driving stakeholder engagement and aligning the company’s communication strategy with its forward-thinking identity.
+                <div className="flex">
+                    <div className="hidden lg:block lg:w-[299px] flex-none border-b-[1px] border-white"></div>
+                    <div className="w-full">
+                        <img src="/src/assets/img/netclean/white.png" className="w-full" />
+                    </div>
                 </div>
-                <div>
-                    <img src="/src/assets/img/netclean/netclean_1.png">
-                    </img>
+                <div className="py-10 2xl:py-[114px] text-[17px] lg:text-[18px] xl:text-2xl flex font-normal font-Helvetica text-white">
+                    <div className="md:w-[33px] lg:w-[60px] 2xl:w-[299px] flex-none"></div>
+                    <div className="px-6 md:px-0">
+                        <div className="pb-5">
+                            Our strategy wove this narrative across various channels, creating a dialogue with stakeholders that went beyond the traditional confines of reporting. The aim was to transform static data into a compelling visual narrative, utilizing infographics, illustrations and animations not just to capture attention, but to make complex information engaging and relatable.
+                        </div>
+                        <div className="pb-5">
+                            This multi-platform execution spanned from the tangible touch of print to the interactive engagement of digital media.
+                        </div>
+                        <div>
+                            The result was a case study in innovation. By communicating NetClean's results and objectives through an array of narrative-driven, visually engaging content, we didn’t just report on the company's year – we brought it to life. This approach proved instrumental in driving stakeholder engagement and aligning the company’s communication strategy with its forward-thinking identity.
+                        </div>
+                    </div>
                 </div>
-                <div className="pt-[64px]">
-                    <img src="/src/assets/img/netclean/netclean_2.png">
-                    </img>
+                <div className="pb-0 md:pb-8 2xl:pb-16">
+                    <img src="/src/assets/img/netclean/netclean_1.png" className="w-full" />
                 </div>
-                <div className="flex justify-end">
-                    <img src="/src/assets/img/netclean/netclean_3.png">
-                    </img>
+                <div className="py-8 md:py-0">
+                    <img src="/src/assets/img/netclean/netclean_2.png" className="w-full" />
                 </div>
-                <div className="pt-[64px] flex justify-end">
-                    <img src="/src/assets/img/netclean/white.png">
-                    </img>
-                    <img src="/src/assets/img/netclean/black.png">
-                    </img>
+                <div className="flex">
+                    <div className="hidden lg:block lg:w-[299px] flex-none"></div>
+                    <div className="w-full">
+                        <img src="/src/assets/img/netclean/netclean_3.png" className="w-full" />
+                    </div>
                 </div>
-                <div>
-                    <img className="pt-[128px]" src="/src/assets/img/netclean/netclean_4.png">
-                    </img>
+                <div className="py-8 2xl:py-16 flex">
+                    <div className="hidden lg:block lg:w-[299px] flex-none border-b-[1px]"></div>
+                    <div className="w-full flex">
+                        <div>
+                            <img src="/src/assets/img/netclean/white.png" className="w-full" />
+                        </div>
+                        <div>
+                            <img src="/src/assets/img/netclean/black.png" className="w-full" />
+                        </div>
+                    </div>
                 </div>
-                <div className="flex justify-end">
-                    <img src="/src/assets/img/netclean/netclean_5.png">
-                    </img>
+                <div className="pb-8 md:pb-0">
+                    <img src="/src/assets/img/netclean/netclean_4.png" className="w-full" />
                 </div>
-                <div className="w-full flex pt-16">
-                    <div className="w-1/2">
-                        <div className="w-full h-[800px] bg-no-repeat bg-cover bg-[url('assets/img/netclean/vw.png')]">
-                            <div className="relative pl-[43px] pt-[100px] w-[513px] h-[716px] text-white">
-                                <div className="h-[100px] text-2xl font-bold">
-                                    bpl
+                <div className="pb-8 2xl:pb-16 flex">
+                    <div className="hidden lg:block lg:w-[299px] flex-none"></div>
+                    <div className="w-full">
+                        <img src="/src/assets/img/netclean/netclean_5.png" className="w-full" />
+                    </div>
+                </div>
+                <div className="flex text-white font-Arial">
+                    <div className="grid grid-cols-2 w-full">
+                        <div className="py-[26px] 2xl:py-[100px] px-[15px] md:px-10 flex flex-col h-full 
+                        bg-[url('assets/img/netclean/vw_02.png')] md:bg-[url('assets/img/netclean/vw.png')] bg-no-repeat bg-cover">
+                            <div className="font-bold text-[15px] lg:text-base xl:text-2xl">
+                                VW
+                            </div>
+                            <div className="flex-1">
+                                <div className="max-w-[440px] py-[26px] lg:py-[43px] xl:py-[67px] font-normal text-[12px] lg:text-[21px] xl:text-[32px] 2xl:text-[40px] leading-tight
+                            ">
+                                    Partnering with netclean to enhance their global ESG narrative, from strategic audience engagement to shaping future sustainability pathways.
                                 </div>
-                                <div className="text-[40px] font-normal leading-[50px] font-Arial">
-                                    Partnering with Volkswagen to enhance their global ESG narrative, from strategic audience engagement to shaping future sustainability pathways.
+                            </div>
+                            <div className="flex py-8 items-center pl-4">
+                                <div className="uppercase font-normal text-[13px] lg:text-xs xl:text-lg">
+                                    read more
                                 </div>
-                                <div className="pl-5 absolute bottom-0 flex">
-                                    <div>
-                                        READ MORE
-                                    </div>
-                                    <div className="pl-3 flex items-center">
-                                        <img src="/src/assets/img/volkswagen/Vector.png" className="w-[13px] h-[13px]">
-                                        </img>
-                                    </div>
+                                <div>
+                                    <svg className="ml-3 pt-[2px] hover:w-7 hover:h-7 w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g id="arrow_outward">
+                                            <path id="Vector" d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z" fill="white" />
+                                        </g>
+                                    </svg>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="w-1/2">
-                        <div className=" w-full h-[800px] bg-no-repeat bg-[url('assets/img/netclean/PHI_copy.png')]">
-                            <div className="relative pl-[43px] pt-[100px] w-[513px] h-[716px] text-white">
-                                <div className="h-[100px] text-2xl font-bold">
-                                    NetClean
-                                </div>
-                                <div className="text-[40px] font-normal leading-[50px] font-Arial">
+                        <div className="py-[26px] 2xl:py-[100px] px-[15px] md:px-10 flex flex-col h-full 
+                        bg-[url('assets/img/netclean/uniper_02.png')] md:bg-[url('assets/img/netclean/PHI_copy.png')] bg-no-repeat bg-cover">
+                            <div className="font-bold text-[15px] lg:text-base xl:text-2xl">
+                                Mars
+                            </div>
+                            <div className="flex-1">
+                                <div className="max-w-[440px] py-[26px] lg:py-[43px] xl:py-[67px] font-normal text-[12px] lg:text-[21px] xl:text-[32px] 2xl:text-[40px] leading-tight
+                            ">
                                     Crafting a video campaign that showcases how artificial intelligence tools are revolutionizing research methodologies within Mars, positioning them at the forefront of innovative exploration.
                                 </div>
-                                <div className="pl-5 absolute bottom-0 flex">
-                                    <div>
-                                        READ MORE
-                                    </div>
-                                    <div className="pl-3 flex items-center">
-                                        <img src="/src/assets/img/volkswagen/Vector.png" className="w-[13px] h-[13px]">
-                                        </img>
-                                    </div>
+                            </div>
+                            <div className="flex py-8 items-center pl-4">
+                                <div className="uppercase font-normal text-[13px] lg:text-xs xl:text-lg">
+                                    read more
+                                </div>
+                                <div>
+                                    <svg className="ml-3 pt-[2px] hover:w-7 hover:h-7 w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g id="arrow_outward">
+                                            <path id="Vector" d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z" fill="white" />
+                                        </g>
+                                    </svg>
                                 </div>
                             </div>
                         </div>
@@ -141,6 +194,9 @@ const Netclean = ({ isSticky, element }) => {
                 </div>
             </div>
             <Contact />
+            <div className="absolute 
+            w-[calc(100vw-16px)] xl:w-[calc(100vw-50px)] 2xl:w-[calc(100vw-90px)] 3xl:w-[calc(100vw-100px)]
+            h-full border border-solid border-white top-2 xl:top-[25px] 2xl:top-[45px] 3xl:top-[50px] left-1/2 -translate-x-1/2"></div>
         </div>
     )
 }

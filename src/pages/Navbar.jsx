@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Logo from '../assets/img/navbar/logo_02.png';
-import Hamburger from '../assets/hamburgerMenu.svg';
-import Close from '../assets/close.svg';
+
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import "./Navbar.css";
@@ -30,10 +29,14 @@ const Navbar = ({ sticky }) => {
 
     return (
         <div
-            className={sticky ? "navbar navbar-sticky h-12 md:h-12 lg:h-[83px] xl:h-[108px] 2xl:h-[120px]" : "navbar h-12 md:h-12 lg:h-[83px] xl:h-[108px] 2xl:h-[120px] 2xl:pt-[82px]"}>
-            <div className='w-full py-8'>
-                <div className='pl-[17px] md:pl-4 lg:pl-12 2xl:pl-[128px] border-white h-16 w-full sm:h-20 md:h-24 2xl:h-[120px] flex items-center justify-between'>
-                    <Link to="/"><img src={Logo} alt="logo" className='cursor-pointer h-[35px] md:h-[32px] lg:h-[50px] xl:h-[77px] w-[101px] md:w-[93px] lg:w-[144px] xl:w-[222px] 2xl:h-auto 2xl:w-auto' /></Link>
+            className={sticky ? "navbar navbar-sticky h-[100PX]" : "navbar h-[100px] xl:mt-[25px] 2xl:mt-[45px] 3xl:mt-[50px]"}>
+            <div className='w-full'>
+                <div className='pl-[17px] md:pl-4 lg:pl-12 2xl:pl-[128px] border-white h-16 w-full flex items-center justify-between'>
+                    <Link to="/">
+                        <img src={Logo} alt="logo" className='cursor-pointer 
+                        w-auto
+                        h-auto 2xl:w-auto'/>
+                    </Link>
                     <div className='flex w-full 2xl:pl-[50px] 3xl:pl-[70px] justify-between'>
                         <div className="xl:pl-[50px] lg:flex h-[50px] py-[13px] font-Arial font-normal text-white">
                             <ul className='hidden 2xl:flex 2xl:gap-[50px] 3xl:gap-[70px] text-lg'>

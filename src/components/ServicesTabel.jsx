@@ -3,11 +3,11 @@ import React from "react";
 const ExpertiseSection = (props) => {
 
     return (
-        <div className="flex text-white gap-7 2xl:gap-10">
-            <div className="hidden xl:block font-Helvetica xl:text-xl 3xl:text-2xl md:w-48 lg:w-[143px] xl:w-[180px] 2xl:w-[308px] py-4 md:px-6 lg:px-10 xl:px-4 2xl:px-10">
+        <div className="flex text-white">
+            <div className="hidden 2xl:block flex-none font-Helvetica xl:text-xl 3xl:text-2xl md:w-48 lg:w-[143px] xl:w-[154px] 2xl:w-[308px] py-4 md:px-6 lg:px-10 xl:px-4 2xl:px-10">
                 Our Services:
             </div>
-            <div className="w-full sm:pl-8 md:pl-10 lg:pl-[93px] xl:pl-0 px-10 lg:px-0">
+            <div className="w-full sm:pl-8 md:pl-[33px] lg:pl-[46px] xl:pl-[154px] 2xl:pl-0 px-10 lg:px-0">
                 {
                     props.serviceData && props.serviceData.map((val, index) => (
                         <div key={index}>
