@@ -138,24 +138,24 @@ export const worksData = [
 export const expertiseData = [
     {
         id: 1,
-        main: 'CREATIVE COMMUNICATION & STRATEGY',
+        main: 'VISUAL COMMS & STRATEGY',
         link_url: "",
         content1: "FROM STRATEGY TO DEVELOPMENT TO ACTIVATION.",
-        content2: "(CREATIVE CAMPAIGNS AND COMMUNICATIONS; BRANDING; DESIGN PROJECTS; EXECUTION OF DESIGN ASSETS FOR PRINT, DIGITAL, AND FILM)."
+        content2: "(CREATIVE CAMPAIGNS AND COMMUNICATIONS; BRANDING; DESIGN PROJECTS; EXECUTION OF DESIGN ASSETS FOR PRINT, DIGITAL, AND FILM)."        
     },
     {
         id: 2,
-        main: 'DIGITAL EXPERIENCE & INNOVATION',
+        main: 'PRODUCT & PLATFORM CREATION',
         link_url: "",
         content1: "CREATING COMPELLING DIGITAL EXPERIENCES",
-        content2: "(WEBSITES, APPS, METAVERSE EXPERIENCES, VIRTUAL/ AUGMENTED REALITY) SOLUTIONS,AND BLOG PLATFORMS"
+        content2: "(WEBSITES, APPS, METAVERSE EXPERIENCES, VIRTUAL/ AUGMENTED REALITY) SOLUTIONS,AND BLOG PLATFORMS"        
     },
     {
         id: 3,
         main: 'DATA VISUALIZATION',
         link_url: "",
         content1: "INFORMATION GRAPHICS AND VISUALIZATIONS FOR ALL PLATFORMS: DIGITAL, PRINT AND FILMt",
-        content2: ""
+        content2: ""        
     }
 ]
 
