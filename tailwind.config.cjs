@@ -10,6 +10,15 @@ module.exports = {
       colors: {
         'purple': '#210837',
       },
+      screens: {
+        '3xl': '1920px',
+      },
+      fontSize: {
+        'xxs': '0.65rem',
+      },
+      spacing: {
+        '128': '32rem',
+      },
     },
   },
   plugins: [],
