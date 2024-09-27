@@ -3,30 +3,22 @@ import { Divider, ExpertiseSection } from "../../components";
 import { expertiseData } from '../../data/selections';
 
 const Expertise = () => {
-    return (
-        <div>
-            <div className="expertise">
-                <Divider title="Expertise" />
-                <div className="flex">
-                    <div className="w-[300px]"></div>
-                    <div className="flex-1 pl-8">
-                        <ExpertiseSection expertiseData={expertiseData} />
-                    </div>
-                </div>
-            </div>
-            <div className="pt-10">
-                <Divider title="Expertise" />
-                <div className="flex">
-                    <div className="w-[300px]"></div>
-                    <div className="flex-1 pl-8">
-                        <ExpertiseSection expertiseData={expertiseData} />
-                    </div>
-                </div>
-            </div>
-            <div>
-                <Divider title="Showcase." />
-            </div>
+  return (
+    <div className="expertise min-h-screen py-8 px-3 md:px-8 lg:px-16">
+      <Divider title="Expertise" />
+      <div className="flex flex-col lg:flex-row">
+        {/* Empty space or sidebar */}
+        <div className="hidden lg:block lg:w-[260px]"></div>
+
+        {/* Main Content Section */}
+        <div className="flex-1 lg:pl-8">
+          <ExpertiseSection expertiseData={expertiseData} />
         </div>
+      </div>
+      <Divider title="Showcase." />
+    </div>
+  );
+};
 
     )
 }

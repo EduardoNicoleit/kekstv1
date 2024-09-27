@@ -6,13 +6,13 @@ import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="expertise/volkswagen" element={<Volkswagen />} />
-      </Routes>
-    </BrowserRouter>
-  );
+    <div className="app">
+      <div className='border-[1px] text-white'>
+        <DesktopB />
+        {/* <FirstPage /> */}
+      </div>
+    </div>
+  )
 }
 
 export default App;
