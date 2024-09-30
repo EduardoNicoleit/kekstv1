@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../pages/Navbar";
 import { Contact } from "../components";
-import Footer from "../pages/expertise/Footer";
+import Footer from "../pages/expertiseComp/Footer";
 
 const ExpertiseCustomCompo = ({ isSticky, element, title1, title2, img, mainText1, mainText2, expertiseTableData, expertiseData }) => {
     return (

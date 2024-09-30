@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Navbar from "./Navbar";
-import Footer from './expertise/Footer';
+import Footer from './expertiseComp/Footer';
 import { ServicesTable, Contact, ExpertiseCustomCompo } from "../components";
 import { expertiseData4, expertiseTableData2, productListData } from '../data/selections';
 import ProductImg from '../assets/img/home/product_bg.png';

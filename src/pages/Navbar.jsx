@@ -1,9 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Logo from '../assets/img/navbar/logo_02.png';
-
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import "./Navbar.css";
+import styles from './navbar.module.css'; // Updated import
 
 const Navbar = ({ sticky }) => {
     const [toggle, setToggle] = useState(false);
@@ -28,14 +27,11 @@ const Navbar = ({ sticky }) => {
     }, []);
 
     return (
-        <div
-            className={sticky ? "navbar navbar-sticky h-[100PX]" : "navbar h-[100px] xl:mt-[25px] 2xl:mt-[45px] 3xl:mt-[50px]"}>
+        <div className={sticky ? `${styles.navbar} ${styles["navbar-sticky"]} h-[100PX]` : `${styles.navbar} h-[100px] xl:mt-[25px] 2xl:mt-[45px] 3xl:mt-[50px]`}>
             <div className='w-full'>
                 <div className='pl-[17px] md:pl-4 lg:pl-12 2xl:pl-[128px] border-white h-16 w-full flex items-center justify-between'>
                     <Link to="/">
-                        <img src={Logo} alt="logo" className='cursor-pointer 
-                        w-auto
-                        h-auto 2xl:w-auto'/>
+                        <img src={Logo} alt="logo" className='cursor-pointer w-auto h-auto 2xl:w-auto' />
                     </Link>
                     <div className='flex w-full 2xl:pl-[50px] 3xl:pl-[70px] justify-between'>
                         <div className="xl:pl-[50px] lg:flex h-[50px] py-[13px] font-Arial font-normal text-white">
