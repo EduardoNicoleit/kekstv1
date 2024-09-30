@@ -5,7 +5,8 @@ import Works from './Works';
 import Process from './Process';
 import CreativeCompo from './Creative';
 import Manifesto from './Manifesto';
-import { Contact, Divider } from '../components';
+import Welcome from '../components/Welcome';
+import { Contact, Divider, MainBorder } from '../components';
 import ExpandImg from '../assets/img/home/background.svg';
 
 const Home = ({ isSticky, element }) => {
@@ -20,12 +21,7 @@ const Home = ({ isSticky, element }) => {
             </video>
 
             <Navbar sticky={isSticky} />
-            <div className="welcome">
-                <div>
-                    <img src={ExpandImg} alt="" className="w-full h-full moved-left" ref={element} />
-                </div>
-            </div>
-
+            <Welcome />
             <Expertise />
             <div className='hidden xl:block h-[300px] w-full'></div>
             <Works />

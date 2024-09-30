@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import Home from "./Home";
+import Welcome from "../components/Welcome";
 import Footer from "./Footer";
 import Selections from "./Selections";
 import ExpertiseHome from "./Expertise";
@@ -24,6 +25,7 @@ import Volkswagen from "./Volkswagen";
 export {
     Navbar,
     Home,
+    Welcome,
     Footer,
     Selections,
     ExpertiseHome,

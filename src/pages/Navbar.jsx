@@ -27,7 +27,7 @@ const Navbar = ({ sticky }) => {
     }, []);
 
     return (
-        <div className={sticky ? `${styles.navbar} ${styles["navbar-sticky"]} h-[100PX]` : `${styles.navbar} h-[100px] xl:mt-[25px] 2xl:mt-[45px] 3xl:mt-[50px]`}>
+        <div className={sticky ? `${styles.navbar} ${styles["navbar-sticky"]} h-[100px]` : `${styles.navbar} h-[100px] xl:mt-[25px] 2xl:mt-[45px] 3xl:mt-[50px]`}>
             <div className='w-full'>
                 <div className='pl-[17px] md:pl-4 lg:pl-12 2xl:pl-[128px] border-white h-16 w-full flex items-center justify-between'>
                     <Link to="/">
