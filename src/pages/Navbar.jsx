@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Logo from '../assets/img/navbar/logo_02.png';
-
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import styles from './navbar.module.css'; // Updated import
