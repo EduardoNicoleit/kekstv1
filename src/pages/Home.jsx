@@ -14,9 +14,12 @@ const Home = ({ isSticky, element }) => {
     }, []);
     return (
         <div>
-            <video width="100%" height="100%" autoPlay loop muted playsInline>
-                <source src="src/assets/video/kekst.mp4" type="video/mp4" />
-            </video>
+            {/* Video Section */}
+            <section className="relative w-full h-screen">
+                <video className="w-full h-full object-cover" autoPlay loop muted playsInline>
+                    <source src="src/assets/video/kekst.mp4" type="video/mp4" />
+                </video>
+            </section>
 
             <Navbar sticky={isSticky} />
             <div>
