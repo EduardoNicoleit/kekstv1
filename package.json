@@ -1,31 +1,48 @@
 {
-  "name": "landing-page",
+  "name": "keskt",
+  "version": "0.1.0",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
   "dependencies": {
-    "framer-motion": "^9.0.7",
-    "react": "^18.2.0",
+    "@material-tailwind/react": "^2.1.10",
+    "framer-motion": "^11.9.0",
+    "react": "18.2",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.7.1",
-    "react-router-dom": "^6.26.2",
-    "react-scroll": "^1.9.0",
-    "react-slick": "^0.29.0",
-    "slick-carousel": "^1.8.1",
-    "tw-elements-react": "^1.0.0-alpha-end"
+    "react-icons": "^5.3.0",
+    "react-multi-carousel": "^2.8.5",
+    "react-router-dom": "^6.4.2",
+    "react-scripts": "5.0.1",
+    "styled-components": "^5.3.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
-    "@types/react": "^18.0.27",
-    "@types/react-dom": "^18.0.10",
-    "@vitejs/plugin-react": "^3.1.0",
-    "autoprefixer": "^10.4.13",
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.12",
     "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.7",
-    "vite": "^4.1.0"
+    "prettier": "^2.7.1",
+    "tailwindcss": "^3.2.7"
   }
 }

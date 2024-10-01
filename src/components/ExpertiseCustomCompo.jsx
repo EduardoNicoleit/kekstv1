@@ -10,7 +10,7 @@ const ExpertiseCustomCompo = ({ isSticky, element, title1, title2, img, mainText
                 <div>
                     <Navbar sticky={isSticky} />
                     <div className="relative text-white welcome ">
-                        <img src={img} alt="" className="w-full" ref={element} />
+                        <img src={img} alt="keskt..." className="w-full" ref={element} />
                         <div className="w-full absolute bottom-0 px-6">
                             <div className="flex flex-col">
                                 <div className="font-Helvetica text-[30px] py-[56px] font-bold">
@@ -34,7 +34,7 @@ const ExpertiseCustomCompo = ({ isSticky, element, title1, title2, img, mainText
                                         </div>
                                     ))}
                                 </div>
-                                <p className="font-Helvetica font-bold text-[20px] text-white leading-normal py-10 pr-4">
+                                <p className="font-Helvetica font-bold text-[20px] text-white leading-normal py-10 pr-4 uppercase">
                                     <span className="text-[#9F81BF] pr-1">{mainText1}</span>{mainText2}
                                 </p>
                             </div>
@@ -47,7 +47,7 @@ const ExpertiseCustomCompo = ({ isSticky, element, title1, title2, img, mainText
                                             </div>
                                             <div className="h-[1px] w-full bg-white"></div>
                                         </div>
-                                        <div className="font-normal text-[21px] md:text-[20px] pb-4">
+                                        <div className="font-normal text-[21px] md:text-[20px] pb-4 uppercase">
                                             {data.mainText1} <br /> {data.mainText2}
                                         </div>
                                         <div className="font-normal text-[18px] pr-5">

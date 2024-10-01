@@ -1,8 +1,6 @@
 import React, { useEffect } from "react";
 import Navbar from "./Navbar";
-import { Contact } from "../components";
-import VolkswagenImg from '../assets/img/volkswagen/volkswagen.png';
-import VolkswagenMobileImg from '../assets/img/volkswagen/volkswagen_mobile.png';
+import { Contact, MainBorder } from "../components";
 
 const Volkswagen = ({ isSticky, element }) => {
     useEffect(() => {
@@ -12,10 +10,10 @@ const Volkswagen = ({ isSticky, element }) => {
         <div className="relative">
             <Navbar sticky={isSticky} />
             <div className="relative text-white welcome">
-                <img src={VolkswagenImg} alt="" className="w-full hidden md:block" ref={element} />
-                <img src={VolkswagenMobileImg} alt="" className="w-full block md:hidden" ref={element} />
+                <img src="/assets/img/volkswagen/volkswagen.png" alt="keskt..." className="w-full hidden md:block" ref={element} />
+                <img src="/assets/img/volkswagen/volkswagen_mobile.png" alt="keskt..." className="w-full block md:hidden" ref={element} />
                 <div className="w-full absolute bottom-0">
-                    <div className="flex flex-col px-[8px] xl:px-[25px] 2xl:px-[45px] 3xl:px-[50px]">
+                    <div className="flex flex-col px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] 3xl:px-[50px]">
                         <div className="flex">
                             <div className="w-[33px] lg:w-[60px] 2xl:w-[299px] flex-none"></div>
                             <div>
@@ -33,8 +31,8 @@ const Volkswagen = ({ isSticky, element }) => {
                             <div className="lg:flex-col 2xl:flex-row flex border-white border-y-[1px]
                                 sm:text-4xl md:text-3xl lg:text-[22px] lg:h-[220px] xl:h-[188px] 2xl:h-[128px] items-start 2xl:items-center"
                             >
-                                <div className="lg:pl-[60px] 2xl:pl-4 lg:py-4 xl:py-5 2xl:py-0
-                            w-[300px] lg:w-[200px] 2xl:w-[318px]                            
+                                <div className="lg:pl-[60px] lg:py-4 xl:py-5 2xl:py-0
+                            w-[300px] lg:w-[200px] 2xl:w-[318px] mb-0 2xl:mb-12                  
                             ">
                                     Overview
                                 </div>
@@ -54,7 +52,7 @@ const Volkswagen = ({ isSticky, element }) => {
                     </div>
                 </div>
             </div>
-            <div className="px-[8px] xl:px-[25px] 2xl:px-[45px] 3xl:px-[50px]">
+            <div className="px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] 3xl:px-[50px]">
                 <div className="block lg:hidden font-Helvetica font-normal py-[41px] text-white pl-6 sm:pl-[33px]">
                     <div className="text-[12px] leading-[14px] uppercase">
                         Overview
@@ -85,7 +83,7 @@ const Volkswagen = ({ isSticky, element }) => {
                     </div>
                 </div>
                 <div>
-                    <img src="/src/assets/img/volkswagen/Netclean_1.png" className="w-full" />
+                    <img src="/assets/img/volkswagen/Netclean_1.png" className="w-full" alt="keskt..." />
                 </div>
                 <div className="py-10 2xl:py-[114px] text-[17px] lg:text-[18px] xl:text-2xl flex font-normal font-Helvetica text-white">
                     <div className="md:w-[33px] lg:w-[60px] 2xl:w-[299px] flex-none"></div>
@@ -96,23 +94,22 @@ const Volkswagen = ({ isSticky, element }) => {
                         <div>
                             This approach aimed to create an emotional connection, making the ESG initiatives both accessible and meaningful to the audience. Through careful strategy, creative conceptualization, and diligent execution, we delivered a cohesive and impactful campaign.
                         </div>
-
                     </div>
                 </div>
                 <div>
-                    <img src="/src/assets/img/volkswagen/Netclean_1(1).png" className="w-full" />
+                    <img src="/assets/img/volkswagen/Netclean_1(1).png" className="w-full" alt="keskt..." />
                 </div>
                 <div className="py-8 2xl:py-16 flex">
                     <div className="hidden lg:block lg:w-[299px] flex-none"></div>
                     <div className="w-full">
-                        <img src="/src/assets/img/volkswagen/vw-mockup.png" className="w-full" />
+                        <img src="/assets/img/volkswagen/vw-mockup.png" className="w-full" alt="keskt..." />
                     </div>
                 </div>
                 <div>
-                    <img className="w-full" src="/src/assets/img/volkswagen/vw_movie_3.png" />
+                    <img className="w-full" src="/assets/img/volkswagen/vw_movie_3.png" alt="keskt..." />
                 </div>
                 <div className="py-8 2xl:py-16">
-                    <img src="/src/assets/img/volkswagen/vw-mockup_4 copy.png" className="w-full" />
+                    <img src="/assets/img/volkswagen/vw-mockup_4 copy.png" className="w-full" alt="keskt..." />
                 </div>
                 <div className="flex text-white font-Arial">
                     <div className="grid grid-cols-2 w-full">
@@ -167,9 +164,7 @@ const Volkswagen = ({ isSticky, element }) => {
                 </div>
             </div>
             <Contact />
-            <div className="absolute 
-            w-[calc(100vw-16px)] xl:w-[calc(100vw-50px)] 2xl:w-[calc(100vw-90px)] 3xl:w-[calc(100vw-100px)]
-            h-full border border-solid border-white top-2 xl:top-[25px] 2xl:top-[45px] 3xl:top-[50px] left-1/2 -translate-x-1/2"></div>
+            <MainBorder />
         </div>
     )
 }

@@ -29,7 +29,7 @@ const Navbar = ({ sticky }) => {
 
     return (
         <div
-            className={sticky ? "navbar navbar-sticky h-[100PX]" : "navbar h-[100px] xl:mt-[25px] 2xl:mt-[45px] 3xl:mt-[50px]"}>
+            className={sticky ? "navbar navbar-sticky h-[100PX] z-50" : "navbar h-[100px] xl:mt-[25px] 2xl:mt-[45px] 3xl:mt-[50px] z-50"}>
             <div className='w-full'>
                 <div className='pl-[17px] md:pl-4 lg:pl-12 2xl:pl-[128px] border-white h-16 w-full flex items-center justify-between'>
                     <Link to="/">
@@ -53,9 +53,17 @@ const Navbar = ({ sticky }) => {
                             className="block 2xl:hidden cursor-pointer items-center h-full my-auto" // Center vertically
                             onClick={handleToggle}
                         >
-                            <div className='text-white uppercase font-Helvetica font-normal text-[11px] md:text-xs lg:text-[14px] xl:text-[22px] md:py-[7px] lg:py-[10px] xl:py-4 2xl:py-4 md:px-[11px] lg:px-[18px] xl:px-7 2xl:px-7 border-white border-0 md:border-[1px] mr-[17px] md:mr-4 lg:mr-12 2xl:mr-[128px]'>
-                                Menu
-                            </div>
+                            {
+                                !toggle ? (
+                                    <div className='text-white uppercase font-Helvetica font-normal text-[11px] md:text-xs lg:text-[14px] xl:text-[22px] md:py-[7px] lg:py-[10px] xl:py-4 2xl:py-4 md:px-[11px] lg:px-[18px] xl:px-7 2xl:px-7 border-white border-0 md:border-[1px] mr-[17px] md:mr-4 lg:mr-12 2xl:mr-[128px]'>
+                                        Menu
+                                    </div>
+                                ) : (
+                                    <div className='font-Helvetica font-normal text-base lg:text-lg xl:text-[22px] text-white pr-6 sm:pr-4 md:pr-8 lg:pr-16 xl:pr-20'>
+                                        Close
+                                    </div>
+                                )
+                            }
                         </motion.div>
                     </div>
                 </div>

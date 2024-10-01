@@ -6,15 +6,15 @@ const Contact = () => {
     return (
         <div>
             <div className='px-2 sm:px-6 md:px-[33px] xl:px-[45px]'>
-                <div className='relative  flex flex-col items-center xl:items-stretch'>
-                    <div className='pt-0 lg:pt-16 grid lg:grid-cols-5 text-white font-Arial text-lg px-0 lg:px-16 w-full'>
-                        <div className='text-start pl-6 sm:pl-0 pt-7 lg:pt-3'>
+                <div className='relative pt-8 lg:pt-12 pb-8 lg:pb-12 flex flex-col items-center xl:items-stretch'>
+                    <div className='grid lg:grid-cols-5 text-white font-Arial text-lg px-0 lg:px-16 w-full'>
+                        <div className='text-start pl-6 sm:pl-0'>
                             <Link to="/home">
                                 <img src={Logo} alt="logo" className='cursor-pointer w-[181.15px] h-[77.48px]' />
                             </Link>
                         </div>
                         <div className='grid col-span-3 items-center w-full pl-6 sm:pl-0 md:pl-0 lg:pl-14 xl:pl-0'>
-                            <div className='grid grid-cols-1 xl:grid-cols-3  sm:mx-auto xl:mx-0 pt-4 xl:pt-0 w-full lg:w-auto'>
+                            <div className='grid grid-cols-1 xl:grid-cols-3  sm:mx-auto xl:mx-0 pt-4 lg:pt-0 w-full lg:w-auto'>
                                 <div className=''>
                                     <div>
                                         <Link to="/">Expertise</Link>
@@ -41,7 +41,7 @@ const Contact = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='sm:py-4 md:py-4 lg:py-5 xl:py-0 hidden lg:block my-0 xl:my-auto px-0 xl:px-12'>
+                        <div className='sm:py-4 md:py-4 lg:py-0 hidden lg:block my-0 xl:my-auto px-0 xl:px-12'>
                             <div className='flex items-center gap-2'>
                                 <div>
                                     <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -73,7 +73,7 @@ const Contact = () => {
                         <div className='absolute h-[1px] block bg-white tom-10 bottom-0 w-[calc(100%-16px)]'>
                         </div>
                     </div>
-                    <div className='pl-6 sm:pl-0 grid grid-cols-1 xl:grid-cols-5 text-white font-Arial text-lg pt-0 lg:pt-10 xl:pt-10 mx-auto xl:mx-0 px-0 lg:px-16 pb-0 lg:pb-10 w-full lg:w-auto'>
+                    <div className='pl-6 sm:pl-0 grid grid-cols-1 xl:grid-cols-5 text-white font-Arial text-lg pt-0 lg:pt-10 xl:pt-10 mx-auto xl:mx-0 px-0 lg:px-16 pb-0 lg:pb-10 xl:pb-12 2xl:pb-12 w-full lg:w-auto'>
                         <div></div>
                         <div className='py-1 xl:py-0'>
                             © 2023 Kekst CNC
@@ -86,7 +86,7 @@ const Contact = () => {
                         </div>
                         <div></div>
                     </div>
-                    <div className='pl-6 sm:pl-0 px-0 sm:py-4 md:py-4 lg:py-5 xl:py-0 flex gap-6 justify-start w-full lg:hidden text-white pb-8 lg:pb-0'>
+                    <div className='pl-6 sm:pl-0 px-0 lg:py-5 flex gap-6 justify-start w-full lg:hidden text-white'>
                         <div className='flex items-center gap-1'>
                             <div>
                                 <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">

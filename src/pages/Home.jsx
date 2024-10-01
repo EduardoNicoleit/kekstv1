@@ -5,7 +5,7 @@ import Works from './Works';
 import Process from './Process';
 import CreativeCompo from './Creative';
 import Manifesto from './Manifesto';
-import { Contact } from '../components';
+import { Contact, MainBorder } from '../components';
 import ExpandImg from '../assets/img/home/home_05.png';
 
 const Home = ({ isSticky, element }) => {
@@ -13,14 +13,14 @@ const Home = ({ isSticky, element }) => {
         window.scrollTo(0, 0);
     }, []);
     return (
-        <div>
+        <div className='relative'>
             <video width="100%" height="100%" controls>
-                <source src="src/assets/video/test.mp4" type="video/mp4" />
+                <source src="assets/video/test.mp4" type="video/mp4" />
             </video>
             <Navbar sticky={isSticky} />
             <div>
                 <div className="welcome">
-                    <img src={ExpandImg} alt="" className="w-full h-full" ref={element} />
+                    <img src={ExpandImg} alt="keskt..." className="w-full h-full" ref={element} />
                 </div>
                 <Expertise />
                 <div className='hidden xl:block h-[300px] w-full'></div>
@@ -32,6 +32,7 @@ const Home = ({ isSticky, element }) => {
                 <Manifesto />
                 <Contact />
             </div>
+            <MainBorder />
         </div>
     )
 }

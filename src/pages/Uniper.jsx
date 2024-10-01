@@ -1,8 +1,6 @@
 import React, { useEffect } from "react";
 import Navbar from "./Navbar";
-import { Contact } from "../components";
-import UniperImg from '../assets/img/uniper/uniper.png';
-import UniperMobileImg from '../assets/img/uniper/uniper_mobile.png';
+import { Contact, MainBorder } from "../components";
 
 const Uniper = ({ isSticky, element }) => {
     useEffect(() => {
@@ -12,10 +10,10 @@ const Uniper = ({ isSticky, element }) => {
         <div className="relative">
             <Navbar sticky={isSticky} />
             <div className="relative text-white welcome" ref={element}>
-                <img src={UniperImg} alt="" className="w-full hidden md:block" />
-                <img src={UniperMobileImg} alt="" className="w-full block md:hidden" />
+                <img src="/assets/img/uniper/uniper.png" alt="keskt..." className="w-full hidden md:block" />
+                <img src="/assets/img/uniper/uniper_mobile.png" alt="keskt..." className="w-full block md:hidden" />
                 <div className="w-full absolute bottom-0 font-Arial">
-                    <div className="flex flex-col px-[8px] xl:px-[25px] 2xl:px-[45px] 3xl:px-[50px]">
+                    <div className="flex flex-col px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] 3xl:px-[50px]">
                         <div className="flex">
                             <div className="w-[33px] lg:w-[60px] 2xl:w-[299px] flex-none"></div>
                             <div>
@@ -33,8 +31,8 @@ const Uniper = ({ isSticky, element }) => {
                             <div className="lg:flex-col 2xl:flex-row flex border-white border-y-[1px]
                                 sm:text-4xl md:text-3xl lg:text-[22px] lg:h-[220px] xl:h-[188px] 2xl:h-[128px] items-start 2xl:items-center"
                             >
-                                <div className="lg:pl-[60px] 2xl:pl-4 lg:py-4 xl:py-5 2xl:py-0
-                            w-[300px] lg:w-[200px] 2xl:w-[318px]                            
+                                <div className="lg:pl-[60px] lg:py-4 xl:py-5 2xl:py-0
+                            w-[300px] lg:w-[200px] 2xl:w-[318px] mb-0 2xl:mb-12                  
                             ">
                                     Overview
                                 </div>
@@ -57,7 +55,7 @@ const Uniper = ({ isSticky, element }) => {
                     </div>
                 </div>
             </div>
-            <div className="px-[8px] xl:px-[25px] 2xl:px-[45px] 3xl:px-[50px]">
+            <div className="px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] 3xl:px-[50px]">
                 <div className="block lg:hidden font-Helvetica font-normal py-[41px] text-white pl-6 sm:pl-[33px]">
                     <div className="text-[12px] leading-[14px] uppercase">
                         Overview
@@ -88,7 +86,7 @@ const Uniper = ({ isSticky, element }) => {
                     </div>
                 </div>
                 <div>
-                    <img src="/src/assets/img/uniper/uniper_movie.png" className="w-full" />
+                    <img src="/assets/img/uniper/uniper_movie.png" className="w-full" alt="keskt..." />
                 </div>
                 <div className="py-10 2xl:py-[114px] text-[17px] lg:text-[18px] xl:text-2xl flex font-normal font-Helvetica text-white">
                     <div className="md:w-[33px] lg:w-[60px] 2xl:w-[299px] flex-none"></div>
@@ -107,48 +105,48 @@ const Uniper = ({ isSticky, element }) => {
                 <div className="flex">
                     <div className="hidden lg:block lg:w-[299px] flex-none"></div>
                     <div className="w-full">
-                        <img src="/src/assets/img/uniper/uniper_1.png" className="w-full" />
+                        <img src="/assets/img/uniper/uniper_1.png" className="w-full" alt="keskt..." />
                     </div>
                 </div>
                 <div className="flex">
                     <div className="hidden lg:block lg:w-[299px] flex-none"></div>
                     <div className="w-full flex">
                         <div className="w-[45.5%] h-full">
-                            <img src="/src/assets/img/uniper/uniper_2.png" className="w-full" />
+                            <img src="/assets/img/uniper/uniper_2.png" className="w-full" alt="keskt..." />
                         </div>
                         <div className="w-[54.5%] h-full">
-                            <img src="/src/assets/img/uniper/uniper_3.png" className="w-full" />
+                            <img src="/assets/img/uniper/uniper_3.png" className="w-full" alt="keskt..." />
                         </div>
                     </div>
                 </div>
                 <div className="py-8 2xl:py-16 flex">
                     <div className="hidden lg:block lg:w-[299px] flex-none"></div>
                     <div className="w-full">
-                        <img src="/src/assets/img/uniper/uniper_movie2.png" className="w-full" />
+                        <img src="/assets/img/uniper/uniper_movie2.png" className="w-full" alt="keskt..." />
                     </div>
                 </div>
                 <div className="pb-8 2xl:pb-16 flex">
                     <div className="hidden lg:block lg:w-[299px] flex-none"></div>
                     <div className="w-full">
-                        <img src="/src/assets/img/uniper/uniper_4.png" className="w-full" />
+                        <img src="/assets/img/uniper/uniper_4.png" className="w-full" alt="keskt..." />
                     </div>
                 </div>
                 <div>
-                    <img src="/src/assets/img/uniper/uniper_5.png" className="w-full" />
+                    <img src="/assets/img/uniper/uniper_5.png" className="w-full" alt="keskt..." />
                 </div>
                 <div className="pb-8 2xl:pb-16 pt-8 md:pt-0 flex">
                     <div className="hidden lg:block lg:w-[299px] flex-none"></div>
                     <div className="w-full">
-                        <img src="/src/assets/img/uniper/uniper_6.png" className="w-full" />
+                        <img src="/assets/img/uniper/uniper_6.png" className="w-full" alt="keskt..." />
                     </div>
                 </div>
                 <div className="block md:hidden pb-8">
-                    <img src="/src/assets/img/uniper/Netclean_1.png" className="w-full" />
+                    <img src="/assets/img/uniper/Netclean_1.png" className="w-full" alt="keskt..." />
                 </div>
                 <div className="flex text-white font-Arial">
                     <div className="grid grid-cols-2 w-full">
                         <div className="py-[26px] 2xl:py-[100px] px-[15px] md:px-10 flex flex-col h-full 
-                        bg-[url('assets/img/netclean/uniper_02.png')] md:bg-[url('assets/img/uniper/header_0.png')] bg-no-repeat bg-cover">
+                        bg-[url('assets/img/netclean/mars_2.png')] md:bg-[url('assets/img/uniper/header_0.png')] bg-no-repeat bg-cover">
                             <div className="font-bold text-[15px] lg:text-base xl:text-2xl">
                                 Mars
                             </div>
@@ -199,9 +197,7 @@ const Uniper = ({ isSticky, element }) => {
                 </div>
             </div>
             <Contact />
-            <div className="absolute 
-            w-[calc(100vw-16px)] xl:w-[calc(100vw-50px)] 2xl:w-[calc(100vw-90px)] 3xl:w-[calc(100vw-100px)]
-            h-full border border-solid border-white top-2 xl:top-[25px] 2xl:top-[45px] 3xl:top-[50px] left-1/2 -translate-x-1/2"></div>
+            <MainBorder />
         </div>
     )
 }
