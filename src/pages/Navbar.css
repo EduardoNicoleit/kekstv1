@@ -14,7 +14,7 @@
     top: 0;
     left: 0;
     box-shadow: 1px 1px 1px #222;
-    animation: moveDown 0.5s ease-in-out;
+    animation: moveDown 0.3s ease-in-out;
 }
 
 .navbar--logo-holder {
