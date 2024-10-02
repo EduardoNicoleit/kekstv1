@@ -6,7 +6,7 @@ import Process from './Process';
 import CreativeCompo from './Creative';
 import Manifesto from './Manifesto';
 import { Contact, MainBorder } from '../components';
-import ExpandImg from '../assets/img/home/home_05.png';
+import Welcome from './Welcome';
 
 const Home = ({ isSticky, element }) => {
     useEffect(() => {
@@ -15,13 +15,11 @@ const Home = ({ isSticky, element }) => {
     return (
         <div className='relative'>
             <video width="100%" height="100%" autoPlay loop muted playsInline>
-                <source src="assets/video/test.mp4" type="video/mp4" />
+                <source src="assets/video/kekst.mp4" type="video/mp4" />
             </video>
             <Navbar sticky={isSticky} />
             <div>
-                <div className="welcome">
-                    <img src={ExpandImg} alt="keskt..." className="w-full h-full" ref={element} />
-                </div>
+                <Welcome className="welcome" />
                 <Expertise />
                 <div className='hidden xl:block h-[300px] w-full'></div>
                 <Works />

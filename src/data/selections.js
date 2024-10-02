@@ -119,7 +119,7 @@ export const worksData = [
         id: 2,
         img_url: '/assets/img/selections/NetClean.png',
         img_url1: '/assets/img/selections/NetClean1.png',
-        img_url2: '/assets/img/selections/NetClean2.png',
+        img_url2: '/assets/img/selections/Netclean2.png',
         title: 'NetClean',
         content: "Reinventing how annual data reports can be transformed into impactful narrative communication tools.",
         link_url: "/works/netClean"
@@ -159,155 +159,155 @@ export const expertiseData = [
         main: 'VISUAL COMMS & STRATEGY',
         link_url: "",
         content1: "FROM STRATEGY TO DEVELOPMENT TO ACTIVATION.",
-        content2: "(CREATIVE CAMPAIGNS AND COMMUNICATIONS; BRANDING; DESIGN PROJECTS; EXECUTION OF DESIGN ASSETS FOR PRINT, DIGITAL, AND FILM)."        
+        content2: "(CREATIVE CAMPAIGNS AND COMMUNICATIONS; BRANDING; DESIGN PROJECTS; EXECUTION OF DESIGN ASSETS FOR PRINT, DIGITAL, AND FILM)."
     },
     {
         id: 2,
         main: 'PRODUCT & PLATFORM CREATION',
         link_url: "",
         content1: "CREATING COMPELLING DIGITAL EXPERIENCES",
-        content2: "(WEBSITES, APPS, METAVERSE EXPERIENCES, VIRTUAL/ AUGMENTED REALITY) SOLUTIONS,AND BLOG PLATFORMS"        
+        content2: "(WEBSITES, APPS, METAVERSE EXPERIENCES, VIRTUAL/ AUGMENTED REALITY) SOLUTIONS,AND BLOG PLATFORMS"
     },
     {
         id: 3,
         main: 'DATA VISUALIZATION',
         link_url: "",
         content1: "INFORMATION GRAPHICS AND VISUALIZATIONS FOR ALL PLATFORMS: DIGITAL, PRINT AND FILMt",
-        content2: ""        
+        content2: ""
     }
 ]
 
 export const expertiseTableData1 = [
-    {        
+    {
         id: 1,
         number: "01",
         mainText1: "STRATEGIC",
         mainText2: "INSIGHTS",
-        content: "Our approach begins with an intimate understanding of your vision. By delving deep into your goals, challenges, and aspirations, we become more than just your agency; we become integral collaborators on your journey to success."        
+        content: "Our approach begins with an intimate understanding of your vision. By delving deep into your goals, challenges, and aspirations, we become more than just your agency; we become integral collaborators on your journey to success."
     },
-    {        
+    {
         id: 2,
         number: "02",
         mainText1: "DESIGN WITH",
         mainText2: "PURPOSE ",
-        content: "At the heart of our service is the execution of design assets for both print and digital media. Our focus is not only on aesthetics but on the power of design to convey a message and create a lasting impact."        
+        content: "At the heart of our service is the execution of design assets for both print and digital media. Our focus is not only on aesthetics but on the power of design to convey a message and create a lasting impact."
     },
-    {        
+    {
         id: 3,
         number: "03",
         mainText1: "NARRATIVE",
         mainText2: "DEVELOPMENT ",
-        content: "We specialize in crafting creative campaigns and communications that are in harmony with your brand's ethos. Our objective is to create branding and visual communication projects that truly resonate with your audience."        
+        content: "We specialize in crafting creative campaigns and communications that are in harmony with your brand's ethos. Our objective is to create branding and visual communication projects that truly resonate with your audience."
     },
-    {        
+    {
         id: 4,
         number: "04",
         mainText1: "INTEGRATED",
         mainText2: "VIDEO CAMPAIGNS ",
-        content: "From conceptualization and copywriting to full-scale video production, our campaigns are comprehensive narratives brought to life. We seamlessly blend innovative design, strategic storytelling, and cutting-edge technology to ensure that every campaign captivates and engages your target audience across all mediums."        
+        content: "From conceptualization and copywriting to full-scale video production, our campaigns are comprehensive narratives brought to life. We seamlessly blend innovative design, strategic storytelling, and cutting-edge technology to ensure that every campaign captivates and engages your target audience across all mediums."
     }
 ]
 export const expertiseTableData2 = [
-    {        
+    {
         id: 1,
         number: "01",
         mainText1: "User-Centric",
         mainText2: "Design",
-        content: "By focusing on the user, we ensure every digital interaction is engaging, intuitive, and impactful, catering to your audience's needs and expectations."        
+        content: "By focusing on the user, we ensure every digital interaction is engaging, intuitive, and impactful, catering to your audience's needs and expectations."
     },
-    {        
+    {
         id: 2,
         number: "02",
         mainText1: "Data-Driven",
         mainText2: "Insights",
-        content: "Our strategy integrates both creativity and analytics, using user behavior and market research to inform design decisions, optimizing user experience across all platforms."        
+        content: "Our strategy integrates both creativity and analytics, using user behavior and market research to inform design decisions, optimizing user experience across all platforms."
     },
-    {        
+    {
         id: 3,
         number: "03",
         mainText1: "Forward-Thinking",
         mainText2: "Innovation",
-        content: "We're dedicated to exploring new digital landscapes, we ensure our clients stay ahead in the constantly evolving digital ecosystem."        
+        content: "We're dedicated to exploring new digital landscapes, we ensure our clients stay ahead in the constantly evolving digital ecosystem."
     },
 ]
 export const expertiseTableData3 = [
-    {        
+    {
         id: 1,
         number: "01",
         mainText1: "NARRATIVE DATA",
         mainText2: "EXPLORATION",
-        content: "We specialize in transforming raw data into compelling information graphics and visualizations for every platform, digital, print, and film. It's not just about representation; it's about uncovering and articulating the story within the data, ensuring each number tells a part of a bigger narrative."        
+        content: "We specialize in transforming raw data into compelling information graphics and visualizations for every platform, digital, print, and film. It's not just about representation; it's about uncovering and articulating the story within the data, ensuring each number tells a part of a bigger narrative."
     },
-    {        
+    {
         id: 2,
         number: "02",
         mainText1: "AESTHETIC PRECISION",
         mainText2: "MEETS DATA",
-        content: "Our creations are where beauty meets precision, crafting visualizations that are not only accurate but also visually captivating. Our goal is to engage and enlighten, merging aesthetic appeal with informational clarity to produce unforgettable visual stories."        
+        content: "Our creations are where beauty meets precision, crafting visualizations that are not only accurate but also visually captivating. Our goal is to engage and enlighten, merging aesthetic appeal with informational clarity to produce unforgettable visual stories."
     },
-    {        
+    {
         id: 3,
         number: "03",
         mainText1: "CREATING LASTING",
         mainText2: "IMPRESSIONS WITH DATA",
-        content: "Data visualization goes beyond comprehension to memorability. We craft visual narratives that stick, ensuring data is not just processed but remembered and revisited. Our approach makes complex data accessible, engaging, and impactful across all mediums."        
+        content: "Data visualization goes beyond comprehension to memorability. We craft visual narratives that stick, ensuring data is not just processed but remembered and revisited. Our approach makes complex data accessible, engaging, and impactful across all mediums."
     },
 ]
 export const expertiseData2 = [
-        {
-            id: 1,
-            title: "CREATIVE COMMUNICATION & STRATEGY",
-            text: "Combining creative strategy with innovative storytelling, delivering campaigns, corporate identities, and visual communications that resonate with audiences and ensure brand narratives inspire and engage across multiple platforms.",
-            link_url: "/expertise",
-            content1: ["Creative Campaigns", "Naming", "Corporate Identity", "Visual Identity Systems", "Editorial Design"],
-            content2: ["Creative Consultation and Strategic Counsel", "Video & Audio (Strategy, Storyboarding, Copywriting, Production)"],
-            content3: ["Creative Campaigns", "Naming", "Corporate Identity"],
-            content4: ["Visual Identity Systems", "Editorial Design"],
-            content5: ["Creative Consultation and Strategic Counsel"],
-            content6: ["Video & Audio (Strategy, Storyboarding, Copywriting, Production)"]
-        },
-        {
-            id: 2,
-            title: "DIGITAL EXPERIENCE & INNOVATION",
-            text: "Blending creativity with advanced technology to enhance user engagement through UI/UX design, web development, metaverse experiences, and augmented reality, providing forward-thinking solutions for the digital age.",
-            link_url: "/product",
-            content1: ["Platform Development", "User Interface and Experience Design"],
-            content2: ["Gamification", "Virtual & Augmented Reality"]
-        },
-        {
-            id: 3,
-            title: "DATA VISUALIZATION",
-            text: "Transforming complex data into compelling, visually impactful stories through data visualization and interactive platforms that simplify insights and drive engagement.",
-            link_url: "/expertise/datas",
-            content1: ["Data Storytelling", "Multi-Platform Data Viz (Print, Digital, Video)"],
-            content2: ["Interactive Visualization", "User Engagement Strategies"]
-        }
-]    
+    {
+        id: 1,
+        title: "CREATIVE COMMUNICATION & STRATEGY",
+        text: "Combining creative strategy with innovative storytelling, delivering campaigns, corporate identities, and visual communications that resonate with audiences and ensure brand narratives inspire and engage across multiple platforms.",
+        link_url: "/expertise",
+        content1: ["Creative Campaigns", "Naming", "Corporate Identity", "Visual Identity Systems", "Editorial Design"],
+        content2: ["Creative Consultation and Strategic Counsel", "Video & Audio (Strategy, Storyboarding, Copywriting, Production)"],
+        content3: ["Creative Campaigns", "Naming", "Corporate Identity"],
+        content4: ["Visual Identity Systems", "Editorial Design"],
+        content5: ["Creative Consultation and Strategic Counsel"],
+        content6: ["Video & Audio (Strategy, Storyboarding, Copywriting, Production)"]
+    },
+    {
+        id: 2,
+        title: "DIGITAL EXPERIENCE & INNOVATION",
+        text: "Blending creativity with advanced technology to enhance user engagement through UI/UX design, web development, metaverse experiences, and augmented reality, providing forward-thinking solutions for the digital age.",
+        link_url: "/product",
+        content1: ["Platform Development", "User Interface and Experience Design"],
+        content2: ["Gamification", "Virtual & Augmented Reality"]
+    },
+    {
+        id: 3,
+        title: "DATA VISUALIZATION",
+        text: "Transforming complex data into compelling, visually impactful stories through data visualization and interactive platforms that simplify insights and drive engagement.",
+        link_url: "/expertise/datas",
+        content1: ["Data Storytelling", "Multi-Platform Data Viz (Print, Digital, Video)"],
+        content2: ["Interactive Visualization", "User Engagement Strategies"]
+    }
+]
 export const expertiseData3 = [
-    {   
+    {
         content1: ["Creative Campaigns", "Naming", "Corporate Identity"],
         content2: ["Visual Identity Systems", "Editorial Design", "Creative Consultation and Strategic Counsel"],
         content3: ["Video & Audio (Strategy, Storyboarding, Copywriting, Production)"]
     }
 ]
 export const expertiseData4 = [
-    {        
+    {
         content1: ["Platform Development", "User Interface and Experience Design"],
         content2: ["Gamification", "Virtual & Augmented Reality"]
     }
 ]
 export const expertiseData5 = [
-    {       
+    {
         content1: ["Data Storytelling", "Multi-Platform Data Viz (Print, Digital, Video)"],
         content2: ["Interactive Visualization", "User Engagement Strategies"]
     }
 ]
 export const expertiseListData = [
     "Creative Campaigns", "Naming", "Corporate Identity", "Visual Identity Systems", "Editorial Design", "Creative Consultation and Strategic Counsel", "Video & Audio (Strategy, Storyboarding, Copywriting, Production)"
-]   
+]
 export const productListData = [
     "Platform Development", "User Interface and Experience Design", "Gamification", "Virtual & Augmented Reality"
 ]
-export const expertiseDataList = [      
+export const expertiseDataList = [
     "Data Storytelling", "Multi-Platform Data Viz (Print, Digital, Video)", "Interactive Visualization", "User Engagement Strategies"
 ]

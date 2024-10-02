@@ -8,7 +8,7 @@ const CreativeCompo = () => {
     return (
         <div>
             <div className="text-white font-Arial relative">
-                <div className="bg-[url('assets/img/home/creative_bg.png')] bg-contain bg-inherit w-full text-white font-Arial px-2 lg:px-4 xl:px-[25px] 2xl:px-[50px] bottom-0 top-0 pb-10 md:pb-0">
+                <div className="bg-[url('assets/img/home/kstc1.svg')] bg-no-repeat bg-cover h-auto w-full text-white font-Arial px-2 lg:px-4 xl:px-[25px] 2xl:px-[50px] bottom-0 top-0 pb-10 md:pb-0">
                     <div className="bottom-0 top-0 w-full">
                         <div className="flex text-white lg:pt-12 xl:pt-[62px] 2xl:pt-[98px]">
                             <div className="flex w-full items-center">
