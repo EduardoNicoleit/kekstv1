@@ -1,5 +1,5 @@
 import React from "react";
-import ManifestoImg from '../assets/img/home/manifesto.png';
+import manifestoVideo from '../assets/video/manifesto.mp4';
 import { Divider } from "../components";
 
 const ManifestoCompo = () => {
@@ -10,7 +10,14 @@ const ManifestoCompo = () => {
                     <Divider title="Our manifesto" />
                 </div>
                 <div>
-                    <img src={ManifestoImg} alt="keskt..." className="w-full pt-7 md:pt-[50px]" />
+                    <video
+                        src={manifestoVideo}
+                        controls
+                        className="w-full pt-7 md:pt-[50px]"
+                        alt="Manifesto Video"
+                    >
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
             </div>
         </div>
