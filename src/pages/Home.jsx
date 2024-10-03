@@ -14,18 +14,15 @@ const Home = ({ isSticky, element }) => {
     }, []);
     return (
         <div className='relative'>
-            <video width="100%" height="100%" autoPlay loop muted playsInline>
+            <video width="100%" height="100%" controls>
                 <source src="assets/video/kekst.mp4" type="video/mp4" />
             </video>
             <Navbar sticky={isSticky} />
             <div>
                 <Welcome className="welcome" />
                 <Expertise />
-                <div className='hidden xl:block h-[300px] w-full'></div>
                 <Works />
-                <div className="hidden xl:block h-[300px] w-full"></div>
                 <Process />
-                <div className="hidden xl:block h-[300px] w-full"></div>
                 <CreativeCompo />
                 <Manifesto />
                 <Contact />

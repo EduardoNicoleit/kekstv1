@@ -11,9 +11,9 @@ const Welcome = () => {
             <div className="absolute w-full h-full">
                 <img src={ExpandImg} alt="Welcome background" className="w-full h-full object-cover" />
             </div>
-            <div className="relative z-2 w-full px-[12px] sm:px-6 md:px-[45px] lg:px-[45px] xl:px-[50px]">
+            <div className="relative z-2 w-full px-2 md:px-[16px] lg:px-[25px] 2xl:px-[50px]">
                 <div className="w-full py-[150px] sm:py-[200px] xl:py-[250px]">
-                    <div className="w-full max-w-7xl md:ml-[0px] xl:ml-[308px]">
+                    <div className="w-full max-w-7xl md:ml-[0px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px]">
                         <h1 className="relative text-[2.60rem] sm:text-[4rem] md:text-[5rem] lg:text-[6rem] xl:text-[7rem] font-extrabold leading-tight text-white px-2">
                             <div className="mb-2 sm:mb-4 whitespace-nowrap mt-12">
                                 Encourage. <span

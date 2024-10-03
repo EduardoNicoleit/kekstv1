@@ -1,30 +1,18 @@
-import React, { useEffect } from "react";
+import React from "react";
 import locationImg from '../assets/img/home/location.png'
+import lineImg from '../assets/img/home/line.png'
+import { Divider } from "../components";
 
 const CreativeCompo = () => {
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, []);
     return (
         <div>
             <div className="text-white font-Arial relative">
-                <div className="bg-[url('assets/img/home/kstc1.svg')] bg-no-repeat bg-cover h-auto w-full text-white font-Arial px-2 lg:px-4 xl:px-[25px] 2xl:px-[50px] bottom-0 top-0 pb-10 md:pb-0">
+                <div className="bg-[url('assets/img/home/creative_bg.png')] bg-cover bg-inherit w-full text-white font-Arial px-2 lg:px-4 xl:px-[25px] 2xl:px-[50px] bottom-0 top-0 pb-10 md:pb-0">
                     <div className="bottom-0 top-0 w-full">
                         <div className="flex text-white lg:pt-12 xl:pt-[62px] 2xl:pt-[98px]">
-                            <div className="flex w-full items-center">
-                                <div className="h-5 md:h-4 xl:h-[30px] hidden md:flex w-9 sm:w-6 md:w-[26px] lg:w-[51px] xl:w-[100px] border-r-0 xl:border-r-[1px] relative items-center">
-                                    <div className="h-[1px] bg-white md:w-[34px] lg:w-[59px] xl:w-[92px] 2xl:w-[300px]"></div>
-                                </div>
-                                <div className="flex items-center w-full">
-                                    <div className="font-bold text-[32px] md:text-3xl lg:text-[45px] px-[9px] font-Arial">
-                                        Get to know us
-                                    </div>
-                                    <div className="h-[1px] flex-1 bg-white">
-                                    </div>
-                                </div>
-                            </div>
+                            <Divider title="Get to know us" />
                         </div>
-                        <div className="font-Arial text-[17px] md:text-[18px] lg:text-[28px] xl:text-4xl pl-[9px] md:pl-[34px] lg:pl-[59px] xl:pl-[100px] mr-2 md:mr-20 py-6 lg:py-12 xl:py-[60px]">
+                        <div className="font-Arial text-[17px] md:text-[18px] lg:text-[28px] xl:text-4xl pl-[9px] md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px] mr-2 md:mr-20 py-6 lg:py-12 xl:py-[60px]">
                             What distinguishes us is the unique fusion of Kekst CNC's renowned expertise <br />in strategic communication worldwide, coupled with our prowess in design thinking, innovative solutions, and impactful activation strategies. This combination guarantees seamless execution and unparalleled results across every project dimension.
                         </div>
                         <div className="pl-[9px] md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px] xl:pr-[90px] 2xl:pr-[290px]">
@@ -73,12 +61,37 @@ const CreativeCompo = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="h-[1px] bg-white sm:my-3 md:my-4 lg:my-6 xl:my-8 2xl:my-10 3xl:my-20 md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:ml-[290px]"></div>
+                        <div className="my-0 sm:my-3 md:my-4 lg:my-6 xl:my-8 2xl:my-10 3xl:my-20 pl-0 md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px]">
+                            <div className="h-[1px] bg-white "></div>
+                        </div>
                     </div>
-                </div>
-                <div className="bottom-0 top-[100px] md:top-20 px-[9px] lg:px-4 xl:px-[25px] 2xl:px-[50px]">
-                    <div>
-                        <img src={locationImg} alt="keskt..." className="pl-[9px] md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px]" />
+                    <div className="flex flex-col 2xl:flex-row ">
+                        <div className="sm:pb-6 lg:pb-10 xl:pb-20 pl-[9px] md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px]">
+                            <div className="pl-6 sm:pl-0 flex items-center pt-9 sm:pt-6 lg:pt-5 xl:pt-[57px] 2xl:pt-0">
+                                <div className="flex-none font-Helvetica font-bold text-[32px] lg:text-[40px] xl:text-[45px] 2xl:text-[65px] leading-tight 2xl:leading-none">
+                                    Let’s talk
+                                </div>
+                                <div className="block sm:hidden h-[1px] bg-white w-full ml-2">
+
+                                </div>
+                            </div>
+                            <div className="pl-6 sm:pl-0 w-full sm:w-[200px] xl:w-full"><img src={lineImg} alt="" /></div>
+                            <a href="mailto:creative@kekstcnc.com">
+                                <div className='pl-6 sm:pl-0 flex items-center gap-2 pt-4 sm:pt-3 lg:pt-[27px] xl:pt-10 2xl:pt-[57px]'>
+                                    <div className="flex-none">
+                                        <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M18.1504 0H2.15039C1.05039 0 0.160391 0.9 0.160391 2L0.150391 14C0.150391 15.1 1.05039 16 2.15039 16H18.1504C19.2504 16 20.1504 15.1 20.1504 14V2C20.1504 0.9 19.2504 0 18.1504 0ZM18.1504 14H2.15039V4L10.1504 9L18.1504 4V14ZM10.1504 7L2.15039 2H18.1504L10.1504 7Z" fill="white" />
+                                        </svg>
+                                    </div>
+                                    <div className='font-Arial sm:text-[17px] lg:text-[20px] xl:text-2xl'>
+                                        creative@kekstcnc.com
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div className="pl-0 xl:pl-[100px] 2xl:pl-0">
+                            <img src={locationImg} alt="keskt..." className="" />
+                        </div>
                     </div>
                 </div>
             </div>
