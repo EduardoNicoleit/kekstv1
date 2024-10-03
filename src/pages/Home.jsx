@@ -34,5 +34,5 @@ const Home = ({ isSticky, element }) => {
         </div>
     )
 }
-
+//
 export default Home;
