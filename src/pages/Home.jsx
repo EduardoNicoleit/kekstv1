@@ -21,11 +21,8 @@ const Home = ({ isSticky, element }) => {
             <div>
                 <Welcome className="welcome" />
                 <Expertise />
-                <div className='hidden xl:block h-[300px] w-full'></div>
                 <Works />
-                <div className="hidden xl:block h-[300px] w-full"></div>
                 <Process />
-                <div className="hidden xl:block h-[300px] w-full"></div>
                 <CreativeCompo />
                 <Manifesto />
                 <Contact />

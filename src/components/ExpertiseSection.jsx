@@ -1,6 +1,7 @@
 import React from "react";
 import { ReadMore } from "../components";
 import { expertiseData2 } from '../data/selections';
+import { Link } from "react-router-dom";
 
 const ExpertiseSection = () => {
     return (
@@ -11,14 +12,16 @@ const ExpertiseSection = () => {
                     pt-8 lg:pt-12 xl:pt-[55px] 2xl:pt-[45px]">
                         <div className="font-Helvetica flex flex-col xl:flex-row justify-between">
                             <div className="xl:max-w-[950px] 2xl:max-w-none">
-                                <div className="flex items-center md:font-Arial font-bold text-base lg:text-3xl xl:text-[40px] 2xl:text-[55px]">
-                                    {val.title}
-                                </div>
+                                <Link to={val.link_url}>
+                                    <div className="flex items-center font-bold text-base lg:text-3xl xl:text-[40px] 2xl:text-[42px] 3xl:text-[55px] hover:text-[#7a6b87]">
+                                        {val.title}
+                                    </div>
+                                </Link>
                                 <div className="font-normal text-xs lg:text-base xl:text-xl pt-1 md:pt-2 lg:pt-4 xl:pt-[23px] 2xl:pt-4 2xl:max-w-[1130px]">
                                     {val.text}
                                 </div>
                             </div>
-                            <div className="pr-0 2xl:pr-[94px] hidden xl:block">
+                            <div className="pr-0 2xl:pr-10 3xl:pr-[94px] hidden xl:block flex-none">
                                 <ReadMore linkUrl={val.link_url} />
                             </div>
                         </div>
@@ -27,7 +30,7 @@ const ExpertiseSection = () => {
                             <div className="hidden lg:block">
                                 <div className="flex border-t-[1px] border-b-[1px] border-white">
                                     {val.content1.map((content, index) => (
-                                        <div key={content} className={`py-2 pr-2 border-white ${val.content1.length !== index + 1 ? ' border-r-[1px]' : ' pl-2'}`}>
+                                        <div key={content} className={`py-2 pr-2 border-white ${index === 0 ? ' ' : ' border-l-[1px] pl-2'}`}>
                                             {content}
                                         </div>
                                     ))}

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Navbar from "./Navbar";
 import { Contact, MainBorder } from "../components";
+import { Link } from "react-router-dom";
 
 const CopReport = ({ isSticky, element }) => {
     useEffect(() => {
@@ -151,9 +152,11 @@ const CopReport = ({ isSticky, element }) => {
                                 </div>
                             </div>
                             <div className="flex py-8 items-center pl-4">
-                                <div className="uppercase font-normal text-[13px] lg:text-xs xl:text-lg">
-                                    read more
-                                </div>
+                                <Link to="/works/deutsche">
+                                    <div className="uppercase font-normal text-[13px] lg:text-xs xl:text-lg">
+                                        read more
+                                    </div>
+                                </Link>
                                 <div>
                                     <svg className="ml-3 pt-[2px] hover:w-7 hover:h-7 w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g id="arrow_outward">
@@ -175,9 +178,11 @@ const CopReport = ({ isSticky, element }) => {
                                 </div>
                             </div>
                             <div className="flex py-8 items-center pl-4">
-                                <div className="uppercase font-normal text-[13px] lg:text-xs xl:text-lg">
-                                    read more
-                                </div>
+                                <Link to="/works/bpl">
+                                    <div className="uppercase font-normal text-[13px] lg:text-xs xl:text-lg">
+                                        read more
+                                    </div>
+                                </Link>
                                 <div>
                                     <svg className="ml-3 pt-[2px] hover:w-7 hover:h-7 w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g id="arrow_outward">
