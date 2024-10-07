@@ -2,8 +2,6 @@ import React, { useEffect } from "react";
 import Navbar from "./Navbar";
 import { WorkDataSelection, Contact, MainBorder } from "../components";
 import { selectionsData } from "../data/selections";
-import WorksDataImg from '../assets/img/home/works_data.png';
-import WorksDataMobileImg from '../assets/img/home/works_data_mobile.png';
 
 const WorksDataCompo = ({ isSticky, element }) => {
     useEffect(() => {
@@ -13,10 +11,30 @@ const WorksDataCompo = ({ isSticky, element }) => {
         <div className="relative">
             <Navbar sticky={isSticky} />
             <div className="relative text-white welcome">
-                <img src={WorksDataImg} alt="keskt..." className="w-full hidden sm:block" ref={element} />
-                <img src={WorksDataMobileImg} alt="keskt..." className="w-full block sm:hidden" ref={element} />
+                {/*Fullscreen Video */}
+                <video
+                    className="w-full hidden sm:block"
+                    ref={element}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                >
+                    <source src="../../assets/video/REELShowcases.mp4" type="video/mp4" />
+                </video>
+                {/*Mobile Video */}
+                <video
+                    className="w-full h-[531px] object-cover block sm:hidden"
+                    ref={element}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                >
+                    <source src="../../assets/video/REELShowcases.mp4" type="video/mp4" />
+                </video>
                 <div className="absolute block sm:hidden bottom-[56px] pl-[41px] font-Helvetica font-bold text-[30px] leading-[34px]">
-                    Data<br /> visualization
+                    Data<br /> Visualization
                 </div>
             </div>
             <div className="w-full text-white px-2 lg:px-4 xl:px-[25px] 2xl:px-[50px]">

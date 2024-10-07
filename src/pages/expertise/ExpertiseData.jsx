@@ -3,8 +3,7 @@ import Navbar from "../Navbar";
 import { ServicesTable, Contact, ExpertiseCustomCompo, MainBorder } from "../../components";
 import Footer from './Footer';
 import { expertiseData5, expertiseTableData3, expertiseDataList } from '../../data/selections';
-import ExpertiseDataImg from '../../assets/img/home/expertise_data.png';
-import ExpertiseDataMobileImg from '../../assets/img/home/expertise_data_mobile.png';
+
 
 const ExpertiseDataCompo = ({ isSticky, element }) => {
     return (
@@ -12,11 +11,20 @@ const ExpertiseDataCompo = ({ isSticky, element }) => {
             <div className="hidden lg:block">
                 <Navbar sticky={isSticky} />
                 <div className="relative text-white welcome">
-                    <img src={ExpertiseDataImg} alt="keskt..." className="w-full" ref={element} />
+                    <video
+                        className="w-full"
+                        ref={element}
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                    >
+                        <source src="../../assets/video/expertise_03.mp4" type="video/mp4" />
+                    </video>
                     <div className="px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] 3xl:px-[50px] w-full absolute bottom-0">
                         <div className="flex flex-col ">
                             <div className="font-Helvetica text-[30px] sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-[80px] 3xl:text-[90px] font-bold sm:pl-8 md:pl-[33px] lg:pl-[46px] xl:pl-[154px] 2xl:pl-[308px] mt-auto py-14 sm:py-6 md:py-8 lg:py-10 xl:py-12 2xl:py-16 3xl:py-20">
-                                Data <br />visualization
+                                Data <br />Visualization
                             </div>
                             <div className="hidden sm:block 2xl:hidden font-Helvetica text-base sm:pl-8 md:pl-[33px] lg:pl-[46px] xl:pl-[154px] py-2">
                                 Our Services:
@@ -152,8 +160,8 @@ const ExpertiseDataCompo = ({ isSticky, element }) => {
             <div className="block lg:hidden">
                 <ExpertiseCustomCompo
                     title1="Data"
-                    title2="visualization"
-                    img={ExpertiseDataMobileImg}
+                    title2="Visualization"
+                    videoSrc="../../assets/video/expertise_03.mp4"
                     mainText1="We specialize in making data compelling with powerful visual storytelling."
                     mainText2="Our expertise spans all forms of data visualization, including dynamic infographics and interactive platforms, for both print and digital. We're dedicated to turning complex data into clear, visually impactful stories that inform and drive engagement and insight."
                     expertiseTableData={expertiseTableData3}

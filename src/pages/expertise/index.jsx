@@ -1,12 +1,10 @@
 import React, { useEffect } from "react";
-import ExpertiseImg from '../../assets/img/home/expertise.png';
 import Navbar from "../Navbar";
 import { expertiseData3, expertiseTableData1, expertiseListData } from '../../data/selections';
 import { ServicesTable, Contact, MainBorder } from "../../components";
 import ExpertiseTable from "./ExpertiseTable";
 import Footer from './Footer';
 import ExpertiseCustomCompo from "../../components/ExpertiseCustomCompo";
-import ExpertiseMobileImg from '../../assets/img/home/expertise_mobile.png';
 
 const ExpertiseCompo = ({ isSticky, element }) => {
     useEffect(() => {
@@ -17,7 +15,16 @@ const ExpertiseCompo = ({ isSticky, element }) => {
             <div className="hidden lg:block">
                 <Navbar sticky={isSticky} />
                 <div className="relative text-white welcome">
-                    <img src={ExpertiseImg} alt="keskt..." className="w-full" ref={element} />
+                    <video
+                        className="w-full"
+                        ref={element}
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                    >
+                        <source src="assets/video/expertise_01.mp4" type="video/mp4" />
+                    </video>
                     <div className="px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] 3xl:px-[50px] w-full absolute bottom-0">
                         <div className="flex flex-col ">
                             <div className="font-Helvetica text-[30px] sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-[80px] 3xl:text-[90px] font-bold sm:pl-8 md:pl-[33px] lg:pl-[46px] xl:pl-[154px] 2xl:pl-[308px] mt-auto py-14 sm:py-6 md:py-8 lg:py-10 xl:py-12 2xl:py-16 3xl:py-20">
@@ -47,12 +54,13 @@ const ExpertiseCompo = ({ isSticky, element }) => {
                 <ExpertiseCustomCompo
                     title1="Creative"
                     title2="Communication & Strategy"
-                    img={ExpertiseMobileImg}
+                    videoSrc="assets/video/expertise_01.mp4"
                     mainText1="Crafting narratives to engage and inspire in an age where stories define brands and shape opinions,"
                     mainText2="we step forward as a guide in the world of creative communication. From the inception of an idea to its grand realization, our journey is about making narratives resonate."
                     expertiseTableData={expertiseTableData1}
                     expertiseData={expertiseListData}
                 />
+
             </div>
             <MainBorder />
         </div>

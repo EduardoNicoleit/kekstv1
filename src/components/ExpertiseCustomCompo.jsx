@@ -3,14 +3,23 @@ import Navbar from "../pages/Navbar";
 import { Contact } from "../components";
 import Footer from "../pages/expertise/Footer";
 
-const ExpertiseCustomCompo = ({ isSticky, element, title1, title2, img, mainText1, mainText2, expertiseTableData, expertiseData }) => {
+const ExpertiseCustomCompo = ({ isSticky, element, title1, title2, mainText1, mainText2, expertiseTableData, expertiseData, videoSrc }) => {
     return (
         <div>
             <div>
                 <div>
                     <Navbar sticky={isSticky} />
-                    <div className="relative text-white welcome ">
-                        <img src={img} alt="keskt..." className="w-full" ref={element} />
+                    <div className="relative text-white welcome h-[531px]">
+                        <video
+                            className="w-full h-full object-cover"
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
+                            ref={element}
+                        >
+                            <source src={videoSrc} type="video/mp4" />
+                        </video>
                         <div className="w-full absolute bottom-0 px-6">
                             <div className="flex flex-col">
                                 <div className="font-Helvetica text-[30px] py-[56px] font-bold">
@@ -69,7 +78,7 @@ const ExpertiseCustomCompo = ({ isSticky, element, title1, title2, img, mainText
 
             <div className="h-2 w-full"></div>
         </div>
-    )
+    );
 }
 
 export default ExpertiseCustomCompo;
