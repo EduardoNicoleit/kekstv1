@@ -43,8 +43,8 @@ const ExpertiseCustomCompo = ({ isSticky, element, title1, title2, mainText1, ma
                                         </div>
                                     ))}
                                 </div>
-                                <p className="font-Helvetica font-bold text-[20px] text-white leading-normal py-10 pr-4 uppercase">
-                                    <span className="text-[#9F81BF] pr-1">{mainText1}</span>{mainText2}
+                                <p className="font-Helvetica text-[20px] text-white leading-normal py-10 pr-4 uppercase">
+                                    <span className="text-[#9F81BF] font-bold pr-2">{mainText1}</span>{mainText2}
                                 </p>
                             </div>
                             <div className="border-t-[1px] border-white">
