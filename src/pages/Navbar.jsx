@@ -81,22 +81,22 @@ const Navbar = () => {
                 <div className='w-full'>
                     <div className='pl-[0px] border-white h-16 w-full flex items-center justify-between 2xl:pl-[128px] xl:pl-[110px] lg:pl-[60px] md:pl-[28px] pl-[6px] 2xl:pr-[128px] xl:pr-[110px] lg:pr-[60px] md:pr-[28px] pr-[6px]'>
                         <Link to="/">
-                            <img src={Logo} alt="logo" className='cursor-pointer w-auto h-auto 2xl:w-auto' />
+                            <img src={Logo} alt="logo" className='cursor-pointer w-auto h-auto 2xl:w-auto transition duration-300 ease-in-out hover:scale-110' />
                         </Link>
                         <div className='flex w-full justify-between'>
                             <div className="xl:pl-[128px] lg:flex h-[50px] py-[13px] font-Arial font-normal text-white">
                                 <ul className='hidden 2xl:flex 2xl:gap-[50px] 3xl:gap-[70px] text-lg'>
-                                    <li className="hover:text-gray-400 flex items-center"><Link to="/">Expertise</Link></li>
-                                    <li className="hover:text-gray-400 flex items-center"><Link to="/">Our work</Link></li>
-                                    <li className="hover:text-gray-400 flex items-center"><Link to="/">Get to know us</Link></li>
-                                    <li className="hover:text-gray-400 flex items-center"><Link to="/">Our design thinking process</Link></li>
-                                    <li className="hover:text-gray-400 flex items-center"><Link to="/">Our Manifesto</Link></li>
-                                    <li className="hover:text-gray-400 flex items-center"><Link to="/">Let's talk</Link></li>
+                                    <li className="hover:text-gray-400 flex items-center transition duration-300 ease-in-out hover:scale-110"><Link to="/">Expertise</Link></li>
+                                    <li className="hover:text-gray-400 flex items-center transition duration-300 ease-in-out hover:scale-110"><Link to="/">Our work</Link></li>
+                                    <li className="hover:text-gray-400 flex items-center transition duration-300 ease-in-out hover:scale-110"><Link to="/">Get to know us</Link></li>
+                                    <li className="hover:text-gray-400 flex items-center transition duration-300 ease-in-out hover:scale-110"><Link to="/">Our design thinking process</Link></li>
+                                    <li className="hover:text-gray-400 flex items-center transition duration-300 ease-in-out hover:scale-110"><Link to="/">Our Manifesto</Link></li>
+                                    <li className="hover:text-gray-400 flex items-center transition duration-300 ease-in-out hover:scale-110"><Link to="/">Let's talk</Link></li>
                                 </ul>
                             </div>
                             <motion.button
-                                whileTap={{ scale: 0.5 }}
-                                className={`block 2xl:hidden cursor-pointer items-center h-full my-auto text-white uppercase font-Helvetica border-solid border-[1px] border-white rounded-md font-normal text-[10px] md:text-xs lg:text-[12px] xl:text-[14px] py-2 px-4 lg:px-6 xl:px-8 ${isSticky ? 'bg-opacity-80' : ''}`}
+                                whileTap={{ scale: 0.9 }}
+                                className={`block 2xl:hidden cursor-pointer items-center h-full my-auto text-white uppercase font-Helvetica border-solid border-[1px] border-white rounded-md font-normal text-[10px] md:text-xs lg:text-[12px] xl:text-[14px] py-2 px-4 lg:px-6 xl:px-8 transition duration-300 ease-in-out transform hover:scale-110 hover:bg-[#C51B89] hover:text-white hover:font-bold ${isSticky ? 'bg-opacity-80' : ''}`}
                                 onClick={handleToggle}
                             >
                                 <motion.span
@@ -119,7 +119,7 @@ const Navbar = () => {
                             initial={{ height: 0, opacity: 0 }}
                             animate={{ height: 'auto', opacity: 1 }}
                             exit={{ height: 0, opacity: 0 }}
-                            transition={{ duration: 0.3, ease: "easeInOut" }}
+                            transition={{ duration: 0.5, ease: "easeInOut" }}
                             className="2xl:hidden w-full bg-[#210837] bg-opacity-90 text-white z-50 overflow-hidden mt-4"
                             style={{
                                 position: isSticky ? 'fixed' : 'absolute',

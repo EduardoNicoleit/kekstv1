@@ -13,7 +13,7 @@ const Selections = ({ selectionsData }) => {
                             <Link to={data.link_url}>
                                 <img src={data.img_url} alt="logo" className="hidden xl:block h-auto w-full cursor-pointer transition duration-300 ease-in-out hover:scale-110" />
                                 <img src={data.img_url1} alt="logo" className="block md:hidden h-auto w-full cursor-pointer transition duration-300 ease-in-out hover:scale-110" />
-                                <img src={data.img_url2} alt="logo" className="hidden md:block xl:hidden h-auto w-full cursor-pointer transition duration-300 ease-in-out hover:scale-110 " />
+                                <img src={data.img_url2} alt="logo" className="hidden md:block xl:hidden h-auto w-full cursor-pointer transition duration-300 ease-in-out hover:scale-110" />
                             </Link>
                         </div>
                         <div className='pl-[9px] md:pl-0 flex flex-col 2xl:flex-row font-bold items-start 2xl:items-center
