@@ -26,7 +26,7 @@ const Selections = ({ selectionsData }) => {
                                 </Link>
                                 <div className='hidden 2xl:block h-[1px] bg-white ml-0 2xl:ml-5 w-full'></div>
                             </div>
-                            <div className='w-full font-normal text-[17px] sm:text-xl md:text-lg xl:text-2xl border-0 border-r-0 2xl:border-l-[1px] px-0 2xl:px-8 font-Arial pt-2 md:pt-4 lg:pt-2 2xl:pt-0'>
+                            <div className='pr-3 w-full font-normal text-[17px] sm:text-xl md:text-lg xl:text-2xl border-0 border-r-0 2xl:border-l-[1px] px-0 2xl:px-8 font-Arial pt-2 md:pt-4 lg:pt-2 2xl:pt-0'>
                                 {data.content}
                             </div>
                         </div>

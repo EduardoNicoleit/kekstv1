@@ -16,7 +16,7 @@ const Home = ({ element }) => {
     return (
         <div className='relative'>
             {/* Fullscreen Video */}
-            <div className='z-10 mt-[935px] absolute overflow-hidden h-[150px] hidden sm:block pt-[40px] pr-2 lg:pr-6 xl:pr-[30px] 2xl:pr-[45px] 3xl:pr-[50px] pl-2 lg:pl-6 xl:pl-[30px] 2xl:pl-[45px] 3xl:pl-[50px]'>
+            <div className='z-10 mt-[950px] absolute overflow-hidden h-[150px] hidden sm:block pt-[40px] pr-2 lg:pr-6 xl:pr-[30px] 2xl:pr-[45px] 3xl:pr-[50px] pl-2 lg:pl-6 xl:pl-[30px] 2xl:pl-[45px] 3xl:pl-[50px]'>
                 <img src="../assets/img/home/divider.svg" alt="line" className='object-cover' />
             </div>
             <video

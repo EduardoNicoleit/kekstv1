@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const ReadMore = (props) => {
     return (
         <div className="">
-            <div className="uppercase hover-target font-normal text-[13px] sm:text-[15px] flex py-3 sm:py-1.5 px-5 sm:px-3 hover:scale-105 xl:hover:scale-125 font-Arial cursor-pointer hover:bg-[#7a6b87] hover:font-bold items-center transition-all hover:text-base duration-300 ease-in-out w-[160px] xl:w-full">
+            <div className="uppercase hover-target font-normal text-[13px] sm:text-[15px] flex py-3 sm:py-1.5 px-5 sm:px-3 hover:scale-60 xl:hover:scale-60 font-Arial cursor-pointer hover:bg-[#7a6b87] hover:font-small items-center transition-all hover:text-base duration-400 ease-in-out w-[170px] xl:w-full">
                 <p className="">
                     <Link to={props.linkUrl}>READ MORE</Link>
                 </p>
@@ -14,6 +14,7 @@ const ReadMore = (props) => {
                     </g>
                 </svg>
             </div>
+
         </div>
     )
 }

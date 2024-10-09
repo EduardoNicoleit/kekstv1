@@ -10,8 +10,8 @@ const Selections = ({ selectionsData }) => {
                     </div>
                     <div className='flex-1 m-0 p-0 border-white border-b-[1px] lg:border-b-0'>
                         <Link to={data.link_url} >
-                            <img src={data.img_url} alt="logo" className="hidden sm:block pt-8 h-auto w-full cursor-pointer" />
-                            <img src={data.mobile_img_url} alt="logo" className="block sm:hidden h-auto w-full cursor-pointer" />
+                            <img src={data.img_url} alt="logo" className="hidden sm:block pt-8 h-auto w-full cursor-pointer transition duration-300 ease-in-out hover:scale-105" />
+                            <img src={data.mobile_img_url} alt="logo" className="block sm:hidden h-auto w-full cursor-pointer transition duration-300 ease-in-out hover:scale-105" />
                         </Link>
                         <div className='flex flex-col lg:flex-row font-bold items-center px-[33px] lg:px-0
                         py-0 sm:py-5 md:py-8 xl:py-[26px] 2xl:py-8 mt-8 md:mt-0 mb-12 md:mb-0'>
