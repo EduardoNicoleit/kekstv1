@@ -1,5 +1,4 @@
-/* eslint-disable react-hooks/exhaustive-deps */
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import Navbar from "./Navbar";
 import Expertise from './Expertise';
 import Works from './Works';
@@ -10,34 +9,8 @@ import { Contact, MainBorder } from '../components';
 import Welcome from './Welcome';
 
 const Home = ({ element }) => {
-    const [isSticky, setIsSticky] = useState(false);
-
-    const getScrollThreshold = () => {
-        const screenWidth = window.innerWidth;
-        if (screenWidth >= 1080) {
-            return 1180; // Scroll threshold for screens above 1080px
-        } else if (screenWidth >= 768 && screenWidth <= 1079) {
-            return 867; // Scroll threshold for screens between 768px and 1079px
-        } else {
-            return 632; // Scroll threshold for mobile screens
-        }
-    };
-
-    const handleScroll = () => {
-        const threshold = getScrollThreshold();
-        if (window.scrollY > threshold) {
-            setIsSticky(true);
-        } else {
-            setIsSticky(false);
-        }
-    };
-
     useEffect(() => {
         window.scrollTo(0, 0); // Scroll to the top when the component loads
-        window.addEventListener("scroll", handleScroll);
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
     }, []);
 
     return (
@@ -71,7 +44,7 @@ const Home = ({ element }) => {
                 <source src="../../assets/video/kekst.mp4" type="video/mp4" />
             </video>
 
-            <Navbar sticky={isSticky} />
+            <Navbar />
             <div>
                 <Welcome className="welcome" />
                 <Expertise />
