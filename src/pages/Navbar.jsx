@@ -96,7 +96,7 @@ const Navbar = () => {
                             </div>
                             <motion.button
                                 whileTap={{ scale: 0.9 }}
-                                className={`block 2xl:hidden cursor-pointer items-center h-full my-auto text-white uppercase font-Helvetica border-solid border-[1px] border-white rounded-md font-normal text-[10px] md:text-xs lg:text-[12px] xl:text-[14px] py-2 px-4 lg:px-6 xl:px-8 transition duration-300 ease-in-out transform hover:scale-110 hover:bg-[#C51B89] hover:text-white hover:font-bold ${isSticky ? 'bg-opacity-80' : ''}`}
+                                className={`block 2xl:hidden cursor-pointer items-center h-full my-auto text-white uppercase font-Helvetica border-solid border-[1px] border-white rounded-md font-normal text-[10px] md:text-xs lg:text-[12px] xl:text-[14px] py-2 px-4 lg:px-6 xl:px-8 transition duration-300 ease-in-out transform hover:scale-110 hover:bg-[#64249B] hover:text-white hover:font-bold ${isSticky ? 'bg-opacity-80' : ''}`}
                                 onClick={handleToggle}
                             >
                                 <motion.span

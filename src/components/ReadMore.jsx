@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const ReadMore = (props) => {
     return (
         <div className="">
-            <div className="uppercase font-normal text-[13px] sm:text-[15px] flex py-3 sm:py-1.5 px-5 sm:px-3 font-Arial cursor-pointer hover:rounded-md hover:bg-[#7a6b87] hover:font-small items-center transition-all hover:text-base duration-200 ease-in-out w-[150px] xl:w-full">
+            <div className="uppercase font-normal text-[13px] sm:text-[15px] flex py-3 sm:py-1.5 px-5 sm:px-3 font-Arial cursor-pointer hover:rounded-md hover:bg-[#7a6b87] hover:font-small items-center hover:font-bold duration-200 ease-in-out w-[150px] xl:w-full">
                 <p className="">
                     <Link to={props.linkUrl} className="transition duration-300 ease-in-out">READ MORE</Link>
                 </p>

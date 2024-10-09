@@ -13,7 +13,7 @@ const WorksCompo = () => {
                     </div>
                     <Selection selectionsData={worksData} />
                     <div className="flex text-white px-[9px] md:px-[14px] lg:px-[60px] xl:px-[80px] 2xl:px-[288px] items-center py-8">
-                        <div className="hover:bg-[#7a6b87] flex transition-all duration-300 ease-in-out items-center">
+                        <div className="hover:bg-[#7a6b87] flex transition-all duration-300 ease-in-out items-center hover:rounded-md">
                             <p className="font-Arial font-bold text-sm sm:text-sm md:text-lg xl:text-2xl xl:my-4 2xl:my-6 pl-5 pr-2 box-border">
                                 <Link to="/works">MORE WORKS</Link>
                             </p>
