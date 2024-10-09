@@ -77,7 +77,7 @@ const CreativeCompo = () => {
                             </div>
                             <div className="pl-6 sm:pl-0 w-full sm:w-[200px] xl:w-full"><img src={lineImg} alt="" /></div>
                             <a href="mailto:creative@kekstcnc.com">
-                                <div className='pl-6 sm:pl-0 flex items-center gap-2 pt-4 sm:pt-3 lg:pt-[27px] xl:pt-10 2xl:pt-[57px]'>
+                                <div className='pl-6 sm:pl-0 flex items-center gap-2 pt-4 sm:pt-3 lg:pt-[27px] xl:pt-10 2xl:pt-[57px] hover:text-[#7a6b87]'>
                                     <div className="flex-none">
                                         <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M18.1504 0H2.15039C1.05039 0 0.160391 0.9 0.160391 2L0.150391 14C0.150391 15.1 1.05039 16 2.15039 16H18.1504C19.2504 16 20.1504 15.1 20.1504 14V2C20.1504 0.9 19.2504 0 18.1504 0ZM18.1504 14H2.15039V4L10.1504 9L18.1504 4V14ZM10.1504 7L2.15039 2H18.1504L10.1504 7Z" fill="white" />
@@ -89,8 +89,8 @@ const CreativeCompo = () => {
                                 </div>
                             </a>
                         </div>
-                        <div className="pl-0 xl:pl-[100px] 2xl:pl-0">
-                            <img src={locationImg} alt="keskt..." className="" />
+                        <div className="pr-1 pt-5 pb-1 sm:pl-0 xl:pl-[100px] 2xl:pl-0">
+                            <img src={locationImg} alt="keskt..." className="w-full hover:scale-110 transition duration-500 ease-in-out" />
                         </div>
                     </div>
                 </div>
