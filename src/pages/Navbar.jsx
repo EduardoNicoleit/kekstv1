@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import Logo from '../assets/img/navbar/logo_02.png';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import "./Navbar.css";
 
@@ -63,36 +63,44 @@ const Navbar = () => {
                                 <li className="hover:text-gray-400 flex items-center"><Link to="/">Let's talk</Link></li>
                             </ul>
                         </div>
-                        <motion.div
-                            whileTap={{ scale: 0.6 }}
-                            className="block 2xl:hidden cursor-pointer items-center h-full my-auto"
+                        <motion.button
+                            whileTap={{ scale: 0.8 }}
+                            className={`block 2xl:hidden cursor-pointer items-center h-full my-auto text-white uppercase font-Helvetica border-solid border-[1px] border-white rounded-md font-normal text-[11px] md:text-xs lg:text-[14px] xl:text-[22px] py-2 px-4 ${isSticky ? 'bg-opacity-80' : ''}`}
                             onClick={handleToggle}
                         >
-                            {toggle ? (
-                                <div className='font-Helvetica font-normal text-base lg:text-lg xl:text-[22px] text-white pr-6'>
-                                    Close
-                                </div>
-                            ) : (
-                                <div className='text-white uppercase font-Helvetica font-normal text-[11px] md:text-xs lg:text-[14px] xl:text-[22px] py-4 md:px-[11px] lg:px-[18px] xl:px-7'>
-                                    Menu
-                                </div>
-                            )}
-                        </motion.div>
+                            {toggle ? "X" : "Menu"}
+                        </motion.button>
                     </div>
                 </div>
             </div>
-            {toggle && (
-                <div ref={menuRef} className="2xl:hidden fixed top-16 left-0 w-full bg-[#210837] bg-opacity-90 text-white z-50">
-                    <ul className='flex flex-col items-start py-4 px-4 sm:px-6 md:px-8 text-sm sm:text-base md:text-lg'>
-                        <li className="py-2 w-full hover:text-gray-400"><Link to="/" onClick={handleToggle}>Expertise</Link></li>
-                        <li className="py-2 w-full hover:text-gray-400"><Link to="/" onClick={handleToggle}>Our work</Link></li>
-                        <li className="py-2 w-full hover:text-gray-400"><Link to="/" onClick={handleToggle}>Get to know us</Link></li>
-                        <li className="py-2 w-full hover:text-gray-400"><Link to="/" onClick={handleToggle}>Our design thinking process</Link></li>
-                        <li className="py-2 w-full hover:text-gray-400"><Link to="/" onClick={handleToggle}>Our Manifesto</Link></li>
-                        <li className="py-2 w-full hover:text-gray-400"><Link to="/" onClick={handleToggle}>Let's talk</Link></li>
-                    </ul>
-                </div>
-            )}
+            <AnimatePresence>
+                {toggle && (
+                    <motion.div
+                        ref={menuRef}
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: 'auto', opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        transition={{ duration: 0.3, ease: "easeInOut" }}
+                        className="2xl:hidden w-full bg-[#210837] bg-opacity-90 text-white z-50 overflow-hidden mt-4"
+                        style={{
+                            position: isSticky ? 'fixed' : 'absolute',
+                            top: isSticky ? '80px' : '51px',
+                            right: 0,
+                            maxWidth: '300px',
+                        }}
+                    >
+                        <ul className='flex flex-col items-start py-4 px-4 sm:px-6 md:px-8 text-sm sm:text-base md:text-lg'>
+                            <li className="py-2 w-full hover:text-gray-400"><Link to="/" onClick={handleToggle}>Expertise</Link></li>
+                            <li className="py-2 w-full hover:text-gray-400"><Link to="/" onClick={handleToggle}>Our work</Link></li>
+                            <li className="py-2 w-full hover:text-gray-400"><Link to="/" onClick={handleToggle}>Get to know us</Link></li>
+                            <li className="py-2 w-full hover:text-gray-400"><Link to="/" onClick={handleToggle}>Our design thinking process</Link></li>
+                            <li className="py-2 w-full hover:text-gray-400"><Link to="/" onClick={handleToggle}>Our Manifesto</Link></li>
+                            <li className="py-2 w-full hover:text-gray-400"><Link to="/" onClick={handleToggle}>Let's talk</Link></li>
+                        </ul>
+                    </motion.div>
+
+                )}
+            </AnimatePresence>
         </div>
     );
 };

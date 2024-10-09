@@ -87,7 +87,7 @@ const ProcessCompo = () => {
                                     sm:bottom-[50px] md:bottom-[60px] lg:bottom-[72px] xl:bottom-[100px] 2xl:bottom-[121px] 3xl:bottom-[141px]
                                     translate-y-1/2"
                                     />
-                                    <div className="w-[calc(100vw-16px)] lg:w-[calc(100vw-32px)] xl:w-[calc(100vw-50px)] 2xl:w-[calc(100vw-90px)] 3xl:w-[calc(100vw-100px)] h-[1px] bg-white absolute left-1/2 sm:bottom-[50px] md:bottom-[65px] lg:bottom-[72px] xl:bottom-[100px] 2xl:bottom-[115px] 3xl:bottom-[141px] -translate-x-1/2"></div>
+                                    <div className="w-[calc(100vw-16px)] lg:w-[calc(100vw-32px)] xl:w-[calc(100vw-67px)] 2xl:w-[calc(100vw-107px)] 3xl:w-[calc(100vw-116px)] h-[1px] bg-white absolute left-1/2 sm:bottom-[50px] md:bottom-[65px] lg:bottom-[72px] xl:bottom-[100px] 2xl:bottom-[115px] 3xl:bottom-[141px] -translate-x-1/2"></div>
                                     <div className="flex gap-4 md:gap-10 xl:gap-20 2xl:gap-[59px]">
                                         <div className='flex-none flex items-center flex-col'>
                                             <div className="pb-2 xl:pb-10">
@@ -522,7 +522,7 @@ const ProcessCompo = () => {
                     </Dialog>
                 </div>
             </div >
-        </div>
+        </div >
     )
 }
 export default ProcessCompo;
