@@ -6,7 +6,7 @@ const Expertise = () => {
         <div className="">
             <div className="bg-[url('assets/img/home/expertise_bg.png')] bg-inherit bg-no-repeat bg-cover w-full px-2 lg:px-4 xl:px-[25px] 2xl:px-[50px]">
                 <div className="bottom-0 top-0 w-full border-x-[1px] xl:border-none border-white py-6 sm:py-8 xl:py-[50px]">
-                    <div className="flex text-white 2xl:pb-12 xl:pb-8 lg:pb-6 md:pb-4">
+                    <div className="flex text-white 2xl:pb-12 xl:pb-8 lg:pb-5 md:pb-2">
                         <Divider title="Expertise" />
                     </div>
                     <div className="flex">
