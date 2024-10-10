@@ -14,7 +14,7 @@ const Welcome = () => {
             <div className="relative z-2 w-full px-2 md:px-[16px] lg:px-[25px] 2xl:px-[50px]">
                 <div className="w-full py-[150px] sm:py-[200px] xl:py-[250px]">
                     <div className="w-full max-w-7xl md:ml-[0px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px]">
-                        <h1 className="relative text-[2.60rem] sm:text-[4rem] md:text-[5rem] lg:text-[6rem] xl:text-[7rem] font-extrabold leading-tight text-white px-2">
+                        <h1 className="relative text-[2.60rem] sm:text-[4rem] md:text-[5rem] lg:text-[6rem] xl:text-[7rem] font-bold leading-tight text-white px-2" style={{ fontFamily: 'Arial, sans-serif' }}>
                             <div className="mb-2 sm:mb-4 whitespace-nowrap mt-12">
                                 Encourage. <span
                                     className="inline-block"
@@ -22,10 +22,11 @@ const Welcome = () => {
                                         backgroundImage: `url(${moveSvg})`,
                                         backgroundRepeat: 'no-repeat',
                                         backgroundPosition: 'center bottom',
-                                        backgroundSize: '150% 5px',
+                                        backgroundSize: '98%',
+                                        overflow: 'visible',
                                     }}
                                 >
-                                    Move.
+                                    <span className="relative z-10 pl-3 pr-4">Move.</span>
                                 </span>
                             </div>
                             <div className="mb-2 sm:mb-4 whitespace-nowrap">
@@ -35,7 +36,8 @@ const Welcome = () => {
                                         backgroundImage: `url(${inspireSvg})`,
                                         backgroundRepeat: 'no-repeat',
                                         backgroundPosition: 'center bottom',
-                                        backgroundSize: '150% 5px',
+                                        backgroundSize: '110%',
+                                        overflow: 'visible',
                                     }}
                                 >
                                     Inspire.
@@ -43,20 +45,19 @@ const Welcome = () => {
                             </div>
                             <div className="mb-2 sm:mb-4 whitespace-nowrap">Expand. React.</div>
                             <div className="mb-2 sm:mb-4 whitespace-nowrap">
-                                Attract. <span
-                                    className="inline-block relative"
+                                Attract.
+                                <span
+                                    className="inline-block relative z-10"
                                     style={{
                                         backgroundImage: `url(${growSvg})`,
                                         backgroundRepeat: 'no-repeat',
                                         backgroundPosition: 'center bottom',
-                                        backgroundSize: '102%',
-                                        zIndex: 20,
-                                        position: 'relative',
+                                        backgroundSize: '98%',
                                         overflow: 'visible',
 
                                     }}
                                 >
-                                    <span className="relative z-10">Grow.</span>
+                                    <span className="relative z-10 pl-3 pr-3 md:pl-6 md:pr-6">Grow.</span>
                                 </span>
                             </div>
                         </h1>
