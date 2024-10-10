@@ -10,7 +10,7 @@ const Contact = () => {
                     <div className='grid lg:grid-cols-5 text-white font-Arial text-lg px-0 lg:px-16 w-full'>
                         <div className='text-start pl-6 sm:pl-0'>
                             <Link to="/home">
-                                <img src={Logo} alt="logo" className='cursor-pointer w-[166.25px] h-[57.6375px] hover:scale-110' />
+                                <img src={Logo} alt="logo" className='cursor-pointer w-[166.25px] h-[57.6375px] transition duration-300 ease-in-out hover:scale-110' />
                             </Link>
                         </div>
                         <div className='grid col-span-3 items-center w-full pl-6 sm:pl-0 md:pl-0 lg:pl-14 xl:pl-0'>
