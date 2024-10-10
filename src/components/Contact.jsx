@@ -93,7 +93,7 @@ const Contact = () => {
                         </div>
                         <div></div>
                     </div>
-                    <div className='pl-6 sm:pl-0 px-0 lg:py-5 flex justify-start w-full lg:hidden text-white gap-12 md:gap-[300px] sm:gap-[280px] md:mr:0'>
+                    <div className='pl-6 sm:pl-0 px-0 lg:py-5 flex justify-start w-full lg:hidden text-white gap-8 md:gap-[300px] sm:gap-[280px] md:mr:0'>
                         <a href="mailto:creative@kekstcnc.com" target="_blank" rel="noopener noreferrer" className='py-2'>
                             <div className='flex items-center gap-1'>
                                 <div>
