@@ -13,19 +13,19 @@ const ExpertiseSection = () => {
                         <div className="font-Helvetica flex flex-col xl:flex-row justify-between">
                             <div className="xl:max-w-[950px] 2xl:max-w-none">
                                 <Link to={val.link_url}>
-                                    <div className="flex items-center font-bold text-base lg:text-3xl xl:text-[40px] 2xl:text-[42px] 3xl:text-[55px] hover:text-[#7a6b87]">
+                                    <div className="flex items-center font-bold text-base md:text-xl lg:text-3xl xl:text-[40px] 2xl:text-[42px] 3xl:text-[55px] hover:text-[#7a6b87]">
                                         {val.title}
                                     </div>
                                 </Link>
-                                <div className="mr-2 font-normal text-xs lg:text-base xl:text-xl pt-1 md:pt-2 lg:pt-4 xl:pt-[23px] 2xl:pt-4 2xl:max-w-[1130px]">
+                                <div className="font-normal text-xs pr-2 pt-1 sm:text-sm sm:pr-[30px] sm:text-justify md:text-base md:pr-[30px] md:text-justify md:pt-2 lg:text-lg lg:pt-4 lg:pr-8 lg:pr-4 xl:text-xl xl:pt-[23px] xl:pr-0 2xl:pt-4 2xl:max-w-[1130px] 2xl:pr-12">
                                     {val.text}
                                 </div>
                             </div>
-                            <div className="pr-0 2xl:pr-10 3xl:pr-[94px] hidden xl:block flex-none">
+                            <div className="pr-0 2xl:pr-8 3xl:pr-[30px] 2xl:pr-[0px] hidden xl:block flex-none">
                                 <ReadMore linkUrl={val.link_url} />
                             </div>
                         </div>
-                        <div className="grid grid-cols-1 3xl:grid-cols-2 text-8px text-[13px] lg:text-[15px] font-Helvetica pr-0 sm:pr-8 3xl:pr-0
+                        <div className="grid grid-cols-1 3xl:grid-cols-2 2xl:grid-cols-1 text-8px text-[13px] lg:text-[15px] 3xl:text-[14px] 2xl:text-[15px] 2xl:pr-[350px] xl:pr-[350px] font-Helvetica pr-0 sm:pr-8 3xl:pr-0
                         pt-4 md:pt-[18px] lg:pt-6 xl:pt-10 2xl:pt-[52px] pb-[18px] lg:pb-[22px] xl:pb-[54px] 2xl:pb-[52px]">
                             <div className="hidden lg:block">
                                 <div className="flex border-t-[1px] border-b-[1px] border-white">
