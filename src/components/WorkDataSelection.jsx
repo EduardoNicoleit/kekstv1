@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Selections = ({ selectionsData }) => {
     return (
-        <div className="">
+        <div className="overflow-hidden">
             {selectionsData && selectionsData.map((data, index) => (
                 <div key={data.id} className={`flex flex-col md:flex-row text-white sm:px-0 md:px-0  ${data.id !== 1 ? ' pt-[50px] lg:pt-[60px] xl:pt-[72px] 2xl:pt-0' : ' pt-[50px] lg:pt-0'}`}>
                     <div className='w-0 lg:w-[34px] xl:w-[65px] 2xl:w-[306px]'>
