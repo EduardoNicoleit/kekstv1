@@ -24,7 +24,7 @@ const Bpl = ({ isSticky, element }) => {
                         xl:text-[160px]       
                         lg:leading-[80px] xl:leading-[184px]                                         
                         py-14 sm:py-6 md:py-10 lg:py-10 xl:py-5 2xl:py-16 3xl:py-20">
-                                    bpl
+                                    BPI
                                 </div>
                             </div>
                         </div>
@@ -40,7 +40,7 @@ const Bpl = ({ isSticky, element }) => {
                                 <div className="lg:grid grid-cols-3 w-full items-start 2xl:items-center ">
                                     <div className="pl-[60px] 2xl:pl-8 pr-4 xl:border-l-0 2xl:border-l-[1px] leading-tight h-full">
                                         Developed a creative strategy and
-                                        visual identity for bpI's social media
+                                        visual identity for BPI's social media
                                         communication.
                                     </div>
                                     <div className="pl-8 pr-4 border-l-[1px] leading-tight h-full">
@@ -66,7 +66,7 @@ const Bpl = ({ isSticky, element }) => {
                     </div>
                     <div className="text-[13px] leading-[15px] py-3 border-b-[1px]">
                         Developed a creative strategy and
-                        visual identity for bpI's social media
+                        visual identity for BPI's social media
                         communication.
                     </div>
                     <div className="text-[13px] leading-[15px] py-3 border-b-[1px]">
@@ -92,23 +92,31 @@ const Bpl = ({ isSticky, element }) => {
                         The partnership:
                     </div>
                     <div className="font-bold md:font-normal text-[17px] md:text-[28px] 2xl:text-[40px] px-[33px] lg:px-[60px] 2xl:px-0 w-full leading-tight">
-                        In collaboration with bpI, we embarked on a mission to highlight the transformative impact of the pharmaceutical industry on health and innovation.
+                        In collaboration with BPI, we embarked on a mission to highlight the transformative impact of the pharmaceutical industry on health and innovation.
                     </div>
                 </div>
                 <div>
-                    <img src="/assets/img/bpl/bpi_play.png" className="w-full" alt="keskt..." />
+                    <video
+                        className="w-full h-auto object-cover"
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                    >
+                        <source src="/assets/video/BPI/240416_BPINarrativ2024_VID_02.mp4" type="video/mp4" />
+                    </video>
                 </div>
                 <div className="py-10 2xl:py-[114px] text-[17px] lg:text-[18px] xl:text-2xl flex font-normal font-Helvetica text-white">
                     <div className="md:w-[33px] lg:w-[60px] 2xl:w-[299px] flex-none"></div>
                     <div className="px-6 md:px-0">
                         <div className="pb-5">
-                            The video campaign we produced for bpI brought to life the association's influential role in the global health industry. Through an animated journey, we vividly highlighted Germany's significant contributions, from its prestigious research initiatives to its substantial investments in innovative pharmaceuticals and effective therapeutics.
+                            The video campaign we produced for BPI brought to life the association's influential role in the global health industry. Through an animated journey, we vividly highlighted Germany's significant contributions, from its prestigious research initiatives to its substantial investments in innovative pharmaceuticals and effective therapeutics.
                         </div>
                         <div className="pb-5">
                             Our strategic approach ensured that the video was versatile, suitable for both the Annual General Meeting and widespread social media engagement.
                         </div>
                         <div>
-                            To maintain a consistent and impactful presence, we developed a comprehensive creative strategy and visual identity for bpI's social media communication. This approach resonated with diverse audiences, making bpI's contributions to the health industry both accessible and impactful.
+                            To maintain a consistent and impactful presence, we developed a comprehensive creative strategy and visual identity for BPI's social media communication. This approach resonated with diverse audiences, making BPI's contributions to the health industry both accessible and impactful.
                         </div>
                     </div>
                 </div>
@@ -128,10 +136,26 @@ const Bpl = ({ isSticky, element }) => {
                     <div className="hidden lg:block lg:w-[299px] flex-none"></div>
                     <div className="w-full flex-initial md:flex flex-col md:flex-row gap-6">
                         <div className="w-full">
-                            <img src="/assets/img/bpl/bpi_6.png" className="w-full" alt="keskt..." />
+                            <video
+                                className="w-full h-auto object-cover"
+                                autoPlay
+                                loop
+                                muted
+                                playsInline
+                            >
+                                <source src="/assets/video/BPI/240417_BPIamMorgen_Animation_V03.mp4" type="video/mp4" />
+                            </video>
                         </div>
                         <div className="pt-8 md:pt-0 w-full">
-                            <img src="/assets/img/bpl/white.png" className="w-full" alt="keskt..." />
+                            <video
+                                className="w-full h-auto object-cover"
+                                autoPlay
+                                loop
+                                muted
+                                playsInline
+                            >
+                                <source src="/assets/video/BPI/240409_BPIPost_5Fakten_Animation_V04.mp4" type="video/mp4" />
+                            </video>
                         </div>
                     </div>
                 </div>
@@ -143,14 +167,30 @@ const Bpl = ({ isSticky, element }) => {
                     <div className="w-full flex-initial md:flex flex-col md:flex-row gap-6">
                         <div>
                             <div className="pb-8 md:pb-0">
-                                <img src="/assets/img/bpl/white.png" className="w-full" alt="keskt..." />
+                                <video
+                                    className="w-full h-auto object-cover"
+                                    autoPlay
+                                    loop
+                                    muted
+                                    playsInline
+                                >
+                                    <source src="/assets/video/BPI/240606_BPIOfficeBrussels_v06.mp4" type="video/mp4" />
+                                </video>
                             </div>
                             <div className="h-[230px] w-full hidden xl:block "></div>
                         </div>
                         <div>
                             <div className="h-[230px] w-full hidden xl:block"></div>
                             <div>
-                                <img src="/assets/img/bpl/bpi_5.png" className="w-full" alt="keskt..." />
+                                <video
+                                    className="w-full h-auto object-cover"
+                                    autoPlay
+                                    loop
+                                    muted
+                                    playsInline
+                                >
+                                    <source src="/assets/video/BPI/240617_BPIInnfoTVPost_Animation.mp4" type="video/mp4" />
+                                </video>
                             </div>
                         </div>
                     </div>
@@ -161,7 +201,7 @@ const Bpl = ({ isSticky, element }) => {
                 <div className="flex text-white font-Arial">
                     <div className="grid grid-cols-2 w-full">
                         <div className="py-[26px] 2xl:py-[100px] px-[15px] md:px-10 flex flex-col h-full 
-                        bg-[url('assets/img/bpl/cop27_2.png')] md:bg-[url('assets/img/bpl/cop27_1.png')] bg-no-repeat bg-cover">
+                        bg-[url('assets/img/bpl/cop27_2.png')] md:bg-[url('assets/img/bpl/cop27_1.png')] bg-no-repeat bg-cover transition duration-300 ease-in-out hover:scale-105">
                             <div className="font-bold text-[15px] lg:text-base xl:text-2xl">
                                 COP 27
                             </div>
@@ -178,7 +218,7 @@ const Bpl = ({ isSticky, element }) => {
                                     </div>
                                 </Link>
                                 <div>
-                                    <svg className="ml-3 pt-[2px] hover:w-7 hover:h-7 w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg className="ml-3 pt-[2px]  w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g id="arrow_outward">
                                             <path id="Vector" d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z" fill="white" />
                                         </g>
@@ -187,7 +227,7 @@ const Bpl = ({ isSticky, element }) => {
                             </div>
                         </div>
                         <div className="py-[26px] 2xl:py-[100px] px-[15px] md:px-10 flex flex-col h-full 
-                        bg-[url('assets/img/bpl/vw_1.png')] md:bg-[url('assets/img/bpl/vw.png')] bg-no-repeat bg-cover">
+                        bg-[url('assets/img/bpl/vw_1.png')] md:bg-[url('assets/img/bpl/vw.png')] bg-no-repeat bg-cover transition duration-300 ease-in-out hover:scale-105">
                             <div className="font-bold text-[15px] lg:text-base xl:text-2xl">
                                 VW
                             </div>
@@ -204,7 +244,7 @@ const Bpl = ({ isSticky, element }) => {
                                     </div>
                                 </Link>
                                 <div>
-                                    <svg className="ml-3 pt-[2px] hover:w-7 hover:h-7 w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg className="ml-3 pt-[2px]  w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g id="arrow_outward">
                                             <path id="Vector" d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z" fill="white" />
                                         </g>
