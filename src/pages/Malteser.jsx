@@ -92,7 +92,15 @@ const Malteser = ({ isSticky, element }) => {
                 <div className="flex">
                     <div className="hidden lg:block lg:w-[299px] flex-none border-b-[1px]"></div>
                     <div className="w-full">
-                        <img src="/assets/img/malteser/red.png" className="w-full" alt="keskt..." />
+                        <video
+                            className="w-full h-auto object-cover"
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
+                        >
+                            <source src="/assets/video/malteser/malteser_movie_1.mp4" type="video/mp4" />
+                        </video>
                     </div>
                 </div>
                 <div className="py-10 2xl:py-[114px] text-[17px] lg:text-[18px] xl:text-2xl flex font-normal font-Helvetica text-white">
@@ -121,7 +129,15 @@ const Malteser = ({ isSticky, element }) => {
                 <div className="pt-8 md:pt-0 flex">
                     <div className="hidden lg:block lg:w-[299px] flex-none border-b-[1px]"></div>
                     <div className="w-full">
-                        <img src="/assets/img/netclean/white.png" className="w-full" alt="keskt..." />
+                        <video
+                            className="w-full h-auto object-cover"
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
+                        >
+                            <source src="/assets/video/malteser/malteser_movie_2.mp4" type="video/mp4" />
+                        </video>
                     </div>
                 </div>
                 <div className="pt-8 2xl:pt-16 pb-8 md:pb-0">
@@ -134,9 +150,9 @@ const Malteser = ({ isSticky, element }) => {
                     </div>
                 </div>
                 <div className="flex text-white font-Arial">
-                    <div className="grid grid-cols-2 w-full">
+                    <div className="grid grid-cols-2 w-full overflow-hidden">
                         <div className="py-[26px] 2xl:py-[100px] px-[15px] md:px-10 flex flex-col h-full 
-                        bg-[url('assets/img/malteser/farmer_header_1.png')] md:bg-[url('assets/img/malteser/farmer_header.png')] bg-no-repeat bg-cover">
+                        bg-[url('assets/img/malteser/farmer_header_1.png')] md:bg-[url('assets/img/malteser/farmer_header.png')] bg-no-repeat bg-cover transition duration-300 ease-in-out hover:scale-105">
                             <div className="font-bold text-[15px] lg:text-base xl:text-2xl">
                                 Farmer Voice
                             </div>
@@ -153,7 +169,7 @@ const Malteser = ({ isSticky, element }) => {
                                     </div>
                                 </Link>
                                 <div>
-                                    <svg className="ml-3 pt-[2px] hover:w-7 hover:h-7 w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg className="ml-3 pt-[2px]  w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g id="arrow_outward">
                                             <path id="Vector" d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z" fill="white" />
                                         </g>
@@ -162,7 +178,7 @@ const Malteser = ({ isSticky, element }) => {
                             </div>
                         </div>
                         <div className="py-[26px] 2xl:py-[100px] px-[15px] md:px-10 flex flex-col h-full 
-                        bg-[url('assets/img/malteser/dtcp_header_1.png')] md:bg-[url('assets/img/malteser/dtcp_header.png')] bg-no-repeat bg-cover">
+                        bg-[url('assets/img/malteser/dtcp_header_1.png')] md:bg-[url('assets/img/malteser/dtcp_header.png')] bg-no-repeat bg-cover transition duration-300 ease-in-out hover:scale-105">
                             <div className="font-bold text-[15px] lg:text-base xl:text-2xl">
                                 DTCP
                             </div>
@@ -179,7 +195,7 @@ const Malteser = ({ isSticky, element }) => {
                                     </div>
                                 </Link>
                                 <div>
-                                    <svg className="ml-3 pt-[2px] hover:w-7 hover:h-7 w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg className="ml-3 pt-[2px]  w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g id="arrow_outward">
                                             <path id="Vector" d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z" fill="white" />
                                         </g>

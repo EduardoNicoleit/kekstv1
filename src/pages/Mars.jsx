@@ -94,7 +94,15 @@ const Mars = ({ isSticky, element }) => {
                     </div>
                 </div>
                 <div>
-                    <img src="/assets/img/mars/mars_movie.png" className="w-full" alt="keskt..." />
+                    <video
+                        className="w-full h-auto object-cover"
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                    >
+                        <source src="/assets/video/mars/mars.mp4" type="video/mp4" />
+                    </video>
                 </div>
                 <div className="py-10 2xl:py-[114px] text-[17px] lg:text-[18px] xl:text-2xl flex font-normal font-Helvetica text-white">
                     <div className="md:w-[33px] lg:w-[60px] 2xl:w-[299px] flex-none"></div>
@@ -161,9 +169,9 @@ const Mars = ({ isSticky, element }) => {
                     </div>
                 </div>
                 <div className="flex text-white font-Arial">
-                    <div className="grid grid-cols-2 w-full">
+                    <div className="grid grid-cols-2 w-full overflow-hidden">
                         <div className="py-[26px] 2xl:py-[100px] px-[15px] md:px-10 flex flex-col h-full 
-                        bg-[url('assets/img/mars/uniper_3.png')] md:bg-[url('assets/img/mars/uniper_1.png')] bg-no-repeat bg-cover">
+                        bg-[url('assets/img/mars/uniper_3.png')] md:bg-[url('assets/img/mars/uniper_1.png')] bg-no-repeat bg-cover transition duration-300 ease-in-out hover:scale-105">
                             <div className="font-bold text-[15px] lg:text-base xl:text-2xl">
                                 NetClean
                             </div>
@@ -180,7 +188,7 @@ const Mars = ({ isSticky, element }) => {
                                     </div>
                                 </Link>
                                 <div>
-                                    <svg className="ml-3 pt-[2px] hover:w-7 hover:h-7 w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg className="ml-3 pt-[2px]  w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g id="arrow_outward">
                                             <path id="Vector" d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z" fill="white" />
                                         </g>
@@ -207,7 +215,7 @@ const Mars = ({ isSticky, element }) => {
                                     </div>
                                 </Link>
                                 <div>
-                                    <svg className="ml-3 pt-[2px] hover:w-7 hover:h-7 w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg className="ml-3 pt-[2px]  w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g id="arrow_outward">
                                             <path id="Vector" d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z" fill="white" />
                                         </g>

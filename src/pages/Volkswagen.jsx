@@ -84,7 +84,15 @@ const Volkswagen = ({ isSticky, element }) => {
                     </div>
                 </div>
                 <div>
-                    <img src="/assets/img/volkswagen/Netclean_1.png" className="w-full" alt="keskt..." />
+                    <video
+                        className="w-full h-auto object-cover"
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                    >
+                        <source src="/assets/video/vw/vw_movie_1.mp4" type="video/mp4" />
+                    </video>
                 </div>
                 <div className="py-10 2xl:py-[114px] text-[17px] lg:text-[18px] xl:text-2xl flex font-normal font-Helvetica text-white">
                     <div className="md:w-[33px] lg:w-[60px] 2xl:w-[299px] flex-none"></div>
@@ -98,7 +106,15 @@ const Volkswagen = ({ isSticky, element }) => {
                     </div>
                 </div>
                 <div>
-                    <img src="/assets/img/volkswagen/Netclean_1(1).png" className="w-full" alt="keskt..." />
+                    <video
+                        className="w-full h-auto object-cover"
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                    >
+                        <source src="/assets/video/vw/vw_movie_2.mp4" type="video/mp4" />
+                    </video>
                 </div>
                 <div className="py-8 2xl:py-16 flex">
                     <div className="hidden lg:block lg:w-[299px] flex-none"></div>
@@ -107,21 +123,29 @@ const Volkswagen = ({ isSticky, element }) => {
                     </div>
                 </div>
                 <div>
-                    <img className="w-full" src="/assets/img/volkswagen/vw_movie_3.png" alt="keskt..." />
+                    <video
+                        className="w-full h-auto object-cover"
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                    >
+                        <source src="/assets/video/vw/vw_movie_3.mp4" type="video/mp4" />
+                    </video>
                 </div>
                 <div className="py-8 2xl:py-16">
                     <img src="/assets/img/volkswagen/vw-mockup_4 copy.png" className="w-full" alt="keskt..." />
                 </div>
                 <div className="flex text-white font-Arial">
-                    <div className="grid grid-cols-2 w-full">
-                        <div className="py-[26px] 2xl:py-[100px] px-[15px] md:px-10 flex flex-col h-full bg-[url('assets/img/volkswagen/BPI_1.png')] bg-no-repeat bg-cover">
+                    <div className="grid grid-cols-2 w-full overflow-hidden">
+                        <div className="py-[26px] 2xl:py-[100px] px-[15px] md:px-10 flex flex-col h-full bg-[url('assets/img/volkswagen/BPI_1.png')] bg-no-repeat bg-cover transition duration-300 ease-in-out hover:scale-105">
                             <div className="font-bold text-[15px] lg:text-base xl:text-2xl">
-                                bpl
+                                BPI
                             </div>
                             <div className="flex-1">
                                 <div className="max-w-[440px] py-[26px] lg:py-[43px] xl:py-[67px] font-normal text-[12px] lg:text-[21px] xl:text-[32px] 2xl:text-[40px] leading-tight
                             ">
-                                    Partnering with bpI to spotlight its crucial role in advancing the pharmaceutical industry through engaging narratives and innovative visual strategies.
+                                    Partnering with BPI to spotlight its crucial role in advancing the pharmaceutical industry through engaging narratives and innovative visual strategies.
                                 </div>
                             </div>
                             <div className="flex py-8 items-center pl-4">
@@ -131,7 +155,7 @@ const Volkswagen = ({ isSticky, element }) => {
                                     </div>
                                 </Link>
                                 <div>
-                                    <svg className="ml-3 pt-[2px] hover:w-7 hover:h-7 w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg className="ml-3 pt-[2px]  w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g id="arrow_outward">
                                             <path id="Vector" d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z" fill="white" />
                                         </g>
@@ -140,7 +164,7 @@ const Volkswagen = ({ isSticky, element }) => {
                             </div>
                         </div>
                         <div className="py-[26px] 2xl:py-[100px] px-[15px] md:px-10 flex flex-col h-full 
-                        bg-[url('assets/img/volkswagen/netclean_3.png')] md:bg-[url('assets/img/volkswagen/netclean_2.png')] bg-no-repeat bg-cover">
+                        bg-[url('assets/img/volkswagen/netclean_3.png')] md:bg-[url('assets/img/volkswagen/netclean_2.png')] bg-no-repeat bg-cover  transition duration-300 ease-in-out hover:scale-105">
                             <div className="font-bold text-[15px] lg:text-base xl:text-2xl">
                                 NetClean
                             </div>
@@ -157,7 +181,7 @@ const Volkswagen = ({ isSticky, element }) => {
                                     </div>
                                 </Link>
                                 <div>
-                                    <svg className="ml-3 pt-[2px] hover:w-7 hover:h-7 w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg className="ml-3 pt-[2px]  w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g id="arrow_outward">
                                             <path id="Vector" d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z" fill="white" />
                                         </g>

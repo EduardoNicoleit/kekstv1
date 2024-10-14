@@ -108,15 +108,45 @@ const CeoTracker = ({ isSticky, element }) => {
                 <div className="py-8 2xl:py-16">
                     <img src="/assets/img/ceotracker/ceo_3.png" className="w-full" alt="keskt..." />
                 </div>
-                <div className="hidden md:block border-b-[1px] border-white">
-                    <img src="/assets/img/ceotracker/ceo_movie1.png" className="w-full" alt="keskt..." />
+                <div className="pt-8 2xl:pt-16 flex pb-8 lg:pb-0">
+                    <div className="hidden lg:block lg:w-[299px] flex-none"></div>
+                    <div className="w-full flex">
+                        <div>
+                            <video
+                                className="w-full h-auto object-cover"
+                                autoPlay
+                                loop
+                                muted
+                                playsInline
+                            >
+                                <source src="/assets/video/ceo/ceo_movie_1_OK.mp4" type="video/mp4" />
+                            </video>
+                        </div>
+                        <div>
+                            <div className="hidden lg:block lg:w-[299px] flex-none"></div>
+                        </div>
+                    </div>
                 </div>
-                <div className="block md:hidden border-white">
-                    <img src="/assets/img/ceotracker/white.png" className="w-full" alt="keskt..." />
+                <div className="flex border-b-[1px]">
+                    <div className="hidden lg:block lg:w-[299px] flex-none"></div>
+                    <div className="w-full flex">
+                        <div>
+                            <div className="hidden lg:block lg:w-[299px] flex-none"></div>
+                        </div>
+                        <div className="ml-auto">
+                            <video
+                                className="w-full h-auto"
+                                autoPlay
+                                loop
+                                muted
+                                playsInline
+                            >
+                                <source src="/assets/video/ceo/ceo_movie_2.mp4" type="video/mp4" />
+                            </video>
+                        </div>
+                    </div>
                 </div>
-                <div className="block md:hidden border-white pt-8">
-                    <img src="/assets/img/ceotracker/blue.png" className="w-full" alt="keskt..." />
-                </div>
+
                 <div className="py-8 2xl:py-16 flex">
                     <div className="hidden lg:block lg:w-[299px] flex-none"></div>
                     <div className="w-full">
@@ -127,9 +157,9 @@ const CeoTracker = ({ isSticky, element }) => {
                     <img src="/assets/img/ceotracker/ceo_5.png" className="w-full" alt="keskt..." />
                 </div>
                 <div className="flex text-white font-Arial">
-                    <div className="grid grid-cols-2 w-full">
+                    <div className="grid grid-cols-2 w-full overflow-hidden">
                         <div className="py-[26px] 2xl:py-[100px] px-[15px] md:px-10 flex flex-col h-full 
-                        bg-[url('assets/img/ceotracker/bp.png')] md:bg-[url('assets/img/ceotracker/bp_3b.png')] bg-no-repeat bg-cover">
+                        bg-[url('assets/img/ceotracker/bp.png')] md:bg-[url('assets/img/ceotracker/bp_3b.png')] bg-no-repeat bg-cover transition duration-300 ease-in-out hover:scale-105">
                             <div className="font-bold text-[15px] lg:text-base xl:text-2xl">
                                 bp
                             </div>
@@ -146,7 +176,7 @@ const CeoTracker = ({ isSticky, element }) => {
                                     </div>
                                 </Link>
                                 <div>
-                                    <svg className="ml-3 pt-[2px] hover:w-7 hover:h-7 w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg className="ml-3 pt-[2px]  w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g id="arrow_outward">
                                             <path id="Vector" d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z" fill="white" />
                                         </g>
@@ -155,7 +185,7 @@ const CeoTracker = ({ isSticky, element }) => {
                             </div>
                         </div>
                         <div className="py-[26px] 2xl:py-[100px] px-[15px] md:px-10 flex flex-col h-full 
-                        bg-[url('assets/img/ceotracker/DB_1.png')] md:bg-[url('assets/img/ceotracker/DB_4.png')] bg-no-repeat bg-cover">
+                        bg-[url('assets/img/ceotracker/DB_1.png')] md:bg-[url('assets/img/ceotracker/DB_4.png')] bg-no-repeat bg-cover transition duration-300 ease-in-out hover:scale-105">
                             <div className="font-bold text-[15px] lg:text-base xl:text-2xl">
                                 DB
                             </div>
@@ -172,7 +202,7 @@ const CeoTracker = ({ isSticky, element }) => {
                                     </div>
                                 </Link>
                                 <div>
-                                    <svg className="ml-3 pt-[2px] hover:w-7 hover:h-7 w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg className="ml-3 pt-[2px]  w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g id="arrow_outward">
                                             <path id="Vector" d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z" fill="white" />
                                         </g>
