@@ -20,7 +20,7 @@ export const selectionsData = [
         img_url: '/assets/img/selections/Mars.png',
         mobile_img_url: '/assets/img/selections/Mars1.png',
         title: 'Mars',
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, sapien sed pellentesque placerat, sem odio fringilla erat, vitae auctor risus diam id velit. Maecenas nec vulputate lacus, ac sagittis augue. Vivamus tempus lacinia eleifend.",
+        content: "Crafting a video campaign that showcases how artificial intelligence tools are revolutionizing research methodologies within Mars, positioning them at the forefront of innovative exploration.",
         link_url: "/works/mars"
     },
     {
@@ -44,7 +44,7 @@ export const selectionsData = [
         img_url: '/assets/img/selections/FarmerVoice.png',
         mobile_img_url: '/assets/img/selections/FarmerVoice1.png',
         title: 'Farmer Voice',
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, sapien sed pellentesque placerat, sem odio fringilla erat, vitae auctor risus diam id velit. Maecenas nec vulputate lacus, ac sagittis augue. Vivamus tempus lacinia eleifend.t",
+        content: "Blending tradition with innovation to empower agriculture, creating a narrative-driven, stakeholder-engaging identity.",
         link_url: "/works/farmerVoice"
     },
     {
@@ -52,7 +52,7 @@ export const selectionsData = [
         img_url: '/assets/img/selections/Maltesert.png',
         mobile_img_url: '/assets/img/selections/Maltesert1.png',
         title: 'Maltesert',
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, sapien sed pellentesque placerat, sem odio fringilla erat, vitae auctor risus diam id velit. Maecenas nec vulputate lacus, ac sagittis augue. Vivamus tempus lacinia eleifend.",
+        content: "Merging data with design to democratize information, crafting a visually engaging, universally accessible identity.",
         link_url: "/works/maltesert"
     },
     {
@@ -60,7 +60,7 @@ export const selectionsData = [
         img_url: '/assets/img/selections/DTCP.png',
         mobile_img_url: '/assets/img/selections/DTCP1.png',
         title: 'DTCP',
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat, sapien sed pellentesque placerat, sem odio fringilla erat, vitae auctor risus diam id velit. Maecenas nec vulputate lacus, ac sagittis augue. Vivamus tempus lacinia eleifend.",
+        content: "Infusing dynamic visual narratives and data insights to craft a trustworthy, stakeholder-engaging brand identity for DTCP.",
         link_url: "/works/dtcp"
     },
     {
