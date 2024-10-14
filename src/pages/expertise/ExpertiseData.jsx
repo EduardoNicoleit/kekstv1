@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "../Navbar";
 import { ServicesTable, Contact, ExpertiseCustomCompo, MainBorder } from "../../components";
 import Footer from './Footer';
 import { expertiseData5, expertiseTableData3, expertiseDataList } from '../../data/selections';
 
-
 const ExpertiseDataCompo = ({ isSticky, element }) => {
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scroll to the top when the component loads
+    }, []); // Empty dependency array ensures it runs only on component mount
+
     return (
         <div className="relative">
             <div className="hidden lg:block">
@@ -22,7 +25,7 @@ const ExpertiseDataCompo = ({ isSticky, element }) => {
                         <source src="../../assets/video/expertise_03.mp4" type="video/mp4" />
                     </video>
                     <div className="px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] 3xl:px-[50px] w-full absolute bottom-0">
-                        <div className="flex flex-col ">
+                        <div className="flex flex-col">
                             <div className="font-Helvetica text-[30px] sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-[80px] 3xl:text-[90px] font-bold sm:pl-8 md:pl-[33px] lg:pl-[46px] xl:pl-[154px] 2xl:pl-[308px] mt-auto py-14 sm:py-6 md:py-8 lg:py-10 xl:py-12 2xl:py-16 3xl:py-20">
                                 Data <br />Visualization
                             </div>
