@@ -1,4 +1,7 @@
 import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+import { scroller } from 'react-scroll';
+
 import Navbar from "./Navbar";
 import Expertise from './Expertise';
 import Works from './Works';
@@ -8,10 +11,23 @@ import Manifesto from './Manifesto';
 import { Contact, MainBorder } from '../components';
 import Welcome from './Welcome';
 
-const Home = ({ element }) => {
+const Home = () => {
+    const location = useLocation();
+
     useEffect(() => {
-        window.scrollTo(0, 0); // Scroll to the top when the component loads
-    }, []);
+        // Scroll to the top when the component loads
+        window.scrollTo(0, 0);
+
+        // If there's a hash in the URL, scroll to the corresponding section
+        if (location.hash) {
+            const target = location.hash.replace('#', '');
+            scroller.scrollTo(target, {
+                smooth: true,
+                duration: 500,
+                offset: -100, // Adjust this offset based on your navbar height
+            });
+        }
+    }, [location]);
 
     return (
         <div className='relative'>
@@ -45,13 +61,27 @@ const Home = ({ element }) => {
             </video>
 
             <Navbar />
-            <div>
-                <Welcome className="welcome" />
+
+            {/* Sections with IDs for scrolling */}
+            <div id="welcome" className="section">
+                <Welcome />
+            </div>
+            <div id="expertise" className="section">
                 <Expertise />
+            </div>
+            <div id="works" className="section">
                 <Works />
+            </div>
+            <div id="process" className="section">
                 <Process />
+            </div>
+            <div id="creative" className="section">
                 <CreativeCompo />
+            </div>
+            <div id="manifesto" className="section">
                 <Manifesto />
+            </div>
+            <div id="lets-talk" className="section">
                 <Contact />
             </div>
             <MainBorder />

@@ -18,7 +18,7 @@ import {
   NetClean,
   Newwaters,
   Uniper,
-  Volkswagen
+  Volkswagen,
 } from './pages';
 import './App.css';
 
@@ -27,7 +27,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route index path="/home" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/expertise" element={<Expertise />} />
         <Route path="/product" element={<Product />} />
         <Route path="/expertise/datas" element={<ExpertiseData />} />
@@ -46,6 +46,7 @@ function App() {
         <Route path="/works/uniper" element={<Uniper />} />
         <Route path="/works/volkswagen" element={<Volkswagen />} />
       </Routes>
+
     </BrowserRouter>
   );
 }

@@ -13,7 +13,7 @@ const ManifestoCompo = () => {
                     <video
                         src={manifestoVideo}
                         controls
-                        className="w-full pt-7 md:pt-[50px]"
+                        className="w-full pt-7 md:pt-[50px] cursor-pointer"
                         alt="Manifesto Video"
                     >
                         Your browser does not support the video tag.

@@ -68,7 +68,7 @@ const CreativeCompo = () => {
                     <div className="flex flex-col 2xl:flex-row ">
                         <div className="sm:pb-6 lg:pb-10 xl:pb-20 pl-[9px] md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px]">
                             <div className="pl-6 sm:pl-0 flex items-center pt-9 sm:pt-6 lg:pt-5 xl:pt-[57px] 2xl:pt-0">
-                                <div className="flex-none font-Helvetica font-bold text-[32px] lg:text-[40px] xl:text-[45px] 2xl:text-[65px] leading-tight 2xl:leading-none">
+                                <div id="lets-talk" className="flex-none font-Helvetica font-bold text-[32px] lg:text-[40px] xl:text-[45px] 2xl:text-[65px] leading-tight 2xl:leading-none">
                                     Let’s talk
                                 </div>
                                 <div className="block sm:hidden h-[1px] bg-white w-full ml-2">
