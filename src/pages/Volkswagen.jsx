@@ -10,7 +10,6 @@ const Volkswagen = () => {
 
     return (
         <div className="relative">
-            {/* The Navbar is included globally in App.jsx */}
             <div className="relative text-white welcome">
                 <Navbar />
                 {/* Desktop Image */}
