@@ -172,42 +172,45 @@ const Volkswagen = () => {
                     />
                 </div>
                 {/* Two Images with Hover Effect */}
-                <div className="flex text-white font-Arial">
-                    <div className="w-full border-t border-b border-white">
+                <div className="w-full border-t border-b border-white">
+                    <div className="flex text-white font-Arial">
                         <div className="grid grid-cols-2 w-full">
                             {/* First Image Container */}
                             <div className="overflow-hidden md:border-r md:border-white">
                                 <Link to="/works/bpl">
                                     <div
-                                        className="cursor-pointer py-6 px-4 flex flex-col h-full
-                                        bg-[url('assets/img/volkswagen/BPI_1.png')] bg-no-repeat bg-cover
-                                        transition duration-300 ease-in-out hover:scale-105"
+                                        className="cursor-pointer py-[26px] 2xl:py-[100px] px-[15px] md:px-10 flex flex-col h-full
+                    bg-[url('assets/img/volkswagen/BPI_1.png')] bg-no-repeat bg-cover
+                    transition duration-300 ease-in-out hover:scale-105"
                                     >
-                                        <div className="font-bold text-base lg:text-lg xl:text-2xl">BPI</div>
+                                        <div className="font-bold text-[15px] lg:text-base xl:text-2xl">BPI</div>
                                         <div className="flex-1">
                                             <div
-                                                className="max-w-full py-6 font-normal
-                                                text-sm lg:text-base xl:text-lg 2xl:text-xl leading-tight"
+                                                className="max-w-[440px] py-[26px] lg:py-[43px] xl:py-[67px] font-normal
+                            text-[12px] lg:text-[21px] xl:text-[32px] 2xl:text-[40px] leading-tight"
                                             >
                                                 Partnering with BPI to spotlight its crucial role in advancing the pharmaceutical industry through engaging narratives and innovative visual strategies.
                                             </div>
                                         </div>
-                                        {/* Read More Link */}
-                                        <div className="flex py-4 items-center">
-                                            <div className="uppercase font-normal text-sm lg:text-base xl:text-lg">
+                                        {/* Optional: Remove this div if you don't want the "read more" link inside */}
+                                        <div className="flex py-8 items-center pl-4">
+                                            <div className="uppercase font-normal text-[13px] lg:text-xs xl:text-lg">
                                                 read more
                                             </div>
                                             <div>
                                                 <svg
-                                                    className="ml-3 w-6 h-6"
+                                                    className="ml-3 pt-[2px] w-6 h-6"
                                                     viewBox="0 0 24 24"
                                                     fill="none"
                                                     xmlns="http://www.w3.org/2000/svg"
                                                 >
-                                                    <path
-                                                        d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z"
-                                                        fill="white"
-                                                    />
+                                                    <g id="arrow_outward">
+                                                        <path
+                                                            id="Vector"
+                                                            d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z"
+                                                            fill="white"
+                                                        />
+                                                    </g>
                                                 </svg>
                                             </div>
                                         </div>
@@ -218,35 +221,38 @@ const Volkswagen = () => {
                             <div className="overflow-hidden">
                                 <Link to="/works/netClean">
                                     <div
-                                        className="cursor-pointer py-6 px-4 flex flex-col h-full
-                                        bg-[url('assets/img/volkswagen/netclean_3.png')] md:bg-[url('assets/img/volkswagen/netclean_2.png')]
-                                        bg-no-repeat bg-cover transition duration-300 ease-in-out hover:scale-105"
+                                        className="cursor-pointer py-[26px] 2xl:py-[100px] px-[15px] md:px-10 flex flex-col h-full
+                    bg-[url('assets/img/volkswagen/netclean_3.png')] md:bg-[url('assets/img/volkswagen/netclean_2.png')]
+                    bg-no-repeat bg-cover transition duration-300 ease-in-out hover:scale-105"
                                     >
-                                        <div className="font-bold text-base lg:text-lg xl:text-2xl">NetClean</div>
+                                        <div className="font-bold text-[15px] lg:text-base xl:text-2xl">NetClean</div>
                                         <div className="flex-1">
                                             <div
-                                                className="max-w-full py-6 font-normal
-                                                text-sm lg:text-base xl:text-lg 2xl:text-xl leading-tight"
+                                                className="max-w-[440px] py-[26px] lg:py-[43px] xl:py-[67px] font-normal
+                            text-[12px] lg:text-[21px] xl:text-[32px] 2xl:text-[40px] leading-tight"
                                             >
                                                 Reinventing how annual data reports can be transformed into impactful narrative communication tools.
                                             </div>
                                         </div>
-                                        {/* Read More Link */}
-                                        <div className="flex py-4 items-center">
-                                            <div className="uppercase font-normal text-sm lg:text-base xl:text-lg">
+                                        {/* Optional: Remove this div if you don't want the "read more" link inside */}
+                                        <div className="flex py-8 items-center pl-4">
+                                            <div className="uppercase font-normal text-[13px] lg:text-xs xl:text-lg">
                                                 read more
                                             </div>
                                             <div>
                                                 <svg
-                                                    className="ml-3 w-6 h-6"
+                                                    className="ml-3 pt-[2px] w-6 h-6"
                                                     viewBox="0 0 24 24"
                                                     fill="none"
                                                     xmlns="http://www.w3.org/2000/svg"
                                                 >
-                                                    <path
-                                                        d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z"
-                                                        fill="white"
-                                                    />
+                                                    <g id="arrow_outward">
+                                                        <path
+                                                            id="Vector"
+                                                            d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z"
+                                                            fill="white"
+                                                        />
+                                                    </g>
                                                 </svg>
                                             </div>
                                         </div>
@@ -257,9 +263,7 @@ const Volkswagen = () => {
                     </div>
                 </div>
             </div>
-            {/* Contact Component */}
             <Contact />
-            {/* MainBorder Component */}
             <MainBorder />
         </div>
     );
