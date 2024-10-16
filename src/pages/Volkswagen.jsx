@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Contact, MainBorder } from "../components";
+import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
 
 const Volkswagen = () => {
@@ -11,6 +12,7 @@ const Volkswagen = () => {
         <div className="relative">
             {/* The Navbar is included globally in App.jsx */}
             <div className="relative text-white welcome">
+                <Navbar />
                 {/* Desktop Image */}
                 <img
                     src="/assets/img/volkswagen/volkswagen.png"
