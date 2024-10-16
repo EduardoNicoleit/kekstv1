@@ -1,6 +1,35 @@
 import React from 'react';
 import Logo from '../assets/img/navbar/logo_02.png';
+import { Link as RouterLink, useLocation } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
+
+const NavItem = ({ to, children, offset = -100 }) => {
+    const location = useLocation();
+    const isHomePage = location.pathname === '/' || location.pathname === '/home';
+
+    if (isHomePage) {
+        // On the home page, use ScrollLink for smooth scrolling
+        return (
+            <ScrollLink
+                to={to}
+                smooth={true}
+                duration={500}
+                offset={offset}
+                spy={true}
+                exact="true"
+            >
+                {children}
+            </ScrollLink>
+        );
+    } else {
+        // On other pages, navigate to the home page with the hash
+        return (
+            <RouterLink to={`/#${to}`}>
+                {children}
+            </RouterLink>
+        );
+    }
+};
 
 const Contact = () => {
     return (
@@ -9,46 +38,50 @@ const Contact = () => {
                 <div className='relative pt-8 lg:pt-12 pb-8 lg:pb-12 flex flex-col items-center xl:items-stretch'>
                     <div className='grid lg:grid-cols-5 text-white font-Arial text-lg px-0 lg:px-16 w-full'>
                         <div className='text-start pl-6 sm:pl-0 pt-2'>
-                            <ScrollLink to="welcome" smooth={true} duration={500}>
-                                <img src={Logo} alt="logo" className='cursor-pointer w-[166.25px] h-[57.6375px] transition duration-300 ease-in-out hover:scale-110' />
-                            </ScrollLink>
+                            <NavItem to="welcome">
+                                <img
+                                    src={Logo}
+                                    alt="logo"
+                                    className='cursor-pointer w-[166.25px] h-[57.6375px] transition duration-300 ease-in-out hover:scale-110'
+                                />
+                            </NavItem>
                         </div>
                         <div className='grid col-span-3 items-center w-full pl-6 sm:pl-0 md:pl-0 lg:pl-14 xl:pl-0 pt-2'>
                             <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3 sm:mx-auto xl:mx-0 pt-4 lg:pt-0 w-full lg:w-auto'>
                                 <div className=''>
                                     <div className='hover:text-[#7a6b87]'>
-                                        <ScrollLink to="expertise" smooth={true} duration={500}>
+                                        <NavItem to="expertise">
                                             Expertise
-                                        </ScrollLink>
+                                        </NavItem>
                                     </div>
                                     <div className='py-4 xl:py-2 hover:text-[#7a6b87]'>
-                                        <ScrollLink to="works" smooth={true} duration={500}>
+                                        <NavItem to="works">
                                             Our Work
-                                        </ScrollLink>
+                                        </NavItem>
                                     </div>
                                 </div>
                                 <div className=''>
                                     <div className='hover:text-[#7a6b87]'>
-                                        <ScrollLink to="creative" smooth={true} duration={500}>
+                                        <NavItem to="creative">
                                             Get to Know Us
-                                        </ScrollLink>
+                                        </NavItem>
                                     </div>
                                     <div className='py-4 xl:py-2 hover:text-[#7a6b87]'>
-                                        <ScrollLink to="manifesto" smooth={true} duration={500}>
+                                        <NavItem to="manifesto">
                                             Our Manifesto
-                                        </ScrollLink>
+                                        </NavItem>
                                     </div>
                                 </div>
                                 <div className=''>
                                     <div className='hover:text-[#7a6b87] lg:pr-12 xl:pr-2'>
-                                        <ScrollLink to="process" smooth={true} duration={500}>
+                                        <NavItem to="process">
                                             Our Design Thinking Process
-                                        </ScrollLink>
+                                        </NavItem>
                                     </div>
                                     <div className='py-4 xl:pt-2 hover:text-[#7a6b87]'>
-                                        <ScrollLink to="lets-talk" smooth={true} duration={500}>
+                                        <NavItem to="lets-talk">
                                             Let's Talk
-                                        </ScrollLink>
+                                        </NavItem>
                                     </div>
                                 </div>
                             </div>
@@ -57,9 +90,7 @@ const Contact = () => {
                             <a href="mailto:creative@kekstcnc.com">
                                 <div className='pb-4 xl:pt-3 lg:pt-2 md:pt-2 flex items-center gap-2'>
                                     <div>
-                                        <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M18.1504 0H2.15039C1.05039 0 0.160391 0.9 0.160391 2L0.150391 14C0.150391 15.1 1.05039 16 2.15039 16H18.1504C19.2504 16 20.1504 15.1 20.1504 14V2C20.1504 0.9 19.2504 0 18.1504 0ZM18.1504 14H2.15039V4L10.1504 9L18.1504 4V14ZM10.1504 7L2.15039 2H18.1504L10.1504 7Z" fill="white" />
-                                        </svg>
+                                        {/* Email SVG */}
                                     </div>
                                     <div className='font-Helvetica text-lg hover:text-[#7a6b87]'>
                                         creative@kekstcnc.com
@@ -117,7 +148,7 @@ const Contact = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Contact;
