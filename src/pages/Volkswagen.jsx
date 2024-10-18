@@ -174,7 +174,7 @@ const Volkswagen = () => {
                 </div>
                 {/* Two Images with Hover Effect */}
                 <div className="w-full border-t border-b border-white">
-                    <div className="flex text-white font-Arial">
+                    <div className="flex text-white font-Helvetica">
                         <div className="grid grid-cols-2 w-full">
                             {/* First Image Container */}
                             <div className="overflow-hidden md:border-r md:border-white">

@@ -36,7 +36,7 @@ const Contact = () => {
         <div>
             <div className='px-2 sm:px-6 md:px-[33px] xl:px-[45px]'>
                 <div className='relative pt-8 lg:pt-12 pb-8 lg:pb-12 flex flex-col items-center xl:items-stretch'>
-                    <div className='grid lg:grid-cols-5 text-white font-Arial text-lg px-0 lg:px-16 w-full'>
+                    <div className='grid lg:grid-cols-5 text-white font-Helvetica text-lg px-0 lg:px-16 w-full'>
                         <div className='text-start pl-6 sm:pl-0 pt-2'>
                             <NavItem to="welcome">
                                 <img
@@ -176,7 +176,7 @@ const Contact = () => {
                         <div className='absolute h-[1px] block bg-white tom-10 bottom-0 w-[calc(100%-16px)] left-2 md:left-4 md:w-[calc(100%-32px)] sm:left-4 sm:w-[calc(100%-32px)]'>
                         </div>
                     </div>
-                    <div className='pl-6 sm:pl-0 grid grid-cols-1 lg:grid-cols-5 lg:gap-2 xl:grid-cols-5 text-white font-Arial text-lg pt-0 lg:pt-10 xl:pt-10 mx-auto xl:mx-0 px-0 lg:px-16 
+                    <div className='pl-6 sm:pl-0 grid grid-cols-1 lg:grid-cols-5 lg:gap-2 xl:grid-cols-5 text-white font-Helvetica text-lg pt-0 lg:pt-10 xl:pt-10 mx-auto xl:mx-0 px-0 lg:px-16 
                     pb-0 lg:pb-2 xl:pb-8 2xl:pb-12 w-full lg:w-auto'>
                         <div></div>
                         <div className='py-1 xl:py-0 lg:text-center lg:py-2'>
@@ -219,13 +219,13 @@ const Contact = () => {
                             </div>
                         </a>
                         {/* Social Media Icons */}
-                        <div className='flex gap-4 py-2 xl:mt-0 items-center hover:cursor-pointer'>
+                        <div className='flex pr-4 py-2 xl:mt-0 items-center hover:cursor-pointer'>
                             {/* LinkedIn Icon */}
                             <a
                                 href="https://www.linkedin.com"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className='px-5'
+                                className='px-4 md:px-12'
                             >
                                 <svg
                                     width="29"

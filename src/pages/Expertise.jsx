@@ -11,7 +11,7 @@ const Expertise = () => {
                     </div>
                     <div className="flex">
                         <div className="w-0 md:w-[34px] lg:w-[59px] xl:w-[100px] 2xl:w-[308px]"></div>
-                        <div className="flex-1 sm:px-0">
+                        <div className="flex-1">
                             <ExpertiseSection />
                         </div>
                     </div>

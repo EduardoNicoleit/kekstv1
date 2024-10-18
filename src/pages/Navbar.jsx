@@ -108,8 +108,8 @@ const Navbar = () => {
                                 className='cursor-pointer w-auto h-auto 2xl:w-auto transition duration-300 ease-in-out hover:scale-110'
                             />
                         </NavItem>
-                        <div className='flex w-full justify-between'>
-                            <div className="xl:pl-[128px] lg:flex h-[50px] py-[13px] font-Arial font-normal text-white">
+                        <div className='flex w-full justify-between pr-2'>
+                            <div className="xl:pl-[128px] lg:flex h-[50px] py-[13px] font-Helvetica font-normal text-white">
                                 {/* Desktop Menu */}
                                 <ul className='hidden 2xl:flex 2xl:gap-[50px] 3xl:gap-[70px] text-lg'>
                                     <li className="cursor-pointer hover:text-gray-400 flex items-center transition duration-300 ease-in-out hover:scale-110">
@@ -147,7 +147,7 @@ const Navbar = () => {
                             {/* Mobile Menu Toggle Button */}
                             <motion.button
                                 whileTap={{ scale: 0.9 }}
-                                className={`block 2xl:hidden cursor-pointer items-center h-full my-auto text-white uppercase font-Helvetica border-solid border-[1px] border-white rounded-md font-normal text-[10px] md:text-xs lg:text-[12px] xl:text-[14px] py-2 px-4 lg:px-6 xl:px-8 transition duration-300 ease-in-out transform hover:scale-110 hover:bg-[#674480] hover:text-white hover:font-bold`}
+                                className={`block 2xl:hidden cursor-pointer items-center h-full my-auto text-white uppercase font-Helvetica border-solid border-[1px] border-white rounded-md font-normal text-[10px] md:text-xs lg:text-[12px] xl:text-[14px] py-2 px-4 lg:px-6 xl:px-8 transition duration-300 ease-in-out transform hover:scale-110 hover:bg-[#674480] hover:text-white`}
                                 onClick={handleToggle}
                             >
                                 <motion.span

@@ -8,16 +8,16 @@ const ExpertiseSection = () => {
         <div>
             {
                 expertiseData2.map((val) => (
-                    <div key={val.id} className="text-white border-b-[1px] border-white pl-[9px] md:pl-0 
+                    <div key={val.id} className="text-white border-b-[1px] border-white pl-4 md:pl-0 
                     pt-8 lg:pt-12 xl:pt-[55px] 2xl:pt-[45px]">
                         <div className="font-Helvetica flex flex-col xl:flex-row justify-between">
                             <div className="xl:max-w-[950px] 2xl:max-w-none">
                                 <Link to={val.link_url}>
-                                    <div className="flex items-center font-bold text-base md:text-xl lg:text-3xl xl:text-[40px] 2xl:text-[42px] 3xl:text-[55px] hover:text-[#7a6b87]">
+                                    <div className="flex items-center font-extrabold text-[16px] pr-4 md:text-xl lg:text-3xl xl:text-[44px] 2xl:text-[46px] 3xl:text-[55px] hover:text-[#7a6b87]">
                                         {val.title}
                                     </div>
                                 </Link>
-                                <div className="font-normal text-xs pr-2 pt-1 sm:text-sm sm:pr-[30px] sm:text-left md:text-base md:pr-[30px] md:text-left md:pt-2 lg:text-lg lg:pt-4 lg:pr-8 lg:pr-4 xl:text-xl xl:pt-[23px] xl:pr-0 2xl:pt-4 2xl:max-w-[1130px] 2xl:pr-12">
+                                <div className="font-normal text-[12px] pr-2 pt-1 pr-2 sm:text-sm sm:pr-[30px] sm:text-left md:text-base md:pr-[30px] md:text-left md:pt-2 lg:text-lg lg:pt-4 lg:pr-8 lg:pr-4 xl:text-xl xl:pt-[23px] xl:pr-0 2xl:pt-4 2xl:max-w-[1130px] 2xl:pr-12">
                                     {val.text}
                                 </div>
                             </div>
@@ -25,10 +25,10 @@ const ExpertiseSection = () => {
                                 <ReadMore linkUrl={val.link_url} />
                             </div>
                         </div>
-                        <div className="grid grid-cols-1 3xl:grid-cols-2 2xl:grid-cols-1 text-8px text-[13px] lg:text-[15px] 3xl:text-[14px] 2xl:text-[15px] 2xl:pr-[350px] xl:pr-[350px] font-Helvetica pr-0 sm:pr-8 3xl:pr-0
+                        <div className="grid grid-cols-1 3xl:grid-cols-2 2xl:grid-cols-1 text-[12px] md:text-[14px] lg:text-[15px] 3xl:text-[14px] 2xl:text-[15px] 2xl:pr-[350px] xl:pr-[350px] font-Helvetica pr-0 sm:pr-8 3xl:pr-0
                         pt-4 md:pt-[18px] lg:pt-6 xl:pt-10 2xl:pt-[52px] pb-[18px] lg:pb-[22px] xl:pb-[54px] 2xl:pb-[52px]">
                             <div className="hidden lg:block">
-                                <div className="flex border-t-[1px] border-b-[1px] border-white">
+                                <div className="flex border-t-[1px] border-b-[1px] border-white ">
                                     {val.content1.map((content, index) => (
                                         <div key={content} className={`py-2 pr-2 border-white ${index === 0 ? ' ' : ' border-l-[1px] pl-2'}`}>
                                             {content}

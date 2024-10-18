@@ -39,7 +39,7 @@ const WorksDataCompo = ({ isSticky, element }) => {
             </div>
             <div className="w-full text-white px-2 lg:px-4 xl:px-[25px] 2xl:px-[50px]">
                 <div className="border-b-0 lg:border-b-[1px]">
-                    <div className="font-Arial font-bold 
+                    <div className="font-Helvetica font-bold 
                     text-[32px] sm:text-[45px] lg:text-[68px] xl:text-[90px] 2xl:text-[120px]
                     pt-8 sm:pt-8 lg:pt-[88px] xl:pt-[134px] 2xl:pt-[170px]
                     pb-10 sm:pb-8 lg:pb-[67px] xl:pb-9 2xl:pb-[50px]

@@ -13,7 +13,7 @@ const Deutsche = ({ isSticky, element }) => {
             <div className="relative text-white welcome" ref={element}>
                 <img src="../assets/img/deutsche/deutsche.png" alt="keskt..." className="w-full hidden md:block" />
                 <img src="../assets/img/deutsche/deutsche_mobile.png" alt="keskt..." className="w-full block md:hidden" />
-                <div className="w-full absolute bottom-0 font-Arial">
+                <div className="w-full absolute bottom-0 font-Helvetica">
                     <div className="flex flex-col px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] 3xl:px-[50px]">
                         <div className="flex">
                             <div className="w-[33px] lg:w-[60px] 2xl:w-[299px] flex-none"></div>
@@ -140,7 +140,7 @@ const Deutsche = ({ isSticky, element }) => {
                         <img src="/assets/img/deutsche/DB_5.png" className="w-full" alt="keskt..." />
                     </div>
                 </div>
-                <div className="flex text-white font-Arial">
+                <div className="flex text-white font-Helvetica">
                     <div className="grid grid-cols-2 w-full overflow-hidden">
                         <div className="py-[26px] 2xl:py-[100px] px-[15px] md:px-10 flex flex-col h-full 
                         bg-[url('assets/img/deutsche/ceo_2.png')] md:bg-[url('assets/img/deutsche/ceo_1.png')] bg-no-repeat bg-cover transition duration-300 ease-in-out hover:scale-105">
