@@ -17,7 +17,7 @@ const ExpertiseSection = () => {
                                         {val.title}
                                     </div>
                                 </Link>
-                                <div className="font-normal text-xs pr-2 pt-1 sm:text-sm sm:pr-[30px] sm:text-justify md:text-base md:pr-[30px] md:text-justify md:pt-2 lg:text-lg lg:pt-4 lg:pr-8 lg:pr-4 xl:text-xl xl:pt-[23px] xl:pr-0 2xl:pt-4 2xl:max-w-[1130px] 2xl:pr-12">
+                                <div className="font-normal text-xs pr-2 pt-1 sm:text-sm sm:pr-[30px] sm:text-left md:text-base md:pr-[30px] md:text-left md:pt-2 lg:text-lg lg:pt-4 lg:pr-8 lg:pr-4 xl:text-xl xl:pt-[23px] xl:pr-0 2xl:pt-4 2xl:max-w-[1130px] 2xl:pr-12">
                                     {val.text}
                                 </div>
                             </div>
