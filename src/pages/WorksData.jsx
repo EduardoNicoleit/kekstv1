@@ -36,7 +36,7 @@ const WorksDataCompo = ({ isSticky, element }) => {
                 <div className="absolute block sm:hidden bottom-[56px] pl-[41px] font-Helvetica font-bold text-[30px] leading-[34px]">
                 </div>
             </div>
-            <div className="w-full text-white px-2 lg:px-4 xl:px-[25px] 2xl:px-[50px]">
+            <div className="w-full text-white px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px]">
                 <div className="border-b-0 lg:border-b-[1px]">
                     <div className="font-Helvetica font-bold 
                     text-[32px] sm:text-[45px] lg:text-[68px] xl:text-[90px] 2xl:text-[120px]
@@ -62,7 +62,7 @@ const WorksDataCompo = ({ isSticky, element }) => {
                     </div>
                 </div>
             </div>
-            <div className="pt-0 2xl:pt-12 px-2 lg:px-4 xl:px-[25px] 2xl:px-[50px]">
+            <div className="pt-0 2xl:pt-12 px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px]">
                 <div className="border-b-[1px] border-white">
                     <WorkDataSelection selectionsData={selectionsData} />
                 </div>

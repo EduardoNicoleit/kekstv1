@@ -65,7 +65,7 @@ const ProcessCompo = () => {
 
     return (
         <div className="">
-            <div className="bg-[url('assets/img/home/process_bg.png')] bg-no-repeat bg-cover w-full text-white font-Helvetica px-2 lg:px-4 xl:px-[25px] 2xl:px-[50px] bottom-0 top-0">
+            <div className="bg-[url('assets/img/home/process_bg.png')] bg-no-repeat bg-cover w-full text-white font-Helvetica px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] bottom-0 top-0">
                 <div className="bottom-0 top-0 md:top-2 lg:top-3 xl:top-0 w-full">
                     <div className="flex text-white md:py-12 xl:py-[50px]">
                         <Divider title="Our process" />

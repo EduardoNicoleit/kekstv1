@@ -11,7 +11,7 @@ const Welcome = () => {
             <div className="absolute w-full h-full">
                 <img src={ExpandImg} alt="Welcome background" className="w-full h-full object-cover" />
             </div>
-            <div className="relative z-2 w-full px-3 md:px-[16px] lg:px-[25px] 2xl:px-[50px]">
+            <div className="relative z-2 w-full px-3 md:px-[16px] lg:px-[25px] 2xl:px-[45px]">
                 <div className="w-full py-[150px] sm:py-[200px] xl:py-[250px]">
                     <div className="w-full max-w-7xl md:ml-[0px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px]">
                         <h1 className="relative text-[2.2rem] sm:text-[4.5rem] md:text-[5.5rem] lg:text-[6.5rem] xl:text-[7.5rem] 2xl:text-[8.5rem] font-extrabold leading-tight text-white px-4 md:px-0 lg:px-0 2xl:px-0" style={{ fontFamily: 'Arial, sans-serif' }}>
