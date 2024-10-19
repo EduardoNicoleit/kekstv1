@@ -20,13 +20,13 @@ const Selections = ({ selectionsData }) => {
                         py-8 md:py-6 lg:py-8 xl:py-9 2xl:py-[38px] '>
                             <div className='flex-none w-full flex lg:w-[280px] xl:w-[270px] 2xl:w-[514px] items-center sm:border-none'>
                                 <Link to={data.link_url}>
-                                    <div className='text-[21px] sm:text-2xl md:text-[21px] lg:text-4xl xl:text-4xl font-bold font-Helvetica hover:text-[#7a6b87] pl-2'>
+                                    <div className='text-[21px] sm:text-2xl md:text-[21px] lg:text-4xl xl:text-4xl font-bold font-Helvetica hover:text-[#7a6b87] pl-2 md:pl-0'>
                                         {data.title}
                                     </div>
                                 </Link>
                                 <div className='hidden 2xl:block h-[1px] bg-white ml-0 2xl:ml-5 w-full'></div>
                             </div>
-                            <div className='pr-5 w-full font-normal text-[17px] sm:text-xl md:text-lg xl:text-2xl border-0 border-r-0 2xl:border-l-[1px] px-2 2xl:px-8 font-Helvetica pt-2 md:pt-4 lg:pt-2 2xl:pt-0'>
+                            <div className='pl-2 md:pl-0 pr-5 w-full font-normal text-[17px] sm:text-xl md:text-lg xl:text-2xl border-0 border-r-0 2xl:border-l-[1px] 2xl:px-8 font-Helvetica pt-2 md:pt-4 lg:pt-2 2xl:pt-0'>
                                 {data.content}
                             </div>
                         </div>
