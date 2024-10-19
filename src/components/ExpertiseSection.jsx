@@ -25,7 +25,7 @@ const ExpertiseSection = () => {
                                 <ReadMore linkUrl={val.link_url} />
                             </div>
                         </div>
-                        <div className="grid grid-cols-1 3xl:grid-cols-2 2xl:grid-cols-1 text-[12px] md:text-[14px] lg:text-[15px] 3xl:text-[14px] 2xl:text-[15px] 2xl:pr-[350px] xl:pr-[350px] font-Helvetica pr-0 sm:pr-8 3xl:pr-0
+                        <div className="font-Helvetica grid grid-cols-1 3xl:grid-cols-2 2xl:grid-cols-1 text-[12px] md:text-[14px] lg:text-[15px] 3xl:text-[14px] 2xl:text-[15px] 2xl:pr-[550px] xl:pr-[450px] pr-0 sm:pr-8 3xl:pr-0
                         pt-4 md:pt-[18px] lg:pt-6 xl:pt-10 2xl:pt-[52px] pb-[18px] lg:pb-[22px] xl:pb-[54px] 2xl:pb-[52px]">
                             <div className="hidden lg:block">
                                 <div className="flex border-t-[1px] border-b-[1px] border-white ">

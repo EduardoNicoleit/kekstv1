@@ -74,23 +74,23 @@ const ProcessCompo = () => {
                         We specialize on amplifying creativity in brands, operations, and communications.
                         We are driven by the conviction that creativity can revolutionize how messages and reputations are perceived and stories are told. We aim to create comprehensive,multi-channel strategies that truly connect with audiences, creating impactful connections and memorable experiences.
                     </div>
-                    <div className="pb-[27px] hidden xl:flex">
+                    <div className="pb-[200px] hidden xl:flex">
                         <div className="w-0"></div>
                         <div className="flex-1">
-                            <div className="xl:pb-10 2xl:pb-[74px] ">
+                            <div className="xl:pb-[100px] 2xl:pb-[125px] ">
                                 <div className="text-white text-xs md:text-sm xl:text-xl relative flex items-center justify-center w-fit m-auto font-Helvetica">
                                     <img src={wavesImg} alt="keskt..."
                                         className="
                                     absolute
                                     sm:left-[68px] md:left-[78px] lg:left-[83px] xl:left-[120px] 2xl:left-[110px] 3xl:left-[141px]
-                                    sm:w-[calc(100%-130px)] md:w-[calc(100%-160px)] lg:w-[calc(100%-160px)] xl:w-[calc(100%-220px)] 2xl:w-[calc(100%-220px)] 3xl:w-[calc(100%-282px)]
+                                    sm:w-[calc(100%-130px)] md:w-[calc(100%-160pbg-[url('assets/img/home/process_bg.png')] bg-no-repeat bg-cover w-full text-white font-Helvetica px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] bottom-0 top-0
                                     sm:bottom-[50px] md:bottom-[60px] lg:bottom-[72px] xl:bottom-[100px] 2xl:bottom-[121px] 3xl:bottom-[141px]
                                     translate-y-1/2"
                                     />
                                     <div className="w-[calc(100vw-16px)] lg:w-[calc(100vw-32px)] xl:w-[calc(100vw-67px)] 2xl:w-[calc(100vw-107px)] 3xl:w-[calc(100vw-116px)] h-[1px] bg-white absolute left-1/2 sm:bottom-[50px] md:bottom-[65px] lg:bottom-[72px] xl:bottom-[100px] 2xl:bottom-[115px] 3xl:bottom-[141px] -translate-x-1/2"></div>
                                     <div className="flex gap-4 md:gap-10 xl:gap-20 2xl:gap-[59px]">
                                         <div className='flex-none flex items-center flex-col'>
-                                            <div className="pb-2 xl:pb-10">
+                                            <div className="pb-2 xl:pb-12">
                                                 DISCOVER <br /> & DEFINE
                                             </div>
                                             <div className=
@@ -110,7 +110,7 @@ const ProcessCompo = () => {
                                             </div>
                                         </div>
                                         <div className='flex-none flex items-center flex-col'>
-                                            <div className="pb-2 xl:pb-10">
+                                            <div className="pb-2 xl:pb-12">
                                                 STRATEGY <br /> DEVELOPMENT
                                             </div>
                                             <div className=
@@ -131,7 +131,7 @@ const ProcessCompo = () => {
                                             </div>
                                         </div>
                                         <div className='flex-none flex items-center flex-col'>
-                                            <div className="pb-2 xl:pb-10">
+                                            <div className="pb-2 xl:pb-12">
                                                 CONCEPTUALIZATION <br /> & CREATION
                                             </div>
                                             <div className=
@@ -152,7 +152,7 @@ const ProcessCompo = () => {
                                             </div>
                                         </div>
                                         <div className='flex-none flex items-center flex-col'>
-                                            <div className="pb-2 xl:pb-10">
+                                            <div className="pb-2 xl:pb-12">
                                                 PRODUCTION  <br /> & EXECUTION
                                             </div>
                                             <div
@@ -175,7 +175,7 @@ const ProcessCompo = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex flex-col md:flex-row pl-0 sm:pl-[40px] md:pl-[100px] lg:pl-[120px] xl:pl-[100px] 2xl:pl-[322px] flex-none">
+                            <div className="flex flex-col pr-4 pt-12 md:flex-row pl-0 sm:pl-[40px] md:pl-[100px] lg:pl-[120px] xl:pl-[100px] 2xl:pl-[322px] flex-none">
                                 <div className="pb-2 md:pb-0 md:w-60 lg:w-[300px] xl:w-[380px] 2xl:w-[508px] flex-none">
                                     <div className="text-[#C51B89] font-bold text-[21px] md:text-xl lg:text-[26px] xl:text-[33px] 2xl:text-4xl 3xl:text-[45px] font-Helvetica flex xl:flex-none 
                                     xl:max-w-[380px] 2xl:max-w-[450px] leading-3">
@@ -208,7 +208,7 @@ const ProcessCompo = () => {
                         <div className="absolute grid grid-cols-3 top-[100px] sm:top-[170px] md:top-[190px] lg:top-[280px] w-full h-full">
                             <div></div>
                             <div>
-                                <img src={wavesHImg} alt="" className="w-full h-[67%] sm:h-[65%] md:h-[64%] lg:h-[68%]" />
+                                <img src={wavesHImg} alt="" className="w-full h-[100%] sm:h-[65%] md:h-[64%] lg:h-[68%]" />
                             </div>
                             <div></div>
                         </div>
