@@ -34,7 +34,6 @@ const WorksDataCompo = ({ isSticky, element }) => {
                     <source src="../../assets/video/REELShowcases.mp4" type="video/mp4" />
                 </video>
                 <div className="absolute block sm:hidden bottom-[56px] pl-[41px] font-Helvetica font-bold text-[30px] leading-[34px]">
-                    Data<br /> Visualization
                 </div>
             </div>
             <div className="w-full text-white px-2 lg:px-4 xl:px-[25px] 2xl:px-[50px]">
