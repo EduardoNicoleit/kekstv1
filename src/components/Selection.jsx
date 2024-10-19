@@ -9,10 +9,10 @@ const Selections = ({ selectionsData }) => {
                     <div className='w-[9px] md:w-[34px] lg:w-[59px] xl:w-[100px] 2xl:w-[308px] flex-none'>
                     </div>
                     <div className='flex-1 m-0 p-0 border-white border-b-[1px]'>
-                        <div className='overflow-hidden'>
+                        <div className='overflow-hidden 2xl:h-[440px] xl:h-[400px]'>
                             <Link to={data.link_url}>
-                                <img src={data.img_url} alt="logo" className="hidden xl:block h-auto w-full cursor-pointer transition duration-300 ease-in-out hover:scale-110" />
-                                <img src={data.img_url1} alt="logo" className="block md:hidden h-auto w-full cursor-pointer transition duration-300 ease-in-out hover:scale-110" />
+                                <img src={data.img_url} alt="logo" className="hidden xl:block object-cover h-full w-full cursor-pointer transition duration-300 ease-in-out hover:scale-110" />
+                                <img src={data.img_url1} alt="logo" className="block md:hidden h-full w-full cursor-pointer transition duration-300 ease-in-out hover:scale-110" />
                                 <img src={data.img_url2} alt="logo" className="hidden md:block xl:hidden h-auto w-full cursor-pointer transition duration-300 ease-in-out hover:scale-110" />
                             </Link>
                         </div>

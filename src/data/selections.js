@@ -9,7 +9,7 @@ export const selectionsData = [
     },
     {
         id: 2,
-        img_url: '/assets/img/selections/NetClean.png',
+        img_url: '/assets/img/selections/netclean.png',
         mobile_img_url: '/assets/img/selections/NetClean1.png',
         title: 'NetClean',
         content: "We modernized NetClean's Annual Reports, harmonizing the language across different platforms with animated content. This strategy engaged stakeholders and conveyed results and objectives in a compelling, innovative manner.",
@@ -117,7 +117,7 @@ export const worksData = [
     },
     {
         id: 2,
-        img_url: '/assets/img/selections/NetClean.png',
+        img_url: '/assets/img/selections/netclean.png',
         img_url1: '/assets/img/selections/NetClean1.png',
         img_url2: '/assets/img/selections/NetClean2.png',
         title: 'NetClean',
