@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Divider } from "../components";
-import wavesImg from "../assets/img/home/Waves.png";
+import wavesVideo from "../assets/animation/Waves.mov";
 import wavesHImg from "../assets/img/home/Waves_h.png";
 import CloseImg from "../assets/img/icons/close.png";
 import AddImg from "../assets/img/icons/add.png";
@@ -79,14 +79,15 @@ const ProcessCompo = () => {
                         <div className="flex-1">
                             <div className="xl:pb-[100px] 2xl:pb-[125px] ">
                                 <div className="text-white text-xs md:text-sm xl:text-xl relative flex items-center justify-center w-fit m-auto font-Helvetica">
-                                    <img src={wavesImg} alt="keskt..."
-                                        className="
-                                    absolute
-                                    sm:left-[68px] md:left-[78px] lg:left-[83px] xl:left-[120px] 2xl:left-[110px] 3xl:left-[141px]
-                                    sm:w-[calc(100%-130px)] md:w-[calc(100%-160pbg-[url('assets/img/home/process_bg.png')] bg-no-repeat bg-cover w-full text-white font-Helvetica px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] bottom-0 top-0
-                                    sm:bottom-[50px] md:bottom-[60px] lg:bottom-[72px] xl:bottom-[100px] 2xl:bottom-[121px] 3xl:bottom-[141px]
-                                    translate-y-1/2"
-                                    />
+                                    <video
+                                        src={wavesVideo}
+                                        className="absolute left-1/2 transform -translate-x-1/2 sm:w-[90%] md:w-[80%] lg:w-[70%] xl:w-[60%] 2xl:w-[50%] sm:bottom-[50px] md:bottom-[60px] lg:bottom-[72px] xl:bottom-[100px] 2xl:bottom-[121px] 3xl:bottom-[141px]"
+                                        autoPlay
+                                        loop
+                                        muted
+                                        playsInline
+                                    ></video>
+
                                     <div className="w-[calc(100vw-16px)] lg:w-[calc(100vw-32px)] xl:w-[calc(100vw-67px)] 2xl:w-[calc(100vw-107px)] 3xl:w-[calc(100vw-116px)] h-[1px] bg-white absolute left-1/2 sm:bottom-[50px] md:bottom-[65px] lg:bottom-[72px] xl:bottom-[100px] 2xl:bottom-[115px] 3xl:bottom-[141px] -translate-x-1/2"></div>
                                     <div className="flex gap-4 md:gap-10 xl:gap-20 2xl:gap-[59px]">
                                         <div className='flex-none flex items-center flex-col'>
@@ -175,10 +176,10 @@ const ProcessCompo = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex flex-col pr-4 pt-12 md:flex-row pl-0 sm:pl-[40px] md:pl-[100px] lg:pl-[120px] xl:pl-[100px] 2xl:pl-[322px] flex-none">
-                                <div className="pb-2 md:pb-0 md:w-60 lg:w-[300px] xl:w-[380px] 2xl:w-[508px] flex-none">
+                            <div className="flex flex-col pr-4 pt-12 md:flex-row pl-0 sm:pl-[40px] md:pl-[100px] lg:pl-[120px] xl:pl-[100px] 2xl:pl-[322px] flex-none h-[250px]">
+                                <div className="pb-2 md:pb-0 md:w-60 lg:w-[350px] xl:w-[450px] 2xl:w-[508px] flex-none pt-8">
                                     <div className="text-[#C51B89] font-bold text-[21px] md:text-xl lg:text-[26px] xl:text-[33px] 2xl:text-4xl 3xl:text-[45px] font-Helvetica flex xl:flex-none 
-                                    xl:max-w-[380px] 2xl:max-w-[450px] leading-3">
+                                    xl:max-w-[400px] 2xl:max-w-[550px] leading-3">
                                         {currentProcessData.title}
                                     </div>
                                     <div className="pt-2 md:pt-4 text-[22px] xl:text-lg font-Helvetica">
@@ -208,7 +209,7 @@ const ProcessCompo = () => {
                         <div className="absolute grid grid-cols-3 top-[100px] sm:top-[170px] md:top-[190px] lg:top-[280px] w-full h-full">
                             <div></div>
                             <div>
-                                <img src={wavesHImg} alt="" className="w-full h-[100%] sm:h-[65%] md:h-[64%] lg:h-[68%]" />
+                                <img src={wavesHImg} alt="" className="w-full h-[67%] sm:h-[65%] md:h-[64%] lg:h-[68%]" />
                             </div>
                             <div></div>
                         </div>
@@ -254,7 +255,7 @@ const ProcessCompo = () => {
                                 w-[105px] sm:w-[143px] lg:w-[230px]
                                 border border-solid border-white rounded-full relative flex items-center justify-center cursor-pointer ${processState === 3 ? " bg-[#9ca3af66]" : ""}`} onClick={(e) => changeProcessState(e, 3, true)}>
                                 <img src={processState === 3 ? CloseImg : AddImg} alt="keskt..." className="w-10 h-10 required: " />
-                                <div className="absolute flex right-[60px] sm:right-[85px] lg:right-[100px] items-center">
+                                <div className="absolute flex right-[50px] sm:right-[85px] lg:right-[100px] items-center">
                                     <div className="font-Helvetica font-bold text-[10px] sm:text-[10px] lg:text-[22px] pr-1 sm:pr-2 text-right w-full">
                                         <div>
                                             CONCEPTUALIZATION
