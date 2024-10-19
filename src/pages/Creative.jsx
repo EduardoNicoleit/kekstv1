@@ -7,8 +7,8 @@ const CreativeCompo = () => {
     return (
         <div>
             <div className="text-white font-Helvetica relative">
-                <div className="bg-[url('assets/img/home/creative_bg.png')] bg-cover w-full text-white font-Helvetica px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] bottom-0 top-0 pb-10 md:pb-0">
-                    <div className="bottom-0 top-0 w-full">
+                <div className="bg-[url('assets/img/home/creative_bg.png')] bg-no-repeat bg-cover text-white font-Helvetica px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] bottom-0 top-0 pb-10 md:pb-0">
+                    <div className="bottom-0 top-0 w-full pt-14">
                         <div className="flex text-white lg:pt-12 xl:pt-[62px] 2xl:pt-[98px]">
                             <Divider title="Get to know us" />
                         </div>
@@ -66,7 +66,7 @@ const CreativeCompo = () => {
                         </div>
                     </div>
                     <div className="flex flex-col 2xl:flex-row ">
-                        <div className="sm:pb-6 lg:pb-10 xl:pb-20 pl-[28px] md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px]">
+                        <div className="sm:pb-6 lg:pb-10 xl:pb-20 pl-[28px] md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px] pl-6">
                             <div className="flex items-center pt-9 sm:pt-6 lg:pt-5 xl:pt-[57px] 2xl:pt-0">
                                 <div id="lets-talk" className="flex-none font-Helvetica font-bold text-[32px] md:text-[40px] lg:text-[55px] xl:text-[65px] 2xl:text-[65px] leading-tight 2xl:leading-none">
                                     Let’s talk
