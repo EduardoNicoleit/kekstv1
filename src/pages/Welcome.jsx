@@ -7,7 +7,7 @@ import growSvg from '../assets/img/effects/grow.svg';
 
 const Welcome = () => {
     return (
-        <div className="relative welcome max-w-full max-h-[100%]">
+        <div className="relative welcome max-w-full max-h-[80%]">
             <div className="absolute w-full h-full">
                 <img src={ExpandImg} alt="Welcome background" className="w-full h-full object-cover" />
             </div>

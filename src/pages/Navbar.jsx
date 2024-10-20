@@ -108,7 +108,7 @@ const Navbar = () => {
                             />
                         </NavItem>
 
-                        <div className='flex w-full justify-between xl:pl-[200px] 2xl:pl-[300px] 3xl:pl-[350px]'>
+                        <div className='flex w-full justify-between xl:pl-[150px] 2xl:pl-[100px] 3xl:pl-[250px]'>
                             <div className="flex h-full py-[20px] font-Helvetica font-normal text-white">
                                 {/* Desktop Menu */}
                                 <ul className='hidden 2xl:flex 2xl:gap-[40px] 3xl:gap-[100px] text-[1.0vw]'>
