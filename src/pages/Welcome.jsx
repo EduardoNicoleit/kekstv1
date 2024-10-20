@@ -18,7 +18,7 @@ const Welcome = () => {
                             className="relative font-extrabold leading-tight text-white px-3 md:px-6 lg:px-0"
                             style={{
                                 fontFamily: 'Helvetica, sans-serif',
-                                fontSize: '8.0vw', // Default size for larger screens
+                                fontSize: '9.5vw', // Default size for larger screens
                                 maxWidth: '50vw', // Default max width for larger screens
                             }}
                         >
