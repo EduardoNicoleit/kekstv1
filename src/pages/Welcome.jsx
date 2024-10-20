@@ -15,10 +15,9 @@ const Welcome = () => {
                 <div className="w-full pt-[50px] pb-[30px] sm:pt-24 sm:pb-24 md:pt-28 md:pb-28 lg:pt-32 lg:pb-32 xl:pt-36 xl:pb-36 2xl:pt-30 2xl:pb-20 3xl:pt-[10vh] 3xl:pb-36">
                     <div className="w-full max-w-7xl lg:pl-14 xl:pl-24 2xl:pl-36">
                         <h1
-                            className="relative font-extrabold leading-tight text-white px-3 md:px-6 lg:px-0"
+                            className="relative font-extrabold leading-tight text-white px-3 md:px-6 lg:px-0 pr-4 text-[9.5vw] sm:text-[9.5vw] md:text-[9.5vw] xl:text-[9.5vw] 2xl:text-[7.5vw] 3xl:text-[7.5vw] 3xl:mt-[5vh]"
                             style={{
                                 fontFamily: 'Helvetica, sans-serif',
-                                fontSize: '9.5vw', // Default size for larger screens
                                 maxWidth: '50vw', // Default max width for larger screens
                             }}
                         >
