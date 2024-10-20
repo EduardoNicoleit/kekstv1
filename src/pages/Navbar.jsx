@@ -40,7 +40,6 @@ const Navbar = () => {
     const navbarOriginalTop = useRef(0);
     const [toggle, setToggle] = useState(false);
     const menuRef = useRef(null);
-
     const lastScrollY = useRef(0);
 
     const handleScroll = useCallback(() => {
@@ -93,51 +92,52 @@ const Navbar = () => {
         <AnimatePresence>
             <motion.div
                 ref={navbarRef}
-                className={`${isSticky ? "navbar navbar-sticky" : "navbar mt-0 md:mt-4 lg:mt-14"} h-[100px]`}
+                className={`${isSticky ? "navbar navbar-sticky" : "navbar mt-0 md:mt-4 lg:mt-14"} h-[4vh] md:h-[10vh]`}
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -50 }}
                 transition={{ duration: 0.3, ease: "easeInOut" }}
             >
                 <div className='w-full'>
-                    <div className='pl-0 border-white h-16 w-full flex items-center justify-between 2xl:pl-[128px] xl:pl-[110px] lg:pl-[60px] md:pl-[28px] pl-[6px] 2xl:pr-[128px] xl:pr-[110px] lg:pr-[60px] md:pr-[28px] pr-[6px]'>
+                    <div className='pl-0 border-white h-16 w-full flex items-center justify-between 2xl:pl-[128px] xl:pl-[110px] lg:pl-[60px] md:pl-[28px] pl-[10px] 3xl:pl-[10vh] pr-4 sm:pr-6 md:pr-12 lg:pr-12'>
                         <NavItem to="welcome">
                             <img
                                 src={Logo}
                                 alt="logo"
-                                className='cursor-pointer w-auto h-auto 2xl:w-auto transition duration-300 ease-in-out hover:scale-110'
+                                className="cursor-pointer transition duration-300 ease-in-out hover:scale-110 min-w-[85px] w-[30vw] sm:w-[20vw] md:w-[20vw] lg:w-[18vw] xl:w-[15vw] 2xl:w-[10vw] 3xl:w-[10vw]"
                             />
                         </NavItem>
-                        <div className='flex w-full justify-between pr-2'>
-                            <div className="xl:pl-[128px] lg:flex h-[50px] py-[13px] font-Helvetica font-normal text-white">
+
+                        <div className='flex w-full justify-between xl:pl-[200px] 2xl:pl-[300px] 3xl:pl-[350px]'>
+                            <div className="flex h-full py-[20px] font-Helvetica font-normal text-white">
                                 {/* Desktop Menu */}
-                                <ul className='hidden 2xl:flex 2xl:gap-[50px] 3xl:gap-[70px] text-lg'>
-                                    <li className="cursor-pointer hover:text-gray-400 flex items-center transition duration-300 ease-in-out hover:scale-110">
+                                <ul className='hidden 2xl:flex 2xl:gap-[40px] 3xl:gap-[100px] text-[1.0vw]'>
+                                    <li className="cursor-pointer hover:text-gray-400 transition duration-300 ease-in-out hover:scale-110">
                                         <NavItem to="expertise" offset={-100}>
                                             Expertise
                                         </NavItem>
                                     </li>
-                                    <li className="cursor-pointer hover:text-gray-400 flex items-center transition duration-300 ease-in-out hover:scale-110">
+                                    <li className="cursor-pointer hover:text-gray-400 transition duration-300 ease-in-out hover:scale-110">
                                         <NavItem to="works" offset={-100}>
                                             Our Work
                                         </NavItem>
                                     </li>
-                                    <li className="cursor-pointer hover:text-gray-400 flex items-center transition duration-300 ease-in-out hover:scale-110">
+                                    <li className="cursor-pointer hover:text-gray-400 transition duration-300 ease-in-out hover:scale-110">
                                         <NavItem to="creative" offset={-100}>
                                             Get to Know Us
                                         </NavItem>
                                     </li>
-                                    <li className="cursor-pointer hover:text-gray-400 flex items-center transition duration-300 ease-in-out hover:scale-110">
+                                    <li className="cursor-pointer hover:text-gray-400 transition duration-300 ease-in-out hover:scale-110">
                                         <NavItem to="process" offset={-100}>
                                             Our Design Thinking Process
                                         </NavItem>
                                     </li>
-                                    <li className="cursor-pointer hover:text-gray-400 flex items-center transition duration-300 ease-in-out hover:scale-110">
+                                    <li className="cursor-pointer hover:text-gray-400 transition duration-300 ease-in-out hover:scale-110">
                                         <NavItem to="manifesto" offset={-100}>
                                             Our Manifesto
                                         </NavItem>
                                     </li>
-                                    <li className="cursor-pointer hover:text-gray-400 flex items-center transition duration-300 ease-in-out hover:scale-110">
+                                    <li className="cursor-pointer hover:text-gray-400 transition duration-300 ease-in-out hover:scale-110">
                                         <NavItem to="lets-talk" offset={-100}>
                                             Let's Talk
                                         </NavItem>
@@ -147,7 +147,7 @@ const Navbar = () => {
                             {/* Mobile Menu Toggle Button */}
                             <motion.button
                                 whileTap={{ scale: 0.9 }}
-                                className={`block 2xl:hidden cursor-pointer items-center h-full my-auto text-white uppercase font-Helvetica border-solid border-[1px] border-white rounded-md font-normal text-[10px] md:text-xs lg:text-[12px] xl:text-[14px] py-2 px-4 lg:px-6 xl:px-8 transition duration-300 ease-in-out transform hover:scale-110 hover:bg-[#674480] hover:text-white`}
+                                className={`block 2xl:hidden cursor-pointer items-center h-full my-auto text-white uppercase font-Helvetica border-solid border-[1px] border-white rounded-md font-normal text-[10px] md:text-[10px] lg:text-[12px] xl:text-[15px] py-1.5 px-2 sm:py-2 sm:px-4 lg:px-6 xl:px-8 transition duration-300 ease-in-out transform hover:scale-110 hover:bg-[#674480] hover:text-white`}
                                 onClick={handleToggle}
                             >
                                 <motion.span

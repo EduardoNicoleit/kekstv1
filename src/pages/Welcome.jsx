@@ -7,14 +7,21 @@ import growSvg from '../assets/img/effects/grow.svg';
 
 const Welcome = () => {
     return (
-        <div className="relative welcome">
+        <div className="relative welcome max-w-full max-h-[100%]">
             <div className="absolute w-full h-full">
                 <img src={ExpandImg} alt="Welcome background" className="w-full h-full object-cover" />
             </div>
-            <div className="relative z-2 w-full px-3 md:px-[16px] lg:px-[25px] 2xl:px-[45px]">
-                <div className="w-full py-[150px] sm:py-[200px] xl:py-[250px]">
-                    <div className="w-full max-w-7xl md:ml-[0px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px]">
-                        <h1 className="relative text-[2.2rem] sm:text-[4.5rem] md:text-[5rem] lg:text-[6.5rem] xl:text-[7.5rem] 2xl:text-[8.5rem] font-extrabold leading-tight text-white px-4 md:px-6 lg:px-0 2xl:px-0" style={{ fontFamily: 'Arial, sans-serif' }}>
+            <div className="relative z-2 w-full px-3 md:px-[16px] lg:px-[25px] 2xl:px-[208px]">
+                <div className="w-full pt-[50px] pb-[30px] sm:pt-24 sm:pb-24 md:pt-28 md:pb-28 lg:pt-32 lg:pb-32 xl:pt-36 xl:pb-36 2xl:pt-30 2xl:pb-20 3xl:pt-[10vh] 3xl:pb-36">
+                    <div className="w-full max-w-7xl lg:pl-14 xl:pl-24 2xl:pl-36">
+                        <h1
+                            className="relative font-extrabold leading-tight text-white px-3 md:px-6 lg:px-0"
+                            style={{
+                                fontFamily: 'Helvetica, sans-serif',
+                                fontSize: '8.0vw', // Default size for larger screens
+                                maxWidth: '50vw', // Default max width for larger screens
+                            }}
+                        >
                             <div className="mb-2 sm:mb-4 whitespace-nowrap mt-12">
                                 Encourage. <span
                                     className="inline-block"

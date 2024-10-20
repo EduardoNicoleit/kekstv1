@@ -47,7 +47,7 @@ const Contact = () => {
                             </NavItem>
                         </div>
                         {/* Navigation Links */}
-                        <div className='grid col-span-3 items-center w-full pl-6 sm:pl-0 md:pl-0 lg:pl-14 xl:pl-0 pt-2'>
+                        <div className='grid col-span-3 items-center w-full pl-6 sm:pl-0 md:pl-0 lg:pl-14 xl:pl-0 pt-2 cursor-pointer'>
                             <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3 sm:mx-auto xl:mx-0 pt-4 lg:pt-0 w-full lg:w-auto'>
                                 <div className=''>
                                     <div className='hover:text-[#7a6b87]'>

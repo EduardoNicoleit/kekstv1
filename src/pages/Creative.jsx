@@ -61,26 +61,41 @@ const CreativeCompo = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="my-0 sm:my-3 md:my-4 lg:my-6 xl:my-8 2xl:my-10 3xl:my-20 pl-0 md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px]">
+                        <div className="mb-8 md:mb-[20px] mt-[50px] md:mt-[60px] lg:mt-[70px] xl:mt-[100px] 2xl:mt-[140px] pl-0 md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px]">
                             <div className="h-[1px] bg-white "></div>
                         </div>
                     </div>
-                    <div className="flex flex-col 2xl:flex-row ">
+                    <div className="grid grid-cols-1 2xl:grid-cols-3 gap-0 2xl:gap-[150px]">
+                        {/* Left Section */}
                         <div className="sm:pb-6 lg:pb-10 xl:pb-20 pl-[20px] md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px]">
-                            <div className="flex items-center pt-9 sm:pt-6 lg:pt-5 xl:pt-[57px] 2xl:pt-0">
-                                <div id="lets-talk" className="flex-none font-Helvetica font-bold text-[32px] md:text-[40px] lg:text-[55px] xl:text-[65px] 2xl:text-[65px] leading-tight 2xl:leading-none">
+                            <div className="flex items-center">
+                                <div
+                                    id="lets-talk"
+                                    className="flex-none font-Helvetica font-bold text-[32px] md:text-[40px] lg:text-[55px] xl:text-[65px] 2xl:text-[65px] leading-tight 2xl:leading-none"
+                                >
                                     Let’s talk
                                 </div>
-                                <div className="block sm:hidden h-[1px] bg-white w-full ml-2">
-
-                                </div>
+                                <div className="block sm:hidden h-[1px] bg-white w-full ml-2"></div>
                             </div>
-                            <div className="sm:pl-0 w-full sm:w-[200px] xl:w-full"><img src={lineImg} alt="" /></div>
+                            <div className="sm:pl-0 w-[200px] sm:w-[300px] xl:w-[350px]">
+                                <img src={lineImg} alt="Divider Line" />
+                            </div>
                             <a href="mailto:creative@kekstcnc.com">
-                                <div className='sm:pl-0 flex items-center gap-2 pt-4 sm:pt-3 lg:pt-[27px] xl:pt-10 2xl:pt-[57px] hover:text-[#7a6b87]'>
+                                <div className="sm:pl-0 flex items-center gap-2 pt-4 sm:pt-3 lg:pt-6 xl:pt-10 2xl:pt-[57px] hover:text-[#7a6b87]">
                                     <div className="flex-none">
-                                        <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M18.1504 0H2.15039C1.05039 0 0.160391 0.9 0.160391 2L0.150391 14C0.150391 15.1 1.05039 16 2.15039 16H18.1504C19.2504 16 20.1504 15.1 20.1504 14V2C20.1504 0.9 19.2504 0 18.1504 0ZM18.1504 14H2.15039V4L10.1504 9L18.1504 4V14ZM10.1504 7L2.15039 2H18.1504L10.1504 7Z" fill="white" />
+                                        <svg
+                                            width="21"
+                                            height="16"
+                                            viewBox="0 0 21 16"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            aria-label="Email icon"
+                                        >
+                                            <title>Email icon</title>
+                                            <path
+                                                d="M18.1504 0H2.15039C1.05039 0 0.160391 0.9 0.160391 2L0.150391 14C0.150391 15.1 1.05039 16 2.15039 16H18.1504C19.2504 16 20.1504 15.1 20.1504 14V2C20.1504 0.9 19.2504 0 18.1504 0ZM18.1504 14H2.15039V4L10.1504 9L18.1504 4V14ZM10.1504 7L2.15039 2H18.1504L10.1504 7Z"
+                                                fill="white"
+                                            />
                                         </svg>
                                     </div>
                                     <div className='font-Helvetica sm:text-[17px] lg:text-[20px] xl:text-2xl'>
@@ -89,10 +104,17 @@ const CreativeCompo = () => {
                                 </div>
                             </a>
                         </div>
-                        <div className="pr-1 pt-5 pb-1 sm:pl-0 xl:pl-[100px] 2xl:pl-0">
-                            <img src={locationImg} alt="keskt..." className="w-full hover:scale-110 transition duration-500 ease-in-out" />
+
+                        {/* Right Section spanning middle and right columns */}
+                        <div className="col-span-2 pr-1 pt-5 pb-1 pl-[20px] xl:pl-24 2xl:pr-[0px] flex items-center justify-center">
+                            <img
+                                src={locationImg}
+                                alt="Location"
+                                className="h-max-[500px] w-auto object-cover hover:scale-110 transition duration-500 ease-in-out"
+                            />
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
