@@ -147,19 +147,21 @@ const Navbar = () => {
                             {/* Mobile Menu Toggle Button */}
                             <motion.button
                                 whileTap={{ scale: 0.9 }}
-                                className={`block 2xl:hidden cursor-pointer items-center h-full my-auto text-white uppercase font-Helvetica border-solid border-[1px] border-white rounded-md font-normal text-[10px] md:text-[10px] lg:text-[12px] xl:text-[15px] py-1.5 px-2 sm:py-2 sm:px-4 lg:px-6 xl:px-8 transition duration-300 ease-in-out transform hover:scale-110 hover:bg-[#674480] hover:text-white`}
+                                className={`block 2xl:hidden cursor-pointer items-center my-2 text-white uppercase font-Helvetica border-solid border-[1px] border-white rounded-sm font-normal transition duration-300 ease-in-out transform hover:scale-110 hover:bg-[#674480] hover:text-white w-[48px] h-[26px] sm:w-[48px] sm:h-[26px] md:w-[75px] md:h-[46px] lg:w-[83px] lg:h-[46px] xl:w-[83px] xl:h-[46px]`}
                                 onClick={handleToggle}
                             >
                                 <motion.span
+                                    className="flex justify-center items-center w-full text-[9px] sm:text-[9px] md:text-[14px] lg:text-[14px] xl:text-[16px]"
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1 }}
                                     exit={{ opacity: 0 }}
                                     transition={{ duration: 0.5, ease: "easeInOut" }}
-                                    key={toggle ? "X" : "menu"}
+                                    key={toggle ? "X" : "Menu"}
                                 >
                                     {toggle ? "X" : "Menu"}
                                 </motion.span>
                             </motion.button>
+
                         </div>
                     </div>
                 </div>
