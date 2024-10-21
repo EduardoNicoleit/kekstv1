@@ -8,7 +8,7 @@ const Selections = ({ selectionsData }) => {
                 <div key={data.id} className={`flex flex-col md:flex-row text-white sm:px-0 md:px-0 ${data.id !== 1 ? 'pt-6 lg:pt-8 xl:pt-[60px] 2xl:pt-[2vw]' : 'md:mt-[-40px] lg:mt-[-20px] xl:mt-0'}`}>
                     <div className='w-[9px] md:w-[34px] lg:w-[59px] xl:w-[5vw] 2xl:w-[308px] flex-none'>
                     </div>
-                    <div className='flex-1 m-0 p-0 border-white border-b-[1px]'>
+                    <div className='flex-1 m-0 p-0 border-white border-b-[1px] mt-6'>
                         <div className='overflow-hidden xl:h-[400px] 2xl:h-[15vw]'>
                             <Link to={data.link_url}>
                                 <img src={data.img_url} alt="logo" className="hidden xl:block object-cover h-full w-full cursor-pointer transition duration-300 ease-in-out hover:scale-110" />

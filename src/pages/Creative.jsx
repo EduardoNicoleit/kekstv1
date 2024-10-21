@@ -8,11 +8,11 @@ const CreativeCompo = () => {
         <div>
             <div className="text-white font-Helvetica relative">
                 <div className="bg-[url('assets/img/home/creative_bg.png')] bg-no-repeat bg-cover text-white font-Helvetica px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] bottom-0 top-0 pb-10 md:pb-0">
-                    <div className="bottom-0 top-0 w-full pt-14">
-                        <div className="flex text-white lg:pt-12 xl:pt-[62px] 2xl:pt-[98px]">
+                    <div className="bottom-0 top-0 w-full">
+                        <div className="flex text-white lg:pt-12 xl:pt-[50px] 2xl:pt-[2vw]">
                             <Divider title="Get to know us" />
                         </div>
-                        <div className="leading-relaxed font-Helvetica text-[17px] md:text-[18px] lg:text-[28px] xl:text-4xl pl-5 pr-4 md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px] mr-2 md:mr-20 py-10 pb-16 lg:py-[100px] xl:py-[120px] 2xl:py-[160px]">
+                        <div className="leading-relaxed font-Helvetica text-[17px] md:text-[18px] lg:text-[22px] xl:text-[24px] pl-5 pr-4 md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px] mr-2 md:mr-20 py-6 lg:py-[60px] xl:py-[60px] 2xl:py-[60px]">
                             What distinguishes us is the unique fusion of Kekst CNC's renowned expertise in strategic communication worldwide, coupled with our prowess in design thinking, innovative solutions, and impactful activation strategies. This combination guarantees seamless execution and unparalleled results across every project dimension.
                         </div>
                         <div className="pl-5 md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px] xl:pr-[90px] 2xl:pr-[90px]">
@@ -29,7 +29,7 @@ const CreativeCompo = () => {
                                             Our creative team is a global force of the <br /> best and brightest minds in the industry.
                                         </div>
                                     </div>
-                                    <div className="pt-8 lg:pt-0 flex font-normal text-[17px] lg:text-lg xl:text-2xl pb-8 xl:pb-0">
+                                    <div className="pt-8 lg:pt-0 flex font-normal text-[17px] lg:text-lg xl:text-2xl pb-6 xl:pb-0">
                                         <div>
                                             02.
                                         </div>
@@ -50,7 +50,7 @@ const CreativeCompo = () => {
                                             We combine strategy, design and technology to create impactful solutions that inspire change and shape the future.
                                         </div>
                                     </div>
-                                    <div className="pt-8 lg:pt-0 pl-0 lg:pl-4 flex basis-1/2 font-normal text-[17px] lg:text-lg xl:text-2xl pb-8 xl:pb-0">
+                                    <div className="pt-8 lg:pt-0 pl-0 lg:pl-4 flex basis-1/2 font-normal text-[17px] lg:text-lg xl:text-2xl pb-6 xl:pb-0">
                                         <div>
                                             02.
                                         </div>

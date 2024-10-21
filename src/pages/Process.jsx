@@ -67,10 +67,10 @@ const ProcessCompo = () => {
         <div className="">
             <div className="bg-[url('assets/img/home/process_bg.png')] bg-no-repeat bg-cover w-full text-white font-Helvetica px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] bottom-0 top-0">
                 <div className="bottom-0 top-0 md:top-2 lg:top-3 xl:top-0 w-full">
-                    <div className="flex text-white md:py-12 xl:py-[50px]">
+                    <div className="flex text-white">
                         <Divider title="Our process" />
                     </div>
-                    <div className="leading-normal font-normal text-[17px] md:text-lg lg:text-[28px] 2xl:text-[36px] pl-5 pr-4 md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px] pr-10 lg:pr-[100px] xl:pr-[140px] 3xl:pr-[200px] font-Helvetica pb-8 md:pb-[58px] lg:pb-20 xl:pb-20 2xl:pb-[100px] pt-8 md:pt-0 lg:pt-[30px] leading-none xl:leading-tight">
+                    <div className="leading-normal font-normal text-[17px] md:text-[18px] lg:text-[22px] xl:text-[24px] pl-5 pr-4 md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px] pr-10 lg:pr-[100px] xl:pr-[140px] 3xl:pr-[200px] font-Helvetica pb-8 md:pb-[58px] lg:pb-20 xl:pb-20 2xl:pb-[100px] py-6 xl:py-[60px] xl:py-[60px] 2xl:py-[60px]">
                         We specialize on amplifying creativity in brands, operations, and communications.
                         We are driven by the conviction that creativity can revolutionize how messages and reputations are perceived and stories are told. We aim to create comprehensive,multi-channel strategies that truly connect with audiences, creating impactful connections and memorable experiences.
                     </div>

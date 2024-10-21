@@ -8,7 +8,7 @@ const ExpertiseSection = () => {
         <div>
             {
                 expertiseData2.map((val) => (
-                    <div key={val.id} className="text-white border-b-[1px] border-white pl-4 md:pl-0 pt-8 lg:pt-12 xl:pt-[55px] 2xl:pt-[45px]">
+                    <div key={val.id} className="text-white border-b-[1px] border-white pl-4 md:pl-0 pt-6 lg:pt-12 xl:pt-[55px] 2xl:pt-[45px]">
                         <div className="font-Helvetica flex flex-col xl:flex-row justify-between">
                             <div className="xl:max-w-[950px] 2xl:max-w-none">
                                 <Link to={val.link_url}>
@@ -25,7 +25,7 @@ const ExpertiseSection = () => {
                                 <ReadMore linkUrl={val.link_url} />
                             </div>
                         </div>
-                        <div className="text-[13px] sm:text-[1.3vw] font-Helvetica grid grid-cols-1 2xl:grid-cols-1 3xl:grid-cols-2 pr-0 sm:pr-8 xl:pr-[5vw] 2xl:pr-[4vw] pt-4 md:pt-[18px] lg:pt-6 xl:pt-[3vw] 2xl:pt-[2.5vw] pb-[5px] lg:pb-[10px] xl:pb-[3vw] 2xl:pb-[2.5vw]">
+                        <div className="text-[13px] md:text-[1.3vw] font-Helvetica grid grid-cols-1 2xl:grid-cols-1 3xl:grid-cols-2 pr-0 sm:pr-8 xl:pr-[5vw] 2xl:pr-[4vw] pt-4 md:pt-[18px] lg:pt-6 xl:pt-[3vw] 2xl:pt-[2.5vw] pb-[5px] lg:pb-[10px] xl:pb-[3vw] 2xl:pb-[2.5vw]">
                             <div className="col-span-1 2xl:col-span-2">
                                 <div className="hidden lg:block w-max">
                                     <div className="flex border-t-[1px] border-b-[1px] border-white">
@@ -42,7 +42,7 @@ const ExpertiseSection = () => {
                                         {val.content2.map((content, index) => (
                                             <div
                                                 key={content}
-                                                className={`text-[13px] md:text-[1.3vw] py-[1vw] pr-[1vw] border-white ${val.content2.length !== index + 1 ? 'border-r' : 'pl-[1vw]'}`}
+                                                className={`text-[13px] md:text-[15vw] lg:text-[1.3vw] py-[1vw] pr-[1vw] border-white ${val.content2.length !== index + 1 ? 'border-r' : 'pl-[1vw]'}`}
                                             >
                                                 {content}
                                             </div>
