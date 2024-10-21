@@ -273,7 +273,7 @@ const Bpl = ({ isSticky, element }) => {
                                         bg-no-repeat bg-cover transition duration-300 ease-in-out hover:scale-105"
                                     >
                                         <div className="font-bold text-[15px] lg:text-base xl:text-2xl">
-                                            VW
+                                            Volkswagen
                                         </div>
                                         <div className="flex-1">
                                             <div

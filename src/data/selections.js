@@ -3,7 +3,7 @@ export const selectionsData = [
         id: 1,
         img_url: '/assets/img/selections/VW.png',
         mobile_img_url: '/assets/img/selections/VW1.png',
-        title: 'VW',
+        title: 'Volkswagen',
         content: "We created a social media campaign for Volkswagen, with over 30 posts. Our approach transformed company data into relatable visuals, connecting facts with everyday elements. We managed the entire process from strategy to creative execution.",
         link_url: "/works/volkswagen"
     },

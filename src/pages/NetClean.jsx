@@ -195,7 +195,7 @@ const Netclean = ({ isSticky, element }) => {
                                         bg-[url('assets/img/netclean/vw_02.png')] bg-no-repeat bg-cover
                                         transition duration-300 ease-in-out hover:scale-105"
                                     >
-                                        <div className="font-bold text-[15px] lg:text-base xl:text-2xl">VW</div>
+                                        <div className="font-bold text-[15px] lg:text-base xl:text-2xl">Volkswagen</div>
                                         <div className="flex-1">
                                             <div
                                                 className="max-w-[440px] py-[26px] lg:py-[43px] xl:py-[67px] font-normal
