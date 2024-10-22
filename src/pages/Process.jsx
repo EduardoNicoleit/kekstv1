@@ -74,10 +74,10 @@ const ProcessCompo = () => {
                         We specialize on amplifying creativity in brands, operations, and communications.
                         We are driven by the conviction that creativity can revolutionize how messages and reputations are perceived and stories are told. We aim to create comprehensive,multi-channel strategies that truly connect with audiences, creating impactful connections and memorable experiences.
                     </div>
-                    <div className="pb-[80px] 3xl:pb-[2vw] hidden xl:flex">
+                    <div className="pb-[40px] 3xl:pb-[6vw] 5xl:pb-[2vw] hidden xl:flex">
                         <div className="w-0"></div>
                         <div className="flex-1">
-                            <div className="xl:pb-[100px] 2xl:pb-[125px] 3xl:pb-[2vw]">
+                            <div className="xl:pb-[100px] 2xl:pb-[20px] 3xl:pb-[4vw]">
                                 <div className="text-white text-bold text-center text-xs md:text-sm xl:text-xl 2xl:text-[1.1vw] 2xl:leading-[1.5vw] relative flex justify-center w-fit m-auto font-Helvetica">
                                     <video
                                         src={wavesVideo}
@@ -178,9 +178,9 @@ const ProcessCompo = () => {
                             </div>
                             <div className="flex flex-col md:flex-row items-center justify-center pr-4 pt-12 pl-0 sm:pl-[40px] md:pl-[100px] lg:pl-[120px] xl:pl-[100px] 2xl:pl-[322px] flex-none h-[250px] 2xl:h-[400px] 3xl:h-[10vw]">
 
-                                <div className="pb-2 md:pb-0 md:w-60 lg:w-[350px] xl:w-[450px] 2xl:w-[508px] flex-none pt-8">
-                                    <div className="text-[#C51B89] font-bold text-[21px] md:text-xl lg:text-[26px] xl:text-[33px] 2xl:text-4xl 3xl:text-[1.5vw] 3xl:leading-[2vw] font-Helvetica flex xl:flex-none 
-                                    xl:max-w-[400px] 2xl:max-w-[30vw] leading-3">
+                                <div className="pb-2 md:pb-0 md:w-60 lg:w-[350px] xl:w-[450px] 2xl:w-[508px] 3xl:w-[30vw] 3xl:mr-[10vw] flex-none pt-8">
+                                    <div className="text-[#C51B89] font-bold text-[21px] md:text-xl lg:text-[26px] xl:text-[33px] 2xl:text-4xl 3xl:text-[2.2vw] leading-10 3xl:leading-[3vw] font-Helvetica flex xl:flex-none 
+                                    xl:max-w-[400px] 2xl:max-w-[30vw] 3xl:pb-[2vw]">
                                         {currentProcessData.title}
                                     </div>
                                     <div className="py-2 md:py-4 text-[22px] xl:text-lg 3xl:text-[1.5vw] 3xl:leading-[1.7vw] font-Helvetica">
