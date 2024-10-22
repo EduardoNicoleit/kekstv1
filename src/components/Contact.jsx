@@ -34,52 +34,52 @@ const NavItem = ({ to, children, offset = -100 }) => {
 const Contact = () => {
     return (
         <div>
-            <div className='px-2 sm:px-6 md:px-[33px] xl:px-[45px]'>
+            <div className='px-2 sm:px-6 md:px-[33px] xl:px-[45px] 2xl:px-[45px] 3xl:px-[3vw] 2xl:pt-[1.6vw]'>
                 <div className='relative pt-8 lg:pt-12 pb-8 lg:pb-12 flex flex-col items-center xl:items-stretch'>
-                    <div className='grid lg:grid-cols-5 text-white font-Helvetica text-lg px-0 lg:px-16 w-full'>
-                        <div className='text-start pl-6 sm:pl-0 pt-2'>
+                    <div className='grid lg:grid-cols-5 text-white font-Helvetica text-lg px-0 lg:px-16 w-full 2xl:text-[1.2vw]'>
+                        <div className='text-start pl-6 sm:pl-0 2xl:pt-[1.6vw] 2xl:pb-[1.6vw]'>
                             <NavItem to="welcome">
                                 <img
                                     src={Logo}
                                     alt="logo"
-                                    className='cursor-pointer w-[166.25px] h-[57.6375px] transition duration-300 ease-in-out hover:scale-110'
+                                    className='cursor-pointer w-[166.25px] h-[57.6375px] 2xl:w-[8vw] 2xl:h-[2.8vw] 3xl:w-[10vw] 3xl:h-[3.75vw] transition duration-300 ease-in-out hover:scale-110'
                                 />
                             </NavItem>
                         </div>
                         {/* Navigation Links */}
-                        <div className='grid col-span-3 items-center w-full pl-6 sm:pl-0 md:pl-0 lg:pl-14 xl:pl-0 pt-2 cursor-pointer'>
-                            <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3 sm:mx-auto xl:mx-0 pt-4 lg:pt-0 w-full lg:w-auto'>
-                                <div className=''>
+                        <div className='grid col-span-3 w-full pl-6 sm:pl-0 md:pl-0 lg:pl-14 xl:pl-0 pt-2 md:pt-0 cursor-pointer 2xl:leading-[4vw]'>
+                            <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3 sm:mx-auto xl:mx-0 pt-4 lg:pt-0 w-full lg:w-auto 2xl:pt-0'>
+                                <div className='2xl:flex 2xl:flex-col 2xl:justify-start 2xl:items-start'>
                                     <div className='hover:text-[#7a6b87]'>
                                         <NavItem to="expertise">
                                             Expertise
                                         </NavItem>
                                     </div>
-                                    <div className='py-4 xl:py-2 hover:text-[#7a6b87]'>
+                                    <div className='hover:text-[#7a6b87] mt-4 2xl:mt-[1vw]'>
                                         <NavItem to="works">
                                             Our Work
                                         </NavItem>
                                     </div>
                                 </div>
-                                <div className=''>
-                                    <div className='hover:text-[#7a6b87]'>
+                                <div className='2xl:flex 2xl:flex-col 2xl:justify-start 2xl:items-start'>
+                                    <div className='hover:text-[#7a6b87] mt-4 lg:mt-0'>
                                         <NavItem to="creative">
                                             Get to Know Us
                                         </NavItem>
                                     </div>
-                                    <div className='py-4 xl:py-2 hover:text-[#7a6b87]'>
+                                    <div className='hover:text-[#7a6b87] mt-4 2xl:mt-[1vw]'>
                                         <NavItem to="manifesto">
                                             Our Manifesto
                                         </NavItem>
                                     </div>
                                 </div>
-                                <div className=''>
-                                    <div className='hover:text-[#7a6b87] lg:pr-12 xl:pr-2'>
+                                <div className='2xl:flex 2xl:flex-col 2xl:justify-start 2xl:items-start'>
+                                    <div className='hover:text-[#7a6b87] lg:pr-12 xl:pr-2 mt-4 xl:mt-0'>
                                         <NavItem to="process">
                                             Our Design Thinking Process
                                         </NavItem>
                                     </div>
-                                    <div className='py-4 xl:pt-2 hover:text-[#7a6b87]'>
+                                    <div className='hover:text-[#7a6b87] mt-4 2xl:mt-[1vw]'>
                                         <NavItem to="lets-talk">
                                             Let's Talk
                                         </NavItem>
@@ -87,16 +87,16 @@ const Contact = () => {
                                 </div>
                             </div>
                         </div>
+
                         {/* Contact and Social Media Icons */}
-                        <div className='lg:py-0 hidden lg:block my-0 xl:my-auto px-0 xl:px-12'>
+                        <div className='lg:py-0 hidden lg:block my-0 px-0 xl:px-12'>
                             {/* Email Link */}
                             <a href="mailto:creative@kekstcnc.com">
-                                <div className='pb-4 xl:pt-3 lg:pt-2 md:pt-2 flex items-center gap-2'>
+                                <div className='pb-4 xl:pt-3 lg:pt-2 md:pt-2 flex items-center gap-2 2xl:gap-[1vw] lg:pt-[0] 2xl:pt-[1.6vw] 2xl:pb-[1.6vw]'>
                                     <div>
                                         {/* Email Icon SVG */}
                                         <svg
-                                            width="21"
-                                            height="16"
+                                            className='w-[21px] h-[16px] 2xl:w-[1.5vw] 2xl:h-[1.1vw] 3xl:w-[1.2vw] 3xl:h-[0.9vw]'
                                             viewBox="0 0 21 16"
                                             fill="none"
                                             xmlns="http://www.w3.org/2000/svg"
@@ -107,13 +107,13 @@ const Contact = () => {
                                             />
                                         </svg>
                                     </div>
-                                    <div className='font-Helvetica text-lg hover:text-[#7a6b87]'>
+                                    <div className='font-Helvetica text-lg 2xl:text-[1.2vw] hover:text-[#7a6b87]'>
                                         creative@kekstcnc.com
                                     </div>
                                 </div>
                             </a>
                             {/* Social Media Icons */}
-                            <div className='flex gap-10 pt-4 xl:mt-0'>
+                            <div className='flex gap-10 pt-4 xl:mt-0 2xl:gap-[2vw] 2xl:py-[2vw]'>
                                 {/* LinkedIn Icon */}
                                 <a
                                     className='hover:scale-110'
@@ -122,8 +122,7 @@ const Contact = () => {
                                     rel="noopener noreferrer"
                                 >
                                     <svg
-                                        width="29"
-                                        height="28"
+                                        className='w-[29px] h-[28px] 2xl:w-[2.2vw] 2xl:h-[2.2vw] 3xl:w-[2vw] 3xl:h-[2vw]'
                                         viewBox="0 0 29 28"
                                         fill="none"
                                         xmlns="http://www.w3.org/2000/svg"
@@ -143,8 +142,7 @@ const Contact = () => {
                                     rel="noopener noreferrer"
                                 >
                                     <svg
-                                        width="28"
-                                        height="28"
+                                        className='w-[28px] h-[28px] 2xl:w-[2vw] 2xl:h-[2vw] 3xl:w-[1.8vw] 3xl:h-[1.8vw]'
                                         viewBox="0 0 28 28"
                                         fill="none"
                                         xmlns="http://www.w3.org/2000/svg"
@@ -176,16 +174,16 @@ const Contact = () => {
                         <div className='absolute h-[1px] block bg-white tom-10 bottom-0 w-[calc(100%-16px)] left-2 md:left-4 md:w-[calc(100%-32px)] sm:left-4 sm:w-[calc(100%-32px)]'>
                         </div>
                     </div>
-                    <div className='pl-6 sm:pl-0 grid grid-cols-1 lg:grid-cols-5 lg:gap-2 xl:grid-cols-5 text-white font-Helvetica text-lg pt-0 lg:pt-10 xl:pt-10 mx-auto xl:mx-0 px-0 lg:px-16 
-                    pb-0 lg:pb-2 xl:pb-8 2xl:pb-12 w-full lg:w-auto'>
+                    {/* Footer Links */}
+                    <div className='text-lg 2xl:text-[1.2vw] pl-6 sm:pl-0 grid grid-cols-1 lg:grid-cols-5 lg:gap-2 xl:grid-cols-5 text-white font-Helvetica pt-0 lg:pt-10 xl:pt-10 mx-auto xl:mx-0 px-0 lg:px-16 pb-0 lg:pb-2 xl:pb-8 2xl:pb-12 w-full lg:w-auto 2xl:pb-[10vw] 2xl:pt-[1.6vw]'>
                         <div></div>
-                        <div className='py-1 xl:py-0 lg:text-center lg:py-2'>
+                        <div className='py-1 xl:py-0 lg:text-left lg:py-2'>
                             © 2023 Kekst CNC
                         </div>
-                        <div className='py-2 xl:py-0 lg:text-center'>
+                        <div className='py-2 xl:py-0 lg:text-left'>
                             Privacy Notice
                         </div>
-                        <div className='py-2 xl:py-0 lg:text-center'>
+                        <div className='py-2 xl:py-0 lg:text-left'>
                             All Rights Reserved
                         </div>
                         <div></div>
@@ -215,7 +213,7 @@ const Contact = () => {
                                         />
                                     </svg>
                                 </div>
-                                <div className='font-Helvetica text-lg'>creative@kekstcnc.com</div>
+                                <div className='font-Helvetica text-lg 2xl:text-[1.2vw]'>creative@kekstcnc.com</div>
                             </div>
                         </a>
                         {/* Social Media Icons */}
@@ -228,8 +226,7 @@ const Contact = () => {
                                 className='px-4 md:px-12'
                             >
                                 <svg
-                                    width="29"
-                                    height="28"
+                                    className='w-[29px] h-[28px] 2xl:w-[2.2vw] 2xl:h-[2.2vw] 3xl:w-[2vw] 3xl:h-[2vw]'
                                     viewBox="0 0 29 28"
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
@@ -248,8 +245,7 @@ const Contact = () => {
                                 rel="noopener noreferrer"
                             >
                                 <svg
-                                    width="28"
-                                    height="28"
+                                    className='w-[28px] h-[28px] 2xl:w-[2vw] 2xl:h-[2vw] 3xl:w-[1.8vw] 3xl:h-[1.8vw]'
                                     viewBox="0 0 28 28"
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
