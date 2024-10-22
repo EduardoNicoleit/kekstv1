@@ -16,7 +16,7 @@ const CreativeCompo = () => {
                             What distinguishes us is the unique fusion of Kekst CNC's renowned expertise in strategic communication worldwide, coupled with our prowess in design thinking, innovative solutions, and impactful activation strategies. This combination guarantees seamless execution and unparalleled results across every project dimension.
                         </div>
                         <div className="pl-5 md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px] xl:pr-[90px] 2xl:pr-[90px]">
-                            <div className="grid grid-cols-1 lg:grid-cols-2 font-Helvetica sm:gap-10 md:gap-10 lg:gap-10 xl:gap-18 2xl:gap-18">
+                            <div className="grid grid-cols-1 lg:grid-cols-2 font-Helvetica sm:gap-10 md:gap-10 lg:gap-10 xl:gap-18 2xl:gap-18 3xl:gap-[2vw]">
                                 <div>
                                     <div className="font-bold text-[40px] md:text-6xl lg:text-[60px] xl:text-[105px] 2xl:text-[128px] 3xl:text-[6vw] pt-0 md:pt-4 lg:pt-0 pb-6 md:pb-8 lg:pb-12 xl:pb-[60px] 2xl:py-[3vw]">
                                         Global
@@ -25,15 +25,15 @@ const CreativeCompo = () => {
                                         <div>
                                             01.
                                         </div>
-                                        <div className="flex-1 pl-2 px-4">
-                                            Our creative team is a global force of the <br /> best and brightest minds in the industry.
+                                        <div className="flex-1 pl-2 pb-2 3xl:pb-[1vw] px-4 2xl:pl-[1vw] 2xl:pr-[3.5vw] 3xl:pr-[7vw]">
+                                            Our creative team is a global force of the best and brightest minds in the industry.
                                         </div>
                                     </div>
                                     <div className="pt-8 lg:pt-0 flex font-normal text-[17px] lg:text-lg xl:text-2xl pb-6 xl:pb-0 3xl:text-[1.5vw] 2xl:leading-[2.2vw]">
                                         <div>
                                             02.
                                         </div>
-                                        <div className="flex-1 pl-2 px-4">
+                                        <div className="flex-1 pl-2 pb-2 3xl:pb-[1vw] px-4 2xl:pl-[1vw] 2xl:pr-[3.5vw] 3xl:pr-[7vw]">
                                             By combining forces across locations, we bring our client’s visions to life through seamless collaboration and unparalleled creative expertise.
                                         </div>
                                     </div>
@@ -46,15 +46,15 @@ const CreativeCompo = () => {
                                         <div>
                                             01.
                                         </div>
-                                        <div className="flex-1 pl-2 px-4">
+                                        <div className="flex-1 pb-2 xl:pb-4 3xl:pb-[10vw] pl-2 px-4 2xl:pl-[1vw] 2xl:pr-[3.5vw] 3xl:pr-[5vw]">
                                             We combine strategy, design and technology to create impactful solutions that inspire change and shape the future.
                                         </div>
                                     </div>
-                                    <div className="pt-8 lg:pt-0 pl-0 lg:pl-4 flex basis-1/2 font-normal text-[17px] lg:text-lg xl:text-2xl pb-6 xl:pb-0 3xl:text-[1.5vw] 2xl:leading-[2.2vw]">
+                                    <div className="pt-8 lg:pt-0 pl-0 flex basis-1/2 font-normal text-[17px] lg:text-lg xl:text-2xl pb-6 xl:pb-0 3xl:text-[1.5vw] 2xl:leading-[2.2vw]">
                                         <div>
                                             02.
                                         </div>
-                                        <div className="flex-1 pl-2 px-4">
+                                        <div className="flex-1 pb-2 3xl:pb-[1vw] pl-2 px-4 2xl:pl-[1vw] 2xl:pr-[3.5vw] 3xl:pr-[10vw]">
                                             We focus on real results that amplify your message’s impact.
                                         </div>
                                     </div>
