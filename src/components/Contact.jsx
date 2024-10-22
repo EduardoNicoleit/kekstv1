@@ -180,7 +180,7 @@ const Contact = () => {
                         <div className='py-1 xl:py-0 lg:text-left lg:py-2'>
                             © 2023 Kekst CNC
                         </div>
-                        <div className='py-2 xl:py-0 lg:text-left'>
+                        <div className='py-2 xl:py-0 text-left lg:text-center xl:text-left'>
                             Privacy Notice
                         </div>
                         <div className='py-2 xl:py-0 lg:text-left'>
