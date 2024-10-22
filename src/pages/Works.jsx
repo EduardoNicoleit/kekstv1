@@ -6,7 +6,7 @@ import { worksData } from "../data/selections";
 const WorksCompo = () => {
     return (
         <div className="relative">
-            <div className="bg-[url('assets/img/home/works_bg.png')] bg-no-repeat bg-cover w-full px-2 lg:px-4 xl:px-[25px] 2xl:px-[2.7vw]">
+            <div className="bg-[url('assets/img/home/works_bg.png')] bg-no-repeat bg-cover w-full px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px]">
                 <div className="bottom-0 top-0 md:top-2 lg:top-3 xl:top-0 w-full border-x-[1px] xl:border-none border-white sm:py-0">
                     <div className="flex text-white 3xl:pb-[2.5vw]">
                         <Divider title="Our work" />

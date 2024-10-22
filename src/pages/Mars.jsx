@@ -30,7 +30,7 @@ const Mars = ({ isSticky, element }) => {
                 />
                 {/* Overlay Content */}
                 <div className="w-full absolute bottom-0">
-                    <div className="flex flex-col px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] 3xl:px-[50px]">
+                    <div className="flex flex-col px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] 3xl:px-[45px]">
                         {/* Title */}
                         <div className="flex">
                             <div className="w-[33px] lg:w-[60px] 2xl:w-[299px] flex-none"></div>
@@ -77,7 +77,7 @@ const Mars = ({ isSticky, element }) => {
             </div>
 
             {/* Mobile Overview */}
-            <div className="px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] 3xl:px-[50px]">
+            <div className="px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] 3xl:px-[45px]">
                 <div className="block lg:hidden font-Helvetica font-normal py-[41px] text-white pl-6 sm:pl-[33px]">
                     <div className="text-[12px] leading-[14px] uppercase">Overview</div>
                     <div className="text-[13px] leading-[15px] py-3 border-b-[1px]">
