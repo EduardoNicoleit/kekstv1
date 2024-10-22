@@ -22,17 +22,13 @@ const CreativeCompo = () => {
                                         Global
                                     </div>
                                     <div className="flex font-normal text-[17px] lg:text-lg xl:text-2xl lg:h-[120px] xl:h-[130px] 2xl:h-[160px] 3xl:h-[7vw] 3xl:text-[1.5vw] 2xl:leading-[2.2vw]">
-                                        <div>
-                                            01.
-                                        </div>
+                                        <div>01.</div>
                                         <div className="flex-1 pl-2 pb-2 3xl:pb-[1vw] px-4 2xl:pl-[1vw] 2xl:pr-[3.5vw] 3xl:pr-[7vw]">
                                             Our creative team is a global force of the best and brightest minds in the industry.
                                         </div>
                                     </div>
-                                    <div className="pt-8 lg:pt-0 flex font-normal text-[17px] lg:text-lg xl:text-2xl pb-6 xl:pb-0 3xl:text-[1.5vw] 2xl:leading-[2.2vw]">
-                                        <div>
-                                            02.
-                                        </div>
+                                    <div className="mt-8 lg:mt-2 xl:mt-[30px] 2xl:mt-[2vw] flex font-normal text-[17px] lg:text-lg xl:text-2xl pb-6 xl:pb-0 3xl:text-[1.5vw] 2xl:leading-[2.2vw]">
+                                        <div>02.</div>
                                         <div className="flex-1 pl-2 pb-2 3xl:pb-[1vw] px-4 2xl:pl-[1vw] 2xl:pr-[3.5vw] 3xl:pr-[7vw]">
                                             By combining forces across locations, we bring our client’s visions to life through seamless collaboration and unparalleled creative expertise.
                                         </div>
@@ -43,17 +39,13 @@ const CreativeCompo = () => {
                                         Creative
                                     </div>
                                     <div className="flex font-normal text-[17px] lg:text-lg xl:text-2xl lg:h-[120px] xl:h-[130px] 2xl:h-[160px] 3xl:h-[7vw] 3xl:text-[1.5vw] 2xl:leading-[2.2vw]">
-                                        <div>
-                                            01.
-                                        </div>
+                                        <div>01.</div>
                                         <div className="flex-1 pb-2 xl:pb-4 3xl:pb-[10vw] pl-2 px-4 2xl:pl-[1vw] 2xl:pr-[3.5vw] 3xl:pr-[5vw]">
                                             We combine strategy, design and technology to create impactful solutions that inspire change and shape the future.
                                         </div>
                                     </div>
-                                    <div className="pt-8 lg:pt-0 pl-0 flex basis-1/2 font-normal text-[17px] lg:text-lg xl:text-2xl pb-6 xl:pb-0 3xl:text-[1.5vw] 2xl:leading-[2.2vw]">
-                                        <div>
-                                            02.
-                                        </div>
+                                    <div className="mt-8 md:mt-2 lg:mt-2 xl:mt-[30px] 2xl:mt-[2vw] flex basis-1/2 font-normal text-[17px] lg:text-lg xl:text-2xl pb-6 xl:pb-0 3xl:text-[1.5vw] 2xl:leading-[2.2vw]">
+                                        <div>02.</div>
                                         <div className="flex-1 pb-2 3xl:pb-[1vw] pl-2 px-4 2xl:pl-[1vw] 2xl:pr-[3.5vw] 3xl:pr-[10vw]">
                                             We focus on real results that amplify your message’s impact.
                                         </div>
@@ -61,6 +53,7 @@ const CreativeCompo = () => {
                                 </div>
                             </div>
                         </div>
+
                         <div className="mb-8 md:mb-[20px] mt-[50px] md:mt-[60px] lg:mt-[70px] xl:mt-[100px] 2xl:mt-[140px] ml-4 md:ml-[34px] lg:ml-[59px] xl:ml-[100px] 2xl:ml-[308px]">
                             <div className="h-[1px] bg-white"></div>
                         </div>
