@@ -12,7 +12,7 @@ const WorksCompo = () => {
                         <Divider title="Our work" />
                     </div>
                     <Selection selectionsData={worksData} />
-                    <div className="flex text-white px-[9px] md:px-[14px] lg:px-[60px] xl:px-[80px] 2xl:px-[288px] items-center py-8 2xl:pb-[1.5vw]">
+                    <div className="flex text-white px-[9px] md:px-[14px] lg:px-[60px] xl:px-[80px] 2xl:px-[288px] items-center py-8 2xl:pb-[4vw] 2xl:pt-[3vw]">
                         <div className="hover:bg-[#674480] flex transition-all duration-300 ease-in-out items-center hover:rounded-md">
                             <p className="font-Helvetica font-bold text-sm sm:text-sm md:text-lg xl:text-2xl 2xl:text-[1.2vw] xl:my-4 2xl:my-[1.5vw] pl-5 pr-2">
                                 <Link to="/works">MORE WORKS</Link>
