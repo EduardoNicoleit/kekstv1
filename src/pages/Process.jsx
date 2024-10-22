@@ -70,15 +70,15 @@ const ProcessCompo = () => {
                     <div className="flex text-white">
                         <Divider title="Our process" />
                     </div>
-                    <div className="leading-normal font-normal text-[17px] md:text-[18px] lg:text-[22px] xl:text-[24px] pl-5 pr-4 md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px] pr-10 lg:pr-[100px] xl:pr-[140px] 3xl:pr-[200px] font-Helvetica pb-8 md:pb-[58px] lg:pb-20 xl:pb-20 2xl:pb-[100px] py-6 xl:py-[60px] xl:py-[60px] 2xl:py-[60px]">
+                    <div className="leading-normal font-normal text-[17px] md:text-[18px] lg:text-[22px] xl:text-[24px] 2xl:text-[36px] 3xl:text-[1.5vw] pl-5 md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px] lg:pr-[100px] xl:pr-[140px] 3xl:pr-[10vw] font-Helvetica pb-8 md:pb-[58px] lg:pb-20 xl:pb-20 2xl:pb-[100px] py-6 xl:py-[60px] xl:py-[60px] 2xl:py-[60px]">
                         We specialize on amplifying creativity in brands, operations, and communications.
                         We are driven by the conviction that creativity can revolutionize how messages and reputations are perceived and stories are told. We aim to create comprehensive,multi-channel strategies that truly connect with audiences, creating impactful connections and memorable experiences.
                     </div>
-                    <div className="pb-[200px] hidden xl:flex">
+                    <div className="pb-[80px] 3xl:pb-[2vw] hidden xl:flex">
                         <div className="w-0"></div>
                         <div className="flex-1">
-                            <div className="xl:pb-[100px] 2xl:pb-[125px] ">
-                                <div className="text-white text-xs md:text-sm xl:text-xl relative flex items-center justify-center w-fit m-auto font-Helvetica">
+                            <div className="xl:pb-[100px] 2xl:pb-[125px] 3xl:pb-[2vw]">
+                                <div className="text-white text-bold text-center text-xs md:text-sm xl:text-xl 2xl:text-[1.1vw] 2xl:leading-[1.5vw] relative flex justify-center w-fit m-auto font-Helvetica">
                                     <video
                                         src={wavesVideo}
                                         className="absolute left-1/2 transform -translate-x-1/2 sm:w-[90%] md:w-[80%] lg:w-[70%] xl:w-[60%] 2xl:w-[50%] sm:bottom-[50px] md:bottom-[60px] lg:bottom-[72px] xl:bottom-[100px] 2xl:bottom-[121px] 3xl:bottom-[141px]"
@@ -88,7 +88,7 @@ const ProcessCompo = () => {
                                         playsInline
                                     ></video>
 
-                                    <div className="w-[calc(100vw-16px)] lg:w-[calc(100vw-32px)] xl:w-[calc(100vw-67px)] 2xl:w-[calc(100vw-107px)] 3xl:w-[calc(100vw-116px)] h-[1px] bg-white absolute left-1/2 sm:bottom-[50px] md:bottom-[65px] lg:bottom-[72px] xl:bottom-[100px] 2xl:bottom-[115px] 3xl:bottom-[141px] -translate-x-1/2"></div>
+                                    <div className="w-[calc(100vw-16px)] lg:w-[calc(100vw-32px)] xl:w-[calc(100vw-67px)] 2xl:w-[calc(100vw-100px)] 3xl:w-[calc(100vw-100x)] h-[1px] bg-white absolute left-1/2 sm:bottom-[50px] md:bottom-[65px] lg:bottom-[72px] xl:bottom-[100px] 2xl:bottom-[115px] 3xl:bottom-[141px] -translate-x-1/2"></div>
                                     <div className="flex gap-4 md:gap-10 xl:gap-20 2xl:gap-[59px]">
                                         <div className='flex-none flex items-center flex-col'>
                                             <div className="pb-2 xl:pb-12">
@@ -176,19 +176,20 @@ const ProcessCompo = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex flex-col pr-4 pt-12 md:flex-row pl-0 sm:pl-[40px] md:pl-[100px] lg:pl-[120px] xl:pl-[100px] 2xl:pl-[322px] flex-none h-[250px]">
+                            <div className="flex flex-col md:flex-row items-center justify-center pr-4 pt-12 pl-0 sm:pl-[40px] md:pl-[100px] lg:pl-[120px] xl:pl-[100px] 2xl:pl-[322px] flex-none h-[250px] 2xl:h-[400px] 3xl:h-[10vw]">
+
                                 <div className="pb-2 md:pb-0 md:w-60 lg:w-[350px] xl:w-[450px] 2xl:w-[508px] flex-none pt-8">
-                                    <div className="text-[#C51B89] font-bold text-[21px] md:text-xl lg:text-[26px] xl:text-[33px] 2xl:text-4xl 3xl:text-[45px] font-Helvetica flex xl:flex-none 
-                                    xl:max-w-[400px] 2xl:max-w-[550px] leading-3">
+                                    <div className="text-[#C51B89] font-bold text-[21px] md:text-xl lg:text-[26px] xl:text-[33px] 2xl:text-4xl 3xl:text-[1.5vw] 3xl:leading-[2vw] font-Helvetica flex xl:flex-none 
+                                    xl:max-w-[400px] 2xl:max-w-[30vw] leading-3">
                                         {currentProcessData.title}
                                     </div>
-                                    <div className="pt-2 md:pt-4 text-[22px] xl:text-lg font-Helvetica">
+                                    <div className="py-2 md:py-4 text-[22px] xl:text-lg 3xl:text-[1.5vw] 3xl:leading-[1.7vw] font-Helvetica">
                                         {currentProcessData.mainContent}
                                     </div>
                                 </div>
                                 <div className="hidden sm:block mx-3 xl:mx-5 2xl:mx-10 w-[1px] bg-white"></div>
-                                <div className="flex-1 flex pl-4 sm:pl-4 md:pl-[20px] pr-3">
-                                    <div className="flex justify-center flex-col font-Helvetica text-[17px] xl:text-2xl font-normal">
+                                <div className="flex-1 flex pl-4 sm:pl-4 md:pl-[20px]">
+                                    <div className="flex justify-center flex-col font-Helvetica text-[17px] py-2 xl:text-2xl 3xl:text-[1.5vw] 5xl:text-[1vw] 5xl:leading-[3vw] 3xl:leading-[2vw] font-normal pr-6 3xl:pr-[1vw]">
                                         <ul className="list-disc">
                                             <li>
                                                 {currentProcessData.subContent1}
@@ -225,7 +226,7 @@ const ProcessCompo = () => {
                                 border border-solid border-white rounded-full relative flex items-center justify-center cursor-pointer ${processState === 1 ? " bg-[#9ca3af66]" : ""}`} onClick={(e) => changeProcessState(e, 1, true)}>
                                 <img src={processState === 1 ? CloseImg : AddImg} alt="keskt..." className="w-10 h-10 required: " />
                                 <div className="absolute flex right-[60px] sm:right-[85px] lg:right-[100px] items-center">
-                                    <div className="font-Helvetica font-bold text-[10px] sm:text-[10px] lg:text-[22px] pr-1 sm:pr-2 text-right w-[150px]">
+                                    <div className="font-Helvetica font-bold text-[10px] sm:text-[10px] lg:text-[22px] 3xl:text-[1.5vw] 3xl:leading-[2vw] pr-1 sm:pr-2 text-right w-[150px]">
                                         <div>
                                             DISCOVER
                                         </div>
@@ -244,7 +245,7 @@ const ProcessCompo = () => {
                                 <img src={processState === 2 ? CloseImg : AddImg} alt="keskt..." className="w-10 h-10 required: " />
                                 <div className="absolute flex left-[60px] sm:left-[80px] lg:left-[130px] items-center">
                                     <div className={`h-[1px] flex-none w-[50px] sm:w-[90px] lg:w-[145px] ${processState === 2 ? " bg-[#C51B89]" : " bg-white"}`}></div>
-                                    <div className="font-Helvetica font-bold text-[10px] sm:text-[10px] lg:text-[22px] pl-1 sm:pl-2 w-[150px]">
+                                    <div className="font-Helvetica font-bold text-[10px] sm:text-[10px] lg:text-[22px] 3xl:text-[1.5vw] 3xl:leading-[2vw] pl-1 sm:pl-2 w-[150px]">
                                         STRATEGY <br /> DEVELOPMENT
                                     </div>
                                 </div>
@@ -256,7 +257,7 @@ const ProcessCompo = () => {
                                 border border-solid border-white rounded-full relative flex items-center justify-center cursor-pointer ${processState === 3 ? " bg-[#9ca3af66]" : ""}`} onClick={(e) => changeProcessState(e, 3, true)}>
                                 <img src={processState === 3 ? CloseImg : AddImg} alt="keskt..." className="w-10 h-10 required: " />
                                 <div className="absolute flex right-[50px] sm:right-[85px] lg:right-[100px] items-center">
-                                    <div className="font-Helvetica font-bold text-[10px] sm:text-[10px] lg:text-[22px] pr-1 sm:pr-2 text-right w-full">
+                                    <div className="font-Helvetica font-bold text-[10px] sm:text-[10px] lg:text-[22px] 3xl:text-[1.5vw] 3xl:leading-[2vw] pr-1 sm:pr-2 text-right w-full">
                                         <div>
                                             CONCEPTUALIZATION
                                         </div>
@@ -275,7 +276,7 @@ const ProcessCompo = () => {
                                 <img src={processState === 4 ? CloseImg : AddImg} alt="keskt..." className="w-10 h-10 required: " />
                                 <div className="absolute flex left-[60px] sm:left-[80px] lg:left-[130px] items-center">
                                     <div className={`h-[1px] flex-none w-[50px] sm:w-[90px] lg:w-[145px] ${processState === 4 ? " bg-[#C51B89]" : " bg-white"}`}></div>
-                                    <div className="font-Helvetica font-bold text-[10px] sm:text-[10px] lg:text-[22px] pl-1 sm:pl-2 w-[150px]">
+                                    <div className="font-Helvetica font-bold text-[10px] sm:text-[10px] lg:text-[22px] 3xl:text-[1.5vw] 3xl:leading-[2vw] pl-1 sm:pl-2 w-[150px]">
                                         PRODUCTION  <br /> & EXECUTION
                                     </div>
                                 </div>
@@ -313,7 +314,7 @@ const ProcessCompo = () => {
                                 )}
                             >
                                 <div className='flex-none flex items-center flex-col'>
-                                    <div className="pb-12 text-base font-bold font-Helvetica">
+                                    <div className="pb-12 text-base 3xl:text-[1.5vw] 3xl:leading-[2vw] font-bold font-Helvetica">
                                         DISCOVER <br /> & DEFINE
                                     </div>
                                     <div className=
@@ -332,14 +333,14 @@ const ProcessCompo = () => {
                                         </div>
                                     </div>
                                     <div className="pt-8 pl-[25px]">
-                                        <div className="font-Helvetica font-bold text-[21px] text-[#C51B89] leading-none">
+                                        <div className="font-Helvetica font-bold text-[21px] 3xl:text-[1.5vw] 3xl:leading-[2vw] text-[#C51B89] leading-none">
                                             {processStateData[0].title}
                                         </div>
-                                        <div className="font-Helvetica pt-[10px] text-[17px] font-normal text-white">
+                                        <div className="font-Helvetica pt-[10px] text-[17px] 3xl:text-[1.5vw] 3xl:leading-[2vw] font-normal text-white">
                                             {processStateData[0].mainContent}
                                         </div>
                                         <div className="flex-1 flex pr-5 pl-5 text-white pt-5">
-                                            <div className="flex justify-center flex-col font-Helvetica font-normal text-[17px]">
+                                            <div className="flex justify-center flex-col font-Helvetica font-normal text-[17px] 3xl:text-[1.5vw] 3xl:leading-[2vw]">
                                                 <ul className="list-disc">
                                                     <li className="leading-tight">
                                                         {processStateData[0].subContent1}
@@ -356,7 +357,7 @@ const ProcessCompo = () => {
                                     </div>
                                 </div>
                                 <div className='flex-none flex items-center flex-col'>
-                                    <div className="pb-12 text-base font-bold font-Helvetica">
+                                    <div className="pb-12 text-base font-bold font-Helvetica 3xl:text-[1.5vw] 3xl:leading-[2vw]">
                                         STRATEGY <br /> DEVELOPMENT
                                     </div>
                                     <div className=
@@ -376,14 +377,14 @@ const ProcessCompo = () => {
                                         </div>
                                     </div>
                                     <div className="pt-8 pl-[25px]">
-                                        <div className="font-Helvetica font-bold text-[21px] text-[#C51B89] leading-none">
+                                        <div className="font-Helvetica font-bold text-[21px] 3xl:text-[1.5vw] 3xl:leading-[2vw] text-[#C51B89] leading-none">
                                             {processStateData[1].title}
                                         </div>
-                                        <div className="font-Helvetica pt-[10px] text-[17px] font-normal text-white">
+                                        <div className="font-Helvetica pt-[10px] text-[17px] 3xl:text-[1.5vw] 3xl:leading-[2vw] font-normal text-white">
                                             {processStateData[1].mainContent}
                                         </div>
                                         <div className="flex-1 flex pr-3 text-white pt-5">
-                                            <div className="flex justify-center flex-col font-Helvetica font-normal text-[17px] pr-5 pl-5">
+                                            <div className="flex justify-center flex-col font-Helvetica font-normal text-[17px] 3xl:text-[1.5vw] 3xl:leading-[2vw] pr-5 pl-5">
                                                 <ul className="list-disc">
                                                     <li className="leading-tight">
                                                         {processStateData[1].subContent1}
@@ -400,7 +401,7 @@ const ProcessCompo = () => {
                                     </div>
                                 </div>
                                 <div className='flex-none flex items-center flex-col'>
-                                    <div className="pb-12 text-base font-bold font-Helvetica">
+                                    <div className="pb-12 text-base 3xl:text-[1.5vw] 3xl:leading-[2vw] font-bold font-Helvetica">
                                         CONCEPTUALIZATION <br /> & CREATION
                                     </div>
                                     <div className=
@@ -420,14 +421,14 @@ const ProcessCompo = () => {
                                         </div>
                                     </div>
                                     <div className="pt-8 pl-[25px]">
-                                        <div className="font-Helvetica font-bold text-[21px] text-[#C51B89] leading-none">
+                                        <div className="font-Helvetica font-bold text-[21px] 3xl:text-[1.5vw] 3xl:leading-[2vw] text-[#C51B89] leading-none">
                                             {processStateData[2].title}
                                         </div>
-                                        <div className="font-Helvetica pt-[10px] text-[17px] font-normal text-white">
+                                        <div className="font-Helvetica pt-[10px] text-[17px] 3xl:text-[1.5vw] 3xl:leading-[2vw] font-normal text-white">
                                             {processStateData[2].mainContent}
                                         </div>
                                         <div className="flex-1 flex pr-3 text-white pt-5">
-                                            <div className="flex justify-center flex-col font-Helvetica font-normal text-[17px] pr-5 pl-5">
+                                            <div className="flex justify-center flex-col font-Helvetica font-normal text-[17px] 3xl:text-[1.5vw] 3xl:leading-[2vw] pr-5 pl-5">
                                                 <ul className="list-disc">
                                                     <li className="leading-tight">
                                                         {processStateData[2].subContent1}
@@ -444,7 +445,7 @@ const ProcessCompo = () => {
                                     </div>
                                 </div>
                                 <div className='flex-none flex items-center flex-col'>
-                                    <div className="pb-12 text-base font-bold font-Helvetica">
+                                    <div className="pb-12 text-base 3xl:text-[1.5vw] 3xl:leading-[2vw] font-bold font-Helvetica">
                                         PRODUCTION  <br /> & EXECUTION
                                     </div>
                                     <div
@@ -464,14 +465,14 @@ const ProcessCompo = () => {
                                         </div>
                                     </div>
                                     <div className="pt-8 pl-[25px]">
-                                        <div className="font-Helvetica font-bold text-[21px] text-[#C51B89] leading-none">
+                                        <div className="font-Helvetica font-bold text-[21px] 3xl:text-[1.5vw] 3xl:leading-[2vw] text-[#C51B89] leading-none">
                                             {processStateData[3].title}
                                         </div>
-                                        <div className="font-Helvetica pt-[10px] text-[17px] font-normal text-white">
+                                        <div className="font-Helvetica pt-[10px] text-[17px] 3xl:text-[1.5vw] 3xl:leading-[2vw] font-normal text-white">
                                             {processStateData[3].mainContent}
                                         </div>
                                         <div className="flex-1 flex pr-3 text-white pt-5">
-                                            <div className="flex justify-center flex-col font-Helvetica font-normal text-[17px] pr-5 pl-5">
+                                            <div className="flex justify-center flex-col font-Helvetica font-normal text-[17px] 3xl:text-[1.5vw] 3xl:leading-[2vw] pr-5 pl-5">
                                                 <ul className="list-disc">
                                                     <li className="leading-tight">
                                                         {processStateData[3].subContent1}
@@ -498,14 +499,14 @@ const ProcessCompo = () => {
                                 <img src={CloseModalImg} alt="" className="w-4 h-4 " />
                             </div></DialogHeader>
                         <DialogBody className="bg-[#210837] p-6">
-                            <div className="font-Helvetica font-bold text-3xl sm:text-[34px] lg:text-[50px] text-[#C51B89] leading-none">
+                            <div className="font-Helvetica font-bold text-3xl sm:text-[34px] lg:text-[50px] 3xl:text-[1.5vw] 3xl:leading-[2vw] text-[#C51B89] leading-none">
                                 {currentProcessData.title}
                             </div>
-                            <div className="font-Helvetica pt-2 sm:pt-8 text-base sm:text-[28px] lg:text-[34px] text-white leading-tight">
+                            <div className="font-Helvetica pt-2 sm:pt-8 text-base sm:text-[28px] lg:text-[34px] 3xl:text-[1.5vw] 3xl:leading-[2vw] text-white leading-tight">
                                 {currentProcessData.mainContent}
                             </div>
                             <div className="flex-1 flex pl-4 sm:pl-4 md:pl-[20px] pr-3 text-white pt-16 lg:pt-20">
-                                <div className="flex justify-center flex-col font-Helvetica text-lg sm:text-[28px] lg:text-[34px] font-light">
+                                <div className="flex justify-center flex-col font-Helvetica text-lg sm:text-[28px] lg:text-[34px] 3xl:text-[1.5vw] 3xl:leading-[2vw] font-light">
                                     <ul className="list-disc">
                                         <li className="leading-tight">
                                             {currentProcessData.subContent1}
