@@ -76,7 +76,7 @@ const CreativeCompo = () => {
                                     Let’s talk
                                 </div>
                             </div>
-                            <div className="sm:pl-0 w-[200px] sm:w-[300px] xl:w-[350px] 2xl:w-[55vw] 3xl:w-[25vw]">
+                            <div className="sm:pl-0 w-[200px] sm:w-[300px] xl:w-[350px] 2xl:w-[400px] 3xl:w-[25vw]">
                                 <img src={lineImg} alt="Divider Line" className="w-full h-auto" />
                             </div>
                             <a href="mailto:creative@kekstcnc.com">
