@@ -6,10 +6,8 @@ const Selections = ({ selectionsData }) => {
         <div>
             {selectionsData && selectionsData.map((data, index) => (
                 <div key={data.id} className={`flex flex-col md:flex-row text-white sm:px-0 md:px-0 ${data.id !== 1 ? 'pt-6 lg:pt-8 xl:pt-[60px] 2xl:pt-[2vw]' : 'md:mt-[-40px] lg:mt-[-20px] xl:mt-0'}`}>
-                    <div className='w-[9px] md:w-[34px] lg:w-[59px] xl:w-[5vw] 2xl:w-[308px] flex-none'>
-                    </div>
-                    <div className='flex-1 m-0 p-0 border-white border-b-[1px] mt-6'>
-                        <div className='overflow-hidden xl:h-[400px] 2xl:h-[15vw]'>
+                    <div className='flex-1 m-0 p-0 border-white border-b-[1px] mt-6 pl-[9px] md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px]'>
+                        <div className='overflow-hidden xl:h-[400px] 2xl:h-[24vw]'>
                             <Link to={data.link_url}>
                                 <img src={data.img_url} alt="logo" className="hidden xl:block object-cover h-full w-full cursor-pointer transition duration-300 ease-in-out hover:scale-110" />
                                 <img src={data.img_url1} alt="logo" className="block md:hidden h-full w-full cursor-pointer transition duration-300 ease-in-out hover:scale-110" />
@@ -25,7 +23,7 @@ const Selections = ({ selectionsData }) => {
                                 </Link>
                                 <div className='hidden 2xl:block h-[1px] bg-white ml-0 2xl:ml-[1vw] w-full'></div>
                             </div>
-                            <div className='pl-2 md:pl-0 pr-5 w-full font-normal text-[17px] sm:text-xl md:text-lg xl:text-[1.8vw] 2xl:text-[1.5vw] border-0 border-r-0 2xl:border-l-[1px] 2xl:px-[1.5vw] font-Helvetica pt-2 md:pt-4 lg:pt-2 2xl:pt-0 2xl:leading-[2.2vw]'>
+                            <div className='pl-2 md:pl-0 pr-5 w-full font-normal text-[17px] sm:text-xl md:text-lg xl:text-[1.8vw] 2xl:text-[1.5vw] border-0 border-r-0 2xl:border-l-[1px] 2xl:px-[2.5vw] font-Helvetica pt-2 md:pt-4 lg:pt-2 2xl:pt-0 2xl:leading-[2.2vw]'>
                                 {data.content}
                             </div>
                         </div>
