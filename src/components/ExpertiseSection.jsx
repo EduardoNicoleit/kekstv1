@@ -12,7 +12,7 @@ const ExpertiseSection = () => {
                         <div className="font-Helvetica flex flex-col xl:flex-row justify-between">
                             <div className="xl:max-w-[950px] 2xl:max-w-none">
                                 <Link to={val.link_url}>
-                                    <div className="flex items-center font-extrabold pr-4 text-[23px] sm:text-[30px] md:text-[35px] lg:text-[40px] xl:text-[44px] 2xl:text-[40px] 3xl:text-[2vw] hover:text-[#7a6b87]">
+                                    <div className="flex items-center font-extrabold pr-4 text-[23px] sm:text-[30px] md:text-[35px] lg:text-[40px] xl:text-[2.8vw] 2xl:text-[2.8vw] 3xl:text-[2.8vw] hover:text-[#7a6b87]">
                                         {val.title}
                                     </div>
                                 </Link>
