@@ -6,7 +6,7 @@ const Selections = ({ selectionsData }) => {
         <div>
             {selectionsData && selectionsData.map((data, index) => (
                 <div key={data.id} className={`flex flex-col md:flex-row text-white sm:px-0 md:px-0 ${data.id !== 1 ? 'pt-6 lg:pt-8 xl:pt-[60px] 2xl:pt-[2vw]' : 'md:mt-[-40px] lg:mt-[-20px] xl:mt-0'}`}>
-                    <div className='flex-1 m-0 p-0 border-white border-b-[1px] mt-6 pl-[9px] md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px]'>
+                    <div className='flex-1 m-0 p-0 border-white border-b-[1px] mt-6 ml-[9px] md:ml-[34px] lg:ml-[59px] xl:ml-[100px] 2xl:ml-[308px]'>
                         <div className='overflow-hidden xl:h-[400px] 2xl:h-[24vw]'>
                             <Link to={data.link_url}>
                                 <img src={data.img_url} alt="logo" className="hidden xl:block object-cover h-full w-full cursor-pointer transition duration-300 ease-in-out hover:scale-110" />
