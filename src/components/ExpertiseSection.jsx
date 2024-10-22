@@ -8,7 +8,7 @@ const ExpertiseSection = () => {
         <div>
             {
                 expertiseData2.map((val) => (
-                    <div key={val.id} className="text-white border-b-[1px] border-white pl-4 md:pl-0 pt-6 lg:pt-12 xl:pt-[45px] 2xl:pt-[50] 3xl:pt-[2vw]">
+                    <div key={val.id} className="text-white border-b-[1px] border-white pl-4 md:pl-0 pt-6 lg:pt-12 xl:pt-[40px] 2xl:pt-[10px] 3xl:pt-[2vw]">
                         <div className="font-Helvetica flex flex-col xl:flex-row justify-between">
                             <div className="xl:max-w-[950px] 2xl:max-w-none">
                                 <Link to={val.link_url}>
