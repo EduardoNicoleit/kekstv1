@@ -47,12 +47,17 @@ const Navbar = () => {
             const currentScrollY = window.scrollY;
             const navbarOffset = navbarOriginalTop.current;
 
-            if (currentScrollY > lastScrollY.current && currentScrollY > navbarOffset) {
-                setSticky(true);
-            }
-
-            if (currentScrollY < lastScrollY.current) {
+            if (currentScrollY > lastScrollY.current) {
+                // Scrolling down
                 setSticky(false);
+            } else {
+                // Scrolling up
+                if (currentScrollY <= navbarOffset) {
+                    // If we scroll up past the navbar's original position, dock it
+                    setSticky(false);
+                } else {
+                    setSticky(true);
+                }
             }
 
             lastScrollY.current = currentScrollY;
