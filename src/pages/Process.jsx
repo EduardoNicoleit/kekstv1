@@ -176,20 +176,26 @@ const ProcessCompo = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex flex-col md:flex-row items-center justify-center pr-4 pt-12 pl-0 sm:pl-[40px] md:pl-[100px] lg:pl-[120px] xl:pl-[100px] 2xl:pl-[322px] flex-none h-[250px] 2xl:h-[400px] 3xl:h-[10vw]">
 
-                                <div className="pb-2 md:pb-0 md:w-60 lg:w-[350px] xl:w-[450px] 2xl:w-[508px] 3xl:w-[30vw] 3xl:mr-[10vw] flex-none pt-8">
-                                    <div className="text-[#C51B89] font-bold text-[21px] md:text-xl lg:text-[26px] xl:text-[33px] 2xl:text-4xl 3xl:text-[2.2vw] leading-10 3xl:leading-[3vw] font-Helvetica flex xl:flex-none 
-                                    xl:max-w-[400px] 2xl:max-w-[30vw] 3xl:pb-[2vw]">
+                            {/* // Text below the circles */}
+                            <div className="items-start justify-start flex flex-col md:flex-row items-center justify-between pr-4 pt-12 pl-0 sm:pl-[40px] md:pl-[100px] lg:pl-[120px] xl:pl-[100px] 2xl:pl-[322px] flex-none h-[250px] xl:h-[300px] 2xl:h-[350px] 3xl:h-[10vw]">
+                                {/* Left Section */}
+                                <div className="pb-2 md:pb-0 pt-8 pr-1 2xl:pr-[3vw]">
+                                    <div className="flex flex-col text-[#C51B89] font-bold text-[21px] md:text-xl lg:text-[26px] xl:text-[33px] 2xl:text-4xl 3xl:text-[2.2vw] leading-10 3xl:leading-[3vw] font-Helvetica xl:max-w-[400px] 2xl:max-w-[40vw] 3xl:pb-[1vw]">
                                         {currentProcessData.title}
                                     </div>
+
                                     <div className="py-2 md:py-4 text-[22px] xl:text-lg 3xl:text-[1.5vw] 3xl:leading-[1.7vw] font-Helvetica">
                                         {currentProcessData.mainContent}
                                     </div>
                                 </div>
-                                <div className="hidden sm:block mx-3 xl:mx-5 2xl:mx-10 w-[1px] bg-white"></div>
-                                <div className="flex-1 flex pl-4 sm:pl-4 md:pl-[20px]">
-                                    <div className="flex justify-center flex-col font-Helvetica text-[17px] py-2 xl:text-2xl 3xl:text-[1.5vw] 5xl:text-[1vw] 5xl:leading-[3vw] 3xl:leading-[2vw] font-normal pr-6 3xl:pr-[1vw]">
+
+                                {/* Divider Column */}
+                                <div className="hidden md:block mx-3 xl:mx-5 2xl:mx-10 flex-none border-l border-white h-full"></div>
+
+                                {/* Right Section */}
+                                <div className="flex-1 flex pl-[2vw] 2xl:pl-[3vw] justify-start">
+                                    <div className="flex justify-start flex-col font-Helvetica text-[17px] py-2 xl:text-2xl 3xl:text-[1.2vw] 5xl:text-[1vw] 3xl:leading-[2vw] font-normal pr-6 3xl:pr-[1vw] pl-1 3xl:pl-[0.5vw]">
                                         <ul className="list-disc">
                                             <li>
                                                 {currentProcessData.subContent1}
@@ -204,6 +210,7 @@ const ProcessCompo = () => {
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                     <div className="relative hidden sm:block xl:hidden">

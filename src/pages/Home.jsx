@@ -32,9 +32,14 @@ const Home = () => {
     return (
         <div className="relative">
             {/* Fullscreen Video Divider */}
-            <div className="absolute z-10 mt-[95vh] hidden sm:block overflow-hidden w-full pr-2 lg:pr-6 xl:pr-[30px] 2xl:pr-[45px] 3xl:pr-[50px] pl-2 lg:pl-6 xl:pl-[30px] 2xl:pl-[45px] 3xl:pl-[50px]">
-                <img src="../assets/img/home/divider.svg" alt="line" className="object-cover" />
+            <div className="absolute z-10 mt-[95vh] hidden sm:block overflow-hidden w-full pr-2 lg:pr-4 xl:pr-[25px] 2xl:pr-[45px] 3xl:pr-[45px] pl-2 lg:pl-4 xl:pl-[25px] 2xl:pl-[45px] 3xl:pl-[45px]">
+                <img
+                    src="../assets/img/home/linhas.svg"
+                    alt="line"
+                    className="object-cover w-[100vw] h-auto"
+                />
             </div>
+
             <video
                 className="w-full h-screen object-cover hidden sm:block"
                 autoPlay
