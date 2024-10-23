@@ -27,15 +27,10 @@ const Volkswagen = () => {
                 <div className="w-full absolute bottom-0">
                     <div className="flex flex-col px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] 3xl:px-[45px]">
                         <div className="flex">
-                            <div className="w-[33px] lg:w-[60px] 2xl:w-[299px] flex-none"></div>
+                            <div className="w-6 lg:w-[60px] 2xl:w-[308px] flex-none"></div>
                             <div>
                                 <div
-                                    className="font-Helvetica font-bold mt-auto
-                                    text-[30px] leading-[34px] md:text-[50px] md:leading-[57px]
-                                    lg:text-[70px]
-                                    xl:text-[160px]
-                                    lg:leading-[80px] xl:leading-[184px]
-                                    py-14 sm:py-6 md:py-10 lg:py-10 xl:py-5 2xl:py-16 3xl:py-20"
+                                    className="font-helvetica font-bold mt-auto text-[50px] leading-[34px] md:text-[50px] md:leading-[57px] lg:text-[70px] xl:text-[160px] 2xl:text-[5.5vw] lg:leading-[80px] xl:leading-[184px] py-14 sm:py-6 md:py-10 lg:py-10 xl:py-5 2xl:py-16 3xl:py-[3vw]"
                                 >
                                     Volkswagen
                                 </div>
@@ -43,42 +38,41 @@ const Volkswagen = () => {
                         </div>
                         <div className="hidden lg:block">
                             <div
-                                className="lg:flex-col 2xl:flex-row flex border-white border-y-[1px]
-                                sm:text-4xl md:text-3xl lg:text-[22px] lg:h-[220px] xl:h-[188px] 2xl:h-[128px] items-start 2xl:items-center"
+                                className="lg:flex-col 2xl:flex-row flex border-white border-y-[1px] sm:text-4xl md:text-3xl lg:text-[22px] 3xl:text-[1.2vw] lg:h-[220px] xl:h-[188px] 2xl:h-[128px] 3xl:h-[12vh] items-start 2xl:items-center"
                             >
                                 <div
-                                    className="lg:pl-[60px] lg:py-4 xl:py-5 2xl:py-0
-                                    w-[300px] lg:w-[200px] 2xl:w-[318px] mb-0 2xl:mb-12"
+                                    className="lg:pl-[60px] lg:pr-0 lg:py-4 xl:py-5 2xl:py-[2vw] w-[300px] lg:w-[200px] 2xl:w-[10vw] mb-0 2xl:mb-12 3xl:pl-[2vw] 3xl:pr-[2vw] 3xl:py-[2vw] 2xl:px-[10px]"
                                 >
-                                    Overview
+                                    Overview:
                                 </div>
-                                <div className="lg:grid grid-cols-3 w-full items-start 2xl:items-center ">
-                                    <div className="pl-[60px] 2xl:pl-8 pr-4 xl:border-l-0 2xl:border-l-[1px] leading-tight h-full">
+                                <div className="lg:grid grid-cols-3 w-full items-start 2xl:items-center 3xl:gap-[1vw] 5xl:gap-[1.5vw]">
+                                    <div className="pl-[60px] 2xl:pl-8 pr-4 xl:border-l-0 2xl:border-l-[1px] leading-tight h-full 3xl:pl-[2vw] 3xl:pr-[2vw]">
                                         Crafted a targeted social media campaign for Volkswagen's ESG initiatives.
                                     </div>
-                                    <div className="pl-8 pr-4 border-l-[1px] leading-tight h-full">
+                                    <div className="pl-8 pr-4 border-l-[1px] leading-tight h-full 3xl:pl-[2vw] 3xl:pr-[2vw] 5xl:pl-[3vw] ">
                                         Engaged audiences with creative content over a two-month period.
                                     </div>
-                                    <div className="pl-8 pr-4 border-l-[1px] leading-tight h-full">
+                                    <div className="pl-8 pr-4 border-l-[1px] leading-tight h-full 3xl:pl-[2vw] 2xl:pr-[3vw] 5xl:pl-[3vw] ">
                                         Transformed ESG data into relatable visuals, enhancing audience connection.
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
             <div className="px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] 3xl:px-[45px]">
                 {/* Mobile Overview */}
-                <div className="block lg:hidden font-Helvetica font-normal py-[41px] text-white pl-6 sm:pl-[33px]">
-                    <div className="text-[12px] leading-[14px] uppercase">Overview</div>
-                    <div className="text-[13px] leading-[15px] py-3 border-b-[1px]">
+                <div className="block lg:hidden font-Helvetica font-normal py-[41px] text-white pl-6 sm:pl-4">
+                    <div className="text-[12px] leading-[14px] uppercase">Overview:</div>
+                    <div className="text-[13px] leading-[15px] py-3 border-b-[1px] pr-6">
                         Crafted a targeted social media campaign for Volkswagen's ESG initiatives.
                     </div>
-                    <div className="text-[13px] leading-[15px] py-3 border-b-[1px]">
+                    <div className="text-[13px] leading-[15px] py-3 border-b-[1px] pr-6">
                         Engaged audiences with creative content over a two-month period.
                     </div>
-                    <div className="text-[13px] leading-[15px] py-3 border-b-[1px]">
+                    <div className="text-[13px] leading-[15px] py-3 border-b-[1px] pr-6">
                         Transformed ESG data into relatable visuals, enhancing audience connection.
                     </div>
                 </div>
@@ -87,18 +81,12 @@ const Volkswagen = () => {
                     className="flex flex-col 2xl:flex-row md:pt-[10px] lg:pt-10 xl:pt-[156px] 2xl:pt-[211px] pb-10 lg:pb-20 xl:pb-[106px] 2xl:pb-[134px] w-full font-Helvetica text-white"
                 >
                     <div
-                        className="text-start 2xl:text-center font-normal
-                        text-[12px] md:text-lg 2xl:text-2xl
-                        pt-3
-                        xl:w-full 2xl:w-[299px]
-                        flex-none
-                        px-[33px] lg:px-[60px] 2xl:px-0
-                        py-6 2xl:py-0"
+                        className="uppercase xl:normal-case text-start 2xl:text-center font-normal text-[12px] md:text-lg 2xl:text-2xl 3xl:text-[1.2vw] pt-3 xl:w-full 2xl:w-[308px] 3xl:w-[15vw] flex-none px-6 lg:px-[60px] 2xl:px-[2vw] py-6 2xl:py-0"
                     >
                         The partnership:
                     </div>
                     <div
-                        className="font-bold md:font-normal text-[17px] md:text-[28px] 2xl:text-[40px] px-[33px] lg:px-[60px] 2xl:px-0 w-full leading-tight"
+                        className="font-bold md:font-normal text-[17px] md:text-[28px] 2xl:text-[40px] 3xl:text-[1.8vw] px-6 lg:px-[60px] 2xl:px-[0] 2xl:pr-[3.5vw] w-full leading-tight"
                     >
                         In close collaboration with Volkswagen, we meticulously developed a social media campaign to promote and position the group's global ESG initiatives. Over two months, this campaign engaged audiences through creative posts, aiming to shift perceptions by connecting ESG actions with relatable, real-world scenarios.
                     </div>
@@ -106,7 +94,7 @@ const Volkswagen = () => {
                 {/* Video Section 1 */}
                 <div>
                     <video
-                        className="w-full h-auto object-cover"
+                        className="w-full h-auto object-cover 2xl:max-w[1920px] 3xl:max-h-[50vw]"
                         autoPlay
                         loop
                         muted
@@ -117,10 +105,10 @@ const Volkswagen = () => {
                 </div>
                 {/* Description Section */}
                 <div
-                    className="py-10 2xl:py-[114px] text-[17px] lg:text-[18px] xl:text-2xl flex font-normal font-Helvetica text-white"
+                    className="py-10 2xl:py-[5vw] text-[17px] lg:text-[18px] xl:text-[1.2vw] flex font-normal font-Helvetica text-white"
                 >
-                    <div className="md:w-[33px] lg:w-[60px] 2xl:w-[299px] flex-none"></div>
-                    <div className="px-6 md:px-0">
+                    <div className="w-6 lg:w-[60px] 2xl:w-[308px] 3xl:w-[15vw] flex-none"></div>
+                    <div className="px-0 pr-6 sm:px-6 lg:px-0 lg:pr-10 2xl:pr-[3.5vw]">
                         <div className="pb-5">
                             Our commitment spanned from concept creation and strategic planning to the execution phase, ensuring a seamless narrative throughout. The visual strategy transformed complex data into engaging visuals, marrying numerical facts about Volkswagen's ESG efforts with elements from everyday life, such as soccer stadiums and natural landscapes, to whimsical motifs like balloons.
                         </div>
@@ -132,7 +120,7 @@ const Volkswagen = () => {
                 {/* Video Section 2 */}
                 <div>
                     <video
-                        className="w-full h-auto object-cover"
+                        className="w-full h-auto object-cover 2xl:max-w[1920px] 3xl:max-h-[50vw]"
                         autoPlay
                         loop
                         muted
@@ -143,7 +131,7 @@ const Volkswagen = () => {
                 </div>
                 {/* Image Section */}
                 <div className="py-8 2xl:py-16 flex">
-                    <div className="hidden lg:block lg:w-[299px] flex-none"></div>
+                    <div className="hidden lg:block lg:w-[308px] flex-none"></div>
                     <div className="w-full">
                         <img
                             src="/assets/img/volkswagen/vw-mockup.png"
@@ -155,7 +143,7 @@ const Volkswagen = () => {
                 {/* Video Section 3 */}
                 <div>
                     <video
-                        className="w-full h-auto object-cover"
+                        className="w-full h-auto object-cover 2xl:max-w[1920px] 3xl:max-h-[50vw]"
                         autoPlay
                         loop
                         muted

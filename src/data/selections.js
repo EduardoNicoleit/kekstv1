@@ -4,7 +4,7 @@ export const selectionsData = [
         img_url: '/assets/img/selections/VW.png',
         mobile_img_url: '/assets/img/selections/VW1.png',
         title: 'Volkswagen',
-        content: "We created a social media campaign for Volkswagen, with over 30 posts. Our approach transformed company data into relatable visuals, connecting facts with everyday elements. We managed the entire process from strategy to creative execution.",
+        content: "Partnering with Volkswagen to enhance their global ESG narrative, from strategic audience engagement to shaping future sustainability pathways.",
         link_url: "/works/volkswagen"
     },
     {
@@ -12,7 +12,7 @@ export const selectionsData = [
         img_url: '/assets/img/selections/netclean.png',
         mobile_img_url: '/assets/img/selections/NetClean1.png',
         title: 'NetClean',
-        content: "We modernized NetClean's Annual Reports, harmonizing the language across different platforms with animated content. This strategy engaged stakeholders and conveyed results and objectives in a compelling, innovative manner.",
+        content: "Reinventing how annual data reports can be transformed into impactful narrative communication tools.",
         link_url: "/works/netClean"
     },
     {
@@ -28,7 +28,7 @@ export const selectionsData = [
         img_url: '/assets/img/selections/Uniper.png',
         mobile_img_url: '/assets/img/selections/Uniper1.png',
         title: 'Uniper',
-        content: "We revamped NewWaters' identity during an owner transition, using a wave design to symbolize adaptability and transformation. The wave cleverly integrates 'N' and 'W,' reinforcing the aquatic theme.",
+        content: "Shaping Uniper's campaign to position them as the heartbeat of an evolving energy landscape.",
         link_url: "/works/uniper"
     },
     {
@@ -36,7 +36,7 @@ export const selectionsData = [
         img_url: '/assets/img/selections/NewWaters.png',
         mobile_img_url: '/assets/img/selections/NewWaters1.png',
         title: 'NewWaters',
-        content: "We modernized NetClean's Annual Reports, harmonizing the language across different platforms with animated content. This strategy engaged stakeholders and conveyed results and objectives in a compelling, innovative manner.",
+        content: "Crafting NewWaters' corporate identity to embody fluid innovation in a transforming market.",
         link_url: "/works/newWaters"
     },
     {
