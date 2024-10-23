@@ -121,7 +121,7 @@ const ExpertiseDataCompo = ({ isSticky, element }) => {
                                                         </div>
                                                     </div>
                                                     <div className="text-[#9F81BF] w-16 h-16 font-Helvetica text-[34px] absolute bottom-0 top-[-24px] z-10 left-10 bg-[#210837] text-center">
-                                                        01
+                                                        03
                                                     </div>
                                                 </div>
                                             </div>
