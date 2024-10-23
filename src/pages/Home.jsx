@@ -36,7 +36,7 @@ const Home = () => {
                 <img
                     src="../assets/img/home/linhas.svg"
                     alt="line"
-                    className="object-cover w-[100vw] h-auto"
+                    className="object-cover w-full h-auto"
                 />
             </div>
 
