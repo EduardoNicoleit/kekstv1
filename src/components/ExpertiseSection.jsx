@@ -24,14 +24,14 @@ const ExpertiseSection = () => {
                                 <ReadMore linkUrl={val.link_url} />
                             </div>
                         </div>
-                        <div className="text-[12.5px] sm:text-[12.5px] md:text-[16px] lg:text-[19px] xl:text-[15px] 2xl:text-[15px] 3xl:text-[0.9vw] font-Helvetica grid grid-cols-1 2xl:grid-cols-1 3xl:grid-cols-2 pr-0 sm:pr-8 xl:pr-[5vw] 2xl:pr-[2.5vw] pt-6 md:pt-[18px] lg:pt-[25px] xl:pt-[60px] 3xl:pt-[3vw] pb-6 lg:pb-[25px] xl:pb-[60px] 3xl:pb-[3vw]">
+                        <div className="text-[12.5px] sm:text-[12.5px] md:text-[16px] lg:text-[19px] xl:text-[15px] 2xl:text-[15px] 3xl:text-[0.9vw] font-Helvetica grid grid-cols-1 2xl:grid-cols-1 3xl:grid-cols-2 pr-0 sm:pr-8 xl:pr-[5vw] 2xl:pr-[1vw] pt-6 md:pt-[18px] lg:pt-[25px] xl:pt-[60px] 3xl:pt-[3vw] pb-6 lg:pb-[25px] xl:pb-[60px] 3xl:pb-[3vw]">
                             <div className="col-span-1 2xl:col-span-2">
                                 <div className="hidden lg:block w-max">
                                     <div className="flex border-t-[1px] border-b-[1px] border-white">
                                         {val.content1.map((content, index) => (
                                             <div
                                                 key={content}
-                                                className={`py-1.5 3xl:py-[0.7vw] pr-2 3xl:pr-[0.7vw] border-white ${index === 0 ? '' : 'border-l pl-2 3xl:pl-2'}`}
+                                                className={`py-1.5 3xl:py-[0.7vw] pr-2 2xl:pr-[0.7vw] border-white ${index === 0 ? '' : 'border-l pl-2 2xl:pl-[0.7vw]'}`}
                                             >
                                                 {content}
                                             </div>
@@ -41,7 +41,7 @@ const ExpertiseSection = () => {
                                         {val.content2.map((content, index) => (
                                             <div
                                                 key={content}
-                                                className={`text-[12.5px] sm:text-[12.5px] md:text-[16px] lg:text-[19px] xl:text-[15px] 2xl:text-[15px] 3xl:text-[0.9vw] py-1.5 3xl:py-[0.7vw] pr-[1vw] border-white ${val.content2.length !== index + 1 ? 'border-r' : 'pl-2 2xl:pl-2'}`}
+                                                className={`text-[12.5px] sm:text-[12.5px] md:text-[16px] lg:text-[19px] xl:text-[15px] 2xl:text-[15px] 3xl:text-[0.9vw] py-1.5 3xl:py-[0.7vw] pr-2 2xl:pr-[0.7vw] border-white ${val.content2.length !== index + 1 ? 'border-r' : 'pl-2 2xl:pl-[0.7vw]'}`}
                                             >
                                                 {content}
                                             </div>
@@ -54,7 +54,7 @@ const ExpertiseSection = () => {
                                             {val.content1.map((content, index) => (
                                                 <div
                                                     key={content}
-                                                    className={`py-1.5 3xl:py-[0.7vw] pr-2 3xl:pr-[0.7vw] border-white ${val.content1.length !== index + 1 ? 'border-r-[1px]' : 'pl-2 3xl:pl-2'}`}
+                                                    className={`py-1.5 3xl:py-[0.7vw] pr-2 2xl:pl-[0.7vw] border-white ${val.content1.length !== index + 1 ? 'border-r-[1px]' : 'pl-2 2xl:pl-[0.7vw]'}`}
                                                 >
                                                     {content}
                                                 </div>
@@ -64,7 +64,7 @@ const ExpertiseSection = () => {
                                             {val.content2.map((content, index) => (
                                                 <div
                                                     key={content}
-                                                    className={`py-1.5 3xl:py-[0.7vw] pr-2 3xl:pr-[0.7vw] border-white ${val.content2.length !== index + 1 ? 'border-r-[1px]' : 'pl-2 3xl:pl-2'}`}
+                                                    className={`py-1.5 3xl:py-[0.7vw] pr-2 2xl:pl-[0.7vw] border-white ${val.content2.length !== index + 1 ? 'border-r-[1px]' : 'pl-2 2xl:pl-[0.7vw]'}`}
                                                 >
                                                     {content}
                                                 </div>
@@ -77,7 +77,7 @@ const ExpertiseSection = () => {
                                             {val.content3.map((content, index) => (
                                                 <div
                                                     key={content}
-                                                    className={`py-1.5 3xl:py-[0.7vw] pr-2 3xl:pr-[0.7vw] border-white ${index === 0 ? 'border-r-[1px]' : index === 1 ? 'pl-2 3xl:pl-2' : 'border-l-[1px] pl-2 3xl:pl-2'}`}
+                                                    className={`py-1.5 3xl:py-[0.7vw] pr-2 2xl:pl-[0.7vw] border-white ${index === 0 ? 'border-r-[1px]' : index === 1 ? 'pl-2 2xl:pl-[0.7vw]' : 'border-l-[1px] pl-2 2xl:pl-[0.7vw]'}`}
                                                 >
                                                     {content}
                                                 </div>
@@ -87,7 +87,7 @@ const ExpertiseSection = () => {
                                             {val.content4.map((content, index) => (
                                                 <div
                                                     key={content}
-                                                    className={`py-1.5 3xl:py-[0.7vw] pr-2 3xl:pr-[0.7vw] border-white ${val.content4.length !== index + 1 ? 'border-r-[1px]' : 'pl-2 3xl:pl-2'}`}
+                                                    className={`py-1.5 3xl:py-[0.7vw] pr-2 2xl:pl-[0.7vw] border-white ${val.content4.length !== index + 1 ? 'border-r-[1px]' : 'pl-2 2xl:pl-[0.7vw]'}`}
                                                 >
                                                     {content}
                                                 </div>
@@ -97,7 +97,7 @@ const ExpertiseSection = () => {
                                             {val.content5.map((content, index) => (
                                                 <div
                                                     key={content}
-                                                    className={`py-1.5 3xl:py-[0.7vw] pr-2 3xl:pr-[0.7vw] border-white ${val.content5.length !== index + 1 ? 'border-r-[1px]' : ''}`}
+                                                    className={`py-1.5 3xl:py-[0.7vw] pr-2 2xl:pl-[0.7vw] border-white ${val.content5.length !== index + 1 ? 'border-r-[1px]' : ''}`}
                                                 >
                                                     {content}
                                                 </div>
@@ -107,7 +107,7 @@ const ExpertiseSection = () => {
                                             {val.content6.map((content, index) => (
                                                 <div
                                                     key={content}
-                                                    className={`py-1.5 3xl:py-[0.7vw] pr-2 3xl:pr-[0.7vw] border-white ${val.content6.length !== index + 1 ? 'border-r-[1px]' : ''}`}
+                                                    className={`py-1.5 3xl:py-[0.7vw] pr-2 2xl:pl-[0.7vw] border-white ${val.content6.length !== index + 1 ? 'border-r-[1px]' : ''}`}
                                                 >
                                                     {content}
                                                 </div>
