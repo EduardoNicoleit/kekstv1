@@ -260,11 +260,11 @@ export const expertiseData2 = [
         text: "Combining creative strategy with innovative storytelling, delivering campaigns, corporate identities, and visual communications that resonate with audiences and ensure brand narratives inspire and engage across multiple platforms.",
         link_url: "/expertise",
         content1: ["Creative Campaigns", "Naming", "Corporate Identity", "Visual Identity Systems", "Editorial Design"],
-        content2: ["Creative Consultation and Strategic Counsel", "Video & Audio (Strategy, Storyboarding, Copywriting, Production)"],
+        content2: ["Creative Consultation and Strategic Counsel", "Video, Audio, and Animation (Strategy, Storyboarding, Copywriting, Production)"],
         content3: ["Creative Campaigns", "Naming", "Corporate Identity"],
         content4: ["Visual Identity Systems", "Editorial Design"],
         content5: ["Creative Consultation and Strategic Counsel"],
-        content6: ["Video & Audio (Strategy, Storyboarding, Copywriting, Production)"]
+        content6: ["Video, Audio, and Animation (Strategy, Storyboarding, Copywriting, Production)"]
     },
     {
         id: 2,
@@ -287,7 +287,7 @@ export const expertiseData3 = [
     {
         content1: ["Creative Campaigns", "Naming", "Corporate Identity"],
         content2: ["Visual Identity Systems", "Editorial Design", "Creative Consultation and Strategic Counsel"],
-        content3: ["Video & Audio (Strategy, Storyboarding, Copywriting, Production)"]
+        content3: ["Video, Audio, and Animation (Strategy, Storyboarding, Copywriting, Production)"]
     }
 ]
 export const expertiseData4 = [
@@ -303,7 +303,7 @@ export const expertiseData5 = [
     }
 ]
 export const expertiseListData = [
-    "Creative Campaigns", "Naming", "Corporate Identity", "Visual Identity Systems", "Editorial Design", "Creative Consultation and Strategic Counsel", "Video & Audio (Strategy, Storyboarding, Copywriting, Production)"
+    "Creative Campaigns", "Naming", "Corporate Identity", "Visual Identity Systems", "Editorial Design", "Creative Consultation and Strategic Counsel", "Video, Audio, and Animation (Strategy, Storyboarding, Copywriting, Production)"
 ]
 export const productListData = [
     "Platform Development", "User Interface and Experience Design", "Gamification", "Virtual & Augmented Reality"

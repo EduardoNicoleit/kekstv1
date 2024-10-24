@@ -36,16 +36,16 @@ const Volkswagen = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="hidden lg:block">
+                        <div className="hidden lg:block text-normal">
                             <div
                                 className="lg:flex-col 2xl:flex-row flex border-white border-y-[1px] sm:text-4xl md:text-3xl lg:text-[22px] 3xl:text-[1.2vw] lg:h-[220px] xl:h-[188px] 2xl:h-[128px] 3xl:h-[12vh] items-start 2xl:items-center"
                             >
                                 <div
-                                    className="lg:pl-[60px] lg:pr-0 lg:py-4 xl:py-5 2xl:py-[2vw] w-[300px] lg:w-[200px] 2xl:w-[10vw] mb-0 2xl:mb-12 3xl:pl-[2vw] 3xl:pr-[2vw] 3xl:py-[2vw] 2xl:px-[10px]"
+                                    className="text-normal lg:pl-[60px] lg:pr-0 lg:py-4 xl:py-5 2xl:py-[2vw] w-[300px] lg:w-[200px] 2xl:w-[10vw] mb-0 2xl:mb-12 3xl:pl-[2vw] 3xl:pr-[2vw] 3xl:py-[2vw] 2xl:px-[10px]"
                                 >
                                     Overview:
                                 </div>
-                                <div className="lg:grid grid-cols-3 w-full items-start 2xl:items-center 3xl:gap-[1vw] 5xl:gap-[1.5vw]">
+                                <div className="text-normal lg:grid grid-cols-3 w-full items-start 2xl:items-center 3xl:gap-[1vw] 5xl:gap-[1.5vw]">
                                     <div className="pl-[60px] 2xl:pl-8 pr-4 xl:border-l-0 2xl:border-l-[1px] leading-tight h-full 3xl:pl-[2vw] 3xl:pr-[2vw]">
                                         Crafted a targeted social media campaign for Volkswagen's ESG initiatives.
                                     </div>
