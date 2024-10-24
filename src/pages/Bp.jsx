@@ -179,8 +179,7 @@ const BP = ({ isSticky, element }) => {
                 >
                     <div className="md:w-[33px] lg:w-[60px] 
                                     2xl:w-[299px] 3xl:w-[15vw] flex-none"></div>
-                    <div className="px-6 md:px-0 pr-6 sm:px-6 lg:px-0 
-                                    lg:pr-10 2xl:pr-[3.5vw]">
+                    <div className="px-6 md:px-0 md:pr-6 lg:pr-10 2xl:pr-[3.5vw]">
                         <div className="pb-5 3xl:pb-[2.5vw]">
                             Our goal was to engage and educate audiences about the GTA project and the critical role of the FLNG vessels. The infographics showcased the project's scale and complexity, highlighting the world-class engineering involved.
                         </div>
