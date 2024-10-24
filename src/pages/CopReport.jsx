@@ -188,7 +188,7 @@ const CopReport = ({ isSticky, element }) => {
                             loop
                             muted
                             playsInline
-                            loading="lazy"
+
                         >
                             <source src="/assets/video/cop27/COP27_movie_2.mp4" type="video/mp4" />
                         </video>
@@ -209,7 +209,7 @@ const CopReport = ({ isSticky, element }) => {
                             loop
                             muted
                             playsInline
-                            loading="lazy"
+
                         >
                             <source src="/assets/video/cop27/COP27_movie_3.mp4" type="video/mp4" />
                         </video>

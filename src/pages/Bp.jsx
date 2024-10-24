@@ -199,7 +199,7 @@ const BP = ({ isSticky, element }) => {
                         src="/assets/img/bp/bp_1.png"
                         className="w-full h-auto object-cover"
                         alt="BP Annual Report Header"
-                        loading="lazy"
+
                     />
                 </div>
                 <div className="pt-8 2xl:pt-16 pb-8 md:pb-0 
@@ -208,7 +208,7 @@ const BP = ({ isSticky, element }) => {
                         src="/assets/img/bp/bp_3a.png"
                         className="w-full h-auto object-cover"
                         alt="BP Data Visualization"
-                        loading="lazy"
+
                     />
                 </div>
                 <div className="flex">
@@ -219,7 +219,7 @@ const BP = ({ isSticky, element }) => {
                             src="/assets/img/bp/bp_2.png"
                             className="w-full h-auto object-cover"
                             alt="BP Actionable Insights"
-                            loading="lazy"
+
                         />
                     </div>
                 </div>
@@ -229,7 +229,7 @@ const BP = ({ isSticky, element }) => {
                         src="/assets/img/bp/bp_1.png"
                         className="w-full h-auto object-cover"
                         alt="BP Visual Identity"
-                        loading="lazy"
+
                     />
                 </div>
                 <div className="pb-8 2xl:pb-16 3xl:pb-[6vw] 5xl:pb-[8vw]">
@@ -237,7 +237,7 @@ const BP = ({ isSticky, element }) => {
                         src="/assets/img/bp/bp_5.png"
                         className="w-full h-auto object-cover"
                         alt="BP Trustworthiness"
-                        loading="lazy"
+
                     />
                 </div>
 

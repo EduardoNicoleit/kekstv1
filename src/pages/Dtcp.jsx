@@ -168,7 +168,7 @@ const DTCP = ({ isSticky, element }) => {
                             loop
                             muted
                             playsInline
-                            loading="lazy"
+
                         >
                             <source src="/assets/video/dtcp/DTCP_movie_1.mp4" type="video/mp4" />
                         </video>
@@ -198,7 +198,7 @@ const DTCP = ({ isSticky, element }) => {
                         src="/assets/img/dtcp/dtcp_header1.png"
                         className="w-full h-auto object-cover"
                         alt="DTCP Annual Report Header"
-                        loading="lazy"
+
                     />
                 </div>
                 <div className="pt-8 2xl:pt-16 pb-8 md:pb-0 
@@ -207,7 +207,7 @@ const DTCP = ({ isSticky, element }) => {
                         src="/assets/img/dtcp/dtcp_3.png"
                         className="w-full h-auto object-cover"
                         alt="DTCP Data Visualization"
-                        loading="lazy"
+
                     />
                 </div>
                 <div className="flex">
@@ -218,7 +218,7 @@ const DTCP = ({ isSticky, element }) => {
                             src="/assets/img/dtcp/dtcp_2.png"
                             className="w-full h-auto object-cover"
                             alt="DTCP Actionable Insights"
-                            loading="lazy"
+
                         />
                     </div>
                 </div>
@@ -228,7 +228,7 @@ const DTCP = ({ isSticky, element }) => {
                         src="/assets/img/dtcp/dtcp_1.png"
                         className="w-full h-auto object-cover"
                         alt="DTCP Visual Identity"
-                        loading="lazy"
+
                     />
                 </div>
                 <div className="pb-8 2xl:pb-16 3xl:pb-[6vw] 5xl:pb-[8vw]">
@@ -236,7 +236,7 @@ const DTCP = ({ isSticky, element }) => {
                         src="/assets/img/dtcp/dtcp_5.png"
                         className="w-full h-auto object-cover"
                         alt="DTCP Trustworthiness"
-                        loading="lazy"
+
                     />
                 </div>
 

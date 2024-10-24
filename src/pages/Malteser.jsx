@@ -200,7 +200,7 @@ const Malteser = ({ isSticky, element }) => {
                         src="/assets/img/malteser/malteser_1.png"
                         className="w-full h-auto object-cover"
                         alt="Malteser Design Identity"
-                        loading="lazy"
+
                     />
                 </div>
                 <div className="pt-8 2xl:pt-16 pb-8 md:pb-0 
@@ -209,7 +209,7 @@ const Malteser = ({ isSticky, element }) => {
                         src="/assets/img/malteser/malteser_2.png"
                         className="w-full h-auto object-cover"
                         alt="Malteser Data Visualization"
-                        loading="lazy"
+
                     />
                 </div>
                 <div className="flex">
@@ -220,7 +220,7 @@ const Malteser = ({ isSticky, element }) => {
                             src="/assets/img/malteser/malteser_3.png"
                             className="w-full h-auto object-cover"
                             alt="Malteser Infographics"
-                            loading="lazy"
+
                         />
                     </div>
                 </div>
@@ -245,7 +245,7 @@ const Malteser = ({ isSticky, element }) => {
                         src="/assets/img/malteser/malteser_4.png"
                         className="w-full h-auto object-cover"
                         alt="Malteser Communication Strategy"
-                        loading="lazy"
+
                     />
                 </div>
                 <div className="pb-8 2xl:pb-16 flex 
@@ -257,7 +257,7 @@ const Malteser = ({ isSticky, element }) => {
                             src="/assets/img/malteser/malteser_5.png"
                             className="w-full h-auto object-cover"
                             alt="Malteser Visual Narrative"
-                            loading="lazy"
+
                         />
                     </div>
                 </div>

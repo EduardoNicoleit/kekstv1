@@ -204,7 +204,7 @@ const Newwaters = ({ isSticky, element }) => {
                                 src="/assets/img/newwaters/newwaters_1.png"
                                 className="w-full h-full object-cover"
                                 alt="Newwaters Image 1"
-                                loading="lazy"
+
                             />
                         </div>
                     </div>
@@ -216,7 +216,7 @@ const Newwaters = ({ isSticky, element }) => {
                                 src="/assets/img/newwaters/newwaters_2.png"
                                 className="w-full h-full object-cover"
                                 alt="Newwaters Image 2"
-                                loading="lazy"
+
                             />
                         </div>
                     </div>
@@ -228,7 +228,7 @@ const Newwaters = ({ isSticky, element }) => {
                                 src="/assets/img/newwaters/newwaters_3.png"
                                 className="w-full h-full object-cover"
                                 alt="Newwaters Image 3"
-                                loading="lazy"
+
                             />
                         </div>
                     </div>
@@ -240,7 +240,7 @@ const Newwaters = ({ isSticky, element }) => {
                                 src="/assets/img/newwaters/newwaters_4.png"
                                 className="w-full h-full object-cover"
                                 alt="Newwaters Image 4"
-                                loading="lazy"
+
                             />
                         </div>
                     </div>

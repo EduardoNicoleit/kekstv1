@@ -20,14 +20,14 @@ const Deutsche = ({ isSticky, element }) => {
                     src="../assets/img/deutsche/deutsche.png"
                     alt="Deutsche Bahn Desktop Header"
                     className="w-full hidden md:block"
-                    loading="lazy"
+
                 />
                 {/* Mobile Image */}
                 <img
                     src="../assets/img/deutsche/deutsche_mobile.png"
                     alt="Deutsche Bahn Mobile Header"
                     className="w-full block md:hidden"
-                    loading="lazy"
+
                 />
                 {/* Overlay Content */}
                 <div className="w-full absolute bottom-0 font-Helvetica">
@@ -171,7 +171,7 @@ const Deutsche = ({ isSticky, element }) => {
                         loop
                         muted
                         playsInline
-                        loading="lazy"
+
                     >
                         <source src="/assets/video/deutsche_bahn/DB_movie_1.mp4" type="video/mp4" />
                     </video>
@@ -208,7 +208,7 @@ const Deutsche = ({ isSticky, element }) => {
                             src="/assets/img/deutsche/DB_1.png"
                             className="w-full h-auto object-cover"
                             alt="Deutsche Bahn Diversity Messaging"
-                            loading="lazy"
+
                         />
                     </div>
                 </div>
@@ -217,7 +217,7 @@ const Deutsche = ({ isSticky, element }) => {
                         src="/assets/img/deutsche/DB_2.png"
                         className="w-full h-auto object-cover"
                         alt="Deutsche Bahn Visual Communication"
-                        loading="lazy"
+
                     />
                 </div>
                 <div className="flex">
@@ -227,7 +227,7 @@ const Deutsche = ({ isSticky, element }) => {
                             src="/assets/img/deutsche/DB_3.png"
                             className="w-full h-auto object-cover"
                             alt="Deutsche Bahn Strategic Approach"
-                            loading="lazy"
+
                         />
                     </div>
                 </div>
@@ -236,7 +236,7 @@ const Deutsche = ({ isSticky, element }) => {
                         src="/assets/img/deutsche/DB_4.png"
                         className="w-full h-auto object-cover"
                         alt="Deutsche Bahn Outreach Efforts"
-                        loading="lazy"
+
                     />
                 </div>
                 <div className="pt-8 md:pt-0 pb-8 2xl:pb-16 flex">
@@ -246,7 +246,7 @@ const Deutsche = ({ isSticky, element }) => {
                             src="/assets/img/deutsche/DB_5.png"
                             className="w-full h-auto object-cover"
                             alt="Deutsche Bahn Stakeholder Engagement"
-                            loading="lazy"
+
                         />
                     </div>
                 </div>

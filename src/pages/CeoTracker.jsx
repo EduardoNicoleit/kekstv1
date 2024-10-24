@@ -20,14 +20,14 @@ const CeoTracker = ({ isSticky, element }) => {
                     src="/assets/img/ceotracker/ceo_header.png"
                     alt="CEO Tracker Desktop Header"
                     className="w-full hidden md:block"
-                    loading="lazy"
+
                 />
                 {/* Mobile Image */}
                 <img
                     src="/assets/img/ceotracker/ceo_mobile.png"
                     alt="CEO Tracker Mobile Header"
                     className="w-full block md:hidden"
-                    loading="lazy"
+
                 />
                 {/* Overlay Content */}
                 <div className="w-full absolute bottom-0 font-Helvetica">
@@ -164,7 +164,7 @@ const CeoTracker = ({ isSticky, element }) => {
                         src="/assets/img/ceotracker/ceo_1.png"
                         className="w-full h-auto object-cover"
                         alt="CEO Tracker Report Cover"
-                        loading="lazy"
+
                     />
                 </div>
 
@@ -197,7 +197,7 @@ const CeoTracker = ({ isSticky, element }) => {
                         src="/assets/img/ceotracker/ceo_2.png"
                         className="w-full h-auto object-cover"
                         alt="CEO Tracker Visual Analysis"
-                        loading="lazy"
+
                     />
                 </div>
                 <div className="py-8 2xl:py-16">
@@ -205,7 +205,7 @@ const CeoTracker = ({ isSticky, element }) => {
                         src="/assets/img/ceotracker/ceo_3.png"
                         className="w-full h-auto object-cover"
                         alt="CEO Tracker Leadership Strategies"
-                        loading="lazy"
+
                     />
                 </div>
 
@@ -220,7 +220,7 @@ const CeoTracker = ({ isSticky, element }) => {
                                 loop
                                 muted
                                 playsInline
-                                loading="lazy"
+
                             >
                                 <source src="/assets/video/ceo/ceo_movie_1_OK.mp4" type="video/mp4" />
                             </video>
@@ -243,7 +243,7 @@ const CeoTracker = ({ isSticky, element }) => {
                                 loop
                                 muted
                                 playsInline
-                                loading="lazy"
+
                             >
                                 <source src="/assets/video/ceo/ceo_movie_2.mp4" type="video/mp4" />
                             </video>
@@ -259,7 +259,7 @@ const CeoTracker = ({ isSticky, element }) => {
                             src="/assets/img/ceotracker/ceo_4.png"
                             className="w-full h-auto object-cover"
                             alt="CEO Tracker Communication Strategy"
-                            loading="lazy"
+
                         />
                     </div>
                 </div>
@@ -268,7 +268,7 @@ const CeoTracker = ({ isSticky, element }) => {
                         src="/assets/img/ceotracker/ceo_5.png"
                         className="w-full h-auto object-cover"
                         alt="CEO Tracker Public Understanding"
-                        loading="lazy"
+
                     />
                 </div>
 

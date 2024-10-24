@@ -147,7 +147,7 @@ const Bpl = ({ isSticky, element }) => {
                         loop
                         muted
                         playsInline
-                        loading="lazy"
+
                     >
                         <source src="/assets/video/BPI/240416_BPINarrativ2024_VID_02.mp4" type="video/mp4" />
                     </video>
