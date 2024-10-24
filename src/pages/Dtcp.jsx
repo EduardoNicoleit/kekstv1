@@ -314,7 +314,7 @@ const DTCP = ({ isSticky, element }) => {
                                     >
                                         <div className="font-bold text-[15px] lg:text-base 
                                         xl:text-2xl 3xl:text-[1.5vw] 5xl:text-[1vw]">
-                                            Bp
+                                            bp
                                         </div>
                                         <div className="flex-1">
                                             <div
@@ -325,7 +325,7 @@ const DTCP = ({ isSticky, element }) => {
                                                3xl:text-[1.3vw] 5xl:text-[1.2vw] 
                                                leading-tight 5xl:py-[5vw]"
                                             >
-                                                Infusing dynamic visual narratives and data insights to craft a trustworthy, stakeholder-engaging brand identity for DTCP.
+                                                Creating culturally tailored infographics to showcase bp's Greater Tortue Ahmeyim (GTA) FLNG project's achievements, fostering global understanding and engagement.
                                             </div>
                                         </div>
                                         <div className="flex py-8 items-center pl-4 
