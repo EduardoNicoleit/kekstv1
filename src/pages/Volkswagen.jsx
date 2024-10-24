@@ -27,10 +27,10 @@ const Volkswagen = () => {
                 <div className="w-full absolute bottom-0">
                     <div className="flex flex-col px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] 3xl:px-[45px]">
                         <div className="flex">
-                            <div className="w-6 lg:w-[60px] 2xl:w-[308px] flex-none"></div>
+                            <div className="w-6 lg:w-[60px] 2xl:w-[308px] 3xl:w-[15vw] flex-none"></div>
                             <div>
                                 <div
-                                    className="font-helvetica font-bold mt-auto text-[50px] leading-[34px] md:text-[50px] md:leading-[57px] lg:text-[70px] xl:text-[160px] 2xl:text-[5.5vw] lg:leading-[80px] xl:leading-[184px] py-14 sm:py-6 md:py-10 lg:py-10 xl:py-5 2xl:py-16 3xl:py-[3vw]"
+                                    className="font-helvetica font-bold mt-auto text-[50px] leading-[34px] md:text-[50px] md:leading-[57px] lg:text-[70px] xl:text-[160px] 2xl:text-[5.5vw] 3xl:text-[6.5vw] lg:leading-[80px] xl:leading-[184px] py-14 sm:py-6 md:py-10 lg:py-10 xl:py-5 2xl:py-16 3xl:py-[6vw]"
                                 >
                                     Volkswagen
                                 </div>
@@ -38,15 +38,17 @@ const Volkswagen = () => {
                         </div>
                         <div className="hidden lg:block text-normal">
                             <div
-                                className="lg:flex-col 2xl:flex-row flex border-white border-y-[1px] sm:text-4xl md:text-3xl lg:text-[22px] 3xl:text-[1.2vw] lg:h-[220px] xl:h-[188px] 2xl:h-[128px] 3xl:h-[12vh] items-start 2xl:items-center"
+                                className="lg:flex-col 2xl:flex-row flex border-white border-y-[1px] sm:text-4xl md:text-3xl lg:text-[22px] 3xl:text-[1.2vw] lg:h-[220px] xl:h-[188px] 2xl:h-[128px] 3xl:h-[15vh] items-start 2xl:items-center"
                             >
+
+
                                 <div
-                                    className="text-normal lg:pl-[60px] lg:pr-0 lg:py-4 xl:py-5 2xl:py-[2vw] w-[300px] lg:w-[200px] 2xl:w-[10vw] mb-0 2xl:mb-12 3xl:pl-[2vw] 3xl:pr-[2vw] 3xl:py-[2vw] 2xl:px-[10px]"
+                                    className="text-normal lg:pl-[60px] lg:pr-0 lg:py-4 xl:py-5 2xl:py-[2vw] w-[300px] lg:w-[200px] 2xl:w-[308px] 3xl:w-[14vw] mb-0 2xl:mb-12 3xl:pl-[2vw] 3xl:pr-[2vw] 3xl:py-[2vw] 2xl:px-[1vw]"
                                 >
                                     Overview:
                                 </div>
                                 <div className="text-normal lg:grid grid-cols-3 w-full items-start 2xl:items-center 3xl:gap-[1vw] 5xl:gap-[1.5vw]">
-                                    <div className="pl-[60px] 2xl:pl-8 pr-4 xl:border-l-0 2xl:border-l-[1px] leading-tight h-full 3xl:pl-[2vw] 3xl:pr-[2vw]">
+                                    <div className="pl-[60px] 2xl:pl-10 pr-4 xl:border-l-0 2xl:border-l-[1px] leading-tight h-full 3xl:pl-[2.15vw] 3xl:pr-[1vw]">
                                         Crafted a targeted social media campaign for Volkswagen's ESG initiatives.
                                     </div>
                                     <div className="pl-8 pr-4 border-l-[1px] leading-tight h-full 3xl:pl-[2vw] 3xl:pr-[2vw] 5xl:pl-[3vw] ">
@@ -81,7 +83,7 @@ const Volkswagen = () => {
                     className="flex flex-col 2xl:flex-row md:pt-[10px] lg:pt-10 xl:pt-[156px] 2xl:pt-[211px] pb-10 lg:pb-20 xl:pb-[106px] 2xl:pb-[134px] w-full font-Helvetica text-white"
                 >
                     <div
-                        className="uppercase xl:normal-case text-start 2xl:text-center font-normal text-[12px] md:text-lg 2xl:text-2xl 3xl:text-[1.2vw] pt-3 xl:w-full 2xl:w-[308px] 3xl:w-[15vw] flex-none px-6 lg:px-[60px] 2xl:px-[2vw] py-6 2xl:py-0"
+                        className="uppercase xl:normal-case text-start 2xl:text-left font-normal text-[12px] md:text-lg 2xl:text-2xl 3xl:text-[1.2vw] pt-3 xl:w-full 2xl:w-[308px] 3xl:w-[15vw] flex-none px-6 lg:px-[60px] 2xl:px-[2vw] py-6 2xl:py-0"
                     >
                         The partnership:
                     </div>
@@ -130,7 +132,7 @@ const Volkswagen = () => {
                     </video>
                 </div>
                 {/* Image Section */}
-                <div className="py-8 2xl:py-16 flex">
+                <div className="py-8 2xl:py-16 flex 3xl:py-[6vw]">
                     <div className="hidden lg:block lg:w-[308px] flex-none"></div>
                     <div className="w-full">
                         <img
@@ -153,7 +155,7 @@ const Volkswagen = () => {
                     </video>
                 </div>
                 {/* Image Section */}
-                <div className="py-8 2xl:py-16">
+                <div className="py-8 2xl:py-16 3xl:py-[6vw]">
                     <img
                         src="/assets/img/volkswagen/vw-mockup_4 copy.png"
                         className="w-full"
@@ -168,27 +170,26 @@ const Volkswagen = () => {
                             <div className="overflow-hidden md:border-r md:border-white">
                                 <Link to="/works/bpl">
                                     <div
-                                        className="cursor-pointer py-[26px] 2xl:py-[100px] px-[15px] md:px-10 flex flex-col h-full
-                    bg-[url('assets/img/volkswagen/BPI_1.png')] bg-no-repeat bg-cover
-                    transition duration-300 ease-in-out hover:scale-105"
+                                        className="cursor-pointer py-[26px] 2xl:py-[100px] 3xl:py-[6vw] px-[15px] md:px-10 3xl:px-[2vw] flex flex-col h-full bg-[url('assets/img/volkswagen/BPI_1.png')] bg-no-repeat bg-cover transition duration-300 ease-in-out hover:scale-105"
                                     >
-                                        <div className="font-bold text-[15px] lg:text-base xl:text-2xl">BPI</div>
+                                        <div className="font-bold text-[15px] lg:text-base xl:text-2xl 3xl:text-[1.5vw]">BPI</div>
                                         <div className="flex-1">
                                             <div
-                                                className="max-w-[440px] py-[26px] lg:py-[43px] xl:py-[67px] font-normal
-                            text-[12px] lg:text-[21px] xl:text-[32px] 2xl:text-[40px] leading-tight"
+                                                className="max-w-[440px] 3xl:max-w-[20vw] py-[26px] lg:py-[43px] xl:py-[67px] 3xl:py-[4vw] font-normal text-[12px] lg:text-[21px] xl:text-[32px] 2xl:text-[40px] 3xl:text-[1.3vw] leading-tight"
                                             >
                                                 Partnering with BPI to spotlight its crucial role in advancing the pharmaceutical industry through engaging narratives and innovative visual strategies.
                                             </div>
                                         </div>
                                         {/* Optional: Remove this div if you don't want the "read more" link inside */}
-                                        <div className="flex py-8 items-center pl-4">
-                                            <div className="uppercase font-normal text-[13px] lg:text-xs xl:text-lg">
+                                        <div className="flex py-8 items-center">
+                                            <div className="uppercase font-normal text-[13px] lg:text-xs xl:text-lg 3xl:text-[1.1vw]">
                                                 read more
                                             </div>
                                             <div>
                                                 <svg
-                                                    className="ml-3 pt-[2px] w-6 h-6"
+                                                    className="ml-3 pt-[2px] w-6 h-6 
+                                               3xl:w-[1.5vw] 3xl:h-[1.5vw] 
+                                               5xl:w-[1vw] 5xl:h-[1vw]"
                                                     viewBox="0 0 24 24"
                                                     fill="none"
                                                     xmlns="http://www.w3.org/2000/svg"
@@ -210,27 +211,26 @@ const Volkswagen = () => {
                             <div className="overflow-hidden">
                                 <Link to="/works/netClean">
                                     <div
-                                        className="cursor-pointer py-[26px] 2xl:py-[100px] px-[15px] md:px-10 flex flex-col h-full
-                    bg-[url('assets/img/volkswagen/netclean_3.png')] md:bg-[url('assets/img/volkswagen/netclean_2.png')]
-                    bg-no-repeat bg-cover transition duration-300 ease-in-out hover:scale-105"
+                                        className="cursor-pointer py-[26px] 2xl:py-[100px] 3xl:py-[6vw] px-[15px] md:px-10 3xl:px-[2vw] flex flex-col h-full bg-[url('assets/img/volkswagen/netclean_3.png')] md:bg-[url('assets/img/volkswagen/netclean_2.png')] bg-no-repeat bg-cover transition duration-300 ease-in-out hover:scale-105"
                                     >
-                                        <div className="font-bold text-[15px] lg:text-base xl:text-2xl">NetClean</div>
+                                        <div className="font-bold text-[15px] lg:text-base xl:text-2xl 3xl:text-[1.5vw]">NetClean</div>
                                         <div className="flex-1">
                                             <div
-                                                className="max-w-[440px] py-[26px] lg:py-[43px] xl:py-[67px] font-normal
-                            text-[12px] lg:text-[21px] xl:text-[32px] 2xl:text-[40px] leading-tight"
+                                                className="max-w-[440px] 3xl:max-w-[20vw] py-[26px] lg:py-[43px] xl:py-[67px] 3xl:py-[4vw] font-normal text-[12px] lg:text-[21px] xl:text-[32px] 2xl:text-[40px] 3xl:text-[1.3vw] leading-tight"
                                             >
                                                 Reinventing how annual data reports can be transformed into impactful narrative communication tools.
                                             </div>
                                         </div>
                                         {/* Optional: Remove this div if you don't want the "read more" link inside */}
-                                        <div className="flex py-8 items-center pl-4">
-                                            <div className="uppercase font-normal text-[13px] lg:text-xs xl:text-lg">
+                                        <div className="flex py-8 items-center">
+                                            <div className="uppercase font-normal text-[13px] lg:text-xs xl:text-lg 3xl:text-[1.1vw]">
                                                 read more
                                             </div>
                                             <div>
                                                 <svg
-                                                    className="ml-3 pt-[2px] w-6 h-6"
+                                                    className="ml-3 pt-[2px] w-6 h-6 
+                                               3xl:w-[1.5vw] 3xl:h-[1.5vw] 
+                                               5xl:w-[1vw] 5xl:h-[1vw]"
                                                     viewBox="0 0 24 24"
                                                     fill="none"
                                                     xmlns="http://www.w3.org/2000/svg"
