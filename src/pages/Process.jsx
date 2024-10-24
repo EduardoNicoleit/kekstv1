@@ -72,7 +72,7 @@ const ProcessCompo = () => {
                     </div>
                     <div className="leading-normal font-normal text-[17px] md:text-[18px] lg:text-[22px] xl:text-[24px] 2xl:text-[36px] 3xl:text-[1.5vw] pl-5 md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px] lg:pr-[100px] xl:pr-[140px] 3xl:pr-[10vw] font-Helvetica pb-8 md:pb-[58px] lg:pb-20 xl:pb-20 2xl:pb-[100px] py-6 xl:py-[60px] xl:py-[60px] 2xl:py-[60px]">
                         We specialize on amplifying creativity in brands, operations, and communications.
-                        We are driven by the conviction that creativity can revolutionize how messages and reputations are perceived and stories are told. We aim to create comprehensive,multi-channel strategies that truly connect with audiences, creating impactful connections and memorable experiences.
+                        We are driven by the conviction that creativity can revolutionize how messages and reputations are perceived and stories are told. We aim to create comprehensive, multi-channel strategies that truly connect with audiences, creating impactful connections and memorable experiences.
                     </div>
                     <div className="pb-[40px] 3xl:pb-[6vw] 5xl:pb-[2vw] hidden xl:flex">
                         <div className="w-0"></div>
