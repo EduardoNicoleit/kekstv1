@@ -256,17 +256,13 @@ const Mars = ({ isSticky, element }) => {
                                             </div>
                                         </div>
                                         {/* "Read More" Link */}
-                                        <div className="flex py-8 items-center pl-4 
-                                                        3xl:py-[2vw] 5xl:py-[2.5vw]">
-                                            <div className="uppercase font-normal text-[13px] lg:text-xs xl:text-lg 
-                                                            3xl:text-[1.1vw] 5xl:text-[1.2vw]">
+                                        <div className="flex py-8 items-center pl-4 3xl:py-[2vw] 5xl:py-[2.5vw]">
+                                            <div className="uppercase font-normal text-[13px] lg:text-xs xl:text-lg 3xl:text-[1.1vw] 5xl:text-[1.2vw]">
                                                 read more
                                             </div>
                                             <div>
                                                 <svg
-                                                    className="ml-3 pt-[2px] w-6 h-6 
-                                                               3xl:w-[1.5vw] 3xl:h-[1.5vw] 
-                                                               5xl:w-[1vw] 5xl:h-[1vw]"
+                                                    className="ml-3 pt-[2px] w-6 h-6 3xl:w-[1.5vw] 3xl:h-[1.5vw] 5xl:w-[1vw] 5xl:h-[1vw]"
                                                     viewBox="0 0 24 24"
                                                     fill="none"
                                                     xmlns="http://www.w3.org/2000/svg"
