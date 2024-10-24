@@ -29,7 +29,7 @@ const CopReport = ({ isSticky, element }) => {
                 <div className="w-full absolute bottom-0 font-Helvetica">
                     <div className="flex flex-col px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px]">
                         <div className="flex">
-                            <div className="w-[33px] lg:w-[60px] 2xl:w-[299px] 3xl:w-[15vw] 5xl:w-[20vw] flex-none"></div>
+                            <div className="w-[33px] lg:w-[60px] 2xl:w-[299px] 3xl:w-[15vw] flex-none"></div>
                             <div>
                                 <div className="font-Helvetica font-normal text-[25px] 
                                                 md:text-2xl lg:text-4xl xl:text-[70px] 3xl:text-[2.8vw] 
@@ -162,7 +162,7 @@ const CopReport = ({ isSticky, element }) => {
                             3xl:text-[1.5vw] 5xl:text-[2vw] 
                             3xl:py-[6vw] 5xl:py-[8vw]"
                 >
-                    <div className="md:w-[33px] lg:w-[60px] 2xl:w-[299px] 3xl:w-[15vw] 5xl:w-[20vw] flex-none"></div>
+                    <div className="md:w-[33px] lg:w-[60px] 2xl:w-[299px] 3xl:w-[15vw] flex-none"></div>
                     <div className="px-6 md:px-0 pr-6 sm:px-6 lg:px-0 
                                     lg:pr-10 2xl:pr-[3.5vw] leading-tight">
                         <div className="pb-5 3xl:pb-[2.5vw] 5xl:pb-[3vw]">
@@ -180,7 +180,7 @@ const CopReport = ({ isSticky, element }) => {
                     <img src="/assets/img/copreport/cop27_2.jpg" className="w-full h-auto object-cover 3xl:max-h-[50vw] 5xl:max-h-[60vw] 3xl:py-[6vw]" alt="keskt..." />
                 </div>
                 <div className="pt-8 2xl:pt-16 3xl:pt-[2vw] flex border-b-0 md:border-b-[1px]">
-                    <div className="hidden lg:block lg:w-[299px] 3xl:w-[15vw] 5xl:w-[20vw] flex-none"></div>
+                    <div className="hidden lg:block lg:w-[299px] 3xl:w-[15vw] flex-none"></div>
                     <div className="w-full">
                         <video
                             className="w-full h-auto object-cover 3xl:max-h-[50vw] 5xl:max-h-[60vw]"
@@ -195,13 +195,13 @@ const CopReport = ({ isSticky, element }) => {
                     </div>
                 </div>
                 <div className="pt-8 2xl:pt-16 3xl:pt-[6vw] flex">
-                    <div className="hidden lg:block lg:w-[299px] 3xl:w-[15vw] 5xl:w-[20vw] flex-none"></div>
+                    <div className="hidden lg:block lg:w-[299px] 3xl:w-[15vw] flex-none"></div>
                     <div className="w-full">
                         <img src="/assets/img/copreport/cop27_3.png" className="w-full h-auto object-cover" alt="keskt..." />
                     </div>
                 </div>
                 <div className="pt-8 2xl:pt-16 3xl:pt-[6vw] flex border-b-0 md:border-b-[1px]">
-                    <div className="hidden lg:block lg:w-[299px] 3xl:w-[15vw] 5xl:w-[20vw] flex-none"></div>
+                    <div className="hidden lg:block lg:w-[299px] 3xl:w-[15vw] flex-none"></div>
                     <div className="w-full">
                         <video
                             className="w-full h-auto object-cover"

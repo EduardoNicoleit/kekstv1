@@ -168,6 +168,7 @@ const DTCP = ({ isSticky, element }) => {
                             loop
                             muted
                             playsInline
+                            loading="lazy"
                         >
                             <source src="/assets/video/dtcp/DTCP_movie_1.mp4" type="video/mp4" />
                         </video>
