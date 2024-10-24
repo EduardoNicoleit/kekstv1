@@ -141,7 +141,7 @@ const BP = ({ isSticky, element }) => {
                         2xl:text-left font-normal text-[12px] md:text-lg 
                         2xl:text-2xl 3xl:text-[1.2vw] 5xl:text-[1vw] 
                         pt-3 xl:w-full 2xl:w-[299px] 3xl:w-[15vw] 
-                        flex-none px-[33px] lg:px-[60px] 
+                        flex-none px-[33px] lg:px-[60px] 2xl:px-[2vw] 
                         py-6 2xl:py-0 3xl:px-[2vw] 5xl:px-[3vw] 
                         3xl:py-[2vw] 5xl:py-[3vw]"
                     >
@@ -153,25 +153,21 @@ const BP = ({ isSticky, element }) => {
                         5xl:text-[2.5vw] px-[33px] lg:px-[60px] 
                         2xl:px-0 2xl:pr-[3.5vw] w-full leading-tight"
                     >
-                        Partnering with DTCP, we've transformed their Annual Reports, infusing them with a narrative that resonates with the company's unique essence; dynamic and innovative. This approach was meticulously crafted to engage stakeholders, effectively conveying the company's accomplishments and future aspirations through a blend of captivating visual storytelling and insightful infographics. By integrating these elements, we ensured that the report not only invigorates readers but also authentically reflects our pioneering ethos.
+                        In collaboration with bp, we created a series of static infographics to announce the arrival and berthing of different vessels at the Greater Tortue Ahmeyim (GTA) project. These infographics were designed to be used across bp-owned channels, including bp.com and bp's social media platforms, as part of an integrated communications campaign.
                     </div>
                 </div>
 
                 {/* Video Section */}
-                <div className="flex">
-                    <div className="hidden lg:block lg:w-[299px] 
-                                    3xl:w-[15vw] flex-none border-b-[1px]"></div>
-                    <div className="w-full">
-                        <video
-                            className="w-full h-auto object-cover border-b-[1px]"
-                            autoPlay
-                            loop
-                            muted
-                            playsInline
-                        >
-                            <source src="/assets/video/bp/Bp_movie.mp4" type="video/mp4" />
-                        </video>
-                    </div>
+                <div>
+                    <video
+                        className="w-full h-auto object-cover"
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                    >
+                        <source src="/assets/video/bp/Bp_movie.mp4" type="video/mp4" />
+                    </video>
                 </div>
 
                 {/* Description Section */}
@@ -236,7 +232,7 @@ const BP = ({ isSticky, element }) => {
                         loading="lazy"
                     />
                 </div>
-                <div className="pb-8 2xl:pb-16">
+                <div className="pb-8 2xl:pb-16 3xl:pb-[6vw] 5xl:pb-[8vw]">
                     <img
                         src="/assets/img/bp/bp_5.png"
                         className="w-full h-auto object-cover"
@@ -253,42 +249,49 @@ const BP = ({ isSticky, element }) => {
                             <div className="overflow-hidden md:border-r md:border-white">
                                 <Link to="/works/dtcp">
                                     <div
-                                        className="cursor-pointer py-[26px] 2xl:py-[100px] 3xl:py-[6vw] 
-                                                px-[15px] md:px-10 3xl:px-[2vw] flex flex-col h-full
+                                        className="cursor-pointer py-[26px] 2xl:py-[100px] 
+                                                3xl:py-[6vw] px-[15px] md:px-10 
+                                                3xl:px-[2vw] flex flex-col h-full
                                                 bg-[url('assets/img/bp/dtcp_geader_1.png')] 
                                                 md:bg-[url('assets/img/bp/dtcp_geader.png')] 
                                                 bg-no-repeat bg-cover
                                                 transition duration-300 ease-in-out hover:scale-105 
                                                 5xl:py-[10vw] 5xl:px-[3vw]"
                                     >
-                                        <div className="font-bold text-[15px] lg:text-base 
-                                                        xl:text-2xl 3xl:text-[1.5vw] 5xl:text-[1vw]">
+                                        <div
+                                            className="font-bold text-[15px] lg:text-base 
+                                                       xl:text-2xl 3xl:text-[1.5vw] 
+                                                       5xl:text-[1vw]"
+                                        >
                                             DTCP
                                         </div>
                                         <div className="flex-1">
                                             <div
                                                 className="max-w-[440px] 3xl:max-w-[20vw] 
-                                                        py-[26px] lg:py-[43px] xl:py-[67px] 3xl:py-[4vw] 
-                                                        font-normal text-[12px] lg:text-[21px] 
-                                                        xl:text-[32px] 2xl:text-[40px] 
-                                                        3xl:text-[1.3vw] 5xl:text-[1.2vw] 
-                                                        leading-tight 5xl:py-[5vw]"
+                                                           py-[26px] lg:py-[43px] 
+                                                           xl:py-[67px] 3xl:py-[4vw] 
+                                                           font-normal text-[12px] lg:text-[21px] 
+                                                           xl:text-[32px] 2xl:text-[40px] 
+                                                           3xl:text-[1.3vw] 5xl:text-[1.2vw] 
+                                                           leading-tight 5xl:py-[5vw]"
                                             >
                                                 Infusing dynamic visual narratives and data insights to craft a trustworthy, stakeholder-engaging brand identity for DTCP.
                                             </div>
                                         </div>
                                         <div className="flex py-8 items-center pl-4 
                                                         3xl:py-[2vw] 5xl:py-[2.5vw]">
-                                            <div className="uppercase font-normal text-[13px] 
-                                                            lg:text-xs xl:text-lg 
-                                                            3xl:text-[1.1vw] 5xl:text-[1.2vw]">
+                                            <div
+                                                className="uppercase font-normal text-[13px] 
+                                                           lg:text-xs xl:text-lg 
+                                                           3xl:text-[1.1vw] 5xl:text-[1.2vw]"
+                                            >
                                                 read more
                                             </div>
                                             <div>
                                                 <svg
                                                     className="ml-3 pt-[2px] w-6 h-6 
-                                                            3xl:w-[1.5vw] 3xl:h-[1.5vw] 
-                                                            5xl:w-[1vw] 5xl:h-[1vw]"
+                                                           3xl:w-[1.5vw] 3xl:h-[1.5vw] 
+                                                           5xl:w-[1vw] 5xl:h-[1vw]"
                                                     viewBox="0 0 24 24"
                                                     fill="none"
                                                     xmlns="http://www.w3.org/2000/svg"
@@ -310,42 +313,49 @@ const BP = ({ isSticky, element }) => {
                             <div className="overflow-hidden">
                                 <Link to="/works/ceoTracker">
                                     <div
-                                        className="cursor-pointer py-[26px] 2xl:py-[100px] 3xl:py-[6vw] 
-                                                px-[15px] md:px-10 3xl:px-[2vw] flex flex-col h-full
+                                        className="cursor-pointer py-[26px] 2xl:py-[100px] 
+                                                3xl:py-[6vw] px-[15px] md:px-10 
+                                                3xl:px-[2vw] flex flex-col h-full
                                                 bg-[url('assets/img/bp/ceo_2.png')] 
                                                 md:bg-[url('assets/img/bp/ceo_1.png')] 
                                                 bg-no-repeat bg-cover
                                                 transition duration-300 ease-in-out hover:scale-105 
                                                 5xl:py-[10vw] 5xl:px-[3vw]"
                                     >
-                                        <div className="font-bold text-[15px] lg:text-base 
-                                                        xl:text-2xl 3xl:text-[1.5vw] 5xl:text-[1vw]">
+                                        <div
+                                            className="font-bold text-[15px] lg:text-base 
+                                                       xl:text-2xl 3xl:text-[1.5vw] 
+                                                       5xl:text-[1vw]"
+                                        >
                                             CEO Tracker
                                         </div>
                                         <div className="flex-1">
                                             <div
                                                 className="max-w-[440px] 3xl:max-w-[20vw] 
-                                                        py-[26px] lg:py-[43px] xl:py-[67px] 3xl:py-[4vw] 
-                                                        font-normal text-[12px] lg:text-[21px] 
-                                                        xl:text-[32px] 2xl:text-[40px] 
-                                                        3xl:text-[1.3vw] 5xl:text-[1.2vw] 
-                                                        leading-tight 5xl:py-[5vw]"
+                                                           py-[26px] lg:py-[43px] 
+                                                           xl:py-[67px] 3xl:py-[4vw] 
+                                                           font-normal text-[12px] lg:text-[21px] 
+                                                           xl:text-[32px] 2xl:text-[40px] 
+                                                           3xl:text-[1.3vw] 5xl:text-[1.2vw] 
+                                                           leading-tight 5xl:py-[5vw]"
                                             >
                                                 Analyzing CEO communication during turbulent times and crafting visually engaging narratives to showcase diverse leadership strategies amidst complex challenges.
                                             </div>
                                         </div>
                                         <div className="flex py-8 items-center pl-4 
                                                         3xl:py-[2vw] 5xl:py-[2.5vw]">
-                                            <div className="uppercase font-normal text-[13px] 
-                                                            lg:text-xs xl:text-lg 
-                                                            3xl:text-[1.1vw] 5xl:text-[1.2vw]">
+                                            <div
+                                                className="uppercase font-normal text-[13px] 
+                                                           lg:text-xs xl:text-lg 
+                                                           3xl:text-[1.1vw] 5xl:text-[1.2vw]"
+                                            >
                                                 read more
                                             </div>
                                             <div>
                                                 <svg
                                                     className="ml-3 pt-[2px] w-6 h-6 
-                                                            3xl:w-[1.5vw] 3xl:h-[1.5vw] 
-                                                            5xl:w-[1vw] 5xl:h-[1vw]"
+                                                           3xl:w-[1.5vw] 3xl:h-[1.5vw] 
+                                                           5xl:w-[1vw] 5xl:h-[1vw]"
                                                     viewBox="0 0 24 24"
                                                     fill="none"
                                                     xmlns="http://www.w3.org/2000/svg"
@@ -366,7 +376,6 @@ const BP = ({ isSticky, element }) => {
                         </div>
                     </div>
                 </div>
-
             </div>
 
             {/* Contact and MainBorder Components */}
