@@ -141,7 +141,7 @@ const DTCP = ({ isSticky, element }) => {
                         2xl:text-left font-normal text-[12px] md:text-lg 
                         2xl:text-2xl 3xl:text-[1.2vw] 5xl:text-[1vw] 
                         pt-3 xl:w-full 2xl:w-[299px] 3xl:w-[15vw] 
-                        flex-none px-[33px] lg:px-[60px] 2xl:px-0 
+                        flex-none px-[33px] lg:px-[60px] 2xl:px-[2vw] 
                         py-6 2xl:py-0 3xl:px-[2vw] 5xl:px-[3vw] 
                         3xl:py-[2vw] 5xl:py-[3vw]"
                     >
