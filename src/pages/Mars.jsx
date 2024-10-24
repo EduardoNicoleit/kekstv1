@@ -37,7 +37,7 @@ const Mars = ({ isSticky, element }) => {
                             <div>
                                 <div
                                     className="font-Helvetica font-bold mt-auto
-                                    text-[30px] leading-[34px] md:text-[50px] md:leading-[57px]
+                                    text-[50px] leading-[34px] md:text-[50px] md:leading-[57px]
                                     lg:text-[70px]
                                     xl:text-[160px]
                                     lg:leading-[80px] xl:leading-[184px]
