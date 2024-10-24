@@ -48,7 +48,7 @@ const CeoTracker = ({ isSticky, element }) => {
                                             text-[50px] leading-[34px] md:text-[50px] 
                                             md:leading-[57px] lg:text-[70px]
                                             xl:text-[160px]
-                                            lg:leading-[80px] xl:leading-[184px]
+                                            lg:leading-tight
                                             pb-14 sm:pb-6 md:pb-10 lg:pb-10 
                                             xl:pb-5 2xl:pb-16 
                                             3xl:pb-[6vw] 5xl:pb-[8vw]
@@ -140,7 +140,7 @@ const CeoTracker = ({ isSticky, element }) => {
                         2xl:text-left font-normal text-[12px] md:text-lg 
                         2xl:text-2xl 3xl:text-[1.2vw] 5xl:text-[1vw] 
                         pt-3 xl:w-full 2xl:w-[299px] 3xl:w-[15vw] 
-                        flex-none px-[33px] lg:px-[60px] 2xl:px-[2vw] 
+                        flex-none px-6 lg:px-[60px] 2xl:px-[2vw] 
                         py-6 2xl:py-0 3xl:px-[2vw] 5xl:px-[3vw] 
                         3xl:py-[2vw] 5xl:py-[3vw]"
                     >
@@ -150,7 +150,7 @@ const CeoTracker = ({ isSticky, element }) => {
                         className="font-bold md:font-normal text-[17px] 
                                     md:text-[28px] 2xl:text-[40px] 
                                     3xl:text-[2vw] 5xl:text-[2.5vw] 
-                                    px-[33px] lg:px-[60px] 
+                                    px-6 lg:px-[60px] 
                                     2xl:px-0 2xl:pr-[3.5vw] 
                                     w-full leading-tight"
                     >

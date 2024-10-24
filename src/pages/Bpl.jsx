@@ -95,12 +95,12 @@ const Bpl = ({ isSticky, element }) => {
                         pt-3
                         xl:w-full 2xl:w-[299px]
                         flex-none
-                        px-[33px] lg:px-[60px] 2xl:px-0
+                        px-6 lg:px-[60px] 2xl:px-0
                         py-6 2xl:py-0"
                     >
                         The partnership:
                     </div>
-                    <div className="font-bold md:font-normal text-[17px] md:text-[28px] 2xl:text-[40px] px-[33px] lg:px-[60px] 2xl:px-0 w-full leading-tight">
+                    <div className="font-bold md:font-normal text-[17px] md:text-[28px] 2xl:text-[40px] px-6 lg:px-[60px] 2xl:px-0 w-full leading-tight">
                         In collaboration with BPI, we embarked on a mission to highlight the transformative impact of the pharmaceutical industry on health and innovation.
                     </div>
                 </div>
