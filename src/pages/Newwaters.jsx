@@ -257,7 +257,7 @@ const Newwaters = ({ isSticky, element }) => {
                                 <Link to="/works/uniper">
                                     <div
                                         className="cursor-pointer py-[26px] 2xl:py-[100px]  3xl:py-[6vw] px-[15px] md:px-10 3xl:px-[2vw] flex flex-col h-full
-                                        bg-[url('assets/img/newwaters/uniper_3.png')] bg-no-repeat bg-cover
+                                        bg-[url('assets/img/newwaters/Uniper1.jpg')] bg-no-repeat bg-cover
                                         transition duration-300 ease-in-out hover:scale-105 5xl:py-[10vw] 5xl:px-[3vw]"
                                     >
                                         <div className="font-bold text-[15px] lg:text-base xl:text-2xl 3xl:text-[1.5vw] 5xl:text-[1vw]">Uniper</div>
@@ -298,10 +298,10 @@ const Newwaters = ({ isSticky, element }) => {
                             <div className="overflow-hidden">
                                 <Link to="/works/farmerVoice">
                                     <div
-                                        className="ursor-pointer py-[26px] 2xl:py-[100px] 3xl:py-[6vw] 
-                                        px-[15px] md:px-10 3xl:px-[2vw] flex flex-col h-full
-                                        bg-[url('assets/img/newwaters/farmer.png')] md:bg-[url('assets/img/newwaters/farmer_header.png')]
-                                        bg-no-repeat bg-cover 
+                                        className="cursor-pointer py-[26px] 2xl:py-[100px] 3xl:py-[6vw] 
+                                        px-[15px] md:px-10 3xl:px-[2vw] flex flex-col w-auto h-auto
+                                        bg-[url('assets/img/newwaters/FarmerVoice.jpg')] md:bg-[url('assets/img/newwaters/farmer_header.png')]
+                                        bg-no-repeat bg-cover bg-
                                         transition duration-300 ease-in-out hover:scale-105 
                                         5xl:py-[10vw] 5xl:px-[3vw]"
                                     >

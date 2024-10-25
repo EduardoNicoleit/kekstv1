@@ -175,7 +175,7 @@ const Bpl = ({ isSticky, element }) => {
                 <div>
                     <img src="/assets/img/bpl/BPI_3.png" className="w-full" alt="keskt..." />
                 </div>
-                <div className="pt-8 md:pt-0">
+                <div className="pt-0 md:pt-0">
                     <img src="/assets/img/bpl/BPI_2.png" className="w-full pb-8 3xl:pb-[6vw]" alt="keskt..." />
                 </div>
                 <div className="py-8 2xl:py-16 flex">

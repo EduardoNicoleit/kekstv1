@@ -225,11 +225,6 @@ const Uniper = ({ isSticky, element }) => {
                     </div>
                 </div>
 
-                {/* Mobile NetClean Image */}
-                <div className="block md:hidden pb-8">
-                    <img src="/assets/img/uniper/Netclean_1.png" className="w-full" alt="Netclean Mobile" />
-                </div>
-
                 {/* Two Images with Hover Effect */}
                 <div className="w-full border-t border-b border-white">
                     <div className="flex text-white font-Helvetica">

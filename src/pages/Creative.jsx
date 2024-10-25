@@ -1,5 +1,5 @@
 import React from "react";
-import locationImg from '../assets/img/home/location.png'
+import locationImg from '../assets/img/home/world.svg'
 import lineImg from '../assets/img/home/line.png'
 import { Divider } from "../components";
 
@@ -12,7 +12,7 @@ const CreativeCompo = () => {
                         <div className="flex text-white lg:pt-12 xl:pt-[50px] 2xl:pt-[2vw]">
                             <Divider title="Get to know us" />
                         </div>
-                        <div className="leading-relaxed font-Helvetica text-[17px] md:text-[18px] lg:text-[22px] xl:text-[24px] 2xl:text-[36px] 3xl:text-[1.5vw] pl-5 pr-4 md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px] mr-2 md:mr-20 py-6 lg:py-[60px] xl:py-[60px] 2xl:py-[60px] 3xl:py-[3vw]">
+                        <div className="leading-relaxed font-Helvetica text-[17px] md:text-[18px] lg:text-[22px] xl:text-[24px] 2xl:text-[32px] 3xl:text-[1.5vw] pl-5 pr-4 md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px] mr-2 md:mr-20 py-6 lg:py-[60px] xl:py-[60px] 2xl:py-[60px] 3xl:py-[3vw]">
                             What distinguishes us is the unique fusion of Kekst CNC's renowned expertise in strategic communication worldwide, coupled with our prowess in design thinking, innovative solutions, and impactful activation strategies. This combination guarantees seamless execution and unparalleled results across every project dimension.
                         </div>
                         <div className="pl-5 md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px] xl:pr-[90px] 2xl:pr-[90px]">
@@ -56,6 +56,8 @@ const CreativeCompo = () => {
 
 
                         {/* Lets Talk Section */}
+
+
                         <div className="mb-8 md:mb-[20px] mt-[50px] md:mt-[60px] lg:mt-[70px] xl:mt-[100px] 2xl:mt-[140px] ml-4 md:ml-[34px] lg:ml-[59px] xl:ml-[100px] 2xl:ml-[308px]">
                             <div className="h-[1px] 2xl:h-[2px] bg-white"></div>
                         </div>
@@ -107,7 +109,7 @@ const CreativeCompo = () => {
                             <img
                                 src={locationImg}
                                 alt="Location"
-                                className="w-[90%] h-auto max-h-none 2xl:max-w-[60vw] 3xl:max-w-[50vw] object-cover hover:scale-110 transition duration-500 ease-in-out"
+                                className="w-[90vw] h-auto max-h-none 2xl:max-w-[60vw] 3xl:max-w-[50vw] object-cover scale-110"
                             />
                         </div>
 
