@@ -8,7 +8,7 @@ import Works from './Works';
 import Process from './Process';
 import CreativeCompo from './Creative';
 import Manifesto from './Manifesto';
-import { Contact, MainBorder } from '../components';
+import { Footer, MainBorder } from '../components';
 import Welcome from './Welcome';
 
 const Home = () => {
@@ -87,7 +87,7 @@ const Home = () => {
                 <Manifesto />
             </div>
             <div id="lets-talk" className="section">
-                <Contact />
+                <Footer />
             </div>
             <MainBorder />
         </div>

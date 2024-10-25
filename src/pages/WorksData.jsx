@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Navbar from "./Navbar";
-import { WorkDataSelection, Contact, MainBorder } from "../components";
+import { WorkDataSelection, Footer, MainBorder } from "../components";
 import { selectionsData } from "../data/selections";
 
 const WorksDataCompo = ({ isSticky, element }) => {
@@ -58,7 +58,7 @@ const WorksDataCompo = ({ isSticky, element }) => {
                 </div>
             </div>
             <pr />
-            <Contact />
+            <Footer />
             <MainBorder />
         </div>
     )

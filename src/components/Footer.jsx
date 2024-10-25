@@ -31,7 +31,7 @@ const NavItem = ({ to, children, offset = -100 }) => {
     }
 };
 
-const Contact = () => {
+const Footer = () => {
     return (
         <div>
             <div className='px-2 sm:px-6 md:px-[33px] xl:px-[45px] 2xl:px-[45px] 3xl:px-[3vw] 2xl:pt-[1.6vw]'>
@@ -88,7 +88,7 @@ const Contact = () => {
                             </div>
                         </div>
 
-                        {/* Contact and Social Media Icons */}
+                        {/* Footer and Social Media Icons */}
                         <div className='lg:py-0 hidden lg:block my-0 px-0 xl:px-12'>
                             {/* Email Link */}
                             <a href="mailto:creative@kekstcnc.com">
@@ -188,7 +188,7 @@ const Contact = () => {
                         </div>
                         <div></div>
                     </div>
-                    {/* Contact and Social Icons for Mobile */}
+                    {/* Footer and Social Icons for Mobile */}
                     <div className='pl-6 sm:pl-0 px-0 lg:py-5 flex justify-start w-full lg:hidden text-white gap-8 md:gap-[300px] sm:gap-[280px] md:mr:0'>
                         {/* Email Link */}
                         <a
@@ -277,4 +277,4 @@ const Contact = () => {
     );
 };
 
-export default Contact;
+export default Footer;

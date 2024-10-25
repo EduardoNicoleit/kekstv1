@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../pages/Navbar";
-import { Contact } from "../components";
-import Footer from "../pages/expertise/Footer";
+import { Footer } from "../components";
+import ExpertiseFooter from "../pages/expertise/ExpertiseFooter";
 
 const ExpertiseCustomCompo = ({ isSticky, element, title1, title2, mainText1, mainText2, expertiseTableData, expertiseData, videoSrc }) => {
     return (
@@ -65,12 +65,12 @@ const ExpertiseCustomCompo = ({ isSticky, element, title1, title2, mainText1, ma
                         </div>
                     </div>
                     <div className="px-2 2xl:px-[3vw]">
-                        <Footer />
+                        <ExpertiseFooter />
                     </div>
                 </div>
             </div>
             <div className="px-2 2xl:px-[3vw]">
-                <Contact />
+                <Footer />
             </div>
 
             <div className="h-2 w-full"></div>

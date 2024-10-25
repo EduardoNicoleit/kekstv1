@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Navbar from "../Navbar";
-import { ServicesTable, Contact, ExpertiseCustomCompo, MainBorder } from "../../components";
-import Footer from './Footer';
+import { ServicesTable, Footer, ExpertiseCustomCompo, MainBorder } from "../../components";
+import ExpertiseFooter from './ExpertiseFooter';
 import { expertiseData5, expertiseTableData3, expertiseDataList } from '../../data/selections';
 
 const ExpertiseDataCompo = ({ isSticky, element }) => {
@@ -155,10 +155,10 @@ const ExpertiseDataCompo = ({ isSticky, element }) => {
                                 </div>
                             </div>
                         </div>
-                        <Footer />
+                        <ExpertiseFooter />
                     </div>
                 </div>
-                <Contact />
+                <Footer />
             </div>
             <div className="block lg:hidden">
                 <ExpertiseCustomCompo

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Navbar from "./Navbar";
-import { Contact, MainBorder } from "../components";
+import { Footer, MainBorder } from "../components";
 import { Link } from 'react-router-dom';
 
 const Bpl = ({ isSticky, element }) => {
@@ -362,7 +362,7 @@ const Bpl = ({ isSticky, element }) => {
                 </div>
 
             </div>
-            <Contact />
+            <Footer />
             <MainBorder />
         </div>
     );

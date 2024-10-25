@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import Navbar from "../Navbar";
 import { expertiseData3, expertiseTableData1, expertiseListData } from '../../data/selections';
-import { ServicesTable, Contact, MainBorder } from "../../components";
+import { ServicesTable, Footer, MainBorder } from "../../components";
 import ExpertiseTable from "./ExpertiseTable";
-import Footer from './Footer';
+import ExpertiseFooter from './ExpertiseFooter';
 import ExpertiseCustomCompo from "../../components/ExpertiseCustomCompo";
 
 const ExpertiseCompo = ({ isSticky, element }) => {
@@ -45,10 +45,10 @@ const ExpertiseCompo = ({ isSticky, element }) => {
                             <span className="text-[#9F81BF] font-bold">Crafting narratives to engage and inspire in an age where stories define brands and shape opinions,</span> we step forward as a guide in the world of creative communication. From the inception of an idea to its grand realization, our journey is about making narratives resonate.
                         </p>
                         <ExpertiseTable />
-                        <Footer />
+                        <ExpertiseFooter />
                     </div>
                 </div>
-                <Contact />
+                <Footer />
             </div>
             <div className="block lg:hidden">
                 <ExpertiseCustomCompo

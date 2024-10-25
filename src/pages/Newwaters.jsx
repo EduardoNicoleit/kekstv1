@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React, { useEffect } from "react";
-import { Contact, MainBorder } from "../components";
+import { Footer, MainBorder } from "../components";
 import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
 
@@ -351,8 +351,8 @@ const Newwaters = ({ isSticky, element }) => {
                 </div>
             </div>
 
-            {/* Contact and MainBorder Components */}
-            <Contact />
+            {/* Footer and MainBorder Components */}
+            <Footer />
             <MainBorder />
         </div>
     );

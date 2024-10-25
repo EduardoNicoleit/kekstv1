@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React, { useEffect } from "react";
 import Navbar from "./Navbar";
-import { Contact, MainBorder } from "../components";
+import { Footer, MainBorder } from "../components";
 import { Link } from "react-router-dom";
 
 const Deutsche = ({ isSticky, element }) => {
@@ -388,8 +388,8 @@ const Deutsche = ({ isSticky, element }) => {
                 </div>
             </div>
 
-            {/* Contact and MainBorder Components */}
-            <Contact />
+            {/* Footer and MainBorder Components */}
+            <Footer />
             <MainBorder />
         </div>
     );

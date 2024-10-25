@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Contact, MainBorder } from "../components";
+import { Footer, MainBorder } from "../components";
 import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
 
@@ -252,7 +252,7 @@ const Volkswagen = () => {
                     </div>
                 </div>
             </div>
-            <Contact />
+            <Footer />
             <MainBorder />
         </div>
     );
