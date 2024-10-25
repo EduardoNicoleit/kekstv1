@@ -88,100 +88,16 @@ const ProcessCompo = () => {
                                         playsInline
                                     ></video>
 
-                                    <div className="w-[calc(100vw-16px)] lg:w-[calc(100vw-32px)] xl:w-[calc(100vw-67px)] 2xl:w-[calc(100vw-100px)] 3xl:w-[calc(100vw-100x)] h-[1px] bg-white absolute left-1/2 sm:bottom-[50px] md:bottom-[65px] lg:bottom-[72px] xl:bottom-[100px] 2xl:bottom-[115px] 3xl:bottom-[141px] -translate-x-1/2"></div>
-                                    <div className="flex gap-4 md:gap-10 xl:gap-20 2xl:gap-[59px]">
-                                        <div className='flex-none flex items-center flex-col'>
-                                            <div className="pb-2 xl:pb-12">
-                                                DISCOVER <br /> & DEFINE
-                                            </div>
-                                            <div className=
-                                                {`flex-none 
-                                            h-[40px] sm:h-[100px] md:h-[130px] lg:h-[147px] xl:h-[200px] 2xl:h-[230px] 3xl:h-[282px]
-                                            w-[40px] sm:w-[100px] md:w-[130px] lg:w-[147px] xl:w-[200px] 2xl:w-[230px] 3xl:w-[282px]
-                                            border border-solid border-white rounded-full relative flex items-center justify-center cursor-pointer ${processState === 1 ? " bg-[#9ca3af66]" : ""}`} onClick={(e) => changeProcessState(e, 1, false)}>
-                                                <img src={processState === 1 ? CloseImg : AddImg} alt="keskt..." className="w-10 h-10 required:" />
-                                                <div
-                                                    className=
-                                                    {`absolute left-1/2 
-                                                sm:-top-2 md:-top-2 lg:-top-2 xl:-top-10 2xl:-top-11 3xl:-top-10 
-                                                sm:h-[calc(50%+16px)] md:h-[calc(50%+16px)] lg:h-[calc(50%+16px)] xl:h-[calc(50%+26px)] 2xl:h-[calc(50%+32px)] 3xl:h-[calc(50%+26px)] 
-                                                w-[1px]                                                
-                                                ${processState === 1 ? " bg-[#C51B89]" : " bg-white"}`}>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className='flex-none flex items-center flex-col'>
-                                            <div className="pb-2 xl:pb-12">
-                                                STRATEGY <br /> DEVELOPMENT
-                                            </div>
-                                            <div className=
-                                                {`flex-none 
-                                            h-[40px] sm:h-[100px] md:h-[130px] lg:h-[147px] xl:h-[200px] 2xl:h-[230px] 3xl:h-[282px]
-                                            w-[40px] sm:w-[100px] md:w-[130px] lg:w-[147px] xl:w-[200px] 2xl:w-[230px] 3xl:w-[282px]
-                                            border border-solid border-white rounded-full relative flex items-center justify-center cursor-pointer ${processState === 2 ? " bg-[#9ca3af66]" : ""}`} onClick={(e) => changeProcessState(e, 2, false)}>
-                                                <img src={processState === 2 ? CloseImg : AddImg} alt="keskt..." className="w-10 h-10 required: " />
-                                                <div
-                                                    className=
-                                                    {`absolute left-1/2 
-                                                sm:-top-2 md:-top-2 lg:-top-2 xl:-top-10 2xl:-top-11 3xl:-top-10 
-                                                sm:h-[calc(50%+16px)] md:h-[calc(50%+16px)] lg:h-[calc(50%+16px)] xl:h-[calc(50%+26px)] 2xl:h-[calc(50%+32px)] 3xl:h-[calc(50%+26px)] 
-                                                w-[1px]                                                
-                                                ${processState === 2 ? " bg-[#C51B89]" : " bg-white"}`}>
 
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className='flex-none flex items-center flex-col'>
-                                            <div className="pb-2 xl:pb-12">
-                                                CONCEPTUALIZATION <br /> & CREATION
-                                            </div>
-                                            <div className=
-                                                {`flex-none 
-                                            h-[40px] sm:h-[100px] md:h-[130px] lg:h-[147px] xl:h-[200px] 2xl:h-[230px] 3xl:h-[282px]
-                                            w-[40px] sm:w-[100px] md:w-[130px] lg:w-[147px] xl:w-[200px] 2xl:w-[230px] 3xl:w-[282px]
-                                            border border-solid border-white rounded-full relative flex items-center justify-center cursor-pointer ${processState === 3 ? " bg-[#9ca3af66]" : ""}`} onClick={(e) => changeProcessState(e, 3, false)}>
-                                                <img src={processState === 3 ? CloseImg : AddImg} alt="keskt..." className="w-10 h-10 required: " />
-                                                <div
-                                                    className=
-                                                    {`absolute left-1/2 
-                                                sm:-top-2 md:-top-2 lg:-top-2 xl:-top-10 2xl:-top-11 3xl:-top-10 
-                                                sm:h-[calc(50%+16px)] md:h-[calc(50%+16px)] lg:h-[calc(50%+16px)] xl:h-[calc(50%+26px)] 2xl:h-[calc(50%+32px)] 3xl:h-[calc(50%+26px)] 
-                                                w-[1px]                                                
-                                                ${processState === 3 ? " bg-[#C51B89]" : " bg-white"}`}>
 
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className='flex-none flex items-center flex-col'>
-                                            <div className="pb-2 xl:pb-12">
-                                                PRODUCTION  <br /> & EXECUTION
-                                            </div>
-                                            <div
-                                                className=
-                                                {`flex-none 
-                                            h-[40px] sm:h-[100px] md:h-[130px] lg:h-[147px] xl:h-[200px] 2xl:h-[230px] 3xl:h-[282px]
-                                            w-[40px] sm:w-[100px] md:w-[130px] lg:w-[147px] xl:w-[200px] 2xl:w-[230px] 3xl:w-[282px]
-                                            border border-solid border-white rounded-full relative flex items-center justify-center cursor-pointer ${processState === 4 ? " bg-[#9ca3af66]" : ""}`} onClick={(e) => changeProcessState(e, 4, false)}>
-                                                <img src={processState === 4 ? CloseImg : AddImg} alt="keskt..." className="w-10 h-10 required: " />
-                                                <div
-                                                    className=
-                                                    {`absolute left-1/2 
-                                                sm:-top-2 md:-top-2 lg:-top-2 xl:-top-10 2xl:-top-11 3xl:-top-10 
-                                                sm:h-[calc(50%+16px)] md:h-[calc(50%+16px)] lg:h-[calc(50%+16px)] xl:h-[calc(50%+26px)] 2xl:h-[calc(50%+32px)] 3xl:h-[calc(50%+26px)] 
-                                                w-[1px]                                                
-                                                ${processState === 4 ? " bg-[#C51B89]" : " bg-white"}`}>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
 
                             {/* // Text below the circles */}
                             <div className="items-start justify-start flex flex-col md:flex-row items-center justify-between pr-4 pt-12 pl-0 sm:pl-[40px] md:pl-[100px] lg:pl-[120px] xl:pl-[100px] 2xl:pl-[322px] flex-none h-[250px] xl:h-[300px] 2xl:h-[350px] 3xl:h-[10vw]">
                                 {/* Left Section */}
-                                <div className="pb-2 md:pb-0 pt-8 pr-1 2xl:pr-[3vw]">
-                                    <div className="flex flex-col text-[#C51B89] font-bold text-[21px] md:text-xl lg:text-[26px] xl:text-[33px] 2xl:text-4xl 3xl:text-[2.2vw] leading-10 3xl:leading-[3vw] font-Helvetica xl:max-w-[400px] 2xl:max-w-[40vw] 3xl:pb-[1vw]">
+                                <div className="pb-2 md:pb-0 pt-8 pr-6 2xl:pr-8 3xl:pr-[5vw]">
+                                    <div className="flex flex-col text-[#C51B89] font-bold text-[21px] md:text-xl lg:text-[26px] xl:text-[33px] 2xl:text-4xl 3xl:text-[2.1vw] leading-normal font-Helvetica 3xl:pb-[1vw] 2xl:max-w-[30vw] 2xl:leading-[2.5vw]">
                                         {currentProcessData.title}
                                     </div>
 
@@ -189,12 +105,8 @@ const ProcessCompo = () => {
                                         {currentProcessData.mainContent}
                                     </div>
                                 </div>
-
-                                {/* Divider Column */}
-                                <div className="hidden md:block mx-3 xl:mx-5 2xl:mx-10 flex-none border-l border-white h-full"></div>
-
                                 {/* Right Section */}
-                                <div className="flex-1 flex pl-[2vw] 2xl:pl-[3vw] justify-start">
+                                <div className="flex-1 flex pl-8 2xl:pl-[4vw] justify-start border-l border-white">
                                     <div className="flex justify-start flex-col font-Helvetica text-[17px] py-2 xl:text-2xl 3xl:text-[1.2vw] 5xl:text-[1vw] 3xl:leading-[2vw] font-normal pr-6 3xl:pr-[1vw] pl-1 3xl:pl-[0.5vw]">
                                         <ul className="list-disc">
                                             <li>

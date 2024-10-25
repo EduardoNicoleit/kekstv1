@@ -97,7 +97,7 @@ const Navbar = () => {
         <AnimatePresence>
             <motion.div
                 ref={navbarRef}
-                className={`${isSticky ? "navbar navbar-sticky" : "navbar mt-0 md:mt-4 lg:mt-14"} h-[4vh] md:h-[10vh]`}
+                className={`${isSticky ? "navbar navbar-sticky" : "navbar mt-0 md:mt-4 lg:mt-14"} h-[4vh] md:h-[10vh] 2xl:h-[14vh]`}
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -50 }}
@@ -187,7 +187,7 @@ const Navbar = () => {
                                 maxWidth: '300px',
                             }}
                         >
-                            <ul className='flex flex-col items-start py-4 px-4 sm:px-6 md:px-8 text-sm sm:text-base md:text-lg'>
+                            <ul className='cursor-pointer flex flex-col items-start py-4 px-4 sm:px-6 md:px-8 text-sm sm:text-base md:text-lg'>
                                 <li className="py-2 w-full hover:text-[#9F81BF]">
                                     <NavItem to="expertise" onClick={() => setToggle(false)}>
                                         Expertise

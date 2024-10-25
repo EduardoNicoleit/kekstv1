@@ -52,7 +52,7 @@ const WorksDataCompo = ({ isSticky, element }) => {
                     </div>
                 </div>
             </div>
-            <div className="pt-0 2xl:pt-12 px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] 3xl:px-[2vw]">
+            <div className="pt-0 2xl:pt-12 px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px]">
                 <div className="border-b-[1px] border-white 3xl:pb-[5.5vw]">
                     <WorkDataSelection selectionsData={selectionsData} />
                 </div>
