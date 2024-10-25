@@ -233,7 +233,7 @@ const Deutsche = ({ isSticky, element }) => {
                 </div>
                 <div className="pt-8 2xl:pt-16">
                     <img
-                        src="/assets/img/deutsche/DB_4.png"
+                        src="/assets/img/deutsche/DB_4.jpg"
                         className="w-full h-auto object-cover"
                         alt="Deutsche Bahn Outreach Efforts"
 

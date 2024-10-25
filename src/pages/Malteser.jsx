@@ -203,8 +203,7 @@ const Malteser = ({ isSticky, element }) => {
 
                     />
                 </div>
-                <div className="pt-8 2xl:pt-16 pb-8 md:pb-0 
-                                3xl:pt-[6vw] 5xl:pt-[8vw]">
+                <div className="pb-8 md:pb-0">
                     <img
                         src="/assets/img/malteser/malteser_2.png"
                         className="w-full h-auto object-cover"
