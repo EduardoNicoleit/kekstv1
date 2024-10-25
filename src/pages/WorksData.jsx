@@ -45,14 +45,14 @@ const WorksDataCompo = ({ isSticky, element }) => {
             </div>
             <div className="">
                 <div className="px-2 lg:px-0">
-                    <div className="text-white border-b-[1px] md:border-b-0 px-[33px] lg:px-[49px] xl:px-[90px] 2xl:px-[356px] 3xl:pr-[7vw]">
+                    <div className="text-white border-b-[1px] md:border-b-0 pl-[33px] lg:pl-[49px] xl:pl-[90px] 2xl:pl-[356px] pr-[33px] lg:pr-[49px] xl:pr-[90px] 2xl:pr-[7vw]">
                         <p className="font-Helvetica font-bold sm:font-normal text-[17px] lg:text-[30px] 2xl:text-[37px] 3xl:text-[2vw] py-0 lg:py-[78px] 2xl:py-[4vw] pb-[58px] md:pb-0 2xl:pb-[10vw] leading-tight">
                             Unlocking new narratives in a digital age. The digital landscape is vast, constantly evolving, and ever-challenging. But with challenges come opportunities. Through Strategic Visual Communications, Product & Platform Creation, and Data Visualization, we empower brands to seize these opportunities. With a blend of creativity, technology, and strategy, we're not just designing for the present but envisioning the future.
                         </p>
                     </div>
                 </div>
             </div>
-            <div className="pt-0 2xl:pt-12 px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px]">
+            <div className="pt-0 2xl:pt-12 px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] 3xl:px-[2vw]">
                 <div className="border-b-[1px] border-white 3xl:pb-[5.5vw]">
                     <WorkDataSelection selectionsData={selectionsData} />
                 </div>
