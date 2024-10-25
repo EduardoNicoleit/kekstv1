@@ -47,10 +47,10 @@ const Footer = () => {
                             </NavItem>
                         </div>
                         {/* Navigation Links */}
-                        <div className='grid col-span-3 w-full pl-6 sm:pl-0 md:pl-0 lg:pl-14 xl:pl-0 pt-2 md:pt-0 cursor-pointer 2xl:leading-[4vw]'>
+                        <div className='grid col-span-3 w-full py-8 xl:py-0 pl-6 sm:pl-0 md:pl-0 lg:pl-14 xl:pl-0 md:pt-0 cursor-pointer 2xl:leading-[4vw]'>
                             <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3 sm:mx-auto xl:mx-0 pt-4 lg:pt-0 w-full lg:w-auto 2xl:pt-0'>
                                 <div className='2xl:flex 2xl:flex-col 2xl:justify-start 2xl:items-start'>
-                                    <div className='hover:text-[#7a6b87]'>
+                                    <div className='hover:text-[#7a6b87] my-4 xl:my-0'>
                                         <NavItem to="expertise">
                                             Expertise
                                         </NavItem>
@@ -62,7 +62,7 @@ const Footer = () => {
                                     </div>
                                 </div>
                                 <div className='2xl:flex 2xl:flex-col 2xl:justify-start 2xl:items-start'>
-                                    <div className='hover:text-[#7a6b87] mt-4 lg:mt-0'>
+                                    <div className='hover:text-[#7a6b87] my-4 xl:my-0'>
                                         <NavItem to="creative">
                                             Get to Know Us
                                         </NavItem>
@@ -74,7 +74,7 @@ const Footer = () => {
                                     </div>
                                 </div>
                                 <div className='2xl:flex 2xl:flex-col 2xl:justify-start 2xl:items-start'>
-                                    <div className='hover:text-[#7a6b87] lg:pr-12 xl:pr-2 mt-4 xl:mt-0'>
+                                    <div className='hover:text-[#7a6b87] lg:pr-12 xl:pr-2 my-4 xl:my-0'>
                                         <NavItem to="process">
                                             Our Design Thinking Process
                                         </NavItem>
@@ -89,31 +89,9 @@ const Footer = () => {
                         </div>
 
                         {/* Footer and Social Media Icons */}
-                        <div className='lg:py-0 hidden lg:block my-0 px-0 xl:px-12'>
-                            {/* Email Link */}
-                            <a href="mailto:creative@kekstcnc.com">
-                                <div className='pb-4 xl:pt-3 lg:pt-2 md:pt-2 flex items-center gap-2 2xl:gap-[1vw] lg:pt-[0] 2xl:pt-[1.6vw] 2xl:pb-[1.6vw]'>
-                                    <div>
-                                        {/* Email Icon SVG */}
-                                        <svg
-                                            className='w-[21px] h-[16px] 2xl:w-[1.5vw] 2xl:h-[1.1vw] 3xl:w-[1.2vw] 3xl:h-[0.9vw]'
-                                            viewBox="0 0 21 16"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                d="M18.1504 0H2.15039C1.05039 0 0.160391 0.9 0.160391 2L0.150391 14C0.150391 15.1 1.05039 16 2.15039 16H18.1504C19.2504 16 20.1504 15.1 20.1504 14V2C20.1504 0.9 19.2504 0 18.1504 0ZM18.1504 14H2.15039V4L10.1504 9L18.1504 4V14ZM10.1504 7L2.15039 2H18.1504L10.1504 7Z"
-                                                fill="white"
-                                            />
-                                        </svg>
-                                    </div>
-                                    <div className='font-Helvetica text-lg 2xl:text-[1.2vw] hover:text-[#7a6b87]'>
-                                        creative@kekstcnc.com
-                                    </div>
-                                </div>
-                            </a>
+                        <div className='xl:flex lg:py-0 hidden lg:block my-0 px-0 lg:px-12 3xl:px-[8vw]'>
                             {/* Social Media Icons */}
-                            <div className='flex gap-10 pt-4 xl:mt-0 2xl:gap-[2vw] 2xl:py-[2vw]'>
+                            <div className='flex gap-10 pt-4 xl:pt-0 2xl:gap-[5vw] 2xl:py-[2vw]'>
                                 {/* LinkedIn Icon */}
                                 <a
                                     className='hover:scale-110'
@@ -175,21 +153,25 @@ const Footer = () => {
                         </div>
                     </div>
                     {/* Footer Links */}
-                    <div className='text-lg 2xl:text-[1.2vw] pl-6 sm:pl-0 grid grid-cols-1 lg:grid-cols-5 lg:gap-2 xl:grid-cols-5 text-white font-Helvetica pt-0 lg:pt-10 xl:pt-10 mx-auto xl:mx-0 px-0 lg:px-16 pb-0 lg:pb-2 xl:pb-8 2xl:pb-12 w-full lg:w-auto 2xl:pb-[10vw] 2xl:pt-[1.6vw]'>
+                    <div className='text-lg 2xl:text-[1.2vw] pl-6 sm:pl-0 grid grid-cols-1 lg:grid-cols-5 lg:gap-2 xl:grid-cols-5 text-white font-Helvetica pt-0 lg:pt-10 xl:pt-10 mx-auto xl:mx-0 px-0 lg:px-16 pb-0 lg:pb-2 xl:pb-8 w-full lg:w-auto 2xl:pb-[1.5vw] 2xl:pt-[6vw]'>
                         <div></div>
-                        <div className='py-1 xl:py-0 lg:text-left lg:py-2'>
+                        <div className='py-4  lg:pr-4 xl:py-0 lg:text-left'>
                             © 2023 Kekst CNC
                         </div>
-                        <div className='py-2 xl:py-0 text-left lg:text-center xl:text-left'>
-                            Privacy Notice
-                        </div>
-                        <div className='py-2 xl:py-0 lg:text-left'>
+                        <div className='py-4 lg:pr-4 xl:py-0 text-left lg:text-center xl:text-left'>
                             All Rights Reserved
+                        </div>
+                        <div className='py-4 xl:py-0 lg:pr-4 lg:text-left hover:text-[#7a6b87] hover-cursor-pointer'>
+                            {/* Email Link */}
+                            <a href="mailto:creative@kekstcnc.com">
+                                creative@kekstcnc.com
+                            </a>
+
                         </div>
                         <div></div>
                     </div>
                     {/* Footer and Social Icons for Mobile */}
-                    <div className='pl-6 sm:pl-0 px-0 lg:py-5 flex justify-start w-full lg:hidden text-white gap-8 md:gap-[300px] sm:gap-[280px] md:mr:0'>
+                    <div className='pl-6 sm:pl-0 px-0 py-4 lg:py-5 flex justify-left w-full lg:hidden text-white md:mr:0'>
                         {/* Email Link */}
                         <a
                             href="mailto:creative@kekstcnc.com"
@@ -197,24 +179,6 @@ const Footer = () => {
                             rel="noopener noreferrer"
                             className='py-2'
                         >
-                            <div className='flex items-center gap-1'>
-                                <div>
-                                    {/* Email Icon SVG */}
-                                    <svg
-                                        width="21"
-                                        height="16"
-                                        viewBox="0 0 21 16"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M18.1504 0H2.15039C1.05039 0 0.160391 0.9 0.160391 2L0.150391 14C0.150391 15.1 1.05039 16 2.15039 16H18.1504C19.2504 16 20.1504 15.1 20.1504 14V2C20.1504 0.9 19.2504 0 18.1504 0ZM18.1504 14H2.15039V4L10.1504 9L18.1504 4V14ZM10.1504 7L2.15039 2H18.1504L10.1504 7Z"
-                                            fill="white"
-                                        />
-                                    </svg>
-                                </div>
-                                <div className='font-Helvetica text-lg 2xl:text-[1.2vw]'>creative@kekstcnc.com</div>
-                            </div>
                         </a>
                         {/* Social Media Icons */}
                         <div className='flex pr-4 py-2 xl:mt-0 items-center hover:cursor-pointer'>
@@ -223,7 +187,7 @@ const Footer = () => {
                                 href="https://www.linkedin.com"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className='px-4 md:px-12'
+                                className='px-0 lg:px-12 '
                             >
                                 <svg
                                     className='w-[29px] h-[28px] 2xl:w-[2.2vw] 2xl:h-[2.2vw] 3xl:w-[2vw] 3xl:h-[2vw]'
@@ -245,7 +209,7 @@ const Footer = () => {
                                 rel="noopener noreferrer"
                             >
                                 <svg
-                                    className='w-[28px] h-[28px] 2xl:w-[2vw] 2xl:h-[2vw] 3xl:w-[1.8vw] 3xl:h-[1.8vw]'
+                                    className='ml-8 lg:ml-0 w-[28px] h-[28px] 2xl:w-[2vw] 2xl:h-[2vw] 3xl:w-[1.8vw] 3xl:h-[1.8vw]'
                                     viewBox="0 0 28 28"
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
