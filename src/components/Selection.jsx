@@ -10,7 +10,7 @@ const Selections = ({ selectionsData }) => {
                         <div className='overflow-hidden xl:h-[400px] 2xl:h-[24vw]'>
                             <Link to={data.link_url}>
                                 <img src={data.img_url} alt="logo" className="hidden xl:block object-cover h-full w-full cursor-pointer transition duration-300 ease-in-out hover:scale-110" />
-                                <img src={data.img_url1} alt="logo" className="block md:hidden h-[500px] w-auto cursor-pointer transition duration-300 ease-in-out hover:scale-110" />
+                                <img src={data.img_url1} alt="logo" className="block md:hidden h-full w-full cursor-pointer transition duration-300 ease-in-out hover:scale-110" />
                                 <img src={data.img_url2} alt="logo" className="hidden md:block xl:hidden h-auto w-full cursor-pointer transition duration-300 ease-in-out hover:scale-110" />
                             </Link>
                         </div>

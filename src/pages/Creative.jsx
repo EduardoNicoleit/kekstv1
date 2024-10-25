@@ -54,8 +54,10 @@ const CreativeCompo = () => {
                             </div>
                         </div>
 
+
+                        {/* Lets Talk Section */}
                         <div className="mb-8 md:mb-[20px] mt-[50px] md:mt-[60px] lg:mt-[70px] xl:mt-[100px] 2xl:mt-[140px] ml-4 md:ml-[34px] lg:ml-[59px] xl:ml-[100px] 2xl:ml-[308px]">
-                            <div className="h-[1px] bg-white"></div>
+                            <div className="h-[1px] 2xl:h-[2px] bg-white"></div>
                         </div>
                     </div>
                     <div className="grid grid-cols-1 2xl:grid-cols-3 gap-0 2xl:gap-[350px] 3xl:gap-0">

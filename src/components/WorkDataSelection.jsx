@@ -15,7 +15,7 @@ const Selections = ({ selectionsData }) => {
                     <div className="w-0 lg:w-[34px] xl:w-[65px] 2xl:w-[308px]"></div>
                     <div className="flex-1 m-0 p-0 border-white border-b-[1px] 3xl:border-b-[2px] lg:border-b-0">
                         <Link to={data.link_url}>
-                            <div className="relative overflow-hidden w-full h-[450px] lg:h-[400px] xl:h-[410px] 2xl:h-[24vw]">
+                            <div className="relative overflow-hidden w-full lg:h-[400px] xl:h-[410px] 2xl:h-[24vw]">
                                 <img
                                     src={data.img_url}
                                     alt="logo"

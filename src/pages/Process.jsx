@@ -90,7 +90,7 @@ const ProcessCompo = () => {
 
                                     <div className="relative">
                                         {/* Horizontal Line */}
-                                        <div className="w-[calc(100vw-16px)] lg:w-[calc(100vw-32px)] xl:w-[calc(100vw-67px)] 2xl:w-[calc(100vw-100px)] 3xl:w-[calc(100vw-90px)] h-[1px] 2xl:h-[2px] bg-white absolute left-1/2 transform -translate-x-1/2 sm:bottom-[50px] md:bottom-[65px] lg:bottom-[72px] xl:bottom-[100px] 2xl:bottom-[115px] 3xl:bottom-[7.5vw] z-0"></div>
+                                        <div className="w-[calc(100vw-16px)] lg:w-[calc(100vw-32px)] xl:w-[calc(100vw-67px)] 2xl:w-[calc(100vw-100px)] 3xl:w-[calc(100vw-90px)] h-[1px] 3xl:h-[2px] bg-white absolute left-1/2 transform -translate-x-1/2 sm:bottom-[50px] md:bottom-[65px] lg:bottom-[72px] xl:bottom-[100px] 2xl:bottom-[115px] 3xl:bottom-[7.5vw] z-0"></div>
 
                                         <div className="flex gap-4 md:gap-10 xl:gap-20 2xl:gap-[59px]">
                                             {/* First Circle */}

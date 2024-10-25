@@ -10,7 +10,7 @@ export const selectionsData = [
     {
         id: 2,
         img_url: '/assets/img/selections/netclean.png',
-        mobile_img_url: '/assets/img/selections/NetClean1.png',
+        mobile_img_url: '/assets/img/selections/NetClean1.jpg',
         title: 'NetClean',
         content: "Reinventing how annual data reports can be transformed into impactful narrative communication tools.",
         link_url: "/works/netClean"
@@ -18,7 +18,7 @@ export const selectionsData = [
     {
         id: 3,
         img_url: '/assets/img/selections/Mars.png',
-        mobile_img_url: '/assets/img/selections/Mars1.png',
+        mobile_img_url: '/assets/img/selections/Mars1.jpg',
         title: 'Mars',
         content: "Crafting a video campaign that showcases how artificial intelligence tools are revolutionizing research methodologies within Mars, positioning them at the forefront of innovative exploration.",
         link_url: "/works/mars"
@@ -26,7 +26,7 @@ export const selectionsData = [
     {
         id: 4,
         img_url: '/assets/img/selections/Uniper.png',
-        mobile_img_url: '/assets/img/selections/Uniper1.png',
+        mobile_img_url: '/assets/img/selections/Uniper1.jpg',
         title: 'Uniper',
         content: "Shaping Uniper's campaign to position them as the heartbeat of an evolving energy landscape.",
         link_url: "/works/uniper"
@@ -34,7 +34,7 @@ export const selectionsData = [
     {
         id: 5,
         img_url: '/assets/img/selections/NewWaters.png',
-        mobile_img_url: '/assets/img/selections/NewWaters1.png',
+        mobile_img_url: '/assets/img/selections/NewWaters1.jpg',
         title: 'NewWaters',
         content: "Crafting NewWaters' corporate identity to embody fluid innovation in a transforming market.",
         link_url: "/works/newWaters"
@@ -42,7 +42,7 @@ export const selectionsData = [
     {
         id: 6,
         img_url: '/assets/img/selections/FarmerVoice.png',
-        mobile_img_url: '/assets/img/selections/FarmerVoice1.png',
+        mobile_img_url: '/assets/img/selections/FarmerVoice.jpg',
         title: 'Farmer Voice',
         content: "Blending tradition with innovation to empower agriculture, creating a narrative-driven, stakeholder-engaging identity.",
         link_url: "/works/farmerVoice"
@@ -50,7 +50,7 @@ export const selectionsData = [
     {
         id: 7,
         img_url: '/assets/img/selections/Maltesert.png',
-        mobile_img_url: '/assets/img/selections/Maltesert1.png',
+        mobile_img_url: '/assets/img/selections/Malteser.jpg',
         title: 'Maltesert',
         content: "Merging data with design to democratize information, crafting a visually engaging, universally accessible identity.",
         link_url: "/works/maltesert"
@@ -58,7 +58,7 @@ export const selectionsData = [
     {
         id: 8,
         img_url: '/assets/img/selections/DTCP.png',
-        mobile_img_url: '/assets/img/selections/DTCP1.png',
+        mobile_img_url: '/assets/img/selections/DTCP.jpg',
         title: 'DTCP',
         content: "Infusing dynamic visual narratives and data insights to craft a trustworthy, stakeholder-engaging brand identity for DTCP.",
         link_url: "/works/dtcp"
@@ -66,7 +66,7 @@ export const selectionsData = [
     {
         id: 9,
         img_url: '/assets/img/selections/bp.png',
-        mobile_img_url: '/assets/img/selections/bp1.png',
+        mobile_img_url: '/assets/img/selections/bp.jpg',
         title: 'bp',
         content: "Creating culturally tailored infographics to showcase bp's Greater Tortue Ahmeyim (GTA) FLNG project's achievements, fostering global understanding and engagement.",
         link_url: "/works/bp"
@@ -74,7 +74,7 @@ export const selectionsData = [
     {
         id: 10,
         img_url: '/assets/img/selections/CEOTracker.png',
-        mobile_img_url: '/assets/img/selections/CEOTracker1.png',
+        mobile_img_url: '/assets/img/selections/CEOTracker.jpg',
         title: 'CEO Tracker',
         content: "Analyzing CEO communication during turbulent times and crafting visually engaging narratives to showcase diverse leadership strategies amidst complex challenges.",
         link_url: "/works/ceoTracker"
@@ -82,7 +82,7 @@ export const selectionsData = [
     {
         id: 11,
         img_url: '/assets/img/selections/DeutscheBahn.png',
-        mobile_img_url: '/assets/img/selections/DeutscheBahn1.png',
+        mobile_img_url: '/assets/img/selections/DB.jpg',
         title: 'Deutsche Bahn',
         content: "Crafting inclusive campaigns through strategic messaging and innovative visuals to redefine perceptions and engage diverse audiences.",
         link_url: "/works/deutsche"
@@ -90,7 +90,7 @@ export const selectionsData = [
     {
         id: 12,
         img_url: '/assets/img/selections/COP27Report.png',
-        mobile_img_url: '/assets/img/selections/COP27Report1.png',
+        mobile_img_url: '/assets/img/selections/COP_27.jpg',
         title: 'COP 27 Report',
         content: "Shaping COP 27’s global narrative through data-driven insights and visual storytelling, capturing diverse stakeholder sentiments.",
         link_url: "/works/copReport"
@@ -98,7 +98,7 @@ export const selectionsData = [
     {
         id: 13,
         img_url: '/assets/img/selections/bpl.png',
-        mobile_img_url: '/assets/img/selections/bpl1.png',
+        mobile_img_url: '/assets/img/selections/BPI.jpg',
         title: 'BPI',
         content: "Partnering with BPI to spotlight its crucial role in advancing the pharmaceutical industry through engaging narratives and innovative visual strategies.",
         link_url: "/works/bpl"
@@ -110,7 +110,7 @@ export const worksData = [
         id: 1,
         img_url: '/assets/img/selections/VW.png',
         img_url1: '/assets/img/selections/VW1.png',
-        img_url2: '/assets/img/selections/VW2.png',
+        img_url2: '/assets/img/selections/VW1.png',
         title: 'Volkswagen',
         content: "Partnering with Volkswagen to enhance their global ESG narrative, from strategic audience engagement to shaping future sustainability pathways.",
         link_url: "/works/volkswagen"
@@ -118,8 +118,8 @@ export const worksData = [
     {
         id: 2,
         img_url: '/assets/img/selections/netclean.png',
-        img_url1: '/assets/img/selections/NetClean1.png',
-        img_url2: '/assets/img/selections/NetClean2.png',
+        img_url1: '/assets/img/selections/NetClean1.jpg',
+        img_url2: '/assets/img/selections/NetClean1.jpg',
         title: 'NetClean',
         content: "Reinventing how annual data reports can be transformed into impactful narrative communication tools.",
         link_url: "/works/netClean"
@@ -127,8 +127,8 @@ export const worksData = [
     {
         id: 3,
         img_url: '/assets/img/selections/Mars.png',
-        img_url1: '/assets/img/selections/Mars1.png',
-        img_url2: '/assets/img/selections/Mars2.png',
+        img_url1: '/assets/img/selections/Mars1.jpg',
+        img_url2: '/assets/img/selections/Mars1.jpg',
         title: 'Mars',
         content: "Crafting a video campaign that showcases how artificial intelligence tools are revolutionizing research methodologies within Mars, positioning them at the forefront of innovative exploration.",
         link_url: "/works/mars"
@@ -136,8 +136,8 @@ export const worksData = [
     {
         id: 4,
         img_url: '/assets/img/selections/Uniper.png',
-        img_url1: '/assets/img/selections/Uniper1.png',
-        img_url2: '/assets/img/selections/Uniper2.png',
+        img_url1: '/assets/img/selections/Uniper1.jpg',
+        img_url2: '/assets/img/selections/Uniper1.jpg',
         title: 'Uniper',
         content: "Shaping Uniper's campaign to position them as the heartbeat of an evolving energy landscape.",
         link_url: "/works/uniper"
@@ -145,8 +145,8 @@ export const worksData = [
     {
         id: 5,
         img_url: '/assets/img/selections/NewWaters.png',
-        img_url1: '/assets/img/selections/NewWaters1.png',
-        img_url2: '/assets/img/selections/NewWaters2.png',
+        img_url1: '/assets/img/selections/NewWaters1.jpg',
+        img_url2: '/assets/img/selections/NewWaters1.jpg',
         title: 'NewWaters',
         content: "Crafting NewWaters' corporate identity to embody fluid innovation in a transforming market.",
         link_url: "/works/newWaters"
