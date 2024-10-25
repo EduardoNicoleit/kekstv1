@@ -78,7 +78,7 @@ const ProcessCompo = () => {
                         <div className="w-0"></div>
                         <div className="flex-1">
                             <div className="xl:pb-[100px] 2xl:pb-[20px] 3xl:pb-[4vw]">
-                                <div className="text-white text-bold text-center text-xs md:text-sm xl:text-xl 2xl:text-[1.1vw] 2xl:leading-[1.5vw] relative flex justify-center w-fit m-auto font-Helvetica">
+                                <div className="text-white text-center text-xs md:text-sm xl:text-xl 2xl:text-[1.1vw] 2xl:leading-[1.5vw] relative flex justify-center w-fit m-auto font-Helvetica">
                                     <video
                                         src={wavesVideo}
                                         className="absolute left-1/2 transform -translate-x-1/2 sm:w-[90%] md:w-[80%] lg:w-[70%] xl:w-[60%] 2xl:w-[50%] sm:bottom-[50px] md:bottom-[60px] lg:bottom-[72px] xl:bottom-[100px] 2xl:bottom-[121px] 3xl:bottom-[141px]"
@@ -90,7 +90,7 @@ const ProcessCompo = () => {
 
                                     <div className="relative">
                                         {/* Horizontal Line */}
-                                        <div className="w-[calc(100vw-16px)] lg:w-[calc(100vw-32px)] xl:w-[calc(100vw-67px)] 2xl:w-[calc(100vw-100px)] 3xl:w-[calc(100vw-90px)] h-[1px] bg-white absolute left-1/2 transform -translate-x-1/2 sm:bottom-[50px] md:bottom-[65px] lg:bottom-[72px] xl:bottom-[100px] 2xl:bottom-[115px] 3xl:bottom-[7.5vw] z-0"></div>
+                                        <div className="w-[calc(100vw-16px)] lg:w-[calc(100vw-32px)] xl:w-[calc(100vw-67px)] 2xl:w-[calc(100vw-100px)] 3xl:w-[calc(100vw-90px)] h-[1px] 2xl:h-[2px] bg-white absolute left-1/2 transform -translate-x-1/2 sm:bottom-[50px] md:bottom-[65px] lg:bottom-[72px] xl:bottom-[100px] 2xl:bottom-[115px] 3xl:bottom-[7.5vw] z-0"></div>
 
                                         <div className="flex gap-4 md:gap-10 xl:gap-20 2xl:gap-[59px]">
                                             {/* First Circle */}
@@ -100,7 +100,7 @@ const ProcessCompo = () => {
                                                 </div>
                                                 <div className={`flex-none h-[40px] sm:h-[100px] md:h-[130px] lg:h-[147px] xl:h-[200px] 2xl:h-[230px] 3xl:h-[15vw] w-[40px] sm:w-[100px] md:w-[130px] lg:w-[147px] xl:w-[200px] 2xl:w-[230px] 3xl:w-[15vw] border border-solid rounded-full relative flex items-center justify-center ${processState === 1 ? 'bg-[#9ca3af66] border-white' : 'border-white group-hover:border-white'} group-hover:bg-[#674480]`}>
                                                     <img src={processState === 1 ? CloseImg : AddImg} alt="Icon" className="w-10 h-10 2xl:w-[2vw] 2xl:h-[2vw]" />
-                                                    <div className={`absolute left-1/2 transform -translate-x-1/2 sm:-top-2 md:-top-2 lg:-top-2 xl:-top-10 2xl:-top-11 3xl:-top-[2vw] sm:h-[calc(50%+16px)] md:h-[calc(50%+16px)] lg:h-[calc(50%+16px)] xl:h-[calc(50%+26px)] 2xl:h-[calc(50%+32px)] 3xl:h-[calc(50%+[40px])] w-[1px] 3xl:w-[2px] ${processState === 1 ? 'bg-[#C51B89]' : 'bg-white group-hover:bg-white group-hover:z-10'}`}></div>
+                                                    <div className={`absolute left-1/2 transform -translate-x-1/2 sm:-top-2 md:-top-2 lg:-top-2 xl:-top-10 2xl:-top-11 3xl:-top-[2vw] sm:h-[calc(50%+16px)] md:h-[calc(50%+16px)] lg:h-[calc(50%+16px)] xl:h-[calc(50%+26px)] 2xl:h-[calc(50%+32px)] 3xl:h-[calc(50%+[40px])] w-[1px] 3xl:w-[3px] ${processState === 1 ? 'bg-[#C51B89]' : 'bg-white group-hover:bg-white group-hover:z-10'}`}></div>
                                                 </div>
                                             </div>
 
@@ -111,7 +111,7 @@ const ProcessCompo = () => {
                                                 </div>
                                                 <div className={`flex-none h-[40px] sm:h-[100px] md:h-[130px] lg:h-[147px] xl:h-[200px] 2xl:h-[230px] 3xl:h-[15vw] w-[40px] sm:w-[100px] md:w-[130px] lg:w-[147px] xl:w-[200px] 2xl:w-[230px] 3xl:w-[15vw] border border-solid rounded-full relative flex items-center justify-center ${processState === 2 ? 'bg-[#9ca3af66] border-white' : 'border-white group-hover:border-white'} group-hover:bg-[#674480]`}>
                                                     <img src={processState === 2 ? CloseImg : AddImg} alt="Icon" className="w-10 h-10 2xl:w-[2vw] 2xl:h-[2vw]" />
-                                                    <div className={`absolute left-1/2 transform -translate-x-1/2 sm:-top-2 md:-top-2 lg:-top-2 xl:-top-10 2xl:-top-11 3xl:-top-[2vw] sm:h-[calc(50%+16px)] md:h-[calc(50%+16px)] lg:h-[calc(50%+16px)] xl:h-[calc(50%+26px)] 2xl:h-[calc(50%+32px)] 3xl:h-[calc(50%+[40px])] w-[1px] 3xl:w-[2px] ${processState === 2 ? 'bg-[#C51B89]' : 'bg-white group-hover:bg-white'}`}></div>
+                                                    <div className={`absolute left-1/2 transform -translate-x-1/2 sm:-top-2 md:-top-2 lg:-top-2 xl:-top-10 2xl:-top-11 3xl:-top-[2vw] sm:h-[calc(50%+16px)] md:h-[calc(50%+16px)] lg:h-[calc(50%+16px)] xl:h-[calc(50%+26px)] 2xl:h-[calc(50%+32px)] 3xl:h-[calc(50%+[40px])] w-[1px] 3xl:w-[3px] ${processState === 2 ? 'bg-[#C51B89]' : 'bg-white group-hover:bg-white'}`}></div>
                                                 </div>
                                             </div>
 
@@ -122,7 +122,7 @@ const ProcessCompo = () => {
                                                 </div>
                                                 <div className={`flex-none h-[40px] sm:h-[100px] md:h-[130px] lg:h-[147px] xl:h-[200px] 2xl:h-[230px] 3xl:h-[15vw] w-[40px] sm:w-[100px] md:w-[130px] lg:w-[147px] xl:w-[200px] 2xl:w-[230px] 3xl:w-[15vw] border border-solid rounded-full relative flex items-center justify-center ${processState === 3 ? 'bg-[#9ca3af66] border-white' : 'border-white group-hover:border-white'} group-hover:bg-[#674480]`}>
                                                     <img src={processState === 3 ? CloseImg : AddImg} alt="Icon" className="w-10 h-10 2xl:w-[2vw] 2xl:h-[2vw]" />
-                                                    <div className={`absolute left-1/2 transform -translate-x-1/2 sm:-top-2 md:-top-2 lg:-top-2 xl:-top-10 2xl:-top-11 3xl:-top-[2vw] sm:h-[calc(50%+16px)] md:h-[calc(50%+16px)] lg:h-[calc(50%+16px)] xl:h-[calc(50%+26px)] 2xl:h-[calc(50%+32px)] 3xl:h-[calc(50%+[40px])] w-[1px] 3xl:w-[2px] ${processState === 3 ? 'bg-[#C51B89]' : 'bg-white group-hover:bg-white'}`}></div>
+                                                    <div className={`absolute left-1/2 transform -translate-x-1/2 sm:-top-2 md:-top-2 lg:-top-2 xl:-top-10 2xl:-top-11 3xl:-top-[2vw] sm:h-[calc(50%+16px)] md:h-[calc(50%+16px)] lg:h-[calc(50%+16px)] xl:h-[calc(50%+26px)] 2xl:h-[calc(50%+32px)] 3xl:h-[calc(50%+[40px])] w-[1px] 3xl:w-[3px] ${processState === 3 ? 'bg-[#C51B89]' : 'bg-white group-hover:bg-white'}`}></div>
                                                 </div>
                                             </div>
 
@@ -133,7 +133,7 @@ const ProcessCompo = () => {
                                                 </div>
                                                 <div className={`flex-none h-[40px] sm:h-[100px] md:h-[130px] lg:h-[147px] xl:h-[200px] 2xl:h-[230px] 3xl:h-[15vw] w-[40px] sm:w-[100px] md:w-[130px] lg:w-[147px] xl:w-[200px] 2xl:w-[230px] 3xl:w-[15vw] border border-solid rounded-full relative flex items-center justify-center ${processState === 4 ? 'bg-[#9ca3af66] border-white' : 'border-white group-hover:border-white'} group-hover:bg-[#674480]`}>
                                                     <img src={processState === 4 ? CloseImg : AddImg} alt="Icon" className="w-10 h-10 2xl:w-[2vw] 2xl:h-[2vw]" />
-                                                    <div className={`absolute left-1/2 transform -translate-x-1/2 sm:-top-2 md:-top-2 lg:-top-2 xl:-top-10 2xl:-top-11 3xl:-top-[2vw] sm:h-[calc(50%+16px)] md:h-[calc(50%+16px)] lg:h-[calc(50%+16px)] xl:h-[calc(50%+26px)] 2xl:h-[calc(50%+32px)] 3xl:h-[calc(50%+[40px])] w-[1px] 2xl:w-[2px] ${processState === 4 ? 'bg-[#C51B89]' : 'bg-white group-hover:bg-white'}`}></div>
+                                                    <div className={`absolute left-1/2 transform -translate-x-1/2 sm:-top-2 md:-top-2 lg:-top-2 xl:-top-10 2xl:-top-11 3xl:-top-[2vw] sm:h-[calc(50%+16px)] md:h-[calc(50%+16px)] lg:h-[calc(50%+16px)] xl:h-[calc(50%+26px)] 2xl:h-[calc(50%+32px)] 3xl:h-[calc(50%+[40px])] w-[1px] 3xl:w-[3px] ${processState === 4 ? 'bg-[#C51B89]' : 'bg-white group-hover:bg-white'}`}></div>
                                                 </div>
                                             </div>
                                         </div>

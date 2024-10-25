@@ -95,7 +95,7 @@ const Footer = () => {
                                 {/* LinkedIn Icon */}
                                 <a
                                     className='hover:scale-110'
-                                    href="https://www.linkedin.com"
+                                    href="https://www.linkedin.com/company/kekst-cnc/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
@@ -115,7 +115,7 @@ const Footer = () => {
                                 {/* Twitter Icon */}
                                 <a
                                     className='hover:scale-110'
-                                    href="https://www.twitter.com"
+                                    href="https://x.com/KekstCNC"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
