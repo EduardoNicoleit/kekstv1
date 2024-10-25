@@ -74,7 +74,7 @@ const ProcessCompo = () => {
                         We specialize on amplifying creativity in brands, operations, and communications.
                         We are driven by the conviction that creativity can revolutionize how messages and reputations are perceived and stories are told. We aim to create comprehensive, multi-channel strategies that truly connect with audiences, creating impactful connections and memorable experiences.
                     </div>
-                    <div className="pb-[40px] 3xl:pb-[6vw] 5xl:pb-[2vw] hidden xl:flex">
+                    <div className="pb-[40px] 3xl:pb-[6vw] 5xl:pb-[2vw] hidden lg:flex">
                         <div className="w-0"></div>
                         <div className="flex-1">
                             <div className="xl:pb-[100px] 2xl:pb-[20px] 3xl:pb-[4vw]">
@@ -175,7 +175,7 @@ const ProcessCompo = () => {
 
                         </div>
                     </div>
-                    <div className="relative hidden sm:block xl:hidden">
+                    <div className="relative hidden">
                         <div className="absolute grid grid-cols-3 top-[100px] sm:top-[170px] md:top-[190px] lg:top-[280px] w-full h-full">
                             <div></div>
                             <div>
@@ -252,7 +252,7 @@ const ProcessCompo = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="block sm:hidden">
+                    <div className="block lg:hidden">
                         <div>
                             <Carousel loop={true} autoplay={true} autoplayDelay={10000} className="rounded-xl"
                                 prevArrow={({ handlePrev }) => (
