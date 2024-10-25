@@ -283,7 +283,7 @@ const ProcessCompo = () => {
                                 )}
                             >
                                 <div className='flex-none flex items-center flex-col'>
-                                    <div className="pb-12 text-base 3xl:text-[1.5vw] 3xl:leading-[2vw] font-bold font-Helvetica">
+                                    <div className="pb-12 text-center text-base 3xl:text-[1.5vw] 3xl:leading-[2vw] font-bold font-Helvetica">
                                         DISCOVER <br /> & DEFINE
                                     </div>
                                     <div className=
@@ -326,7 +326,7 @@ const ProcessCompo = () => {
                                     </div>
                                 </div>
                                 <div className='flex-none flex items-center flex-col'>
-                                    <div className="pb-12 text-base font-bold font-Helvetica 3xl:text-[1.5vw] 3xl:leading-[2vw]">
+                                    <div className="pb-12 text-center text-base font-bold font-Helvetica 3xl:text-[1.5vw] 3xl:leading-[2vw]">
                                         STRATEGY <br /> DEVELOPMENT
                                     </div>
                                     <div className=
@@ -370,7 +370,7 @@ const ProcessCompo = () => {
                                     </div>
                                 </div>
                                 <div className='flex-none flex items-center flex-col'>
-                                    <div className="pb-12 text-base 3xl:text-[1.5vw] 3xl:leading-[2vw] font-bold font-Helvetica">
+                                    <div className="pb-12 text-center text-base 3xl:text-[1.5vw] 3xl:leading-[2vw] font-bold font-Helvetica">
                                         CONCEPTUALIZATION <br /> & CREATION
                                     </div>
                                     <div className=
@@ -414,7 +414,7 @@ const ProcessCompo = () => {
                                     </div>
                                 </div>
                                 <div className='flex-none flex items-center flex-col'>
-                                    <div className="pb-12 text-base 3xl:text-[1.5vw] 3xl:leading-[2vw] font-bold font-Helvetica">
+                                    <div className="pb-12 text-center text-base 3xl:text-[1.5vw] 3xl:leading-[2vw] font-bold font-Helvetica">
                                         PRODUCTION  <br /> & EXECUTION
                                     </div>
                                     <div
