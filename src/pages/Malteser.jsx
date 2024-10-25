@@ -271,7 +271,7 @@ const Malteser = ({ isSticky, element }) => {
                                     <div
                                         className="cursor-pointer py-[26px] 2xl:py-[100px] 3xl:py-[6vw] 
                                    px-[15px] md:px-10 3xl:px-[2vw] flex flex-col h-full
-                                   bg-[url('assets/img/malteser/farmer_header_1.png')] 
+                                   bg-[url('assets/img/malteser/FarmerVoice.jpg')] 
                                    md:bg-[url('assets/img/malteser/farmer_header.png')] 
                                    bg-no-repeat bg-cover
                                    transition duration-300 ease-in-out hover:scale-105 
