@@ -142,12 +142,9 @@ const Bpl = ({ isSticky, element }) => {
                 {/* Video Section */}
                 <div>
                     <video
-                        className="w-full h-auto object-cover"
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
-
+                        className="w-full h-full object-cover cursor-pointer max-h-[95vh]"
+                        controls
+                        preload="auto"
                     >
                         <source src="/assets/video/BPI/240416_BPINarrativ2024_VID_02.mp4" type="video/mp4" />
                     </video>

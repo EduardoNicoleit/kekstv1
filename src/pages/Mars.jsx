@@ -135,11 +135,9 @@ const Mars = ({ isSticky, element }) => {
                 {/* Video Section 1 */}
                 <div>
                     <video
-                        className="w-full h-auto object-cover"
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
+                        className="w-full h-full object-cover cursor-pointer max-h-[95vh]"
+                        controls
+                        preload="auto"
                     >
                         <source src="/assets/video/mars/mars.mp4" type="video/mp4" />
                     </video>
