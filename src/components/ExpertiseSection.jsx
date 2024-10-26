@@ -7,8 +7,12 @@ const ExpertiseSection = () => {
     return (
         <div>
             {
-                expertiseData2.map((val) => (
-                    <div key={val.id} className="text-white border-b-[1px] border-white pl-4 md:pl-0 pt-6 lg:pt-12 xl:pt-[40px] 2xl:pt-[45px] 3xl:pt-[2vw]">
+                expertiseData2.map((val, index) => (
+                    <div
+                        key={val.id}
+                        className={`text-white border-b-[1px] border-white pl-4 md:pl-0 ${index === 0 ? '' : 'pt-6 lg:pt-12 xl:pt-[40px] 2xl:pt-[45px] 3xl:pt-[2vw]'
+                            }`}
+                    >
                         <div className="font-Helvetica flex flex-col xl:flex-row justify-between">
                             <div className="xl:max-w-[950px] 2xl:max-w-none">
                                 <Link to={val.link_url}>
@@ -16,7 +20,7 @@ const ExpertiseSection = () => {
                                         {val.title}
                                     </div>
                                 </Link>
-                                <div className="font-normal text-[3.2vw] pr-4 pt-1 sm:text-sm sm:pr-[30px] sm:text-left md:text-base md:pr-[30px] md:text-left md:pt-2 lg:text-lg lg:pt-4 lg:pr-8 lg:pr-4 xl:text-xl xl:pt-[15px] xl:pr-0 2xl:text-[20px] 3xl:text-[1.05vw] 2xl:pt-[15px] 3xl:pt-[1.05vw] 2xl:pr-[2vw] 2xl:min-h-[3.5vw] 2xl:leading-[1.4vw]">
+                                <div className="leading-normal font-normal text-[3.2vw] pr-4 pt-1 sm:text-sm sm:pr-[30px] sm:text-left md:text-base md:pr-[30px] md:text-left md:pt-2 lg:text-lg lg:pt-4 lg:pr-8 lg:pr-4 xl:text-xl xl:pt-[15px] xl:pr-0 2xl:text-[20px] 3xl:text-[1.05vw] 2xl:pt-[15px] 3xl:pt-[1.05vw] 2xl:pr-[2vw] 2xl:min-h-[3.5vw]">
                                     {val.text}
                                 </div>
                             </div>
@@ -125,7 +129,7 @@ const ExpertiseSection = () => {
                 ))
             }
         </div>
-    )
+    );
 }
 
 export default ExpertiseSection;

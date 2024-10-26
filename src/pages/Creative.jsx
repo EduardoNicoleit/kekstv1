@@ -9,10 +9,10 @@ const CreativeCompo = () => {
             <div className="text-white font-Helvetica relative">
                 <div className="bg-[url('assets/img/home/creative_bg.png')] bg-no-repeat bg-cover text-white font-Helvetica px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] bottom-0 top-0 pb-10 md:pb-0">
                     <div className="bottom-0 top-0 w-full">
-                        <div className="flex text-white lg:pt-12 xl:pt-[50px] 2xl:pt-[2vw]">
+                        <div className="flex text-white">
                             <Divider title="Get to know us" />
                         </div>
-                        <div className="leading-relaxed font-Helvetica text-[17px] md:text-[18px] lg:text-[22px] xl:text-[24px] 2xl:text-[32px] 3xl:text-[1.5vw] pl-5 pr-4 md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px] mr-2 md:mr-20 py-6 lg:py-[60px] xl:py-[60px] 2xl:py-[60px] 3xl:py-[3vw]">
+                        <div className="font-Helvetica leading-normal font-normal text-[17px] md:text-[18px] lg:text-[22px] xl:text-[24px] 2xl:text-[32px] 3xl:text-[1.5vw] pl-5 pr-4 md:pl-[34px] lg:pl-[59px] xl:pr-[140px] xl:pl-[100px] 2xl:pl-[308px] lg:pr-[100px] 3xl:pr-[10vw] pb-6 lg:pb-[60px] xl:pb-[60px] 2xl:pb-[60px] 3xl:pb-[3vw]">
                             What distinguishes us is the unique fusion of Kekst CNC's renowned expertise in strategic communication worldwide, coupled with our prowess in design thinking, innovative solutions, and impactful activation strategies. This combination guarantees seamless execution and unparalleled results across every project dimension.
                         </div>
                         <div className="pl-5 md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px] xl:pr-[90px] 2xl:pr-[90px]">

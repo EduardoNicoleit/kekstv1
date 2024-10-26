@@ -12,13 +12,13 @@ const WorksCompo = () => {
                         <Divider title="Our work" />
                     </div>
                     <Selection selectionsData={worksData} />
-                    <div className="flex text-white px-[9px] md:px-[14px] lg:px-[60px] xl:px-[80px] 2xl:px-[288px] items-center py-8 2xl:pb-[4vw] 2xl:pt-[3vw]">
+                    <div className="flex text-white px-[9px] md:px-[14px] lg:px-[60px] xl:px-[80px] 2xl:px-[288px] items-center pt-8 pb-16 2xl:pb-[4vw] 2xl:pt-[2vw]">
                         <div className="hover:bg-[#674480] flex transition-all duration-300 ease-in-out items-center hover:rounded-md">
-                            <p className="font-Helvetica font-bold text-sm sm:text-sm md:text-lg xl:text-2xl 2xl:text-[1.2vw] xl:my-4 2xl:my-[1.5vw] pl-5 pr-2">
+                            <p className="font-Helvetica font-normal text-[12px] sm:text-xs md:text-[14px] xl:text-[14px] 2xl:text-[12px] 3xl:text-[0.8vw] xl:my-4 2xl:my-[1.5vw] px-5 pr-2 py-4">
                                 <Link to="/works">MORE WORKS</Link>
                             </p>
                             <svg
-                                className="ml-1 xl:ml-3 w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 lg:w-8 lg:h-8 xl:w-9 xl:h-9 2xl:w-[2vw] 2xl:h-[2vw]"
+                                className="ml-1 xl:ml-3 w-[15px] h-[15px] sm:w-[15px] sm:h-[15px] md:w-[15px] md:h-[15px] lg:w-[15px] lg:h-[15px] xl:w-[15px] xl:h-[15px] 2xl:w-[18px] 2xl:h-[18px] 3xl:w-[1.1vw] 3xl:h-[1.1vw]"
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 xmlns="http://www.w3.org/2000/svg"

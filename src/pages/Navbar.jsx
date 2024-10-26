@@ -109,7 +109,7 @@ const Navbar = () => {
                             <img
                                 src={Logo}
                                 alt="logo"
-                                className="cursor-pointer transition duration-300 ease-in-out hover:scale-110 min-w-[85px] w-[30vw] sm:w-[20vw] md:w-[20vw] lg:w-[18vw] xl:w-[15vw] 2xl:w-[10vw] 3xl:w-[10vw]"
+                                className="cursor-pointer transition duration-300 ease-in-out hover:scale-105 min-w-[85px] w-[30vw] sm:w-[20vw] md:w-[20vw] lg:w-[18vw] xl:w-[15vw] 2xl:w-[10vw] 3xl:w-[10vw]"
                             />
                         </NavItem>
 
@@ -117,32 +117,32 @@ const Navbar = () => {
                             <div className="flex h-full py-[20px] font-Helvetica font-normal text-white">
                                 {/* Desktop Menu */}
                                 <ul className='hidden 2xl:flex 2xl:gap-[40px] 3xl:gap-[100px] text-[1.0vw]'>
-                                    <li className="cursor-pointer hover:text-gray-400 transition duration-300 ease-in-out hover:scale-110">
+                                    <li className="cursor-pointer hover:text-gray-400 transition duration-300 ease-in-out hover:scale-105">
                                         <NavItem to="expertise" offset={-100}>
                                             Expertise
                                         </NavItem>
                                     </li>
-                                    <li className="cursor-pointer hover:text-gray-400 transition duration-300 ease-in-out hover:scale-110">
+                                    <li className="cursor-pointer hover:text-gray-400 transition duration-300 ease-in-out hover:scale-105">
                                         <NavItem to="works" offset={-100}>
                                             Our Work
                                         </NavItem>
                                     </li>
-                                    <li className="cursor-pointer hover:text-gray-400 transition duration-300 ease-in-out hover:scale-110">
+                                    <li className="cursor-pointer hover:text-gray-400 transition duration-300 ease-in-out hover:scale-105">
                                         <NavItem to="creative" offset={-100}>
                                             Get to Know Us
                                         </NavItem>
                                     </li>
-                                    <li className="cursor-pointer hover:text-gray-400 transition duration-300 ease-in-out hover:scale-110">
+                                    <li className="cursor-pointer hover:text-gray-400 transition duration-300 ease-in-out hover:scale-105">
                                         <NavItem to="process" offset={-100}>
                                             Our Design Thinking Process
                                         </NavItem>
                                     </li>
-                                    <li className="cursor-pointer hover:text-gray-400 transition duration-300 ease-in-out hover:scale-110">
+                                    <li className="cursor-pointer hover:text-gray-400 transition duration-300 ease-in-out hover:scale-105">
                                         <NavItem to="manifesto" offset={-100}>
                                             Our Manifesto
                                         </NavItem>
                                     </li>
-                                    <li className="cursor-pointer hover:text-gray-400 transition duration-300 ease-in-out hover:scale-110">
+                                    <li className="cursor-pointer hover:text-gray-400 transition duration-300 ease-in-out hover:scale-105">
                                         <NavItem to="lets-talk" offset={-100}>
                                             Let's Talk
                                         </NavItem>
@@ -152,7 +152,7 @@ const Navbar = () => {
                             {/* Mobile Menu Toggle Button */}
                             <motion.button
                                 whileTap={{ scale: 0.9 }}
-                                className={`block 2xl:hidden cursor-pointer items-center my-2 text-white uppercase font-Helvetica border-solid border-[1px] border-white rounded-sm font-normal transition duration-300 ease-in-out transform hover:scale-110 hover:bg-[#674480] hover:text-white w-[48px] h-[26px] sm:w-[48px] sm:h-[26px] md:w-[75px] md:h-[46px] lg:w-[83px] lg:h-[46px] xl:w-[83px] xl:h-[46px]`}
+                                className={`block 2xl:hidden cursor-pointer items-center my-2 text-white uppercase font-Helvetica border-solid border-[1px] border-white rounded-sm font-normal transition duration-300 ease-in-out transform hover:scale-105 hover:bg-[#674480] hover:text-white w-[48px] h-[26px] sm:w-[48px] sm:h-[26px] md:w-[75px] md:h-[46px] lg:w-[83px] lg:h-[46px] xl:w-[83px] xl:h-[46px]`}
                                 onClick={handleToggle}
                             >
                                 <motion.span
