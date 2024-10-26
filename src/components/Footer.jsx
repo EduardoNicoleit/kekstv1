@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../assets/img/navbar/logo_02.png';
+import Logo from '../assets/img/navbar/logo.svg';
 import { Link as RouterLink, useLocation } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
 

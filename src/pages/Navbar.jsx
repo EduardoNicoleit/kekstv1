@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
-import Logo from '../assets/img/navbar/logo_02.png';
+import Logo from '../assets/img/navbar/logo.svg';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link as ScrollLink } from 'react-scroll';
 import { Link as RouterLink, useLocation } from 'react-router-dom';
@@ -97,19 +97,19 @@ const Navbar = () => {
         <AnimatePresence>
             <motion.div
                 ref={navbarRef}
-                className={`${isSticky ? "navbar navbar-sticky" : "navbar mt-0 md:mt-4 lg:mt-14"} h-[4vh] md:h-[10vh] 2xl:h-[14vh]`}
+                className={`${isSticky ? "navbar navbar-sticky" : "navbar mb-2 mt-1 md:mt-1 lg:mt-10 3xl:mt-[6vh]"} h-[4vh] md:h-[10vh] 2xl:h-[14vh]`}
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -50 }}
                 transition={{ duration: 0.3, ease: "easeInOut" }}
             >
                 <div className='w-full'>
-                    <div className='pl-0 border-white h-16 w-full flex items-center justify-between 2xl:pl-[128px] xl:pl-[110px] lg:pl-[60px] md:pl-[28px] pl-[10px] 3xl:pl-[10vh] pr-4 sm:pr-6 md:pr-12 lg:pr-12'>
+                    <div className='pl-0 border-white h-10 w-full flex items-center justify-between 2xl:pl-[128px] xl:pl-[110px] lg:pl-[60px] md:pl-[28px] pl-[10px] 3xl:pl-[10vh] pr-4 sm:pr-6 md:pr-12 lg:pr-12'>
                         <NavItem to="welcome">
                             <img
                                 src={Logo}
                                 alt="logo"
-                                className="cursor-pointer transition duration-300 ease-in-out hover:scale-105 min-w-[85px] w-[30vw] sm:w-[20vw] md:w-[20vw] lg:w-[18vw] xl:w-[15vw] 2xl:w-[10vw] 3xl:w-[10vw]"
+                                className="cursor-pointer transition duration-300 ease-in-out hover:scale-105 h-auto min-w-[92.51px] min-h[32.07px] w-[auto] sm:w-[20vw] md:w-[20vw] lg:w-[18vw] xl:w-[15vw] 2xl:w-[10vw] 3xl:w-[10vw]"
                             />
                         </NavItem>
 
