@@ -46,7 +46,7 @@ const WorksDataCompo = ({ isSticky, element }) => {
             <div className="">
                 <div className="px-2 lg:px-0">
                     <div className="text-white border-b-[1px] md:border-b-0 pl-[33px] lg:pl-[49px] xl:pl-[90px] 2xl:pl-[356px] pr-[33px] lg:pr-[49px] xl:pr-[90px] 2xl:pr-[7vw]">
-                        <p className="font-Helvetica font-bold sm:font-normal text-[17px] lg:text-[30px] 2xl:text-[37px] 3xl:text-[2vw] py-0 lg:py-[78px] 2xl:py-[4vw] pb-[58px] md:pb-0 2xl:pb-[10vw] leading-tight">
+                        <p className="font-Helvetica font-bold sm:font-normal text-[15px] lg:text-[28px] 2xl:text-[35px] 3xl:text-[1.8vw] py-0 lg:py-[78px] 2xl:py-[4vw] pb-[58px] md:pb-0 2xl:pb-[6vw] leading-normal 3xl:leading-[2.5vw]">
                             Unlocking new narratives in a digital age. The digital landscape is vast, constantly evolving, and ever-challenging. But with challenges come opportunities. Through Strategic Visual Communications, Product & Platform Creation, and Data Visualization, we empower brands to seize these opportunities. With a blend of creativity, technology, and strategy, we're not just designing for the present but envisioning the future.
                         </p>
                     </div>

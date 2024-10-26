@@ -23,7 +23,7 @@ const Selections = ({ selectionsData }) => {
                                 </Link>
                                 <div className='hidden 2xl:block h-[1px] 3xl:h-[1.5px] bg-white ml-0 2xl:ml-[1vw] w-full'></div>
                             </div>
-                            <div className='leading-normal pl-0 md:pl-0 pr-5 w-full font-normal text-[3.2vw] sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw] border-0 border-r-0 2xl:border-l-[1px] 3xl:border-l-[2px] 2xl:px-[2.5vw] font-Helvetica pt-2 md:pt-4 lg:pt-2 2xl:pt-0'>
+                            <div className='leading-tight pl-0 md:pl-0 pr-5 w-full font-normal text-[3.2vw] sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw] border-0 border-r-0 2xl:border-l-[1px] 3xl:border-l-[2px] 2xl:px-[2.5vw] font-Helvetica pt-2 md:pt-4 lg:pt-2 2xl:pt-0 3xl:leading-[1.6vw]'>
                                 {data.content}
                             </div>
                         </div>
