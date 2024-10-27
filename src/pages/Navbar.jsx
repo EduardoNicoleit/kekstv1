@@ -179,7 +179,7 @@ const Navbar = () => {
                             animate={{ height: 'auto', opacity: 1 }}
                             exit={{ height: 0, opacity: 0 }}
                             transition={{ duration: 0.5, ease: "easeInOut" }}
-                            className="2xl:hidden w-full bg-[#210837] bg-opacity-90 text-white z-50 overflow-hidden mt-0"
+                            className="2xl:hidden w-full bg-[#210837] bg-opacity-90 text-white z-50 overflow-hidden mt-0 md:mt-4"
                             style={{
                                 position: isSticky ? 'fixed' : 'absolute',
                                 top: isSticky ? '80px' : '51px',

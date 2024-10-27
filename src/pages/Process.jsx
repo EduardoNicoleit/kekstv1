@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Divider } from "../components";
-import wavesVideo from "../assets/animation/Waves.mov";
+// import wavesVideo from "../assets/animation/Waves.mov";
 import wavesHImg from "../assets/img/home/Waves_h.png";
 import CloseImg from "../assets/img/icons/close.png";
 import AddImg from "../assets/img/icons/add.png";
@@ -79,14 +79,16 @@ const ProcessCompo = () => {
                         <div className="flex-1">
                             <div className="xl:pb-[100px] 2xl:pb-[20px] 3xl:pb-[4vw]">
                                 <div className="text-white text-center text-xs md:text-sm xl:text-xl 2xl:text-[1.1vw] 2xl:leading-[1.5vw] relative flex justify-center w-fit m-auto font-Helvetica">
-                                    <video
+
+                                    {/* Waves Video */}
+                                    {/* <video
                                         src={wavesVideo}
                                         className="absolute left-1/2 transform -translate-x-1/2 sm:w-[90%] md:w-[80%] lg:w-[70%] xl:w-[60%] 2xl:w-[50%] sm:bottom-[50px] md:bottom-[60px] lg:bottom-[72px] xl:bottom-[100px] 2xl:bottom-[121px] 3xl:bottom-[141px]"
                                         autoPlay
                                         loop
                                         muted
                                         playsInline
-                                    ></video>
+                                    ></video> */}
 
                                     <div className="relative">
                                         {/* Horizontal Line */}
