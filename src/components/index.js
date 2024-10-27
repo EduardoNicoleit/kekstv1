@@ -8,5 +8,6 @@ import ServicesTable from './ServicesTabel';
 import ExpertiseCustomCompo from './ExpertiseCustomCompo'
 import MainBorder from './MainBorder'
 import InteractiveMap from './InteractiveMap'
+import Map from './Map'
 
-export { Footer, Divider, ExpertiseSection, Selection, ReadMore, ServicesTable, ExpertiseCustomCompo, MainBorder, WorkDataSelection, InteractiveMap }
+export { Footer, Divider, ExpertiseSection, Selection, ReadMore, ServicesTable, ExpertiseCustomCompo, MainBorder, WorkDataSelection, InteractiveMap, Map }
