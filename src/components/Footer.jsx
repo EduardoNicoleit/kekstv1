@@ -37,7 +37,7 @@ const Footer = () => {
             <div className='px-2 sm:px-6 md:px-[33px] xl:px-[45px] 2xl:px-[45px] 3xl:px-[3vw] 2xl:pt-[1.6vw]'>
                 <div className='relative pt-8 lg:pt-8 pb-2 2xl:pb-[2.5vw] 3xl:pb-[1.5vw] flex flex-col items-center xl:items-stretch'>
                     <div className='font-Helvetica text-white text-md lg:text-md xl:text-[14px] 2xl:text-[1vw] grid lg:grid-cols-5 px-0 lg:px-16 w-full '>
-                        <div className='text-start pl-6 sm:pl-0 mt-0 md:mt-5 xl:mt-0 2xl:mt-[1.6vw] 2xl:mb-[1.6vw]'>
+                        <div className='text-start pl-6 sm:pl-0 mt-0 md:mt-5 xl:mt-0 2xl:mt-[2vw] 2xl:mb-[1.6vw]'>
                             <NavItem to="welcome">
                                 <img
                                     src={Logo}
@@ -133,20 +133,20 @@ const Footer = () => {
                     </div>
                     {/* Divider Line for Mobile */}
                     <div className='px-2 relative block lg:hidden w-screen my-4'>
-                        <div className='absolute h-[1px] block bg-white tom-10 bottom-0 w-[calc(100%-16px)] left-2 md:left-4 md:w-[calc(100%-32px)] sm:left-4 sm:w-[calc(100%-32px)]'>
+                        <div className='absolute h-[1px] block bg-white tom-10 bottom-0 w-[calc(100%-16px)] sm:w-[calc(100%-16px)] left-2 sm:left-2'>
                         </div>
                     </div>
 
                     {/* Footer Links */}
-                    <div className='text-md lg:text-md xl:text-[14px] 2xl:text-[1vw] pl-6 sm:pl-0 grid grid-cols-1 lg:grid-cols-5 xl:grid-cols-5 text-white font-Helvetica pt-0 lg:pt-10 xl:pt-10 mx-auto lg:mx-0 px-0 lg:px-8 xl:px-16 pb-0 lg:pb-2 xl:pb-8 w-full lg:w-auto 2xl:pb-[1.5vw] 2xl:pt-[6vw]'>
+                    <div className='text-md lg:text-md xl:text-[14px] 2xl:text-[1vw] pl-6 sm:pl-0 grid grid-cols-1 lg:grid-cols-5 xl:grid-cols-5 text-white font-Helvetica pt-0 lg:pt-10 xl:pt-10 mx-auto lg:mx-0 px-0 lg:px-8 xl:px-16 pb-0 lg:pb-2 xl:pb-8 w-full lg:w-auto 2xl:pb-[1.5vw] 2xl:pt-[5vw]'>
                         <div className='lg:col-span-1'></div>
-                        <div className='py-4 lg:pr-4 xl:py-0 lg:text-left'>
+                        <div className='pt-4 lg:pr-4 lg:pb-4 xl:py-0 lg:text-left'>
                             © 2023 Kekst CNC
                         </div>
-                        <div className='py-4 lg:pr-4 xl:py-0 text-left lg:text-center xl:text-left'>
+                        <div className='pt-4 lg:pr-4 lg:pb-4 xl:py-0 text-left lg:text-center xl:text-left'>
                             All Rights Reserved
                         </div>
-                        <div className='py-4 xl:py-0 lg:pr-4 lg:text-left hover:text-[#7a6b87] cursor-pointer'>
+                        <div className='pt-4 xl:py-0 lg:pb-4 lg:pr-4 lg:pl-4 xl:pl-0 lg:text-left hover:text-[#7a6b87] cursor-pointer'>
                             {/* Email Link */}
                             <a href="mailto:creative@kekstcnc.com">
                                 creative@kekstcnc.com
