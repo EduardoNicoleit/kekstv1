@@ -390,7 +390,7 @@ Arlington, VA 22201`,
             : selectedCity;
 
     return (
-        <div className="interactive-map flex relative overflow-visible pl-5 pr-4 md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px] h-[400px] md:h-[500px] lg:h-[500px] xl:h-[600px] 2xl:h-[600px] 3xl:h-[40vw] w-auto">
+        <div className="interactive-map flex relative overflow-visible ml-5 pr-4 md:ml-[34px] lg:ml-[59px] xl:ml-[100px] 2xl:ml-[308px] h-[400px] md:h-[500px] lg:h-[500px] xl:h-[600px] 2xl:h-[600px] 3xl:h-[40vw] w-auto border-t border-white">
             {/* Left Section - "Let's Talk" */}
             <div className="w-full md:w-1/3 flex-shrink-0 overflow-visible z-10">
                 {/* Left Section Content */}
@@ -475,7 +475,7 @@ Arlington, VA 22201`,
             {/* Right Section - Interactive Map */}
             <div className="w-full md:w-2/3 flex-shrink-0 overflow-visible">
                 <div
-                    className="svg-container w-full mt-[100px] md:mt-[120px]"
+                    className="svg-container w-full mt-[100px] mt-8 md:mt-[120px]"
                     style={{ position: 'relative' }}
                 >
                     {/* Map Component */}

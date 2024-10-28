@@ -54,7 +54,6 @@ const CreativeCompo = () => {
                                 </div>
                             </div>
                         </div>
-
                         <div><InteractiveMap /></div>
 
                     </div>
