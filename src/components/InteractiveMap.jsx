@@ -398,7 +398,7 @@ Arlington, VA 22201`,
             : selectedCity;
 
     return (
-        <div className="interactive-map relative overflow-visible ml-5 pr-4 md:ml-[34px] lg:ml-[59px] xl:ml-[100px] 2xl:ml-[308px] h-[65vh] md:h-[500px] lg:h-[500px] xl:h-[600px] 2xl:h-[600px] 3xl:h-[40vw] w-auto border-t border-white">
+        <div className="interactive-map relative overflow-visible ml-5 pr-4 md:ml-[34px] lg:ml-[59px] xl:ml-[100px] 2xl:ml-[308px] h-[75vh] md:h-[500px] lg:h-[500px] xl:h-[600px] 2xl:h-[600px] 3xl:h-[40vw] w-auto border-t border-white">
             {/* Parent Container: flex-col on mobile, flex-row on md and above */}
             <div className="flex flex-col md:flex-row h-full">
                 {/* Left Section - "Let's Talk" and Address Display */}
