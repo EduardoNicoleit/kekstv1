@@ -390,96 +390,90 @@ Arlington, VA 22201`,
             : selectedCity;
 
     return (
-        <div className="interactive-map">
-            {/* Top Section with texts */}
-            <div className="flex flex-col md:flex-row">
-                {/* Left Section - "Let's Talk" */}
-                <div className="w-full md:w-1/2 px-5 md:px-8 lg:px-14 xl:px-24 2xl:px-28">
-                    {/* Let's Talk */}
-                    <div className="flex items-center">
-                        <div
-                            id="lets-talk"
-                            className="font-Helvetica font-bold text-[32px] md:text-[40px] lg:text-[55px] xl:text-[65px] 2xl:text-[65px] leading-tight pt-2 md:pt-4"
-                        >
-                            Let’s talk
-                        </div>
+        <div className="interactive-map flex relative overflow-visible">
+            {/* Left Section - "Let's Talk" */}
+            <div className="w-full md:w-1/3 px-5 md:px-8 lg:px-14 xl:px-24 2xl:px-28 flex-shrink-0 overflow-visible z-10">
+                {/* Left Section Content */}
+                <div className="flex items-center">
+                    <div
+                        id="lets-talk"
+                        className="font-Helvetica font-bold text-[32px] md:text-[40px] lg:text-[55px] xl:text-[65px] 2xl:text-[65px] leading-tight pt-2 md:pt-4"
+                    >
+                        Let’s talk
                     </div>
-                    {/* Line Image */}
-                    <div className="w-[200px] sm:w-[300px] xl:w-[350px] 2xl:w-[400px] mt-4">
-                        <img src={lineImg} alt="Line" className="w-full h-auto" />
-                    </div>
-                    {/* Email Address */}
-                    <a href="mailto:creative@kekstcnc.com">
-                        <div className="flex items-center gap-2 pt-6 sm:pt-3 lg:pt-6 xl:pt-10 hover:text-[#7a6b87]">
-                            {/* Email Icon */}
-                            <div className="flex items-center justify-center">
-                                <svg
-                                    className="w-[21px] h-[16px] 2xl:w-[25px] 2xl:h-[19px] pr-[2px]"
-                                    viewBox="0 0 21 16"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    aria-label="Email icon"
-                                >
-                                    <title>Email icon</title>
-                                    <path
-                                        d="M18.1504 0H2.15039C1.05039 0 0.160391 0.9 0.160391 2L0.150391 14C0.150391 15.1 1.05039 16 2.15039 16H18.1504C19.2504 16 20.1504 15.1 20.1504 14V2C20.1504 0.9 19.2504 0 18.1504 0ZM18.1504 14H2.15039V4L10.1504 9L18.1504 4V14ZM10.1504 7L2.15039 2H18.1504L10.1504 7Z"
-                                        fill="white"
-                                    />
-                                </svg>
-                            </div>
-                            <div id="email-address" className="flex items-center h-full">
-                                <div className="font-Helvetica sm:text-[17px] lg:text-[20px] xl:text-2xl 2xl:text-3xl pl-1">
-                                    creative@kekstcnc.com
-                                </div>
-                            </div>
-                        </div>
-                    </a>
                 </div>
-                {/* Right Section - Address Display */}
-                <div className="w-full md:w-1/2 px-5 md:px-8 lg:px-14 xl:px-24 2xl:px-28">
-                    {/* Address Display */}
-                    <div className="md:mt-0">
-                        {/* "Where we are:" text */}
-                        <div className="font-Helvetica font-extrabold text-[30px] md:text-[30px] lg:text-[30px] xl:text-[30px] 2xl:text-[40px] text-white mt-3 lg:mt-6">
-                            Where we are:
-                        </div>
-                        {/* City Name with Icon */}
-                        <div className="flex items-center mb-2">
-                            {/* SVG Icon */}
-                            <div className="mr-2 lg:mr-4 xl:mr-6 mt-3 lg:mt-6">
-                                <svg
-                                    className="w-[20px] h-[20px] 2xl:w-[2vw] 2xl:h-[2vw]"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="20"
-                                    height="20"
+                <div className="w-[200px] sm:w-[300px] xl:w-[350px] 2xl:w-[400px] mt-4">
+                    <img src={lineImg} alt="Line" className="w-full h-auto" />
+                </div>
+                <a href="mailto:creative@kekstcnc.com">
+                    <div className="flex items-center gap-2 pt-6 sm:pt-3 lg:pt-6 xl:pt-10 hover:text-[#7a6b87]">
+                        <div className="flex items-center justify-center">
+                            <svg
+                                className="w-[21px] h-[16px] 2xl:w-[25px] 2xl:h-[19px] pr-[2px]"
+                                viewBox="0 0 21 16"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                                aria-label="Email icon"
+                            >
+                                <title>Email icon</title>
+                                <path
+                                    d="M18.1504 0H2.15039C1.05039 0 0.160391 0.9 0.160391 2L0.150391 14C0.150391 15.1 1.05039 16 2.15039 16H18.1504C19.2504 16 20.1504 15.1 20.1504 14V2C20.1504 0.9 19.2504 0 18.1504 0ZM18.1504 14H2.15039V4L10.1504 9L18.1504 4V14ZM10.1504 7L2.15039 2H18.1504L10.1504 7Z"
                                     fill="white"
-                                    viewBox="0 0 24 24"
-                                >
-                                    <path d="M12 2c3.196 0 6 2.618 6 5.602 0 3.093-2.493 7.132-6 12.661-3.507-5.529-6-9.568-6-12.661 0-2.984 2.804-5.602 6-5.602m0-2c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
-                                </svg>
-                            </div>
-                            {/* City Name */}
-                            <div className="font-Helvetica font-bold text-[45px] md:text-[45px] lg:text-[45px] xl:text-[50px] 2xl:text-[50px] 3xl:text-[60px] text-white mt-3 lg:mt-6">
-                                {displayedCity?.city}
+                                />
+                            </svg>
+                        </div>
+                        <div id="email-address" className="flex items-center h-full">
+                            <div className="font-Helvetica sm:text-[17px] lg:text-[20px] xl:text-2xl 2xl:text-3xl pl-1">
+                                creative@kekstcnc.com
                             </div>
                         </div>
-                        {/* Address */}
-                        <div
-                            className="text-base md:text-[17px] lg:text-[20px] xl:text-[24px] font-normal whitespace-pre-line address-display leading-normal"
-                            style={{
-                                opacity: displayedCity ? '1' : '0',
-                                transition: 'opacity 0.2s ease',
-                            }}
-                        >
-                            {displayedCity?.address}
+                    </div>
+                </a>
+                {/* Address Display */}
+                <div className="mt-16">
+                    {/* "Where we are:" text */}
+                    <div className="font-Helvetica font-extrabold text-[30px] md:text-[30px] lg:text-[30px] xl:text-[30px] 2xl:text-[40px] text-white mt-3 lg:mt-6">
+                        Where we are:
+                    </div>
+
+                    {/* City Name with Icon */}
+                    <div className="flex items-center mb-2">
+                        {/* SVG Icon */}
+                        <div className="mr-2 lg:mr-4 xl:mr-6 mt-3 lg:mt-6">
+                            <svg
+                                className="w-[20px] h-[20px] 2xl:w-[2vw] 2xl:h-[2vw]"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="20"
+                                height="20"
+                                fill="white"
+                                viewBox="0 0 24 24"
+                            >
+                                <path d="M12 2c3.196 0 6 2.618 6 5.602 0 3.093-2.493 7.132-6 12.661-3.507-5.529-6-9.568-6-12.661 0-2.984 2.804-5.602 6-5.602m0-2c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
+                            </svg>
                         </div>
+                        {/* City Name */}
+                        <div className="font-Helvetica font-bold text-[30px] md:text-[30x] lg:text-[35px] xl:text-[40px] 2xl:text-[4vw] text-white mt-3 lg:mt-6">
+                            {displayedCity?.city}
+                        </div>
+                    </div>
+
+                    {/* Address */}
+                    <div
+                        className="text-base md:text-[17px] lg:text-[20px] xl:text-[24px] font-normal whitespace-pre-line address-display leading-normal"
+                        style={{
+                            opacity: displayedCity ? '1' : '0',
+                            transition: 'opacity 0.2s ease',
+                        }}
+                    >
+                        {displayedCity?.address}
                     </div>
                 </div>
             </div>
-            {/* Map Section */}
-            <div className="w-full">
+
+            {/* Right Section - Interactive Map */}
+            <div className="w-full md:w-2/3 flex-shrink-0 overflow-visible">
                 <div
-                    className="svg-container w-full h-full"
+                    className="svg-container w-full h-[600px]"
                     style={{ position: 'relative' }}
                 >
                     {/* Map Component */}
@@ -493,7 +487,7 @@ Arlington, VA 22201`,
                             left: 0,
                             width: '100%',
                             height: '100%',
-                            zIndex: 2,
+                            zIndex: 1,
                             pointerEvents: 'none',
                             overflow: 'hidden',
                         }}
