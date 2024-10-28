@@ -1,3 +1,5 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from 'react';
 import Map from './Map';
 import lineImg from '../assets/img/home/line.png';
@@ -5,22 +7,130 @@ import lineImg from '../assets/img/home/line.png';
 const InteractiveMap = () => {
     const [selectedCity, setSelectedCity] = useState(null);
     const [currentIndex, setCurrentIndex] = useState(0);
+    const [hoveredCity, setHoveredCity] = useState(null);
+    const [clickedCity, setClickedCity] = useState(null);
 
     const offices = [
-        { className: ".st14", city: "Abu Dhabi", address: "123 Abu Dhabi St, UAE", position: "abu-dhabi" },
-        { className: ".st6", city: "Berlin", address: "456 Berlin Rd, Germany", position: "berlin" },
-        { className: ".st4", city: "Brussels", address: "789 Brussels Ave, Belgium", position: "brussels" },
-        { className: ".st12", city: "Dubai", address: "101 Dubai Blvd, UAE", position: "dubai" },
-        { className: ".st1", city: "Frankfurt", address: "202 Frankfurt Way, Germany", position: "frankfurt" },
-        { className: ".st7", city: "London", address: "303 London Bridge Rd, UK", position: "london" },
-        { className: ".st5", city: "Munich", address: "404 Munich St, Germany", position: "munich" },
-        { className: ".st11", city: "New York", address: "505 5th Ave, USA", position: "new-york" },
-        { className: ".st3", city: "Paris", address: "606 Champs-Élysées, France", position: "paris" },
-        { className: ".st13", city: "Riyadh", address: "707 Riyadh Rd, Saudi Arabia", position: "riyadh" },
-        { className: ".st9", city: "Seoul", address: "808 Seoul St, South Korea", position: "seoul" },
-        { className: ".st2", city: "Stockholm", address: "909 Stockholm Blvd, Sweden", position: "stockholm" },
-        { className: ".st8", city: "Tokyo", address: "1010 Tokyo Tower Rd, Japan", position: "tokyo" },
-        { className: ".st10", city: "Washington, D.C.", address: "1111 Pennsylvania Ave NW, USA", position: "washington" }
+        {
+            className: ".st14",
+            city: "Abu Dhabi",
+            address: `P.O. Box 77863
+Abu Dhabi
+UAE`,
+            position: "abu-dhabi"
+        },
+        {
+            className: ".st6",
+            city: "Berlin",
+            address: `Mädler Haus
+Friedrichstraße 58
+10117 Berlin`,
+            position: "berlin"
+        },
+        {
+            className: ".st4",
+            city: "Brussels",
+            address: `Square de Meeûs 23
+1000 Brussels
+Belgium`,
+            position: "brussels"
+        },
+        {
+            className: ".st12",
+            city: "Dubai",
+            address: `Boutique Office 21,
+Dubai Knowledge Park
+Al Sufouh
+Dubai
+UAE`,
+            position: "dubai"
+        },
+        {
+            className: ".st1",
+            city: "Frankfurt",
+            address: `WestendDuo
+Bockenheimer Landstr. 24
+60323 Frankfurt am Main
+Germany`,
+            position: "frankfurt"
+        },
+        {
+            className: ".st7",
+            city: "London",
+            address: `3 New St Square
+London EC4A 3BF
+United Kingdom`,
+            position: "london"
+        },
+        {
+            className: ".st5",
+            city: "Munich",
+            address: `Leopold-Palais
+Leopoldstr. 10
+80802 Munich
+Germany`,
+            position: "munich"
+        },
+        {
+            className: ".st11",
+            city: "New York",
+            address: `New York (Headquarters)
+1675 Broadway, 30th Floor
+New York, NY 10019`,
+            position: "new-york"
+        },
+        {
+            className: ".st3",
+            city: "Paris",
+            address: `c/o Publicis
+133 Ave des Champs-Elysées
+75008 Paris
+France`,
+            position: "paris"
+        },
+        {
+            className: ".st13",
+            city: "Riyadh",
+            address: `Roshn Front Business Area
+Building S4
+Riyadh, Kingdom of Saudi Arabia 13413`,
+            position: "riyadh"
+        },
+        {
+            className: ".st9",
+            city: "Seoul",
+            address: `#1108, 320, Gangnam-daero, Gangnam-gu
+Seoul 06252
+South Korea`,
+            position: "seoul"
+        },
+        {
+            className: ".st2",
+            city: "Stockholm",
+            address: `P.O. Box 1405
+Sveavägen 24-26
+SE-111 84 Stockholm
+Sweden`,
+            position: "stockholm"
+        },
+        {
+            className: ".st8",
+            city: "Tokyo",
+            address: `Sanno Park Tower 25F
+2-11-1 Nagata-cho
+Chiyoda-ku
+Tokyo 100-6125
+Japan`,
+            position: "tokyo"
+        },
+        {
+            className: ".st10",
+            city: "Washington, D.C.",
+            address: `Washington, D.C.
+1515 N. Courthouse Rd.
+Arlington, VA 22201`,
+            position: "washington"
+        }
     ];
 
     useEffect(() => {
@@ -87,11 +197,16 @@ const InteractiveMap = () => {
                     cityNameDiv.style.fontWeight = "normal";
                     cityNameDiv.style.color = "white";
                     cityNameDiv.style.pointerEvents = "auto"; // Enable pointer events
-                    cityNameDiv.style.cursor = "pointer"; // Optional: change cursor on hover
+                    cityNameDiv.style.cursor = "pointer";
+                    cityNameDiv.style.transformOrigin = "center"; // Set transform origin to center
+                    cityNameDiv.style.transform = "scale(1)"; // Initialize scale
+                    cityNameDiv.style.opacity = "1"; // Initialize opacity
+                    cityNameDiv.style.transition = 'transform 0.2s ease, opacity 0.2s ease, font-weight 0.2s ease';
+                    cityNameDiv.style.willChange = 'transform'; // Optimize rendering
                     cityNameDiv.className = "city-name";
 
                     // Generate a safe ID for the city
-                    const cityId = city.toLowerCase().replace(/\s+/g, '-');
+                    const cityId = city.toLowerCase().replace(/\s+/g, '-').replace(/,/g, '');
                     cityNameDiv.id = `city-name-${cityId}`;
 
                     // Temporarily add to body to get dimensions
@@ -176,16 +291,22 @@ const InteractiveMap = () => {
                             break;
                     }
 
-                    // Add hover event listeners to update the address dynamically
+                    // Add hover event listeners to update the hovered city
                     cityNameDiv.addEventListener("mouseenter", () => {
-                        setSelectedCity({ city, address });
-                        cityNameDiv.style.fontWeight = "bold";
+                        if (!clickedCity) {
+                            setHoveredCity(city);
+                        }
                     });
 
                     cityNameDiv.addEventListener("mouseleave", () => {
-                        if (!selectedCity || selectedCity.city.toLowerCase() !== city.toLowerCase()) {
-                            cityNameDiv.style.fontWeight = "normal";
+                        if (!clickedCity) {
+                            setHoveredCity(null);
                         }
+                    });
+
+                    // Add click event listener to keep the hover effect for 5 seconds
+                    cityNameDiv.addEventListener("click", () => {
+                        setClickedCity(city);
                     });
 
                     // Append the city name div to the overlay
@@ -205,7 +326,7 @@ const InteractiveMap = () => {
         return () => {
             window.removeEventListener('resize', positionLabels);
         };
-    }, [selectedCity]); // Add selectedCity to dependencies
+    }, []);
 
     // Time-based interval to cycle through cities
     useEffect(() => {
@@ -220,84 +341,161 @@ const InteractiveMap = () => {
         setSelectedCity(offices[currentIndex]);
     }, [currentIndex]);
 
-    // Update font weight of city names on the map when selectedCity changes
+    // Reset clickedCity after 5 seconds
+    useEffect(() => {
+        if (clickedCity) {
+            const timeout = setTimeout(() => {
+                setClickedCity(null);
+            }, 5000); // Reset after 5 seconds
+            return () => clearTimeout(timeout);
+        }
+    }, [clickedCity]);
+
+    // Update styles when hoveredCity, clickedCity, or selectedCity changes
     useEffect(() => {
         offices.forEach((office) => {
-            const cityId = office.city.toLowerCase().replace(/\s+/g, '-');
+            const cityId = office.city.toLowerCase().replace(/\s+/g, '-').replace(/,/g, '');
             const cityNameDiv = document.getElementById(`city-name-${cityId}`);
             if (cityNameDiv) {
-                if (selectedCity && selectedCity.city.toLowerCase() === office.city.toLowerCase()) {
-                    cityNameDiv.style.fontWeight = "bold";
+                if (clickedCity === office.city) {
+                    // If this city is clicked
+                    cityNameDiv.style.fontWeight = 'bold';
+                    cityNameDiv.style.transform = 'scale(1.1)';
+                    cityNameDiv.style.opacity = '1';
+                } else if (hoveredCity === office.city) {
+                    // If this city is being hovered
+                    cityNameDiv.style.fontWeight = 'bold';
+                    cityNameDiv.style.transform = 'scale(1.1)';
+                    cityNameDiv.style.opacity = '1';
+                } else if (selectedCity && selectedCity.city === office.city) {
+                    // If this city is the selected city (from interval)
+                    cityNameDiv.style.fontWeight = 'bold';
+                    cityNameDiv.style.transform = 'scale(1)';
+                    cityNameDiv.style.opacity = (hoveredCity || clickedCity) ? '0.1' : '1';
                 } else {
-                    cityNameDiv.style.fontWeight = "normal";
+                    // All other cities
+                    cityNameDiv.style.fontWeight = 'normal';
+                    cityNameDiv.style.transform = 'scale(1)';
+                    cityNameDiv.style.opacity = (hoveredCity || clickedCity) ? '0.1' : '1';
                 }
             }
         });
-    }, [selectedCity]);
+    }, [hoveredCity, clickedCity, selectedCity]);
+
+    // Determine which city's address to display
+    const displayedCity = clickedCity
+        ? offices.find((office) => office.city === clickedCity)
+        : hoveredCity
+            ? offices.find((office) => office.city === hoveredCity)
+            : selectedCity;
 
     return (
-        <div className="interactive-map grid grid-cols-3 gap-4">
-            {/* Left Section - "Let's Talk" */}
-            <div className="col-span-1 sm:pb-6 lg:pb-10 xl:pb-20 pl-[20px] md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px] 3xl:py-[1vw]">
-                <div className="flex items-center">
-                    <div
-                        id="lets-talk"
-                        className="flex-none font-Helvetica font-bold text-[32px] md:text-[40px] lg:text-[55px] xl:text-[65px] 2xl:text-[65px] 3xl:text-[4.5vw] leading-tight 2xl:leading-none pt-2 md:pt-4 3xl:pt-[1vw]"
-                    >
-                        Let’s talk
-                    </div>
-                </div>
-                <div className="sm:pl-0 w-[200px] sm:w-[300px] xl:w-[350px] 2xl:w-[400px] 3xl:w-[25vw]">
-                    <img src={lineImg} alt="Line" className="w-full h-auto" />
-                </div>
-                <a href="mailto:creative@kekstcnc.com">
-                    <div className="sm:pl-0 flex items-center gap-2 pt-6 sm:pt-3 lg:pt-6 xl:pt-10 2xl:pt-[57px] 3xl:pt-[3vw] hover:text-[#7a6b87]">
-                        <div className="flex items-center justify-center">
-                            <svg
-                                className="w-[21px] h-[16px] 2xl:w-[25px] 2xl:h-[19px] 3xl:w-[1.5vw] 3xl:h-[1.5vw] pr-[2px]"
-                                viewBox="0 0 21 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                                aria-label="Email icon"
-                            >
-                                <title>Email icon</title>
-                                <path
-                                    d="M18.1504 0H2.15039C1.05039 0 0.160391 0.9 0.160391 2L0.150391 14C0.150391 15.1 1.05039 16 2.15039 16H18.1504C19.2504 16 20.1504 15.1 20.1504 14V2C20.1504 0.9 19.2504 0 18.1504 0ZM18.1504 14H2.15039V4L10.1504 9L18.1504 4V14ZM10.1504 7L2.15039 2H18.1504L10.1504 7Z"
-                                    fill="white"
-                                />
-                            </svg>
+        <div className="interactive-map">
+            {/* Top Section with texts */}
+            <div className="flex flex-col md:flex-row">
+                {/* Left Section - "Let's Talk" */}
+                <div className="w-full md:w-1/2 px-5 md:px-8 lg:px-14 xl:px-24 2xl:px-28">
+                    {/* Let's Talk */}
+                    <div className="flex items-center">
+                        <div
+                            id="lets-talk"
+                            className="font-Helvetica font-bold text-[32px] md:text-[40px] lg:text-[55px] xl:text-[65px] 2xl:text-[65px] leading-tight pt-2 md:pt-4"
+                        >
+                            Let’s talk
                         </div>
-                        <div id="email-address" className="flex items-center h-full">
-                            <div className="font-Helvetica sm:text-[17px] lg:text-[20px] xl:text-2xl 2xl:text-3xl 3xl:text-[1.6vw] pl-1 2xl:pl-[0.5vw]">
-                                creative@kekstcnc.com
+                    </div>
+                    {/* Line Image */}
+                    <div className="w-[200px] sm:w-[300px] xl:w-[350px] 2xl:w-[400px] mt-4">
+                        <img src={lineImg} alt="Line" className="w-full h-auto" />
+                    </div>
+                    {/* Email Address */}
+                    <a href="mailto:creative@kekstcnc.com">
+                        <div className="flex items-center gap-2 pt-6 sm:pt-3 lg:pt-6 xl:pt-10 hover:text-[#7a6b87]">
+                            {/* Email Icon */}
+                            <div className="flex items-center justify-center">
+                                <svg
+                                    className="w-[21px] h-[16px] 2xl:w-[25px] 2xl:h-[19px] pr-[2px]"
+                                    viewBox="0 0 21 16"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    aria-label="Email icon"
+                                >
+                                    <title>Email icon</title>
+                                    <path
+                                        d="M18.1504 0H2.15039C1.05039 0 0.160391 0.9 0.160391 2L0.150391 14C0.150391 15.1 1.05039 16 2.15039 16H18.1504C19.2504 16 20.1504 15.1 20.1504 14V2C20.1504 0.9 19.2504 0 18.1504 0ZM18.1504 14H2.15039V4L10.1504 9L18.1504 4V14ZM10.1504 7L2.15039 2H18.1504L10.1504 7Z"
+                                        fill="white"
+                                    />
+                                </svg>
+                            </div>
+                            <div id="email-address" className="flex items-center h-full">
+                                <div className="font-Helvetica sm:text-[17px] lg:text-[20px] xl:text-2xl 2xl:text-3xl pl-1">
+                                    creative@kekstcnc.com
+                                </div>
                             </div>
                         </div>
+                    </a>
+                </div>
+                {/* Right Section - Address Display */}
+                <div className="w-full md:w-1/2 px-5 md:px-8 lg:px-14 xl:px-24 2xl:px-28">
+                    {/* Address Display */}
+                    <div className="md:mt-0">
+                        {/* "Where we are:" text */}
+                        <div className="font-Helvetica font-extrabold text-[30px] md:text-[30px] lg:text-[30px] xl:text-[30px] 2xl:text-[40px] text-white mt-3 lg:mt-6">
+                            Where we are:
+                        </div>
+                        {/* City Name with Icon */}
+                        <div className="flex items-center mb-2">
+                            {/* SVG Icon */}
+                            <div className="mr-2 lg:mr-4 xl:mr-6 mt-3 lg:mt-6">
+                                <svg
+                                    className="w-[20px] h-[20px] 2xl:w-[2vw] 2xl:h-[2vw]"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="20"
+                                    height="20"
+                                    fill="white"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <path d="M12 2c3.196 0 6 2.618 6 5.602 0 3.093-2.493 7.132-6 12.661-3.507-5.529-6-9.568-6-12.661 0-2.984 2.804-5.602 6-5.602m0-2c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
+                                </svg>
+                            </div>
+                            {/* City Name */}
+                            <div className="font-Helvetica font-bold text-[45px] md:text-[45px] lg:text-[45px] xl:text-[50px] 2xl:text-[50px] 3xl:text-[60px] text-white mt-3 lg:mt-6">
+                                {displayedCity?.city}
+                            </div>
+                        </div>
+                        {/* Address */}
+                        <div
+                            className="text-base md:text-[17px] lg:text-[20px] xl:text-[24px] font-normal whitespace-pre-line address-display leading-normal"
+                            style={{
+                                opacity: displayedCity ? '1' : '0',
+                                transition: 'opacity 0.2s ease',
+                            }}
+                        >
+                            {displayedCity?.address}
+                        </div>
                     </div>
-                </a>
-                {/* Display the selected city's address dynamically */}
-                {selectedCity && (
-                    <div className="mt-4 text-lg text-gray-700">
-                        <strong>{selectedCity.city}</strong>: {selectedCity.address}
-                    </div>
-                )}
+                </div>
             </div>
-
-            {/* Right Section - Interactive Map */}
-            <div className="col-span-2 flex items-center justify-center">
-                <div className="svg-container w-full h-auto" style={{ position: "relative" }}>
+            {/* Map Section */}
+            <div className="w-full">
+                <div
+                    className="svg-container w-full h-full"
+                    style={{ position: 'relative' }}
+                >
                     {/* Map Component */}
                     <Map />
                     {/* Overlay for Labels */}
                     <div
                         className="overlay"
                         style={{
-                            position: "absolute",
+                            position: 'absolute',
                             top: 0,
                             left: 0,
-                            width: "100%",
-                            height: "100%",
+                            width: '100%',
+                            height: '100%',
                             zIndex: 2,
-                            pointerEvents: "none" // Keep this to prevent the overlay from blocking the SVG
+                            pointerEvents: 'none',
+                            overflow: 'hidden',
                         }}
                     ></div>
                 </div>
