@@ -258,14 +258,14 @@ const Malteser = ({ isSticky, element }) => {
                 {/* Two Images with Hover Effect */}
                 <div className="w-full border-t border-b border-white pt-0">
                     <div className="flex text-white font-Helvetica">
-                        <div className="grid grid-cols-2 w-full">
+                        <div className="grid grid-cols-2 w-full min-h-[300px] md:min-h-[400px]">
                             {/* First Image Container */}
                             <div className="overflow-hidden md:border-r md:border-white">
                                 <Link to="/works/farmerVoice">
                                     <div
                                         className="cursor-pointer py-[26px] 2xl:py-[100px] 3xl:py-[6vw] 
                                    px-[15px] md:px-10 3xl:px-[2vw] flex flex-col h-full
-                                   bg-[url('assets/img/malteser/FarmerVoice.jpg')] 
+                                   bg-[url('assets/img/newwaters/Farmer_new_img.jpg')] 
                                    md:bg-[url('assets/img/malteser/farmer_header.png')] 
                                    bg-no-repeat bg-cover
                                    transition duration-300 ease-in-out hover:scale-105 

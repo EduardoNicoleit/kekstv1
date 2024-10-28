@@ -245,21 +245,19 @@ const Newwaters = ({ isSticky, element }) => {
                 {/* Two Images with Hover Effect */}
                 <div className="w-full border-t border-b border-white pt-0">
                     <div className="flex text-white font-Helvetica">
-                        <div className="grid grid-cols-2 w-full">
+                        <div className="grid grid-cols-2 w-full min-h-[300px] md:min-h-[400px]">
                             {/* First Image Container */}
                             <div className="overflow-hidden md:border-r md:border-white">
                                 <Link to="/works/uniper">
                                     <div
                                         className="cursor-pointer py-[26px] 2xl:py-[100px]  3xl:py-[6vw] px-[15px] md:px-10 3xl:px-[2vw] flex flex-col h-full
-                                        bg-[url('assets/img/newwaters/Uniper1.jpg')] bg-no-repeat bg-cover
+                                        bg-[url('assets/img/newwaters/Uniper_new_img.jpg')] bg-no-repeat bg-cover
                                         transition duration-300 ease-in-out hover:scale-105 5xl:py-[10vw] 5xl:px-[3vw]"
                                     >
                                         <div className="font-bold text-[15px] lg:text-base xl:text-2xl 3xl:text-[1.5vw] 5xl:text-[1vw]">Uniper</div>
                                         <div className="flex-1">
                                             <div
-                                                className="max-w-[440px] 3xl:max-w-[20vw] py-[26px] lg:py-[43px] xl:py-[67px] 3xl:py-[4vw] font-normal
-                                                text-[12px] lg:text-[21px] xl:text-[32px] 2xl:text-[40px] 3xl:text-[1.3vw] 5xl:text-[1.2vw] leading-tight 
-                                                5xl:py-[5vw]"
+                                                className="max-w-[440px] 3xl:max-w-[20vw] py-[26px] lg:py-[43px] xl:py-[67px] 3xl:py-[4vw] font-normal text-[12px] lg:text-[21px] xl:text-[32px] 2xl:text-[40px] 3xl:text-[1.3vw] 5xl:text-[1.2vw] leading-tight 5xl:py-[5vw]"
                                             >
                                                 Shaping Uniper's campaign to position them as the heartbeat of an evolving energy landscape.
                                             </div>
@@ -293,8 +291,8 @@ const Newwaters = ({ isSticky, element }) => {
                                 <Link to="/works/farmerVoice">
                                     <div
                                         className="cursor-pointer py-[26px] 2xl:py-[100px] 3xl:py-[6vw] 
-                                        px-[15px] md:px-10 3xl:px-[2vw] flex flex-col w-auto h-auto
-                                        bg-[url('assets/img/newwaters/FarmerVoice.jpg')] md:bg-[url('assets/img/newwaters/farmer_header.png')]
+                                        px-[15px] md:px-10 3xl:px-[2vw] flex flex-col w-auto h-full
+                                        bg-[url('assets/img/newwaters/Farmer_new_img.jpg')] md:bg-[url('assets/img/newwaters/farmer_header.png')]
                                         bg-no-repeat bg-cover bg-
                                         transition duration-300 ease-in-out hover:scale-105 
                                         5xl:py-[10vw] 5xl:px-[3vw]"
