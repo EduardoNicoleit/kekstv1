@@ -137,7 +137,7 @@ Arlington, VA 22201`,
         console.log("Starting InteractiveMap component");
 
         const calculateFontSize = () => {
-            const baseFontSize = 25;
+            const baseFontSize = 20;
             const scaleFactor = window.innerWidth / 1920;
             return Math.max(baseFontSize * scaleFactor, 8);
         };
@@ -390,26 +390,26 @@ Arlington, VA 22201`,
             : selectedCity;
 
     return (
-        <div className="interactive-map flex relative overflow-visible">
+        <div className="interactive-map flex relative overflow-visible pl-5 pr-4 md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px] h-[400px] md:h-[500px] lg:h-[500px] xl:h-[600px] 2xl:h-[600px] 3xl:h-[40vw] w-auto">
             {/* Left Section - "Let's Talk" */}
-            <div className="w-full md:w-1/3 px-5 md:px-8 lg:px-14 xl:px-24 2xl:px-28 flex-shrink-0 overflow-visible z-10">
+            <div className="w-full md:w-1/3 flex-shrink-0 overflow-visible z-10">
                 {/* Left Section Content */}
                 <div className="flex items-center">
                     <div
                         id="lets-talk"
-                        className="font-Helvetica font-bold text-[32px] md:text-[40px] lg:text-[55px] xl:text-[65px] 2xl:text-[65px] leading-tight pt-2 md:pt-4"
+                        className="font-Helvetica font-bold text-[32px] md:text-[32px] lg:text-[55px] xl:text-[65px] 2xl:text-[4vw] leading-tight pt-2 md:pt-4"
                     >
                         Let’s talk
                     </div>
                 </div>
-                <div className="w-[200px] sm:w-[300px] xl:w-[350px] 2xl:w-[400px] mt-4">
-                    <img src={lineImg} alt="Line" className="w-full h-auto" />
+                <div className="sm:pl-0 w-[200px] sm:w-[300px] xl:w-[350px] 2xl:w-[400px] 3xl:w-[25vw]">
+                    <img src={lineImg} alt="Divider Line" className="w-full h-auto" />
                 </div>
                 <a href="mailto:creative@kekstcnc.com">
-                    <div className="flex items-center gap-2 pt-6 sm:pt-3 lg:pt-6 xl:pt-10 hover:text-[#7a6b87]">
+                    <div className="sm:pl-0 flex items-center gap-2 pt-6 sm:pt-3 lg:pt-6 xl:pt-10 2xl:pt-[57px] 3xl:pt-[3vw] hover:text-[#7a6b87]">
                         <div className="flex items-center justify-center">
                             <svg
-                                className="w-[21px] h-[16px] 2xl:w-[25px] 2xl:h-[19px] pr-[2px]"
+                                className="w-[21px] h-[16px] 2xl:w-[25px] 2xl:h-[19px] 3xl:w-[1.5vw] 3xl:h-[1.5vw] pr-[2px]"
                                 viewBox="0 0 21 16"
                                 fill="none"
                                 xmlns="http://www.w3.org/2000/svg"
@@ -422,8 +422,9 @@ Arlington, VA 22201`,
                                 />
                             </svg>
                         </div>
-                        <div id="email-address" className="flex items-center h-full">
-                            <div className="font-Helvetica sm:text-[17px] lg:text-[20px] xl:text-2xl 2xl:text-3xl pl-1">
+
+                        <div className="flex items-center h-full">
+                            <div className="font-Helvetica font-bold sm:text-[17px] lg:text-[20px] xl:text-2xl 2xl:text-3xl 3xl:text-[1.2vw] pl-1 2xl:pl-[0.5vw]">
                                 creative@kekstcnc.com
                             </div>
                         </div>
@@ -432,14 +433,14 @@ Arlington, VA 22201`,
                 {/* Address Display */}
                 <div className="mt-16">
                     {/* "Where we are:" text */}
-                    <div className="font-Helvetica font-extrabold text-[30px] md:text-[30px] lg:text-[30px] xl:text-[30px] 2xl:text-[40px] text-white mt-3 lg:mt-6">
+                    <div className="font-Helvetica font-extrabold text-[24px] md:text-[32px] lg:text-[32px] xl:text-[36px] 2xl:text-[38px] 3xl:text-[2.2vw] leading-tight text-white mt-3 lg:mt-6 mt-4 lg:mt-6 3xl:mt-[5vw]">
                         Where we are:
                     </div>
 
                     {/* City Name with Icon */}
                     <div className="flex items-center mb-2">
                         {/* SVG Icon */}
-                        <div className="mr-2 lg:mr-4 xl:mr-6 mt-3 lg:mt-6">
+                        <div className="mr-2 lg:mr-4 xl:mr-6 mt-3 lg:mt-6 3xl:mt-[1.5vw]">
                             <svg
                                 className="w-[20px] h-[20px] 2xl:w-[2vw] 2xl:h-[2vw]"
                                 xmlns="http://www.w3.org/2000/svg"
@@ -452,19 +453,20 @@ Arlington, VA 22201`,
                             </svg>
                         </div>
                         {/* City Name */}
-                        <div className="font-Helvetica font-bold text-[30px] md:text-[30x] lg:text-[35px] xl:text-[40px] 2xl:text-[4vw] text-white mt-3 lg:mt-6">
+                        <div className="font-Helvetica font-bold text-[22px] md:text-[30px] lg:text-[30px] xl:text-[34px] 2xl:text-[36px] 3xl:text-[2vw] leading-tight text-white mt-3 lg:mt-6 3xl:mt-[1.5vw]">
                             {displayedCity?.city}
                         </div>
                     </div>
 
                     {/* Address */}
                     <div
-                        className="text-base md:text-[17px] lg:text-[20px] xl:text-[24px] font-normal whitespace-pre-line address-display leading-normal"
+                        className="font-Helvetica sm:text-[17px] lg:text-[20px] xl:text-2xl 2xl:text-3xl 3xl:text-[1.1vw] font-normal whitespace-pre-line address-display leading-normal py-4 2xl:py-[1.5vw] 3xl:leading-[1.8vw]"
                         style={{
                             opacity: displayedCity ? '1' : '0',
                             transition: 'opacity 0.2s ease',
                         }}
                     >
+                        {/* font-Helvetica font-bold sm:text-[17px] lg:text-[20px] xl:text-2xl 2xl:text-3xl 3xl:text-[1.2vw] pl-1 2xl:pl-[0.5vw] */}
                         {displayedCity?.address}
                     </div>
                 </div>
@@ -473,7 +475,7 @@ Arlington, VA 22201`,
             {/* Right Section - Interactive Map */}
             <div className="w-full md:w-2/3 flex-shrink-0 overflow-visible">
                 <div
-                    className="svg-container w-full h-[600px]"
+                    className="svg-container w-full mt-[100px] md:mt-[120px]"
                     style={{ position: 'relative' }}
                 >
                     {/* Map Component */}
