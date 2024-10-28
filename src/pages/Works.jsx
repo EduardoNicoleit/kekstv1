@@ -14,7 +14,7 @@ const WorksCompo = () => {
                     <Selection selectionsData={worksData} />
                     <div className="flex text-white px-[9px] md:px-[14px] lg:px-[60px] xl:px-[80px] 2xl:px-[288px] items-center pt-8 pb-16 2xl:pb-[4vw] 2xl:pt-[2vw]">
                         <div className="hover:bg-[#674480] flex transition-all duration-300 ease-in-out items-center hover:rounded-md">
-                            <p className="font-Helvetica font-normal text-[12px] sm:text-xs md:text-[14px] xl:text-[14px] 2xl:text-[12px] 3xl:text-[0.8vw] xl:my-4 2xl:my-[1.5vw] px-5 pr-2 py-2">
+                            <p className="font-Helvetica font-normal text-[12px] sm:text-xs md:text-[14px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[0.95vw] xl:my-4 2xl:my-[1.5vw] px-5 pr-2 py-2">
                                 <Link to="/works">MORE WORKS</Link>
                             </p>
                             <svg
