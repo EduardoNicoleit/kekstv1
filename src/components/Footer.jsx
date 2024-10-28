@@ -37,7 +37,7 @@ const Footer = () => {
             <div className='px-2 sm:px-6 md:px-[33px] xl:px-[45px] 2xl:px-[45px] 3xl:px-[3vw] 2xl:pt-[1.6vw]'>
                 <div className='relative pt-8 lg:pt-8 pb-2 2xl:pb-[2.5vw] 3xl:pb-[1.5vw] flex flex-col items-center xl:items-stretch'>
                     <div className='font-Helvetica text-white text-md lg:text-md xl:text-[14px] 2xl:text-[1vw] grid lg:grid-cols-5 px-0 lg:px-16 w-full '>
-                        <div className='text-start pl-6 sm:pl-0 mt-0 md:mt-5 xl:mt-0 2xl:mt-[2vw] 2xl:mb-[1.6vw]'>
+                        <div className='text-start pl-6 sm:pl-0 mb-5 mt-5 xl:mt-0 2xl:mt-[2vw] 2xl:mb-[1.6vw]'>
                             <NavItem to="welcome">
                                 <img
                                     src={Logo}
@@ -48,7 +48,7 @@ const Footer = () => {
                         </div>
                         {/* Navigation Links */}
                         <div className='grid col-span-3 w-full py-8 xl:py-0 pl-6 sm:pl-0 md:pl-0 lg:pl-14 xl:pl-0 md:pt-0 cursor-pointer 2xl:leading-[2vw]'>
-                            <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3 sm:mx-auto xl:mx-0 pt-4 lg:pt-0 w-full lg:w-auto 2xl:pt-0'>
+                            <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3 sm:mx-auto xl:mx-0 pt-0 lg:pt-0 w-full lg:w-auto 2xl:pt-0'>
                                 <div className='2xl:flex 2xl:flex-col 2xl:justify-start 2xl:items-start'>
                                     <div className='hover:text-[#7a6b87] my-4 xl:my-0 2xl:mt-[2vw]'>
                                         <NavItem to="expertise">
