@@ -44,7 +44,7 @@ const CopReport = ({ isSticky, element }) => {
                                             pb-14 sm:pb-6 md:pb-10 lg:pb-10 
                                             xl:pb-5 2xl:pb-16 
                                             3xl:pb-[6vw] 5xl:pb-[8vw]
-                                            3xl:text-[6.5vw] 5xl:text-[8vw]"
+                                            3xl:text-[6.5vw] "
                                 >
                                     COP 27 Report
                                 </div>
@@ -140,12 +140,7 @@ const CopReport = ({ isSticky, element }) => {
                         The partnership:
                     </div>
                     <div
-                        className="font-bold md:font-normal text-[17px] 
-                                    md:text-[28px] 2xl:text-[40px] 
-                                    3xl:text-[2vw] 5xl:text-[2.5vw] 
-                                    px-6 lg:px-[60px] 
-                                    2xl:px-0 2xl:pr-[3.5vw] 
-                                    w-full leading-tight"
+                        className="font-bold md:font-normal text-[17px] md:text-[28px] 2xl:text-[40px] 3xl:text-[1.8vw] px-6 lg:px-[60px] 2xl:px-[0] 2xl:pr-[3.5vw] w-full leading-tight"
                     >
                         We launched a report for COP 27, grounded in an analysis of over 2 million content pieces from various regions and media sources. Our analysis included earned media, trade press, and social media content from Europe, the Middle East, and the US.
                     </div>
@@ -157,10 +152,7 @@ const CopReport = ({ isSticky, element }) => {
                 </div>
                 {/* Description Section */}
                 <div
-                    className="py-10 2xl:py-[5vw] text-[17px] lg:text-[18px]
-                            xl:text-2xl flex font-normal font-Helvetica text-white 
-                            3xl:text-[1.5vw] 5xl:text-[2vw] 
-                            3xl:py-[6vw] 5xl:py-[8vw]"
+                    className="py-10 2xl:py-[5vw] text-[17px] lg:text-[18px] xl:text-[1.2vw] flex font-normal font-Helvetica text-white"
                 >
                     <div className="md:w-[33px] lg:w-[60px] 2xl:w-[299px] 3xl:w-[15vw] flex-none"></div>
                     <div className="px-6 md:px-0 pr-6 sm:px-6 lg:px-0 
@@ -240,7 +232,7 @@ const CopReport = ({ isSticky, element }) => {
                                         5xl:py-[10vw]"
                                     >
                                         <div className="font-bold text-[15px] lg:text-base xl:text-2xl 3xl:text-[1.5vw] 5xl:text-[1vw]">
-                                            DB
+                                            Deutsche Bahn
                                         </div>
                                         <div className="flex-1">
                                             <div

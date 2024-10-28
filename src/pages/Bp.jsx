@@ -45,7 +45,7 @@ const BP = ({ isSticky, element }) => {
                                     py-14 sm:py-6 md:py-10 lg:py-10 xl:py-5 
                                     2xl:py-16 
                                     3xl:py-[6vw] 5xl:py-[8vw]
-                                    3xl:text-[6.5vw] 5xl:text-[8vw]"
+                                    3xl:text-[6.5vw]"
                                 >
                                     bp
                                 </div>
@@ -148,10 +148,7 @@ const BP = ({ isSticky, element }) => {
                         The partnership:
                     </div>
                     <div
-                        className="font-bold md:font-normal text-[17px] 
-                        md:text-[28px] 2xl:text-[40px] 3xl:text-[2vw] 
-                        5xl:text-[2.5vw] px-6 lg:px-[60px] 
-                        2xl:px-0 2xl:pr-[3.5vw] w-full leading-tight"
+                        className="font-bold md:font-normal text-[17px] md:text-[28px] 2xl:text-[40px] 3xl:text-[1.8vw] px-6 lg:px-[60px] 2xl:px-[0] 2xl:pr-[3.5vw] w-full leading-tight"
                     >
                         In collaboration with bp, we created a series of static infographics to announce the arrival and berthing of different vessels at the Greater Tortue Ahmeyim (GTA) project. These infographics were designed to be used across bp-owned channels, including bp.com and bp's social media platforms, as part of an integrated communications campaign.
                     </div>
@@ -172,10 +169,7 @@ const BP = ({ isSticky, element }) => {
 
                 {/* Description Section */}
                 <div
-                    className="py-10 2xl:py-[5vw] text-[17px] lg:text-[18px] 
-                    xl:text-[1.2vw] 3xl:text-[1.5vw] 5xl:text-[2vw] 
-                    flex font-normal font-Helvetica text-white 
-                    3xl:py-[6vw] 5xl:py-[8vw]"
+                    className="py-10 2xl:py-[5vw] text-[17px] lg:text-[18px] xl:text-[1.2vw] flex font-normal font-Helvetica text-white"
                 >
                     <div className="md:w-[33px] lg:w-[60px] 
                                     2xl:w-[299px] 3xl:w-[15vw] flex-none"></div>
@@ -193,16 +187,16 @@ const BP = ({ isSticky, element }) => {
                 </div>
 
                 {/* Image Sections */}
-                <div className="py-8 2xl:py-16 3xl:py-[6vw] 5xl:py-[8vw]">
+                <div className="pt-8 2xl:pt-16 3xl:pt-[6vw]">
                     <img
-                        src="/assets/img/bp/bp_1.png"
+                        src="/assets/img/bp/bp_o.jpg"
                         className="w-full h-auto object-cover"
                         alt="BP Annual Report Header"
 
                     />
                 </div>
                 <div className="pt-8 2xl:pt-16 pb-8 md:pb-0 
-                                3xl:pt-[6vw] 5xl:pt-[8vw]">
+                                3xl:pt-[6vw]">
                     <img
                         src="/assets/img/bp/bp_3a.png"
                         className="w-full h-auto object-cover"

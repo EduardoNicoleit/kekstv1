@@ -27,7 +27,7 @@ const Bpl = ({ isSticky, element }) => {
                                     py-14 sm:py-6 md:py-10 lg:py-10 xl:py-5 
                                     2xl:py-16 
                                     3xl:py-[6vw] 5xl:py-[8vw]
-                                    3xl:text-[6.5vw] 5xl:text-[8vw]"
+                                    3xl:text-[6.5vw] "
                                 >
                                     BPI
                                 </div>
@@ -131,10 +131,7 @@ const Bpl = ({ isSticky, element }) => {
                     >
                         The partnership:
                     </div>
-                    <div className="font-bold md:font-normal text-[17px] 
-                        md:text-[28px] 2xl:text-[40px] 3xl:text-[2vw] 
-                        5xl:text-[2.5vw] px-6 lg:px-[60px] 
-                        2xl:px-0 2xl:pr-[3.5vw] w-full leading-tight">
+                    <div className="font-bold md:font-normal text-[17px] md:text-[28px] 2xl:text-[40px] 3xl:text-[1.8vw] px-6 lg:px-[60px] 2xl:px-[0] 2xl:pr-[3.5vw] w-full leading-tight">
                         In collaboration with BPI, we embarked on a mission to highlight the transformative impact of the pharmaceutical industry on health and innovation.
                     </div>
                 </div>
@@ -151,10 +148,7 @@ const Bpl = ({ isSticky, element }) => {
                 </div>
 
                 {/* Description Section */}
-                <div className="py-10 2xl:py-[5vw] text-[17px] lg:text-[18px] 
-                    xl:text-[1.2vw] 3xl:text-[1.5vw] 5xl:text-[2vw] 
-                    flex font-normal font-Helvetica text-white 
-                    3xl:py-[6vw] 5xl:py-[8vw]">
+                <div className="py-10 2xl:py-[5vw] text-[17px] lg:text-[18px] xl:text-[1.2vw] flex font-normal font-Helvetica text-white">
                     <div className="md:w-[33px] lg:w-[60px] 
                                     2xl:w-[299px] 3xl:w-[15vw] flex-none"></div>
                     <div className="px-6 md:px-0 pr-6 sm:px-6 lg:px-0 

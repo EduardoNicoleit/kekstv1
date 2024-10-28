@@ -43,7 +43,7 @@ const Uniper = ({ isSticky, element }) => {
                                     lg:leading-[80px] xl:leading-[184px]
                                     py-14 sm:py-6 md:py-10 lg:py-10 xl:py-5 2xl:py-16 
                                     3xl:py-[6vw] 5xl:py-[8vw]
-                                    3xl:text-[6.5vw] 5xl:text-[8vw]"
+                                    3xl:text-[6.5vw] "
                                 >
                                     Uniper
                                 </div>
@@ -124,10 +124,7 @@ const Uniper = ({ isSticky, element }) => {
                         The partnership:
                     </div>
                     <div
-                        className="font-bold md:font-normal text-[17px] md:text-[28px] 2xl:text-[40px] 
-                        3xl:text-[2vw] 5xl:text-[2.5vw] 
-                        px-6 lg:px-[60px] 2xl:px-0 2xl:pr-[3.5vw] 
-                        w-full leading-tight"
+                        className="font-bold md:font-normal text-[17px] md:text-[28px] 2xl:text-[40px] 3xl:text-[1.8vw] px-6 lg:px-[60px] 2xl:px-[0] 2xl:pr-[3.5vw] w-full leading-tight"
                     >
                         In 2023, we launched an ambitious campaign for Uniper, developing a unique visual identity alongside a diverse range of outputs. From the creation of a compelling concept slogan to strategic deployment and execution across various media, including video and in-house channels, the "Beating Heart of Energy" campaign positions Uniper as the linchpin of the energy infrastructure. This initiative underscores Uniper's durability, dedication to sustainability, and significant efforts towards facilitating a seamless and green energy shift.
                     </div>
@@ -148,10 +145,7 @@ const Uniper = ({ isSticky, element }) => {
 
                 {/* Description Section */}
                 <div
-                    className="py-10 2xl:py-[5vw] text-[17px] lg:text-[18px] xl:text-[1.2vw] 
-                    flex font-normal font-Helvetica text-white 
-                    3xl:text-[1.5vw] 5xl:text-[2vw] 
-                    3xl:py-[6vw] 5xl:py-[8vw]"
+                    className="py-10 2xl:py-[5vw] text-[17px] lg:text-[18px] xl:text-[1.2vw] flex font-normal font-Helvetica text-white"
                 >
                     <div className="w-6 lg:w-[60px] 2xl:w-[299px] 3xl:w-[15vw] flex-none"></div>
                     <div className="px-0 pr-6 sm:px-6 lg:px-0 lg:pr-10 2xl:pr-[3.5vw]">

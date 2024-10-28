@@ -45,7 +45,7 @@ const DTCP = ({ isSticky, element }) => {
                                     py-14 sm:py-6 md:py-10 lg:py-10 xl:py-5 
                                     2xl:py-16 
                                     3xl:py-[6vw] 5xl:py-[8vw]
-                                    3xl:text-[6.5vw] 5xl:text-[8vw]"
+                                    3xl:text-[6.5vw] "
                                 >
                                     DTCP
                                 </div>
@@ -148,10 +148,7 @@ const DTCP = ({ isSticky, element }) => {
                         The partnership:
                     </div>
                     <div
-                        className="font-bold md:font-normal text-[17px] 
-                        md:text-[28px] 2xl:text-[40px] 3xl:text-[2vw] 
-                        5xl:text-[2.5vw] px-6 lg:px-[60px] 
-                        2xl:px-0 2xl:pr-[3.5vw] w-full leading-tight"
+                        className="font-bold md:font-normal text-[17px] md:text-[28px] 2xl:text-[40px] 3xl:text-[1.8vw] px-6 lg:px-[60px] 2xl:px-[0] 2xl:pr-[3.5vw] w-full leading-tight"
                     >
                         Partnering with DTCP, we've transformed their Annual Reports, infusing them with a narrative that resonates with the company's unique essence; dynamic and innovative. This approach was meticulously crafted to engage stakeholders, effectively conveying the company's accomplishments and future aspirations through a blend of captivating visual storytelling and insightful infographics. By integrating these elements, we ensured that the report not only invigorates readers but also authentically reflects our pioneering ethos.
                     </div>
@@ -177,10 +174,7 @@ const DTCP = ({ isSticky, element }) => {
 
                 {/* Description Section */}
                 <div
-                    className="py-10 2xl:py-[5vw] text-[17px] lg:text-[18px] 
-                    xl:text-[1.2vw] 3xl:text-[1.5vw] 5xl:text-[2vw] 
-                    flex font-normal font-Helvetica text-white 
-                    3xl:py-[6vw] 5xl:py-[8vw]"
+                    className="py-10 2xl:py-[5vw] text-[17px] lg:text-[18px] xl:text-[1.2vw] flex font-normal font-Helvetica text-white"
                 >
                     <div className="md:w-[33px] lg:w-[60px] 
                                     2xl:w-[299px] 3xl:w-[15vw] flex-none"></div>
