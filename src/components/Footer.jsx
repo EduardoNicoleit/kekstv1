@@ -124,7 +124,7 @@ const Footer = () => {
                                         />
                                     </g>
                                 </svg>
-                                <span className="hidden lg:inline-block ml-2 text-white">Twitter</span>
+                                <span className="hidden lg:inline-block ml-2 text-white">X (Twitter) </span>
                             </div>
                         </div>
 

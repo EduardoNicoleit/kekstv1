@@ -154,12 +154,13 @@ const Netclean = ({ isSticky, element }) => {
                         <img src="/assets/img/netclean/netclean_3.png" className="w-full" alt="Netclean Image 3" />
                     </div>
                 </div>
+
                 {/* Video Section 2 */}
                 <div className="py-8 2xl:py-16 flex">
                     <div className="hidden lg:block lg:w-[299px] flex-none border-b-[1px]"></div>
-                    <div className="w-full flex">
+                    <div className="w-full flex flex-col lg:flex-row">
                         <video
-                            className="w-1/2 h-auto object-cover 3xl:max-h-[25vw] 5xl:max-h-[30vw]"
+                            className="w-full lg:w-1/2 h-auto object-cover mb-8 lg:mb-0 3xl:max-h-[25vw] 5xl:max-h-[30vw]"
                             autoPlay
                             loop
                             muted
@@ -168,7 +169,7 @@ const Netclean = ({ isSticky, element }) => {
                             <source src="/assets/video/netclean/NetClean_movie_2.mp4" type="video/mp4" />
                         </video>
                         <video
-                            className="w-1/2 h-auto object-cover 3xl:max-h-[25vw] 5xl:max-h-[30vw]"
+                            className="w-auto lg:w-1/2 h-auto object-cover pt-8 lg:pt-0 3xl:max-h-[25vw] 5xl:max-h-[30vw]"
                             autoPlay
                             loop
                             muted
@@ -178,6 +179,8 @@ const Netclean = ({ isSticky, element }) => {
                         </video>
                     </div>
                 </div>
+
+
                 {/* Image Section 4 */}
                 <div className="pb-8 md:pb-0">
                     <img src="/assets/img/netclean/netclean_4.png" className="w-full" alt="Netclean Image 4" />
