@@ -452,7 +452,7 @@ Arlington, VA 22201`,
                             {/* SVG Icon */}
                             <div className="mr-2 3xl:mr-[0.5vw] mt-4 lg:mt-6 3xl:mt-[1.5vw]">
                                 <svg
-                                    className="w-[18px] h-[18px] xl:w-[20px] xl:h-[20px] 2xl:w-[2vw] 2xl:h-[2vw]"
+                                    className="w-[18px] h-[16px] xl:w-[20px] xl:h-[20px] 2xl:w-[2vw] 2xl:h-[2vw]"
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
                                     height="20"
@@ -482,7 +482,7 @@ Arlington, VA 22201`,
                 </div>
 
                 {/* Right Section - Interactive Map */}
-                <div className="w-full md:w-2/3 flex-shrink-0 overflow-visible mt-[20px] md:mt-[120px]">
+                <div className="w-full md:w-2/3 flex-shrink-0 overflow-visible mt-[80px] md:mt-[120px]">
                     <div
                         className="svg-container w-full"
                         style={{ position: 'relative' }}

@@ -38,13 +38,13 @@ const Footer = () => {
                 <div className='relative pt-8 lg:pt-8 pb-2 2xl:pb-[2.5vw] 3xl:pb-[1.5vw] flex flex-col items-center xl:items-stretch'>
                     <div className='font-Helvetica text-white text-md lg:text-md xl:text-[14px] 2xl:text-[1vw] grid lg:grid-cols-5 px-0 lg:px-16 w-full '>
                         <div className='text-start pl-6 sm:pl-0 mb-5 mt-5 xl:mt-0 2xl:mt-[2vw] 2xl:mb-[1.6vw]'>
-                            <NavItem to="welcome">
+                            {/* <NavItem to="welcome">
                                 <img
                                     src={Logo}
                                     alt="logo"
                                     className='cursor-pointer w-[166.25px] h-[57.6375px] 2xl:w-[8vw] 2xl:h-[2.8vw] 3xl:w-[10vw] 3xl:h-[3.75vw] transition duration-300 ease-in-out hover:scale-110'
                                 />
-                            </NavItem>
+                            </NavItem> */}
                         </div>
                         {/* Navigation Links */}
                         <div className='grid col-span-3 w-full py-8 xl:py-0 pl-6 sm:pl-0 md:pl-0 lg:pl-14 xl:pl-0 md:pt-0 cursor-pointer 2xl:leading-[2vw]'>
@@ -90,7 +90,7 @@ const Footer = () => {
 
                         {/* Footer and Social Media Icons */}
                         <div
-                            className="hidden lg:flex lg:flex-col ml-6 sm:ml-0 md:ml-0 xl:ml-16 3xl:ml-[5vw] space-x-10 lg:space-x-0 lg:space-y-4 mt-5 xl:mt-1 2xl:mt-[2vw] 2xl:gap-[0.1vw] 3xl:gap-[1.6vw]"
+                            className="hidden lg:flex lg:flex-col ml-6 sm:ml-0 md:ml-0 xl:ml-16 3xl:ml-[5vw] space-x-10 lg:space-x-0 lg:space-y-1 mt-5 xl:mt-1 2xl:mt-[2vw] 2xl:gap-1 3xl:gap-[0.5vw]"
                         >
                             <div className="flex flex-col lg:flex-row lg:items-center">
                                 <svg
@@ -136,7 +136,7 @@ const Footer = () => {
                     </div>
 
                     {/* Footer Links */}
-                    <div className='text-md lg:text-md xl:text-[14px] 2xl:text-[1vw] pl-6 sm:pl-0 grid grid-cols-1 lg:grid-cols-5 xl:grid-cols-5 text-white font-Helvetica pt-0 lg:pt-10 xl:pt-10 mx-auto lg:mx-0 px-0 lg:px-8 xl:px-16 pb-0 lg:pb-2 xl:pb-8 w-full lg:w-auto 2xl:pb-[1.5vw] 2xl:pt-[5vw]'>
+                    <div className='text-md lg:text-md xl:text-[14px] 2xl:text-[1vw] pl-6 sm:pl-0 grid grid-cols-1 lg:grid-cols-5 xl:grid-cols-5 text-white font-Helvetica pt-0 lg:pt-10 xl:pt-10 mx-auto lg:mx-0 px-0 lg:px-8 xl:px-16 pb-0 lg:pb-10 xl:pb-10 w-full lg:w-auto 2xl:pb-[5vw] 2xl:pt-[5vw]'>
                         <div className='lg:col-span-1'></div>
                         <div className='pt-4 lg:pr-4 lg:pb-4 xl:py-0 lg:text-left'>
                             © 2023 Kekst CNC

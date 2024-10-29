@@ -66,16 +66,16 @@ const Mars = ({ isSticky, element }) => {
                                     Overview:
                                 </div>
                                 <div className="text-normal lg:grid grid-cols-3 w-full items-start 2xl:items-center">
-                                    <div className="pl-[60px] 2xl:pl-8 pr-4 xl:border-l-0 2xl:border-l-[1px] 
+                                    <div className="text-normal pl-[60px] 2xl:pl-8 pr-4 xl:border-l-0 2xl:border-l-[1px] 
                                                 leading-tight h-full 
                                                 3xl:pl-[2.15vw] 3xl:pr-[1vw] 5xl:pl-[2.5vw] 5xl:pr-[1.2vw]">
                                         Developed a holistic video campaign, showcasing Mars as an AI research pioneer.
                                     </div>
-                                    <div className="pl-8 pr-4 border-l-[1px] leading-tight h-full 
+                                    <div className="text-normal pl-8 pr-4 border-l-[1px] leading-tight h-full 
                                                 3xl:pl-[2vw] 3xl:pr-[2vw] 5xl:pl-[3vw] 5xl:pr-[2vw]">
                                         Used single-shot technique for immersive video innovation.
                                     </div>
-                                    <div className="pl-8 pr-4 border-l-[1px] leading-tight h-full 
+                                    <div className="text-normal pl-8 pr-4 border-l-[1px] leading-tight h-full 
                                                 3xl:pl-[2vw] 2xl:pr-[3vw] 5xl:pl-[3vw] 5xl:pr-[2vw]">
                                         Crafted compelling narrative with meticulous storyboarding to highlight Mars' AI leadership.
                                     </div>

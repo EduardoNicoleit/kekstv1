@@ -51,7 +51,7 @@ const ProductCompo = ({ isSticky, element }) => {
                                     <div className="w-full">
                                         <div className="lg:h-20 xl:h-60 border-0 xl:border-l-[1px] px-[250px] border-white"></div>
                                         <div className="border-t-0 lg:border-t-[1px] sm:px-20 md:px-40 lg:px-[60px] xl:px-[260px] relative">
-                                            <div className="uppercase block lg:hidden 2xl:block sm:text-2xl md:text-[30px] xl:text-[45px] 2xl:text-4xl 3xl:text-[45px] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px] leading-normal 2xl:leading-[2.5vw]">
+                                            <div className="uppercase block lg:hidden 2xl:block sm:text-2xl md:text-3xl lg:text-3xl 2xl:text-4xl 3xl:text-[2.2vw] 5xl:text-[2vw] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px] leading-normal 2xl:leading-[2.5vw]">
                                                 <div>
                                                     User-Centric <br /> Design
                                                 </div>
@@ -59,10 +59,10 @@ const ProductCompo = ({ isSticky, element }) => {
 
                                                 </div>
                                             </div>
-                                            <div className="uppercase hidden lg:block 2xl:hidden sm:text-2xl md:text-[30px] lg:text-[25px] xl:text-[45px] 2xl:text-4xl 3xl:text-[45px] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px] leading-normal">
+                                            <div className="uppercase hidden lg:block 2xl:hidden sm:text-2xl md:text-3xl lg:text-3xl 2xl:text-4xl 3xl:text-[2.2vw] 5xl:text-[2vw] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px] leading-normal">
                                                 User-Centric Design
                                             </div>
-                                            <div className="leading-normal 2xl:leading-[2.5vw] sm:text-base md:text-xl xl:text-[26px] 2xl:text-[32px]
+                                            <div className="leading-normal 2xl:leading-[2.5vw] sm:text-base md:text-xl lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-[1.5vw] 5xl:text-[1.2vw]
                                             lg:pt-5 xl:pt-[22px] 2xl:pt-[50px]
                                             lg:pb-8 xl:pb-[78px] 2xl:pb-[180px]
                                             lg:max-w-[800px]">
@@ -74,15 +74,15 @@ const ProductCompo = ({ isSticky, element }) => {
                                             <div className="hidden xl:block sm:w-4 md:w-24 lg:w-[180px] h-[1px] sm:top-[120px] xl:top-[100px] 2xl:top-36 left-10 absolute bottom-0 bg-white"></div>
                                         </div>
                                         <div className="border-t-0 lg:border-t-[1px] sm:px-20 md:px-40 lg:px-[60px] xl:px-[260px] relative">
-                                            <div className="uppercase block lg:hidden 2xl:block sm:text-2xl md:text-[30px] xl:text-[45px] 2xl:text-4xl 3xl:text-[45px] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px] leading-normal 2xl:leading-[2.5vw]">
+                                            <div className="uppercase block lg:hidden 2xl:block sm:text-2xl md:text-3xl lg:text-3xl 2xl:text-4xl 3xl:text-[2.2vw] 5xl:text-[2vw] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px] leading-normal 2xl:leading-[2.5vw]">
                                                 <div>
                                                     Data-Driven <br />Insights
                                                 </div>
                                             </div>
-                                            <div className="uppercase hidden lg:block 2xl:hidden sm:text-2xl md:text-[30px] lg:text-[25px] xl:text-[45px] 2xl:text-4xl 3xl:text-[45px] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px] leading-normal">
+                                            <div className="uppercase hidden lg:block 2xl:hidden sm:text-2xl md:text-3xl lg:text-3xl 2xl:text-4xl 3xl:text-[2.2vw] 5xl:text-[2vw] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px] leading-normal">
                                                 Data-Driven Insights
                                             </div>
-                                            <div className="leading-normal 2xl:leading-[2.5vw] sm:text-base md:text-xl xl:text-[26px] 2xl:text-[32px]
+                                            <div className="leading-normal 2xl:leading-[2.5vw] sm:text-base md:text-xl lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-[1.5vw] 5xl:text-[1.2vw]
                                             lg:pt-5 xl:pt-[22px] 2xl:pt-[50px]
                                             lg:pb-10 xl:pb-[82px] 2xl:pb-[200px]
                                             lg:max-w-[500px]">
@@ -94,15 +94,15 @@ const ProductCompo = ({ isSticky, element }) => {
                                             <div className="hidden xl:block sm:w-4 md:w-24 lg:w-[180px] h-[1px] sm:top-[120px] xl:top-[100px] 2xl:top-36 left-10 absolute bottom-0 bg-white"></div>
                                         </div>
                                         <div className="border-t-0 lg:border-t-[1px] sm:px-20 md:px-40 lg:px-[60px] xl:px-[260px] relative">
-                                            <div className="uppercase block lg:hidden 2xl:block sm:text-2xl md:text-[30px] xl:text-[45px] 2xl:text-4xl 3xl:text-[45px] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px] leading-normal 2xl:leading-[2.5vw]">
+                                            <div className="uppercase block lg:hidden 2xl:block sm:text-2xl md:text-3xl lg:text-3xl 2xl:text-4xl 3xl:text-[2.2vw] 5xl:text-[2vw] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px] leading-normal 2xl:leading-[2.5vw]">
                                                 <div>
                                                     Forward-Thinking <br />Design
                                                 </div>
                                             </div>
-                                            <div className="uppercase hidden lg:block 2xl:hidden sm:text-2xl md:text-[30px] lg:text-[25px] xl:text-[45px] 2xl:text-4xl 3xl:text-[45px] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px] leading-normal">
+                                            <div className="uppercase hidden lg:block 2xl:hidden sm:text-2xl md:text-3xl lg:text-3xl 2xl:text-4xl 3xl:text-[2.2vw] 5xl:text-[2vw] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px] leading-normal">
                                                 Forward-Thinking Design
                                             </div>
-                                            <div className="leading-normal 2xl:leading-[2.5vw] sm:text-base md:text-xl xl:text-[26px] 2xl:text-[32px]
+                                            <div className="leading-normal 2xl:leading-[2.5vw] sm:text-base md:text-xl lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-[1.5vw] 5xl:text-[1.2vw]
                                             lg:pt-5 xl:pt-[22px] 2xl:pt-[50px]
                                             lg:pb-10 xl:pb-[82px] 2xl:pb-[200px]
                                             lg:max-w-[500px]">
