@@ -54,15 +54,12 @@ const ExpertiseDataCompo = ({ isSticky, element }) => {
                                             <div>
                                                 <div className="border-t-[1px] border-r-[1px] relative">
                                                     <div className="lg:py-10 xl:py-8 2xl:lg:py-16 xl:px-0 2xl:px-16">
-                                                        <div className="flex lg:flex-row xl:flex-col sm:text-[24px] md:text-[30px] lg:text-3xl xl:text-3xl 2xl:text-4xl 3xl:text-[45px] lg:pl-[60px] xl:pl-[260px] 2xl:pl-0">
+                                                        <div className="flex lg:flex-row xl:flex-col sm:text-[24px] md:text-[30px] lg:text-3xl xl:text-3xl 2xl:text-4xl 3xl:text-[45px] lg:pl-[60px] xl:pl-[260px] 2xl:pl-0 leading-normal 2xl:leading-[2.5vw]">
                                                             <div>
-                                                                NARRATIVE DATA
-                                                            </div>
-                                                            <div className="lg:pt-0 xl:pt-1 2xl:pt-4">
-                                                                EXPLORATION
+                                                                NARRATIVE DATA <br /> EXPLORATION
                                                             </div>
                                                         </div>
-                                                        <div className="
+                                                        <div className="leading-normal 2xl:leading-[2.5vw]
                                                         sm:text-base md:text-[20px] lg:text-xl xl:text-[26px] 2xl:text-[32px] 
                                                         lg:pt-5 xl:pt-[22px] 2xl:pt-[50px]
                                                         2xl:pb-[76px]
@@ -78,15 +75,12 @@ const ExpertiseDataCompo = ({ isSticky, element }) => {
                                                 </div>
                                                 <div className="border-t-[1px] border-r-[1px] relative block 2xl:hidden">
                                                     <div className="lg:py-10 xl:py-8 2xl:lg:py-16 xl:px-0 2xl:px-16">
-                                                        <div className="flex lg:flex-row xl:flex-col sm:text-[24px] md:text-[30px] lg:text-3xl xl:text-3xl 2xl:text-4xl 3xl:text-[45px] lg:pl-[60px] xl:pl-[260px] 2xl:pl-0">
+                                                        <div className="flex lg:flex-row xl:flex-col sm:text-[24px] md:text-[30px] lg:text-3xl xl:text-3xl 2xl:text-4xl 3xl:text-[45px] lg:pl-[60px] xl:pl-[260px] 2xl:pl-0 leading-normal 2xl:leading-[2.5vw]">
                                                             <div>
-                                                                AESTHETIC PRECISION
-                                                            </div>
-                                                            <div className="lg:pt-0 xl:pt-1 2xl:pt-4">
-                                                                MEETS DATA
+                                                                AESTHETIC PRECISION <br /> MEETS DATA
                                                             </div>
                                                         </div>
-                                                        <div className="
+                                                        <div className="leading-normal 2xl:leading-[2.5vw]
                                                         sm:text-base md:text-[20px] lg:text-xl xl:text-[26px] 2xl:text-[32px] 
                                                         lg:pt-5 xl:pt-[22px] 2xl:pt-[50px]
                                                         2xl:pb-[76px]
@@ -102,15 +96,12 @@ const ExpertiseDataCompo = ({ isSticky, element }) => {
                                                 </div>
                                                 <div className="border-t-[1px] border-r-[1px] relative">
                                                     <div className="lg:py-10 xl:py-8 2xl:lg:py-16 xl:px-0 2xl:px-16">
-                                                        <div className="flex lg:flex-row xl:flex-col sm:text-[24px] md:text-[30px] lg:text-3xl xl:text-3xl 2xl:text-4xl 3xl:text-[45px] lg:pl-[60px] xl:pl-[260px] 2xl:pl-0">
+                                                        <div className="flex lg:flex-row xl:flex-col sm:text-[24px] md:text-[30px] lg:text-3xl xl:text-3xl 2xl:text-4xl 3xl:text-[45px] lg:pl-[60px] xl:pl-[260px] 2xl:pl-0 leading-normal 2xl:leading-[2.5vw]">
                                                             <div>
-                                                                CREATING LASTING
-                                                            </div>
-                                                            <div className="lg:pt-0 xl:pt-1 2xl:pt-4">
-                                                                IMPRESSIONS WITH DATA
+                                                                CREATING LASTING <br /> IMPRESSIONS WITH DATA
                                                             </div>
                                                         </div>
-                                                        <div className="
+                                                        <div className="leading-normal 2xl:leading-[2.5vw]
                                                         sm:text-base md:text-[20px] lg:text-xl xl:text-[26px] 2xl:text-[32px] 
                                                         lg:pt-5 xl:pt-[22px] 2xl:pt-[50px]
                                                         2xl:pb-[76px]
@@ -128,15 +119,12 @@ const ExpertiseDataCompo = ({ isSticky, element }) => {
                                             <div className="hidden 2xl:block">
                                                 <div className="border-t-[1px] relative border-b-[1px] xl:mt-0 2xl:mt-[350px] 3xl:mt-[500px]">
                                                     <div className="sm:p-9 md:p-10 lg:p-16">
-                                                        <div className="sm:text-[24px] md:text-[30px] lg:text-3xl xl:text-3xl 2xl:text-4xl 3xl:text-[45px]">
+                                                        <div className="leading-normal 2xl:leading-[2.5vw] sm:text-[24px] md:text-[30px] lg:text-3xl xl:text-3xl 2xl:text-4xl 3xl:text-[45px]">
                                                             <div>
-                                                                AESTHETIC PRECISION
-                                                            </div>
-                                                            <div className="pt-4">
-                                                                MEETS DATA
+                                                                AESTHETIC PRECISION <br />MEETS DATA
                                                             </div>
                                                         </div>
-                                                        <div className="
+                                                        <div className="leading-normal 2xl:leading-[2.5vw]
                                                         sm:text-base md:text-[20px] lg:text-xl xl:text-[26px] 2xl:text-[32px] 
                                                         2xl:pt-[50px]
                                                         2xl:pb-[76px]

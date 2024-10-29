@@ -40,18 +40,18 @@ const ProductCompo = ({ isSticky, element }) => {
                 </div>
                 <div className="px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] 3xl:px-[45px]">
                     <div>
-                        <p className="sm:px-8 md:px-[33px] lg:px-[46px] xl:px-[154px] 2xl:px-[308px] 3xl:px-[15vw] font-Helvetica font-normal text-[16px] sm:text-[20px] md:text-[24px] lg:text-[40px] xl:text-[36px] 2xl:text-[42px] 3xl:text-[2.5vw] 5xl:text-[2.2vw] sm:py-10 md:py-[74px] 2xl:py-[2vw] text-white leading-tight 3xl:leading-[3vw]">
+                        <p className="sm:px-8 md:px-[33px] lg:px-[46px] xl:px-[154px] 2xl:px-[308px] 3xl:px-[15vw] font-Helvetica font-normal text-[16px] sm:text-[20px] md:text-[24px] lg:text-[40px] xl:text-[36px] 2xl:text-[42px] 3xl:text-[2.5vw] 5xl:text-[2.2vw] sm:py-10 md:py-[74px] 2xl:py-[2vw] text-white leading-normal 3xl:leading-[3vw]">
                             <span className="text-[#9F81BF] font-bold">Redefining User Experience:</span> Our expertise spans all forms of data visualization, including dynamic infographics and interactive platforms, for both print and digital. We're dedicated to turning complex data into clear, visually impactful stories that inform and drive engagement and insight.
                         </p>
                         <div className="text-white font-Helvetica">
                             <div className="border-t-[1px] border-white">
                                 <div className="flex">
-                                    <div className="hidden border-r-[1px] flex-none lg:block lg:w-[46px] xl:w-[154px] 2xl:w-[308px]">
+                                    <div className="hidden border-r-[1px] flex-none lg:block lg:w-[46px] xl:w-[154px] 2xl:w-[308px] ">
                                     </div>
-                                    <div className="w-full ">
-                                        <div className="lg:h-20 xl:h-60 border-0 xl:border-l-[1px] px-[250px] border-white leading-tight"></div>
+                                    <div className="w-full">
+                                        <div className="lg:h-20 xl:h-60 border-0 xl:border-l-[1px] px-[250px] border-white"></div>
                                         <div className="border-t-0 lg:border-t-[1px] sm:px-20 md:px-40 lg:px-[60px] xl:px-[260px] relative">
-                                            <div className="uppercase block lg:hidden 2xl:block sm:text-2xl md:text-[30px] xl:text-[45px] 2xl:text-4xl 3xl:text-[45px] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px] leading-tight 3xl:leading-[2.5vw]">
+                                            <div className="uppercase block lg:hidden 2xl:block sm:text-2xl md:text-[30px] xl:text-[45px] 2xl:text-4xl 3xl:text-[45px] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px] leading-normal 2xl:leading-[2.5vw]">
                                                 <div>
                                                     User-Centric <br /> Design
                                                 </div>
@@ -59,13 +59,13 @@ const ProductCompo = ({ isSticky, element }) => {
 
                                                 </div>
                                             </div>
-                                            <div className="uppercase leading-tight hidden lg:block 2xl:hidden sm:text-2xl md:text-[30px] lg:text-[25px] xl:text-[45px] 2xl:text-4xl 3xl:text-[45px] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px]">
+                                            <div className="uppercase hidden lg:block 2xl:hidden sm:text-2xl md:text-[30px] lg:text-[25px] xl:text-[45px] 2xl:text-4xl 3xl:text-[45px] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px] leading-normal">
                                                 User-Centric Design
                                             </div>
-                                            <div className="leading-tight sm:text-base md:text-xl xl:text-[26px] 2xl:text-[32px]
+                                            <div className="leading-normal 2xl:leading-[2.5vw] sm:text-base md:text-xl xl:text-[26px] 2xl:text-[32px]
                                             lg:pt-5 xl:pt-[22px] 2xl:pt-[50px]
-                                            lg:pb-10 xl:pb-[82px] 2xl:pb-[200px]
-                                            lg:max-w-[500px] leading-tight">
+                                            lg:pb-8 xl:pb-[78px] 2xl:pb-[180px]
+                                            lg:max-w-[800px]">
                                                 By focusing on the user, we ensure every digital interaction is engaging, intuitive, and impactful, catering to your audience's needs and expectations.
                                             </div>
                                             <div className="text-[#9F81BF] w-16 h-16 sm:top-[95px] lg:top-[50px] xl:top-[75px] 2xl:top-[120px] left-[-32px] font-Helvetica text-[34px] absolute bottom-0 bg-[#210837] text-center">
@@ -73,16 +73,16 @@ const ProductCompo = ({ isSticky, element }) => {
                                             </div>
                                             <div className="hidden xl:block sm:w-4 md:w-24 lg:w-[180px] h-[1px] sm:top-[120px] xl:top-[100px] 2xl:top-36 left-10 absolute bottom-0 bg-white"></div>
                                         </div>
-                                        <div className="leading-tight border-t-0 lg:border-t-[1px] sm:px-20 md:px-40 lg:px-[60px] xl:px-[260px] relative">
-                                            <div className="uppercase block lg:hidden 2xl:block sm:text-2xl md:text-[30px] xl:text-[45px] 2xl:text-4xl 3xl:text-[45px] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px] leading-tight 3xl:leading-[2.5vw]">
+                                        <div className="border-t-0 lg:border-t-[1px] sm:px-20 md:px-40 lg:px-[60px] xl:px-[260px] relative">
+                                            <div className="uppercase block lg:hidden 2xl:block sm:text-2xl md:text-[30px] xl:text-[45px] 2xl:text-4xl 3xl:text-[45px] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px] leading-normal 2xl:leading-[2.5vw]">
                                                 <div>
                                                     Data-Driven <br />Insights
                                                 </div>
                                             </div>
-                                            <div className="uppercase leading-tight hidden lg:block 2xl:hidden sm:text-2xl md:text-[30px] lg:text-[25px] xl:text-[45px] 2xl:text-4xl 3xl:text-[45px] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px]">
+                                            <div className="uppercase hidden lg:block 2xl:hidden sm:text-2xl md:text-[30px] lg:text-[25px] xl:text-[45px] 2xl:text-4xl 3xl:text-[45px] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px] leading-normal">
                                                 Data-Driven Insights
                                             </div>
-                                            <div className="leading-tight sm:text-base md:text-xl xl:text-[26px] 2xl:text-[32px]
+                                            <div className="leading-normal 2xl:leading-[2.5vw] sm:text-base md:text-xl xl:text-[26px] 2xl:text-[32px]
                                             lg:pt-5 xl:pt-[22px] 2xl:pt-[50px]
                                             lg:pb-10 xl:pb-[82px] 2xl:pb-[200px]
                                             lg:max-w-[500px]">
@@ -94,15 +94,15 @@ const ProductCompo = ({ isSticky, element }) => {
                                             <div className="hidden xl:block sm:w-4 md:w-24 lg:w-[180px] h-[1px] sm:top-[120px] xl:top-[100px] 2xl:top-36 left-10 absolute bottom-0 bg-white"></div>
                                         </div>
                                         <div className="border-t-0 lg:border-t-[1px] sm:px-20 md:px-40 lg:px-[60px] xl:px-[260px] relative">
-                                            <div className="uppercase block lg:hidden 2xl:block sm:text-2xl md:text-[30px] xl:text-[45px] 2xl:text-4xl 3xl:text-[45px] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px] leading-tight 3xl:leading-[2.5vw]">
+                                            <div className="uppercase block lg:hidden 2xl:block sm:text-2xl md:text-[30px] xl:text-[45px] 2xl:text-4xl 3xl:text-[45px] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px] leading-normal 2xl:leading-[2.5vw]">
                                                 <div>
                                                     Forward-Thinking <br />Design
                                                 </div>
                                             </div>
-                                            <div className="uppercase leading-tight hidden lg:block 2xl:hidden sm:text-2xl md:text-[30px] lg:text-[25px] xl:text-[45px] 2xl:text-4xl 3xl:text-[45px] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px]">
+                                            <div className="uppercase hidden lg:block 2xl:hidden sm:text-2xl md:text-[30px] lg:text-[25px] xl:text-[45px] 2xl:text-4xl 3xl:text-[45px] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px] leading-normal">
                                                 Forward-Thinking Design
                                             </div>
-                                            <div className="leading-tight sm:text-base md:text-xl xl:text-[26px] 2xl:text-[32px]
+                                            <div className="leading-normal 2xl:leading-[2.5vw] sm:text-base md:text-xl xl:text-[26px] 2xl:text-[32px]
                                             lg:pt-5 xl:pt-[22px] 2xl:pt-[50px]
                                             lg:pb-10 xl:pb-[82px] 2xl:pb-[200px]
                                             lg:max-w-[500px]">
