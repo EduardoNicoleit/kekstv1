@@ -62,16 +62,16 @@ const Malteser = ({ isSticky, element }) => {
                                 items-start 2xl:items-center"
                             >
                                 <div
-                                    className="lg:pl-[60px] lg:py-4 xl:py-5 
+                                    className="font-normal lg:pl-[60px] lg:py-4 xl:py-5 
                                     2xl:py-0 3xl:py-[2vw] 5xl:py-[3vw]
                                     w-[300px] lg:w-[200px] 2xl:w-[318px] 
                                     3xl:w-[14vw] mb-0 2xl:mb-12"
                                 >
                                     Overview
                                 </div>
-                                <div className="lg:grid grid-cols-3 w-full items-start 
+                                <div className="font-normal lg:grid grid-cols-3 w-full items-start 
                                                 2xl:items-center">
-                                    <div className="pl-[60px] 2xl:pl-8 pr-4 
+                                    <div className="font-normal pl-[60px] 2xl:pl-8 pr-4 
                                                     xl:border-l-0 2xl:border-l-[1px] 
                                                     leading-tight h-full 
                                                     3xl:pl-[2.15vw] 3xl:pr-[1vw] 
@@ -79,14 +79,14 @@ const Malteser = ({ isSticky, element }) => {
                                         Enhanced Design Identity through
                                         innovative data visualization.
                                     </div>
-                                    <div className="pl-8 pr-4 border-l-[1px] 
+                                    <div className="font-normal pl-8 pr-4 border-l-[1px] 
                                                     leading-tight h-full 
                                                     3xl:pl-[2vw] 3xl:pr-[2vw] 
                                                     5xl:pl-[3vw] 5xl:pr-[2vw]">
                                         Fostered inclusive visual communication
                                         reflecting global support.
                                     </div>
-                                    <div className="pl-8 pr-4 border-l-[1px] 
+                                    <div className="font-normal pl-8 pr-4 border-l-[1px] 
                                                     leading-tight h-full 
                                                     3xl:pl-[2vw] 2xl:pr-[3vw] 
                                                     5xl:pl-[3vw] 5xl:pr-[2vw]">

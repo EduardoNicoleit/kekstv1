@@ -36,25 +36,25 @@ const Volkswagen = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="hidden lg:block text-normal">
+                        <div className="hidden lg:block font-normal">
                             <div
                                 className="lg:flex-col 2xl:flex-row flex border-white border-y-[1px] sm:text-4xl md:text-3xl lg:text-[22px] 3xl:text-[1.2vw] lg:h-[220px] xl:h-[188px] 2xl:h-[128px] 3xl:h-[15vh] items-start 2xl:items-center"
                             >
 
 
                                 <div
-                                    className="text-normal lg:pl-[60px] lg:pr-0 lg:py-4 xl:py-5 2xl:py-[2vw] w-[300px] lg:w-[200px] 2xl:w-[308px] 3xl:w-[14vw] mb-0 2xl:mb-12 3xl:pl-[2vw] 3xl:pr-[2vw] 3xl:py-[2vw] 2xl:px-[1vw]"
+                                    className="font-normal lg:pl-[60px] lg:pr-0 lg:py-4 xl:py-5 2xl:py-[2vw] w-[300px] lg:w-[200px] 2xl:w-[308px] 3xl:w-[14vw] mb-0 2xl:mb-12 3xl:pl-[2vw] 3xl:pr-[2vw] 3xl:py-[2vw] 2xl:px-[1vw]"
                                 >
                                     Overview:
                                 </div>
-                                <div className="text-normal lg:grid grid-cols-3 w-full items-start 2xl:items-center 3xl:gap-[1vw] 5xl:gap-[1.5vw]">
-                                    <div className="pl-[60px] 2xl:pl-10 pr-4 xl:border-l-0 2xl:border-l-[1px] leading-tight h-full 3xl:pl-[2.15vw] 3xl:pr-[1vw]">
+                                <div className="font-normal lg:grid grid-cols-3 w-full items-start 2xl:items-center 3xl:gap-[1vw] 5xl:gap-[1.5vw]">
+                                    <div className="font-normal pl-[60px] 2xl:pl-10 pr-4 xl:border-l-0 2xl:border-l-[1px] leading-tight h-full 3xl:pl-[2.15vw] 3xl:pr-[1vw]">
                                         Crafted a targeted social media campaign for Volkswagen's ESG initiatives.
                                     </div>
-                                    <div className="pl-8 pr-4 border-l-[1px] leading-tight h-full 3xl:pl-[2vw] 3xl:pr-[2vw] 5xl:pl-[3vw] ">
+                                    <div className="font-normal pl-8 pr-4 border-l-[1px] leading-tight h-full 3xl:pl-[2vw] 3xl:pr-[2vw] 5xl:pl-[3vw] ">
                                         Engaged audiences with creative content over a two-month period.
                                     </div>
-                                    <div className="pl-8 pr-4 border-l-[1px] leading-tight h-full 3xl:pl-[2vw] 2xl:pr-[3vw] 5xl:pl-[3vw] ">
+                                    <div className="font-normal pl-8 pr-4 border-l-[1px] leading-tight h-full 3xl:pl-[2vw] 2xl:pr-[3vw] 5xl:pl-[3vw] ">
                                         Transformed ESG data into relatable visuals, enhancing audience connection.
                                     </div>
                                 </div>

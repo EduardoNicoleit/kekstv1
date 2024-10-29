@@ -65,7 +65,7 @@ const FarmerVoice = ({ isSticky, element }) => {
                                 >
                                     Overview:
                                 </div>
-                                <div className="text-normal lg:grid grid-cols-3 w-full items-start 2xl:items-center 
+                                <div className="font-normal lg:grid grid-cols-3 w-full items-start 2xl:items-center 
                                                 3xl:gap-[1vw] 5xl:gap-[1.5vw]">
                                     <div className="pl-[60px] 2xl:pl-8 pr-4 xl:border-l-0 2xl:border-l-[1px] 
                                                 leading-tight h-full 
