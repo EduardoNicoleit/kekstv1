@@ -76,7 +76,7 @@ const CeoTracker = ({ isSticky, element }) => {
                                 >
                                     Overview
                                 </div>
-                                <div className="lg:grid grid-cols-2 w-full min-h-[300px] md:min-h-[400px] items-start 
+                                <div className="lg:grid grid-cols-2 w-full items-start 
                                                 2xl:items-center">
                                     <div className="pl-[60px] 2xl:pl-8 2xl:pr-20 
                                                     3xl:pr-40 xl:border-l-0 
