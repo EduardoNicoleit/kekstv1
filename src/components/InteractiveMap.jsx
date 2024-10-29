@@ -379,12 +379,12 @@ Arlington, VA 22201`,
                     // If this city is the selected city (from interval)
                     cityNameDiv.style.fontWeight = 'bold';
                     cityNameDiv.style.transform = 'scale(1)';
-                    cityNameDiv.style.opacity = (hoveredCity || clickedCity) ? '0.6' : '1';
+                    cityNameDiv.style.opacity = (hoveredCity || clickedCity) ? '0.5' : '1';
                 } else {
                     // All other cities
                     cityNameDiv.style.fontWeight = 'normal';
                     cityNameDiv.style.transform = 'scale(1)';
-                    cityNameDiv.style.opacity = (hoveredCity || clickedCity) ? '0.6' : '1';
+                    cityNameDiv.style.opacity = (hoveredCity || clickedCity) ? '0.5' : '1';
                 }
             }
         });
@@ -444,7 +444,7 @@ Arlington, VA 22201`,
                     <div className="mt-12 md:mt-[80px] lg:mt-[80px] xl:mt-[100px] 2xl:mt-[120px] 3xl:mt-[5vw]">
                         {/* "Where we are:" text */}
                         <div className="font-Helvetica font-extrabold text-[24px] md:text-[32px] lg:text-[32px] xl:text-[36px] 2xl:text-[38px] 3xl:text-[2.2vw] leading-tight text-white mt-3">
-                            Where we are:
+                            {/* Where we are: */}
                         </div>
 
                         {/* City Name with Icon */}
