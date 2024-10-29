@@ -263,7 +263,7 @@ const ProcessCompo = () => {
                                         color="white"
                                         size="lg"
                                         onClick={handlePrev}
-                                        className="!absolute top-[62%] xs:left-4 -translate-y-2/4 hidden"
+                                        className="!absolute top-[37%] xs:left-4 -translate-y-2/4"
                                     >
                                         <svg width="18" height="28" viewBox="0 0 18 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M11.4003 14L0.666992 3.26667L3.93366 0L17.9337 14L3.93366 28L0.666992 24.7333L11.4003 14Z" fill="white" />

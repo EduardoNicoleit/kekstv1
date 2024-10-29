@@ -141,7 +141,7 @@ Arlington, VA 22201`,
             const screenWidth = window.innerWidth;
 
             if (screenWidth < 768) { // Mobile breakpoint
-                baseFontSize = 40; // Adjust this value as needed
+                baseFontSize = 45; // Adjust this value as needed
             } else {
                 baseFontSize = 20;
             }
@@ -379,12 +379,12 @@ Arlington, VA 22201`,
                     // If this city is the selected city (from interval)
                     cityNameDiv.style.fontWeight = 'bold';
                     cityNameDiv.style.transform = 'scale(1)';
-                    cityNameDiv.style.opacity = (hoveredCity || clickedCity) ? '0.1' : '1';
+                    cityNameDiv.style.opacity = (hoveredCity || clickedCity) ? '0.6' : '1';
                 } else {
                     // All other cities
                     cityNameDiv.style.fontWeight = 'normal';
                     cityNameDiv.style.transform = 'scale(1)';
-                    cityNameDiv.style.opacity = (hoveredCity || clickedCity) ? '0.1' : '1';
+                    cityNameDiv.style.opacity = (hoveredCity || clickedCity) ? '0.6' : '1';
                 }
             }
         });
@@ -434,25 +434,25 @@ Arlington, VA 22201`,
                             </div>
 
                             <div className="flex items-center h-full">
-                                <div className="font-Helvetica font-bold sm:text-[17px] lg:text-[20px] xl:text-2xl 2xl:text-3xl 3xl:text-[1.2vw] pl-1 2xl:pl-[0.5vw]">
+                                <div className="font-Helvetica font-bold text-[17px] lg:text-[20px] xl:text-2xl 2xl:text-3xl 3xl:text-[1.2vw] pl-1 2xl:pl-[0.5vw]">
                                     creative@kekstcnc.com
                                 </div>
                             </div>
                         </div>
                     </a>
                     {/* Address Display */}
-                    <div className="mt-8 md:mt-16">
+                    <div className="mt-12 md:mt-[80px] lg:mt-[80px] xl:mt-[100px] 2xl:mt-[120px] 3xl:mt-[5vw]">
                         {/* "Where we are:" text */}
-                        <div className="font-Helvetica font-extrabold text-[24px] md:text-[32px] lg:text-[32px] xl:text-[36px] 2xl:text-[38px] 3xl:text-[2.2vw] leading-tight text-white mt-3 lg:mt-6">
+                        <div className="font-Helvetica font-extrabold text-[24px] md:text-[32px] lg:text-[32px] xl:text-[36px] 2xl:text-[38px] 3xl:text-[2.2vw] leading-tight text-white mt-3">
                             Where we are:
                         </div>
 
                         {/* City Name with Icon */}
-                        <div className="flex items-center mb-2">
+                        <div className="flex items-center mb-2 mt-4 lg:mt-4 3xl:mt-[1vw]">
                             {/* SVG Icon */}
-                            <div className="mr-2 lg:mr-4 xl:mr-6 mt-3 lg:mt-6 3xl:mt-[1.5vw]">
+                            <div className="mr-2 3xl:mr-[0.5vw] mt-4 lg:mt-6 3xl:mt-[1.5vw]">
                                 <svg
-                                    className="w-[20px] h-[20px] 2xl:w-[2vw] 2xl:h-[2vw]"
+                                    className="w-[18px] h-[18px] xl:w-[20px] xl:h-[20px] 2xl:w-[2vw] 2xl:h-[2vw]"
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
                                     height="20"
@@ -463,14 +463,14 @@ Arlington, VA 22201`,
                                 </svg>
                             </div>
                             {/* City Name */}
-                            <div className="font-Helvetica font-bold text-[22px] md:text-[30px] lg:text-[30px] xl:text-[34px] 2xl:text-[36px] 3xl:text-[2vw] leading-tight text-white mt-3 lg:mt-6 3xl:mt-[1.5vw]">
+                            <div className="items-center justify-center lg:mr-4 xl:mr-6 mt-4 lg:mt-6 3xl:mt-[1.5vw] font-Helvetica font-bold text-[17px] lg:text-[20px] xl:text-2xl 2xl:text-3xl 3xl:text-[1.2vw] leading-tight text-white">
                                 {displayedCity?.city}
                             </div>
                         </div>
 
                         {/* Address */}
                         <div
-                            className="h-[50px] md:h-auto font-Helvetica sm:text-[17px] lg:text-[20px] xl:text-2xl 2xl:text-3xl 3xl:text-[1.1vw] font-normal whitespace-pre-line address-display leading-normal py-4 2xl:py-[1.5vw] 3xl:leading-[1.8vw]"
+                            className="h-[50px] md:h-auto font-Helvetica sm:text-[12px] md:text-[12px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[1vw] font-normal whitespace-pre-line address-display leading-normal py-4 2xl:py-[1.5vw] 3xl:leading-[1.8vw]"
                             style={{
                                 opacity: displayedCity ? '1' : '0',
                                 transition: 'opacity 0.2s ease',
@@ -482,9 +482,9 @@ Arlington, VA 22201`,
                 </div>
 
                 {/* Right Section - Interactive Map */}
-                <div className="w-full md:w-2/3 flex-shrink-0 overflow-visible mt-8 md:mt-0">
+                <div className="w-full md:w-2/3 flex-shrink-0 overflow-visible mt-[20px] md:mt-[120px]">
                     <div
-                        className="svg-container w-full mt-[100px] mt-8 md:mt-[120px]"
+                        className="svg-container w-full"
                         style={{ position: 'relative' }}
                     >
                         {/* Map Component */}
