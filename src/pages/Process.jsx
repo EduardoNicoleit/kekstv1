@@ -263,10 +263,10 @@ const ProcessCompo = () => {
                                         color="white"
                                         size="lg"
                                         onClick={handlePrev}
-                                        className="!absolute top-[37%] xs:left-4 -translate-y-2/4"
+                                        className="!absolute top-[37%] xs:left-4 -translate-y-2/4 scale-x-[-1]"
                                     >
                                         <svg width="18" height="28" viewBox="0 0 18 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M11.4003 14L0.666992 3.26667L3.93366 0L17.9337 14L3.93366 28L0.666992 24.7333L11.4003 14Z" fill="white" />
+                                            <path d="M11.4 14L0.667 24.7333L3.93366 28L17.9337 14L3.93366 0L0.666992 3.26667L11.4 14Z" fill="white" />
                                         </svg>
                                     </IconButton>
                                 )}
@@ -310,7 +310,7 @@ const ProcessCompo = () => {
                                         <div className="font-Helvetica pt-[10px] text-[17px] 3xl:text-[1.5vw] 3xl:leading-[2vw] font-normal text-white">
                                             {processStateData[0].mainContent}
                                         </div>
-                                        <div className="flex-1 flex pr-5 pl-5 text-white pt-5">
+                                        <div className="flex-1 flex pr-5 text-white pt-5">
                                             <div className="flex justify-center flex-col font-Helvetica font-normal text-[17px] 3xl:text-[1.5vw] 3xl:leading-[2vw]">
                                                 <ul className="list-disc">
                                                     <li className="leading-tight">

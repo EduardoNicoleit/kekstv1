@@ -143,7 +143,7 @@ Arlington, VA 22201`,
             if (screenWidth < 768) { // Mobile breakpoint
                 baseFontSize = 45; // Adjust this value as needed
             } else {
-                baseFontSize = 20;
+                baseFontSize = 25;
             }
 
             const scaleFactor = screenWidth / 1920;
@@ -233,11 +233,11 @@ Arlington, VA 22201`,
                             cityNameDiv.style.top = `${yPos + 0.5 * textHeight}px`;
                             break;
                         case "berlin":
-                            cityNameDiv.style.left = `${xPos + xOffset}px`;
+                            cityNameDiv.style.left = `${xPos + 0.3 * textWidth}px`;
                             cityNameDiv.style.top = `${yPos - 0.5 * textHeight}px`;
                             break;
                         case "brussels":
-                            cityNameDiv.style.left = `${xPos - 8}px`;
+                            cityNameDiv.style.left = `${xPos - 0.10 * textWidth}px`;
                             cityNameDiv.style.top = `${yPos - 1.3 * textHeight}px`;
                             break;
                         case "dubai":
@@ -262,7 +262,7 @@ Arlington, VA 22201`,
                             cityNameDiv.style.top = `${yPos - 5}px`;
                             break;
                         case "munich":
-                            cityNameDiv.style.left = `${xPos + xOffset}px`;
+                            cityNameDiv.style.left = `${xPos + 0.2 * textWidth}px`;
                             cityNameDiv.style.top = `${yPos - 5}px`;
                             break;
                         case "new-york":
@@ -283,7 +283,7 @@ Arlington, VA 22201`,
                             break;
                         case "stockholm":
                             cityNameDiv.style.left = `${xPos - (textWidth + 5)}px`;
-                            cityNameDiv.style.top = `${yPos - 15}px`;
+                            cityNameDiv.style.top = `${yPos - textHeight}px`;
                             break;
                         case "tokyo":
                             cityNameDiv.style.left = `${xPos}px`;
@@ -291,7 +291,7 @@ Arlington, VA 22201`,
                             break;
                         case "washington":
                             cityNameDiv.style.left = `${xPos}px`;
-                            cityNameDiv.style.top = `${yPos + textHeight}px`;
+                            cityNameDiv.style.top = `${yPos + 0.3 * textHeight}px`;
                             break;
                         default:
                             cityNameDiv.style.left = `${xPos}px`;
