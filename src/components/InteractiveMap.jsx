@@ -38,7 +38,7 @@ Belgium`,
         {
             className: ".st12",
             city: "Dubai",
-            address: `Boutique Office 21,
+            address: `Boutique Office 21
 Dubai Knowledge Park
 Al Sufouh
 Dubai
