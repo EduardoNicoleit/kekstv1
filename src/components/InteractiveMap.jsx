@@ -143,7 +143,7 @@ Arlington, VA 22201`,
             if (screenWidth < 768) { // Mobile breakpoint
                 baseFontSize = 45; // Adjust this value as needed
             } else {
-                baseFontSize = 25;
+                baseFontSize = 18;
             }
 
             const scaleFactor = screenWidth / 1920;
