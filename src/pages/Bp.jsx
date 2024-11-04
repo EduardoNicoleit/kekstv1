@@ -178,7 +178,7 @@ const BP = ({ isSticky, element }) => {
                 </div>
 
                 {/* Image Sections */}
-                <div className="pt-8 2xl:pt-16 3xl:pt-[6vw]">
+                <div className="">
                     <img
                         src="/assets/img/bp/bp_o.jpg"
                         className="w-full h-auto object-cover"
@@ -208,7 +208,7 @@ const BP = ({ isSticky, element }) => {
                     </div>
                 </div>
                 <div className="pt-8 2xl:pt-16 pb-8 md:pb-0 
-                                3xl:pt-[6vw] 5xl:pt-[8vw]">
+                                3xl:pt-[6vw]">
                     <img
                         src="/assets/img/bp/bp_1.png"
                         className="w-full h-auto object-cover"
@@ -216,7 +216,7 @@ const BP = ({ isSticky, element }) => {
 
                     />
                 </div>
-                <div className="pb-8 2xl:pb-16 3xl:pb-[6vw] 5xl:pb-[8vw]">
+                <div className="pb-8 2xl:pb-16 3xl:pb-[6vw]">
                     <img
                         src="/assets/img/bp/bp_5.png"
                         className="w-full h-auto object-cover"
@@ -226,132 +226,97 @@ const BP = ({ isSticky, element }) => {
                 </div>
 
                 {/* Two Images with Hover Effect */}
-                <div className="w-full border-t border-b border-white pt-0">
+                <div className="w-full border-t border-b border-white">
                     <div className="flex text-white font-Helvetica">
                         <div className="grid grid-cols-2 w-full min-h-[300px] md:min-h-[400px]">
                             {/* First Image Container */}
-                            <div className="overflow-hidden md:border-r md:border-white">
-                                <Link to="/works/dtcp">
-                                    <div
-                                        className="cursor-pointer py-[26px] 2xl:py-[100px] 
-                                                3xl:py-[6vw] px-[15px] md:px-10 
-                                                3xl:px-[2vw] flex flex-col h-full
-                                                bg-[url('assets/img/bp/dtcp_geader_1.png')] 
-                                                md:bg-[url('assets/img/bp/dtcp_geader.png')] 
-                                                bg-no-repeat bg-cover
-                                                transition duration-300 ease-in-out hover:scale-105 
-                                                5xl:py-[10vw] 5xl:px-[3vw]"
-                                    >
-                                        <div
-                                            className="font-bold text-[15px] lg:text-base 
-                                                       xl:text-2xl 3xl:text-[1.5vw] 
-                                                       5xl:text-[1vw]"
-                                        >
-                                            DTCP
-                                        </div>
-                                        <div className="flex-1">
-                                            <div
-                                                className="max-w-[440px] 3xl:max-w-[20vw] 
-                                                           py-[26px] lg:py-[43px] 
-                                                           xl:py-[67px] 3xl:py-[4vw] 
-                                                           font-normal text-[12px] lg:text-[21px] 
-                                                           xl:text-[32px] 2xl:text-[40px] 
-                                                           3xl:text-[1.3vw] 5xl:text-[1.2vw] 
-                                                           leading-tight 5xl:py-[5vw]"
-                                            >
-                                                Infusing dynamic visual narratives and data insights to craft a trustworthy, stakeholder-engaging brand identity for DTCP.
-                                            </div>
-                                        </div>
-                                        <div className="flex py-8 items-center pl-4 
-                                                        3xl:py-[2vw] 5xl:py-[2.5vw]">
-                                            <div
-                                                className="uppercase font-normal text-[13px] 
-                                                           lg:text-xs xl:text-lg 
-                                                           3xl:text-[1.1vw] 5xl:text-[1.2vw]"
-                                            >
-                                                read more
-                                            </div>
+                            <div className="overflow-hidden border-r border-white relative group">
+                                <Link to="/works/bpl">
+                                    <div className="cursor-pointer py-[26px] 2xl:py-[100px] 3xl:py-[6vw] px-[15px] md:px-10 3xl:px-[2vw] flex flex-col h-full relative">
+                                        {/* Background image using pseudo-element */}
+                                        <div className="absolute inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out bg-[url('assets/img/bp/dtcp_geader_1.png')] md:bg-[url('assets/img/bp/dtcp_geader.png')] group-hover:scale-110 before:content-[''] before:absolute before:inset-0 before:bg-cover before:bg-center before:bg-no-repeat before:transition-transform before:duration-300 before:ease-in-out before:scale-100 group-hover:before:scale-110" />
+
+                                        {/* Content overlay */}
+                                        <div className="relative z-10 flex flex-col justify-between h-full">
+                                            {/* Title and Description */}
                                             <div>
-                                                <svg
-                                                    className="ml-3 pt-[2px] w-6 h-6 
-                                                           3xl:w-[1.5vw] 3xl:h-[1.5vw] 
-                                                           5xl:w-[1vw] 5xl:h-[1vw]"
-                                                    viewBox="0 0 24 24"
-                                                    fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                >
-                                                    <g id="arrow_outward">
-                                                        <path
-                                                            id="Vector"
-                                                            d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z"
-                                                            fill="white"
-                                                        />
-                                                    </g>
-                                                </svg>
+                                                <div className="font-bold text-[15px] lg:text-base xl:text-2xl 3xl:text-[1.5vw]">
+                                                    DTCP
+                                                </div>
+                                                <div className="flex-1">
+                                                    <div className="max-w-[440px] 3xl:max-w-[20vw] py-[26px] lg:py-[43px] xl:py-[67px] 3xl:py-[4vw] font-normal text-[12px] lg:text-[21px] xl:text-[32px] 2xl:text-[40px] 3xl:text-[1.3vw] leading-tight">
+                                                        Infusing dynamic visual narratives and data insights to craft a trustworthy, stakeholder-engaging brand identity for DTCP.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            {/* Read More Section */}
+                                            <div className="flex py-8 items-center">
+                                                <div className="uppercase font-normal text-[13px] lg:text-xs xl:text-lg 3xl:text-[1.1vw]">
+                                                    read more
+                                                </div>
+                                                <div>
+                                                    <svg
+                                                        className="ml-3 pt-[2px] w-6 h-6 3xl:w-[1.5vw] 3xl:h-[1.5vw] 5xl:w-[1vw] 5xl:h-[1vw]"
+                                                        viewBox="0 0 24 24"
+                                                        fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                    >
+                                                        <g id="arrow_outward">
+                                                            <path
+                                                                id="Vector"
+                                                                d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z"
+                                                                fill="white"
+                                                            />
+                                                        </g>
+                                                    </svg>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </Link>
                             </div>
                             {/* Second Image Container */}
-                            <div className="overflow-hidden">
-                                <Link to="/works/ceoTracker">
-                                    <div
-                                        className="cursor-pointer py-[26px] 2xl:py-[100px] 
-                                                3xl:py-[6vw] px-[15px] md:px-10 
-                                                3xl:px-[2vw] flex flex-col h-full
-                                                bg-[url('assets/img/bp/ceo_2.png')] 
-                                                md:bg-[url('assets/img/bp/ceo_1.png')] 
-                                                bg-no-repeat bg-cover
-                                                transition duration-300 ease-in-out hover:scale-105 
-                                                5xl:py-[10vw] 5xl:px-[3vw]"
-                                    >
-                                        <div
-                                            className="font-bold text-[15px] lg:text-base 
-                                                       xl:text-2xl 3xl:text-[1.5vw] 
-                                                       5xl:text-[1vw]"
-                                        >
-                                            CEO Tracker
-                                        </div>
-                                        <div className="flex-1">
-                                            <div
-                                                className="max-w-[440px] 3xl:max-w-[20vw] 
-                                                           py-[26px] lg:py-[43px] 
-                                                           xl:py-[67px] 3xl:py-[4vw] 
-                                                           font-normal text-[12px] lg:text-[21px] 
-                                                           xl:text-[32px] 2xl:text-[40px] 
-                                                           3xl:text-[1.3vw] 5xl:text-[1.2vw] 
-                                                           leading-tight 5xl:py-[5vw]"
-                                            >
-                                                Analyzing CEO communication during turbulent times and crafting visually engaging narratives to showcase diverse leadership strategies amidst complex challenges.
-                                            </div>
-                                        </div>
-                                        <div className="flex py-8 items-center pl-4 
-                                                        3xl:py-[2vw] 5xl:py-[2.5vw]">
-                                            <div
-                                                className="uppercase font-normal text-[13px] 
-                                                           lg:text-xs xl:text-lg 
-                                                           3xl:text-[1.1vw] 5xl:text-[1.2vw]"
-                                            >
-                                                read more
-                                            </div>
+                            <div className="overflow-hidden relative group">
+                                <Link to="/works/netClean">
+                                    <div className="cursor-pointer py-[26px] 2xl:py-[100px] 3xl:py-[6vw] px-[15px] md:px-10 3xl:px-[2vw] flex flex-col h-full relative">
+                                        {/* Background image using pseudo-element */}
+                                        <div className="absolute inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out bg-[url('assets/img/bp/ceo_2.png')] 
+                                                md:bg-[url('assets/img/bp/ceo_1.png')] group-hover:scale-110 before:content-[''] before:absolute before:inset-0 before:bg-cover before:bg-center before:bg-no-repeat before:transition-transform before:duration-300 before:ease-in-out before:scale-100 group-hover:before:scale-110" />
+
+                                        {/* Content overlay */}
+                                        <div className="relative z-10 flex flex-col justify-between h-full">
+                                            {/* Title and Description */}
                                             <div>
-                                                <svg
-                                                    className="ml-3 pt-[2px] w-6 h-6 
-                                                           3xl:w-[1.5vw] 3xl:h-[1.5vw] 
-                                                           5xl:w-[1vw] 5xl:h-[1vw]"
-                                                    viewBox="0 0 24 24"
-                                                    fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                >
-                                                    <g id="arrow_outward">
-                                                        <path
-                                                            id="Vector"
-                                                            d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z"
-                                                            fill="white"
-                                                        />
-                                                    </g>
-                                                </svg>
+                                                <div className="font-bold text-[15px] lg:text-base xl:text-2xl 3xl:text-[1.5vw]">
+                                                    CEO Tracker
+                                                </div>
+                                                <div className="flex-1">
+                                                    <div className="max-w-[440px] 3xl:max-w-[20vw] py-[26px] lg:py-[43px] xl:py-[67px] 3xl:py-[4vw] font-normal text-[12px] lg:text-[21px] xl:text-[32px] 2xl:text-[40px] 3xl:text-[1.3vw] leading-tight">
+                                                        Analyzing CEO communication during turbulent times and crafting visually engaging narratives to showcase diverse leadership strategies amidst complex challenges.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            {/* Read More Section */}
+                                            <div className="flex py-8 items-center">
+                                                <div className="uppercase font-normal text-[13px] lg:text-xs xl:text-lg 3xl:text-[1.1vw]">
+                                                    read more
+                                                </div>
+                                                <div>
+                                                    <svg
+                                                        className="ml-3 pt-[2px] w-6 h-6 3xl:w-[1.5vw] 3xl:h-[1.5vw] 5xl:w-[1vw] 5xl:h-[1vw]"
+                                                        viewBox="0 0 24 24"
+                                                        fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                    >
+                                                        <g id="arrow_outward">
+                                                            <path
+                                                                id="Vector"
+                                                                d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z"
+                                                                fill="white"
+                                                            />
+                                                        </g>
+                                                    </svg>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -360,9 +325,9 @@ const BP = ({ isSticky, element }) => {
                         </div>
                     </div>
                 </div>
-            </div>
 
-            {/* Footer and MainBorder Components */}
+
+            </div>
             <Footer />
             <MainBorder />
         </div>

@@ -162,87 +162,89 @@ const Volkswagen = () => {
                         alt="Volkswagen Mockup 4"
                     />
                 </div>
+
                 {/* Two Images with Hover Effect */}
                 <div className="w-full border-t border-b border-white">
                     <div className="flex text-white font-Helvetica">
                         <div className="grid grid-cols-2 w-full min-h-[300px] md:min-h-[400px]">
                             {/* First Image Container */}
-                            <div className="overflow-hidden md:border-r md:border-white">
+                            <div className="overflow-hidden md:border-r md:border-white relative group">
                                 <Link to="/works/bpl">
-                                    <div
-                                        className="cursor-pointer py-[26px] 2xl:py-[100px] 3xl:py-[6vw] px-[15px] md:px-10 3xl:px-[2vw] flex flex-col h-full bg-[url('assets/img/volkswagen/BPI_1.png')] bg-no-repeat bg-cover transition duration-300 ease-in-out hover:scale-105"
-                                    >
-                                        <div className="font-bold text-[15px] lg:text-base xl:text-2xl 3xl:text-[1.5vw]">BPI</div>
-                                        <div className="flex-1">
-                                            <div
-                                                className="max-w-[440px] 3xl:max-w-[20vw] py-[26px] lg:py-[43px] xl:py-[67px] 3xl:py-[4vw] font-normal text-[12px] lg:text-[21px] xl:text-[32px] 2xl:text-[40px] 3xl:text-[1.3vw] leading-tight"
-                                            >
-                                                Partnering with BPI to spotlight its crucial role in advancing the pharmaceutical industry through engaging narratives and innovative visual strategies.
-                                            </div>
-                                        </div>
-                                        {/* Optional: Remove this div if you don't want the "read more" link inside */}
-                                        <div className="flex py-8 items-center">
-                                            <div className="uppercase font-normal text-[13px] lg:text-xs xl:text-lg 3xl:text-[1.1vw]">
-                                                read more
-                                            </div>
+                                    <div className="cursor-pointer py-[26px] 2xl:py-[100px] 3xl:py-[6vw] px-[15px] md:px-10 3xl:px-[2vw] flex flex-col h-full relative">
+                                        {/* Background image using pseudo-element */}
+                                        <div className="absolute inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out bg-[url('assets/img/volkswagen/BPI_1.png')] group-hover:scale-110 before:content-[''] before:absolute before:inset-0 before:bg-cover before:bg-center before:bg-no-repeat before:transition-transform before:duration-300 before:ease-in-out before:scale-100 group-hover:before:scale-110" />
+
+                                        {/* Content overlay */}
+                                        <div className="relative z-10 flex flex-col justify-between h-full">
                                             <div>
-                                                <svg
-                                                    className="ml-3 pt-[2px] w-6 h-6 
-                                               3xl:w-[1.5vw] 3xl:h-[1.5vw] 
-                                               5xl:w-[1vw] 5xl:h-[1vw]"
-                                                    viewBox="0 0 24 24"
-                                                    fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                >
-                                                    <g id="arrow_outward">
-                                                        <path
-                                                            id="Vector"
-                                                            d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z"
-                                                            fill="white"
-                                                        />
-                                                    </g>
-                                                </svg>
+                                                <div className="font-bold text-[15px] lg:text-base xl:text-2xl 3xl:text-[1.5vw]">BPI</div>
+                                                <div className="flex-1">
+                                                    <div className="max-w-[440px] 3xl:max-w-[20vw] py-[26px] lg:py-[43px] xl:py-[67px] 3xl:py-[4vw] font-normal text-[12px] lg:text-[21px] xl:text-[32px] 2xl:text-[40px] 3xl:text-[1.3vw] leading-tight">
+                                                        Partnering with BPI to spotlight its crucial role in advancing the pharmaceutical industry through engaging narratives and innovative visual strategies.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="flex py-8 items-center">
+                                                <div className="uppercase font-normal text-[13px] lg:text-xs xl:text-lg 3xl:text-[1.1vw]">
+                                                    read more
+                                                </div>
+                                                <div>
+                                                    <svg
+                                                        className="ml-3 pt-[2px] w-6 h-6 3xl:w-[1.5vw] 3xl:h-[1.5vw] 5xl:w-[1vw] 5xl:h-[1vw]"
+                                                        viewBox="0 0 24 24"
+                                                        fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                    >
+                                                        <g id="arrow_outward">
+                                                            <path
+                                                                id="Vector"
+                                                                d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z"
+                                                                fill="white"
+                                                            />
+                                                        </g>
+                                                    </svg>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </Link>
                             </div>
                             {/* Second Image Container */}
-                            <div className="overflow-hidden">
+                            <div className="overflow-hidden relative group">
                                 <Link to="/works/netClean">
-                                    <div
-                                        className="cursor-pointer py-[26px] 2xl:py-[100px] 3xl:py-[6vw] px-[15px] md:px-10 3xl:px-[2vw] flex flex-col h-full bg-[url('assets/img/volkswagen/netclean_3.png')] md:bg-[url('assets/img/volkswagen/netclean_2.png')] bg-no-repeat bg-cover transition duration-300 ease-in-out hover:scale-105"
-                                    >
-                                        <div className="font-bold text-[15px] lg:text-base xl:text-2xl 3xl:text-[1.5vw]">NetClean</div>
-                                        <div className="flex-1">
-                                            <div
-                                                className="max-w-[440px] 3xl:max-w-[20vw] py-[26px] lg:py-[43px] xl:py-[67px] 3xl:py-[4vw] font-normal text-[12px] lg:text-[21px] xl:text-[32px] 2xl:text-[40px] 3xl:text-[1.3vw] leading-tight"
-                                            >
-                                                Reinventing how annual data reports can be transformed into impactful narrative communication tools.
-                                            </div>
-                                        </div>
-                                        {/* Optional: Remove this div if you don't want the "read more" link inside */}
-                                        <div className="flex py-8 items-center">
-                                            <div className="uppercase font-normal text-[13px] lg:text-xs xl:text-lg 3xl:text-[1.1vw]">
-                                                read more
-                                            </div>
+                                    <div className="cursor-pointer py-[26px] 2xl:py-[100px] 3xl:py-[6vw] px-[15px] md:px-10 3xl:px-[2vw] flex flex-col h-full relative">
+                                        <div className="absolute inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out bg-[url('assets/img/volkswagen/netclean_3.png')] md:bg-[url('assets/img/volkswagen/netclean_2.png')] group-hover:scale-110 before:content-[''] before:absolute before:inset-0 before:bg-cover before:bg-center before:bg-no-repeat before:transition-transform before:duration-300 before:ease-in-out before:scale-100 group-hover:before:scale-110" />
+
+                                        {/* Content overlay */}
+                                        <div className="relative z-10 flex flex-col justify-between h-full">
                                             <div>
-                                                <svg
-                                                    className="ml-3 pt-[2px] w-6 h-6 
-                                               3xl:w-[1.5vw] 3xl:h-[1.5vw] 
-                                               5xl:w-[1vw] 5xl:h-[1vw]"
-                                                    viewBox="0 0 24 24"
-                                                    fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                >
-                                                    <g id="arrow_outward">
-                                                        <path
-                                                            id="Vector"
-                                                            d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z"
-                                                            fill="white"
-                                                        />
-                                                    </g>
-                                                </svg>
+                                                <div className="font-bold text-[15px] lg:text-base xl:text-2xl 3xl:text-[1.5vw]">NetClean</div>
+                                                <div className="flex-1">
+                                                    <div className="max-w-[440px] 3xl:max-w-[20vw] py-[26px] lg:py-[43px] xl:py-[67px] 3xl:py-[4vw] font-normal text-[12px] lg:text-[21px] xl:text-[32px] 2xl:text-[40px] 3xl:text-[1.3vw] leading-tight">
+                                                        Reinventing how annual data reports can be transformed into impactful narrative communication tools.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="flex py-8 items-center">
+                                                <div className="uppercase font-normal text-[13px] lg:text-xs xl:text-lg 3xl:text-[1.1vw]">
+                                                    read more
+                                                </div>
+                                                <div>
+                                                    <svg
+                                                        className="ml-3 pt-[2px] w-6 h-6 3xl:w-[1.5vw] 3xl:h-[1.5vw] 5xl:w-[1vw] 5xl:h-[1vw]"
+                                                        viewBox="0 0 24 24"
+                                                        fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                    >
+                                                        <g id="arrow_outward">
+                                                            <path
+                                                                id="Vector"
+                                                                d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z"
+                                                                fill="white"
+                                                            />
+                                                        </g>
+                                                    </svg>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -251,6 +253,7 @@ const Volkswagen = () => {
                         </div>
                     </div>
                 </div>
+
             </div>
             <Footer />
             <MainBorder />

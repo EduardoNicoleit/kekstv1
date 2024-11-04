@@ -230,114 +230,148 @@ const DTCP = ({ isSticky, element }) => {
                     <div className="flex text-white font-Helvetica">
                         <div className="grid grid-cols-2 w-full min-h-[300px] md:min-h-[400px]">
                             {/* First Image Container */}
-                            <div className="overflow-hidden md:border-r md:border-white">
+                            <div className="overflow-hidden border-r border-white relative group">
                                 <Link to="/works/maltesert">
                                     <div
                                         className="cursor-pointer py-[26px] 2xl:py-[100px] 
-                                       3xl:py-[6vw] px-[15px] md:px-10 3xl:px-[2vw] flex flex-col h-full
-                                       bg-[url('assets/img/farmervoice/malteser_1.png')] 
-                                       md:bg-[url('assets/img/dtcp/malteser_header.png')] 
-                                       bg-no-repeat bg-cover
-                                       transition duration-300 ease-in-out hover:scale-105 
-                                       5xl:py-[10vw] 5xl:px-[3vw]"
+                                   3xl:py-[6vw] 5xl:py-[10vw] 
+                                   px-[15px] md:px-10 3xl:px-[2vw] 5xl:px-[3vw] 
+                                   flex flex-col h-full relative"
                                     >
-                                        <div className="font-bold text-[15px] lg:text-base 
-                                        xl:text-2xl 3xl:text-[1.5vw] 5xl:text-[1vw]">
-                                            Malteser
-                                        </div>
-                                        <div className="flex-1">
-                                            <div
-                                                className="max-w-[440px] 3xl:max-w-[20vw] 
-                                               py-[26px] lg:py-[43px] xl:py-[67px] 3xl:py-[4vw] 
-                                               font-normal text-[12px] lg:text-[21px] 
-                                               xl:text-[32px] 2xl:text-[40px] 
-                                               3xl:text-[1.3vw] 5xl:text-[1.2vw] 
-                                               leading-tight 5xl:py-[5vw]"
-                                            >
-                                                Merging data with design to democratize information, crafting a visually engaging, universally accessible identity.
-                                            </div>
-                                        </div>
-                                        <div className="flex py-8 items-center pl-4 
-                                        3xl:py-[2vw] 5xl:py-[2.5vw]">
-                                            <div className="uppercase font-normal text-[13px] 
-                                            lg:text-xs xl:text-lg 
-                                            3xl:text-[1.1vw] 5xl:text-[1.2vw]">
-                                                read more
-                                            </div>
+                                        {/* Background image using pseudo-element */}
+                                        <div className="absolute inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out 
+                                        bg-[url('assets/img/farmervoice/malteser_1.png')] 
+                                        md:bg-[url('assets/img/dtcp/malteser_header.png')] 
+                                        group-hover:scale-110 
+                                        before:content-[''] before:absolute before:inset-0 
+                                        before:bg-cover before:bg-center before:bg-no-repeat 
+                                        before:transition-transform before:duration-300 
+                                        before:ease-in-out before:scale-100 group-hover:before:scale-110" />
+
+                                        {/* Content overlay */}
+                                        <div className="relative z-10 flex flex-col justify-between h-full">
+                                            {/* Title and Description */}
                                             <div>
-                                                <svg
-                                                    className="ml-3 pt-[2px] w-6 h-6 
-                                                               3xl:w-[1.5vw] 3xl:h-[1.5vw] 
-                                                               5xl:w-[1vw] 5xl:h-[1vw]"
-                                                    viewBox="0 0 24 24"
-                                                    fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg"
+                                                <div className="font-bold text-[15px] lg:text-base xl:text-2xl 
+                                                3xl:text-[1.5vw] 5xl:text-[1vw]">
+                                                    Malteser
+                                                </div>
+                                                <div className="flex-1">
+                                                    <div
+                                                        className="max-w-[440px] 3xl:max-w-[20vw] 
+                                                   py-[26px] lg:py-[43px] 
+                                                   xl:py-[67px] 3xl:py-[4vw] 
+                                                   font-normal text-[12px] lg:text-[21px] 
+                                                   xl:text-[32px] 2xl:text-[40px] 
+                                                   3xl:text-[1.3vw] 5xl:text-[1.2vw] 
+                                                   leading-tight 5xl:py-[5vw]"
+                                                    >
+                                                        Merging data with design to democratize information, crafting a visually engaging, universally accessible identity.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            {/* Read More Section */}
+                                            <div className="flex py-8 items-center pl-4 
+                                            3xl:py-[2vw] 5xl:py-[2.5vw]">
+                                                <div
+                                                    className="uppercase font-normal text-[13px] 
+                                               lg:text-xs xl:text-lg 
+                                               3xl:text-[1.1vw] 5xl:text-[1.2vw]"
                                                 >
-                                                    <g id="arrow_outward">
-                                                        <path
-                                                            id="Vector"
-                                                            d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z"
-                                                            fill="white"
-                                                        />
-                                                    </g>
-                                                </svg>
+                                                    read more
+                                                </div>
+                                                <div>
+                                                    <svg
+                                                        className="ml-3 pt-[2px] w-6 h-6 
+                                               3xl:w-[1.5vw] 3xl:h-[1.5vw] 
+                                               5xl:w-[1vw] 5xl:h-[1vw]"
+                                                        viewBox="0 0 24 24"
+                                                        fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                    >
+                                                        <g id="arrow_outward">
+                                                            <path
+                                                                id="Vector"
+                                                                d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z"
+                                                                fill="white"
+                                                            />
+                                                        </g>
+                                                    </svg>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </Link>
                             </div>
                             {/* Second Image Container */}
-                            <div className="overflow-hidden">
+                            <div className="overflow-hidden relative group">
                                 <Link to="/works/bp">
                                     <div
                                         className="cursor-pointer py-[26px] 2xl:py-[100px] 
-                                       3xl:py-[6vw] px-[15px] md:px-10 3xl:px-[2vw] flex flex-col h-full
-                                       bg-[url('assets/img/dtcp/bp_1.png')] 
-                                       md:bg-[url('assets/img/dtcp/bp_3b.png')] 
-                                       bg-no-repeat bg-cover
-                                       transition duration-300 ease-in-out hover:scale-105 
-                                       5xl:py-[10vw] 5xl:px-[3vw]"
+                                   3xl:py-[6vw] 5xl:py-[10vw] 
+                                   px-[15px] md:px-10 3xl:px-[2vw] 5xl:px-[3vw] 
+                                   flex flex-col h-full relative"
                                     >
-                                        <div className="font-bold text-[15px] lg:text-base 
-                                        xl:text-2xl 3xl:text-[1.5vw] 5xl:text-[1vw]">
-                                            bp
-                                        </div>
-                                        <div className="flex-1">
-                                            <div
-                                                className="max-w-[440px] 3xl:max-w-[20vw] 
-                                               py-[26px] lg:py-[43px] xl:py-[67px] 3xl:py-[4vw] 
-                                               font-normal text-[12px] lg:text-[21px] 
-                                               xl:text-[32px] 2xl:text-[40px] 
-                                               3xl:text-[1.3vw] 5xl:text-[1.2vw] 
-                                               leading-tight 5xl:py-[5vw]"
-                                            >
-                                                Creating culturally tailored infographics to showcase bp's Greater Tortue Ahmeyim (GTA) FLNG project's achievements, fostering global understanding and engagement.
-                                            </div>
-                                        </div>
-                                        <div className="flex py-8 items-center pl-4 
-                                        3xl:py-[2vw] 5xl:py-[2.5vw]">
-                                            <div className="uppercase font-normal text-[13px] 
-                                            lg:text-xs xl:text-lg 
-                                            3xl:text-[1.1vw] 5xl:text-[1.2vw]">
-                                                read more
-                                            </div>
+                                        {/* Background image using pseudo-element */}
+                                        <div className="absolute inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out 
+                                        bg-[url('assets/img/dtcp/bp_1.png')] 
+                                        md:bg-[url('assets/img/dtcp/bp_3b.png')] 
+                                        group-hover:scale-110 
+                                        before:content-[''] before:absolute before:inset-0 
+                                        before:bg-cover before:bg-center before:bg-no-repeat 
+                                        before:transition-transform before:duration-300 
+                                        before:ease-in-out before:scale-100 group-hover:before:scale-110" />
+
+                                        {/* Content overlay */}
+                                        <div className="relative z-10 flex flex-col justify-between h-full">
+                                            {/* Title and Description */}
                                             <div>
-                                                <svg
-                                                    className="ml-3 pt-[2px] w-6 h-6 
-                                                               3xl:w-[1.5vw] 3xl:h-[1.5vw] 
-                                                               5xl:w-[1vw] 5xl:h-[1vw]"
-                                                    viewBox="0 0 24 24"
-                                                    fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg"
+                                                <div className="font-bold text-[15px] lg:text-base xl:text-2xl 
+                                                3xl:text-[1.5vw] 5xl:text-[1vw]">
+                                                    bp
+                                                </div>
+                                                <div className="flex-1">
+                                                    <div
+                                                        className="max-w-[440px] 3xl:max-w-[20vw] 
+                                                   py-[26px] lg:py-[43px] 
+                                                   xl:py-[67px] 3xl:py-[4vw] 
+                                                   font-normal text-[12px] lg:text-[21px] 
+                                                   xl:text-[32px] 2xl:text-[40px] 
+                                                   3xl:text-[1.3vw] 5xl:text-[1.2vw] 
+                                                   leading-tight 5xl:py-[5vw]"
+                                                    >
+                                                        Creating culturally tailored infographics to showcase bp's Greater Tortue Ahmeyim (GTA) FLNG project's achievements, fostering global understanding and engagement.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            {/* Read More Section */}
+                                            <div className="flex py-8 items-center pl-4 
+                                            3xl:py-[2vw] 5xl:py-[2.5vw]">
+                                                <div
+                                                    className="uppercase font-normal text-[13px] 
+                                               lg:text-xs xl:text-lg 
+                                               3xl:text-[1.1vw] 5xl:text-[1.2vw]"
                                                 >
-                                                    <g id="arrow_outward">
-                                                        <path
-                                                            id="Vector"
-                                                            d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z"
-                                                            fill="white"
-                                                        />
-                                                    </g>
-                                                </svg>
+                                                    read more
+                                                </div>
+                                                <div>
+                                                    <svg
+                                                        className="ml-3 pt-[2px] w-6 h-6 
+                                               3xl:w-[1.5vw] 3xl:h-[1.5vw] 
+                                               5xl:w-[1vw] 5xl:h-[1vw]"
+                                                        viewBox="0 0 24 24"
+                                                        fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                    >
+                                                        <g id="arrow_outward">
+                                                            <path
+                                                                id="Vector"
+                                                                d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z"
+                                                                fill="white"
+                                                            />
+                                                        </g>
+                                                    </svg>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -346,6 +380,7 @@ const DTCP = ({ isSticky, element }) => {
                         </div>
                     </div>
                 </div>
+
 
             </div>
 
