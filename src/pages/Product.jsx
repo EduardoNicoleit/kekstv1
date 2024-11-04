@@ -40,8 +40,8 @@ const ProductCompo = ({ isSticky, element }) => {
                 </div>
                 <div className="px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] 3xl:px-[45px]">
                     <div>
-                        <p className="sm:px-8 md:px-[33px] lg:px-[46px] xl:px-[154px] 2xl:px-[308px] 3xl:px-[15vw] font-Helvetica font-normal text-[16px] sm:text-[20px] md:text-[24px] lg:text-[40px] xl:text-[36px] 2xl:text-[42px] 3xl:text-[2.5vw] 5xl:text-[2.2vw] sm:py-10 md:py-[74px] 2xl:py-[2vw] text-white leading-normal 3xl:leading-[3vw]">
-                            <span className="text-[#9F81BF] font-bold">Redefining User Experience:</span> Our expertise spans all forms of data visualization, including dynamic infographics and interactive platforms, for both print and digital. We're dedicated to turning complex data into clear, visually impactful stories that inform and drive engagement and insight.
+                        <p className="sm:px-8 md:px-[33px] lg:px-[46px] xl:px-[154px] 2xl:px-[308px] 3xl:px-[15vw] font-Helvetica font-normal text-[17px] md:text-[28px] 2xl:text-[40px] 3xl:text-[1.8vw] sm:py-10 md:py-[74px] 2xl:py-[2.5vw] text-white leading-tight 3xl:leading-[2.5vw]">
+                            <span className="text-[#9F81BF] font-bold">Redefining User Experience:</span> by blending visual strategy, storytelling, and cutting-edge technology, we elevate your digital presence, offering seamless, efficient, and delightful user experiences. Our approach centers on deeply understanding and innovating user interactions online.
                         </p>
                         <div className="text-white font-Helvetica">
                             <div className="border-t-[1px] border-white">
@@ -62,7 +62,7 @@ const ProductCompo = ({ isSticky, element }) => {
                                             <div className="uppercase hidden lg:block 2xl:hidden sm:text-2xl md:text-3xl lg:text-3xl 2xl:text-4xl 3xl:text-[2.2vw] 5xl:text-[2vw] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px] leading-normal">
                                                 User-Centric Design
                                             </div>
-                                            <div className="leading-normal 2xl:leading-[2.5vw] sm:text-base md:text-xl lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-[1.5vw] 5xl:text-[1.2vw]
+                                            <div className="leading-normal 2xl:leading-['1.6vw] text-[3.2vw] sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw]
                                             lg:pt-5 xl:pt-[22px] 2xl:pt-[50px]
                                             lg:pb-8 xl:pb-[78px] 2xl:pb-[180px]
                                             lg:max-w-[800px]">
@@ -82,7 +82,7 @@ const ProductCompo = ({ isSticky, element }) => {
                                             <div className="uppercase hidden lg:block 2xl:hidden sm:text-2xl md:text-3xl lg:text-3xl 2xl:text-4xl 3xl:text-[2.2vw] 5xl:text-[2vw] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px] leading-normal">
                                                 Data-Driven Insights
                                             </div>
-                                            <div className="leading-normal 2xl:leading-[2.5vw] sm:text-base md:text-xl lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-[1.5vw] 5xl:text-[1.2vw]
+                                            <div className="leading-normal 2xl:leading-[1.6vw] text-[3.2vw] sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw]
                                             lg:pt-5 xl:pt-[22px] 2xl:pt-[50px]
                                             lg:pb-10 xl:pb-[82px] 2xl:pb-[200px]
                                             lg:max-w-[500px]">
@@ -102,11 +102,11 @@ const ProductCompo = ({ isSticky, element }) => {
                                             <div className="uppercase hidden lg:block 2xl:hidden sm:text-2xl md:text-3xl lg:text-3xl 2xl:text-4xl 3xl:text-[2.2vw] 5xl:text-[2vw] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px] leading-normal">
                                                 Forward-Thinking Design
                                             </div>
-                                            <div className="leading-normal 2xl:leading-[2.5vw] sm:text-base md:text-xl lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-[1.5vw] 5xl:text-[1.2vw]
+                                            <div className="leading-normal 2xl:leading-[1.6vw] text-[3.2vw] sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw]
                                             lg:pt-5 xl:pt-[22px] 2xl:pt-[50px]
                                             lg:pb-10 xl:pb-[82px] 2xl:pb-[200px]
                                             lg:max-w-[500px]">
-                                                By focusing on the user, we ensure every digital interaction is engaging, intuitive, and impactful, catering to your audience's needs and expectations.
+                                                We're dedicated to exploring new digital landscapes, we ensure our clients stay ahead in the constantly evolving digital ecosystem.
                                             </div>
                                             <div className="text-[#9F81BF] w-16 h-16 sm:top-[95px] lg:top-[50px] xl:top-[75px] 2xl:top-[120px] left-[-32px] font-Helvetica text-[34px] absolute bottom-0 bg-[#210837] text-center">
                                                 03

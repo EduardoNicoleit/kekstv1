@@ -29,7 +29,7 @@ const CopReport = ({ isSticky, element }) => {
                 <div className="w-full absolute bottom-0 font-Helvetica">
                     <div className="flex flex-col px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px]">
                         <div className="flex">
-                            <div className="w-[33px] lg:w-[60px] 2xl:w-[299px] 3xl:w-[15vw] flex-none"></div>
+                            <div className="w-6 lg:w-[60px] 2xl:w-[299px] 3xl:w-[15vw] flex-none"></div>
                             <div>
                                 <div className="font-Helvetica font-normal text-[25px] 
                                                 md:text-2xl lg:text-4xl xl:text-[70px] 3xl:text-[2.8vw] 
@@ -61,10 +61,7 @@ const CopReport = ({ isSticky, element }) => {
                                 items-start 2xl:items-center"
                             >
                                 <div
-                                    className="lg:pl-[60px] lg:py-4 xl:py-5 
-                                    2xl:py-0 3xl:py-[2vw] 5xl:py-[3vw]
-                                    w-[300px] lg:w-[200px] 2xl:w-[318px] 
-                                    3xl:w-[15vw] mb-0 2xl:mb-12"
+                                    className="font-normal lg:pl-[60px] lg:pr-0 lg:pb-4 lg:pt-4 xl:pt-4 xl:pb-4 2xl:pt-0 2xl:pb-[2.2vw] w-[300px] lg:w-[200px] 2xl:w-[308px] 3xl:w-[14vw] mb-0 3xl:pl-[2vw] 3xl:pr-[2vw] 2xl:px-[2vw]"
                                 >
                                     Overview
                                 </div>
@@ -102,7 +99,7 @@ const CopReport = ({ isSticky, element }) => {
             {/* Content Section */}
             <div className="px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px]">
                 {/* Mobile Overview */}
-                <div className="block lg:hidden font-Helvetica font-normal py-[41px] text-white pl-6 sm:pl-[33px] 3xl:pl-[4vw] 5xl:pl-[6vw]">
+                <div className="block lg:hidden font-Helvetica font-normal py-[41px] text-white pl-6 3xl:pl-[4vw] 5xl:pl-[6vw]">
                     <div className="text-[12px] leading-[14px] uppercase 3xl:text-[1vw] 5xl:text-[1.2vw]">
                         Overview
                     </div>
@@ -129,13 +126,7 @@ const CopReport = ({ isSticky, element }) => {
                             w-full font-Helvetica text-white"
                 >
                     <div
-                        className="uppercase xl:normal-case text-start 
-                        2xl:text-left font-normal text-[12px] md:text-lg 
-                        2xl:text-2xl 3xl:text-[1.2vw] 5xl:text-[1vw] 
-                        pt-3 xl:w-full 2xl:w-[299px] 3xl:w-[15vw] 
-                        flex-none px-6 lg:px-[60px] 2xl:px-[2vw] 
-                        py-6 2xl:py-0 3xl:px-[2vw] 5xl:px-[3vw] 
-                        3xl:py-[2vw] 5xl:py-[3vw]"
+                        className="uppercase xl:normal-case text-start 2xl:text-left font-normal text-[12px] md:text-lg 2xl:text-2xl 3xl:text-[1.2vw] pt-3 xl:w-full 2xl:w-[308px] 3xl:w-[15vw] flex-none px-6 lg:px-[60px] 2xl:px-[2vw] py-6 2xl:py-0.2"
                     >
                         The partnership:
                     </div>
@@ -154,16 +145,16 @@ const CopReport = ({ isSticky, element }) => {
                 <div
                     className="py-10 2xl:py-[5vw] text-[17px] lg:text-[18px] xl:text-[1.2vw] flex font-normal font-Helvetica text-white"
                 >
-                    <div className="md:w-[33px] lg:w-[60px] 2xl:w-[299px] 3xl:w-[15vw] flex-none"></div>
+                    <div className="md:w-6 lg:w-[60px] 2xl:w-[299px] 3xl:w-[15vw] flex-none"></div>
                     <div className="px-6 md:px-0 pr-6 sm:px-6 lg:px-0 
                                     lg:pr-10 2xl:pr-[3.5vw] leading-tight">
-                        <div className="pb-5 3xl:pb-[2.5vw] 5xl:pb-[3vw]">
+                        <div className="pb-5 5xl:pb-[3vw]">
                             By analyzing and correlating the most distinct and interesting data points, we crafted a compelling global narrative. Data visualization and visual storytelling in the report played a crucial role in enhancing understanding, discovering insights, and informing decision-making.
                         </div>
-                        <div className="pb-5 3xl:pb-[2.5vw] 5xl:pb-[3vw]">
+                        <div className="pb-5 5xl:pb-[3vw]">
                             We examined key stakeholder perceptions—investors, activists/policy makers, the general public, top executives, and journalists—across 11 key sectors: Extractives, Financials, Food & Beverage, Healthcare, Infrastructure, Resource Transformation, Services, Technology, Transportation, and Renewables. We categorized content sentiment as positive, neutral, or negative.
                         </div>
-                        <div className="pb-5 3xl:pb-[2.5vw] 5xl:pb-[3vw]">
+                        <div className="pb-5 5xl:pb-[3vw]">
                             This approach enabled us to calculate daily conversation volumes and Net Polarized Sentiment—a ratio of positive to negative sentiment adjusted for materiality. Insights were further enriched by LinkedIn conversations among top executives.
                         </div>
                     </div>

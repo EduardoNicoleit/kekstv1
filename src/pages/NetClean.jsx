@@ -28,7 +28,7 @@ const Netclean = ({ isSticky, element }) => {
                 <div className="w-full absolute bottom-0 font-Helvetica">
                     <div className="flex flex-col px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px]">
                         <div className="flex">
-                            <div className="w-[33px] lg:w-[60px] 2xl:w-[299px] 3xl:w-[15vw] flex-none"></div>
+                            <div className="w-6 lg:w-[60px] 2xl:w-[299px] 3xl:w-[15vw] flex-none"></div>
                             <div>
                                 <div
                                     className="font-helvetica font-bold mt-auto text-[50px] leading-[34px] md:text-[50px] md:leading-[57px] lg:text-[70px] xl:text-[160px] 2xl:text-[5.5vw] 3xl:text-[6.5vw] lg:leading-[80px] xl:leading-[184px] py-14 sm:py-6 md:py-10 lg:py-10 xl:py-5 2xl:py-16 3xl:py-[6vw]"
@@ -45,10 +45,7 @@ const Netclean = ({ isSticky, element }) => {
                                 items-start 2xl:items-center"
                             >
                                 <div
-                                    className="font-normal lg:pl-[60px] lg:pr-0 lg:py-4 xl:py-5 2xl:py-[2vw] 
-                                    w-[300px] lg:w-[200px] 2xl:w-[318px] 3xl:w-[14vw] 
-                                    mb-0 2xl:mb-12 
-                                    3xl:pl-[2vw] 3xl:pr-[2vw] 3xl:py-[2vw] 5xl:pl-[3vw] 5xl:pr-[3vw] 5xl:py-[3vw]"
+                                    className="font-normal lg:pl-[60px] lg:pr-0 lg:pb-4 lg:pt-4 xl:pt-4 xl:pb-4 2xl:pt-0 2xl:pb-[2.2vw] w-[300px] lg:w-[200px] 2xl:w-[308px] 3xl:w-[14vw] mb-0 3xl:pl-[2vw] 3xl:pr-[2vw] 2xl:px-[2vw]"
                                 >
                                     Overview:
                                 </div>
@@ -75,7 +72,7 @@ const Netclean = ({ isSticky, element }) => {
             </div>
             <div className="px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px]">
                 {/* Mobile Overview */}
-                <div className="block lg:hidden font-Helvetica font-normal py-[41px] text-white pl-6 sm:pl-[33px]">
+                <div className="block lg:hidden font-Helvetica font-normal py-[41px] text-white pl-6">
                     <div className="text-[12px] leading-[14px] uppercase">Overview</div>
                     <div className="text-[13px] leading-[15px] py-3 border-b-[1px]">
                         Reinvented NetClean's Annual Reports strategy.
@@ -93,14 +90,7 @@ const Netclean = ({ isSticky, element }) => {
                     pb-10 lg:pb-20 xl:pb-[106px] 2xl:pb-[134px] w-full font-Helvetica text-white"
                 >
                     <div
-                        className="uppercase xl:normal-case text-start 2xl:text-left font-normal 
-                        text-[12px] md:text-lg 2xl:text-2xl 3xl:text-[1.2vw] 5xl:text-[1vw] 
-                        pt-3 xl:w-full 2xl:w-[299px] 3xl:w-[15vw] 
-                        flex-none 
-                        px-6 lg:px-[60px] 2xl:px-[2vw] 
-                        py-6 2xl:py-0 
-                        3xl:px-[2vw] 5xl:px-[3vw] 
-                        3xl:py-[2vw] 5xl:py-[3vw]"
+                        className="uppercase xl:normal-case text-start 2xl:text-left font-normal text-[12px] md:text-lg 2xl:text-2xl 3xl:text-[1.2vw] pt-3 xl:w-full 2xl:w-[308px] 3xl:w-[15vw] flex-none px-6 lg:px-[60px] 2xl:px-[2vw] py-6 2xl:py-0.2"
                     >
                         The partnership:
                     </div>

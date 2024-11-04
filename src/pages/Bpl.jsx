@@ -16,7 +16,7 @@ const Bpl = ({ isSticky, element }) => {
                 <div className="w-full absolute bottom-0 font-Helvetica">
                     <div className="flex flex-col px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] 3xl:px-[45px]">
                         <div className="flex">
-                            <div className="w-[33px] lg:w-[60px] 2xl:w-[299px] flex-none"></div>
+                            <div className="w-6 lg:w-[60px] 2xl:w-[299px] flex-none"></div>
                             <div>
                                 <div
                                     className="font-Helvetica font-bold mt-auto
@@ -43,10 +43,7 @@ const Bpl = ({ isSticky, element }) => {
                                 items-start 2xl:items-center"
                             >
                                 <div
-                                    className="lg:pl-[60px] lg:py-4 xl:py-5 
-                                    2xl:py-0 3xl:py-[2vw] 5xl:py-[3vw]
-                                    w-[300px] lg:w-[200px] 2xl:w-[318px] 
-                                    3xl:w-[14vw] mb-0 2xl:mb-12"
+                                    className="font-normal lg:pl-[60px] lg:pr-0 lg:pb-4 lg:pt-4 xl:pt-4 xl:pb-4 2xl:pt-0 2xl:pb-[2.2vw] w-[300px] lg:w-[200px] 2xl:w-[308px] 3xl:w-[14vw] mb-0 3xl:pl-[2vw] 3xl:pr-[2vw] 2xl:px-[2vw]"
                                 >
                                     Overview
                                 </div>
@@ -86,7 +83,7 @@ const Bpl = ({ isSticky, element }) => {
             <div className="px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] 3xl:px-[45px]">
                 {/* Mobile Overview */}
                 <div className="block lg:hidden font-Helvetica font-normal 
-                                py-[41px] text-white pl-6 sm:pl-[33px] 
+                                py-[41px] text-white pl-6
                                 3xl:pl-[4vw] 5xl:pl-[6vw]">
                     <div className="text-[12px] leading-[14px] uppercase 
                                     3xl:text-[1vw] 5xl:text-[1.2vw]">
@@ -121,13 +118,7 @@ const Bpl = ({ isSticky, element }) => {
                     pb-10 lg:pb-20 xl:pb-[106px] 2xl:pb-[134px] 
                     w-full font-Helvetica text-white">
                     <div
-                        className="uppercase xl:normal-case text-start 
-                        2xl:text-left font-normal text-[12px] md:text-lg 
-                        2xl:text-2xl 3xl:text-[1.2vw] 5xl:text-[1vw] 
-                        pt-3 xl:w-full 2xl:w-[299px] 3xl:w-[15vw] 
-                        flex-none px-6 lg:px-[60px] 2xl:px-[2vw] 
-                        py-6 2xl:py-0 3xl:px-[2vw] 5xl:px-[3vw] 
-                        3xl:py-[2vw] 5xl:py-[3vw]"
+                        className="uppercase xl:normal-case text-start 2xl:text-left font-normal text-[12px] md:text-lg 2xl:text-2xl 3xl:text-[1.2vw] pt-3 xl:w-full 2xl:w-[308px] 3xl:w-[15vw] flex-none px-6 lg:px-[60px] 2xl:px-[2vw] py-6 2xl:py-0.2"
                     >
                         The partnership:
                     </div>
@@ -149,14 +140,14 @@ const Bpl = ({ isSticky, element }) => {
 
                 {/* Description Section */}
                 <div className="py-10 2xl:py-[5vw] text-[17px] lg:text-[18px] xl:text-[1.2vw] flex font-normal font-Helvetica text-white">
-                    <div className="md:w-[33px] lg:w-[60px] 
+                    <div className="md:w-6 lg:w-[60px] 
                                     2xl:w-[299px] 3xl:w-[15vw] flex-none"></div>
                     <div className="px-6 md:px-0 pr-6 sm:px-6 lg:px-0 
                                     lg:pr-10 2xl:pr-[3.5vw]">
-                        <div className="pb-5 3xl:pb-[2.5vw]">
+                        <div className="pb-5">
                             The video campaign we produced for BPI brought to life the association's influential role in the global health industry. Through an animated journey, we vividly highlighted Germany's significant contributions, from its prestigious research initiatives to its substantial investments in innovative pharmaceuticals and effective therapeutics.
                         </div>
-                        <div className="pb-5 3xl:pb-[2.5vw]">
+                        <div className="pb-5">
                             Our strategic approach ensured that the video was versatile, suitable for both the Annual General Meeting and widespread social media engagement.
                         </div>
                         <div>

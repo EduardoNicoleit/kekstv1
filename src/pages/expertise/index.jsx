@@ -41,7 +41,7 @@ const ExpertiseCompo = ({ isSticky, element }) => {
                 </div>
                 <div className="px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] 3xl:px-[45px]">
                     <div className="">
-                        <p className="sm:px-8 md:px-[33px] lg:px-[46px] xl:px-[154px] 2xl:px-[308px] 3xl:px-[15vw] font-Helvetica font-normal text-[16px] sm:text-[20px] md:text-[24px] lg:text-[40px] xl:text-[36px] 2xl:text-[42px] 3xl:text-[2.5vw] 5xl:text-[2.2vw] sm:py-10 md:py-[74px] 2xl:py-[2vw] text-white leading-tight 3xl:leading-[3vw]">
+                        <p className="sm:px-8 md:px-[33px] lg:px-[46px] xl:px-[154px] 2xl:px-[308px] 3xl:px-[15vw] font-Helvetica font-normal text-[17px] md:text-[28px] 2xl:text-[40px] 3xl:text-[1.8vw] sm:py-10 md:py-[74px] 2xl:py-[2.5vw] text-white leading-tight 3xl:leading-[2.5vw]">
                             <span className="text-[#9F81BF] font-bold">Crafting narratives to engage and inspire in an age where stories define brands and shape opinions,</span> we step forward as a guide in the world of creative communication. From the inception of an idea to its grand realization, our journey is about making narratives resonate.
                         </p>
                         <ExpertiseTable />

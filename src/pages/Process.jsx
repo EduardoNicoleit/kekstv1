@@ -70,7 +70,7 @@ const ProcessCompo = () => {
                     <div className="flex text-white">
                         <Divider title="Our process" />
                     </div>
-                    <div className="font-Helvetica leading-normal font-normal text-[17px] md:text-[18px] lg:text-[22px] xl:text-[24px] 2xl:text-[32px] 3xl:text-[1.5vw] pl-5 pr-4 md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px] lg:pr-[100px] xl:pr-[140px] 3xl:pr-[10vw] pb-8 md:pb-[58px] lg:pb-20 xl:pb-20 2xl:pb-[100px] pb-6 lg:pb-[60px] xl:pb-[60px] 2xl:pb-[60px] 3xl:pb-[3vw]">
+                    <div className="font-normal font-Helvetica leading-normal 3xl:leading-[1.6vw] text-[3.2vw] sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw] pl-5 pr-4 md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px] lg:pr-[100px] xl:pr-[140px] 3xl:pr-[10vw] pb-8 md:pb-[58px] lg:pb-20 xl:pb-20 2xl:pb-[100px] pb-6 lg:pb-[60px] xl:pb-[60px] 2xl:pb-[60px] 3xl:pb-[3vw]">
                         We specialize on amplifying creativity in brands, operations, and communications.
                         We are driven by the conviction that creativity can revolutionize how messages and reputations are perceived and stories are told. We aim to create comprehensive, multi-channel strategies that truly connect with audiences, creating impactful connections and memorable experiences.
                     </div>
