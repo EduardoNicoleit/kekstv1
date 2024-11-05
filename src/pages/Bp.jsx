@@ -51,7 +51,7 @@ const BP = ({ isSticky, element }) => {
                                 </div>
                             </div>
                         </div>
-                        {/* Desktop Overview */}
+                        {/* Desktop Overview: */}
                         <div className="hidden lg:block">
                             <div
                                 className="lg:flex-col 2xl:flex-row flex border-white border-y-[1px]
@@ -64,7 +64,7 @@ const BP = ({ isSticky, element }) => {
                                 <div
                                     className="font-normal lg:pl-[60px] lg:pr-0 lg:pb-4 lg:pt-4 xl:pt-4 xl:pb-4 2xl:pt-0 2xl:pb-[2.2vw] w-[300px] lg:w-[200px] 2xl:w-[308px] 3xl:w-[14vw] mb-0 3xl:pl-[2vw] 3xl:pr-[2vw] 2xl:px-[2vw]"
                                 >
-                                    Overview
+                                    Overview:
                                 </div>
                                 <div className="lg:grid grid-cols-3 w-full items-start 
                                                 2xl:items-center">
@@ -97,14 +97,14 @@ const BP = ({ isSticky, element }) => {
                 </div>
             </div>
 
-            {/* Mobile Overview */}
+            {/* Mobile Overview: */}
             <div className="px-[8px] lg:px-4 xl:px-[25px] 2xl:px-[45px]">
                 <div className="block lg:hidden font-Helvetica font-normal 
                                 py-[41px] text-white pl-6 
                                 3xl:pl-[4vw] 5xl:pl-[6vw]">
                     <div className="text-[12px] leading-[14px] uppercase 
                                     3xl:text-[1vw] 5xl:text-[1.2vw]">
-                        Overview
+                        Overview:
                     </div>
                     <div className="text-[13px] leading-[15px] py-3 
                                     border-b-[1px] 
@@ -277,7 +277,7 @@ const BP = ({ isSticky, element }) => {
                             </div>
                             {/* Second Image Container */}
                             <div className="overflow-hidden relative group">
-                                <Link to="/works/netClean">
+                                <Link to="/works/ceoTracker">
                                     <div className="cursor-pointer py-[26px] 2xl:py-[100px] 3xl:py-[6vw] px-[15px] md:px-10 3xl:px-[2vw] flex flex-col h-full relative">
                                         {/* Background image using pseudo-element */}
                                         <div className="absolute inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out bg-[url('assets/img/bp/ceo_2.png')] 

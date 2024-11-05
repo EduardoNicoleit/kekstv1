@@ -65,7 +65,7 @@ const Volkswagen = () => {
                 </div>
             </div>
             <div className="px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] 3xl:px-[45px]">
-                {/* Mobile Overview */}
+                {/* Mobile Overview: */}
                 <div className="block lg:hidden font-Helvetica font-normal py-[41px] text-white pl-6">
                     <div className="text-[12px] leading-[14px] uppercase">Overview:</div>
                     <div className="text-[13px] leading-[15px] py-3 border-b-[1px] pr-6">

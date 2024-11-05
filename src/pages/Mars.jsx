@@ -49,7 +49,7 @@ const Mars = ({ isSticky, element }) => {
                                 </div>
                             </div>
                         </div>
-                        {/* Desktop Overview */}
+                        {/* Desktop Overview: */}
                         <div className="hidden lg:block">
                             <div
                                 className="lg:flex-col 2xl:flex-row flex border-white border-y-[1px]
@@ -84,10 +84,10 @@ const Mars = ({ isSticky, element }) => {
             </div>
 
             <div className="px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px]">
-                {/* Mobile Overview */}
+                {/* Mobile Overview: */}
                 <div className="block lg:hidden font-Helvetica font-normal py-[41px] text-white 
                                 pl-6 3xl:pl-[4vw] 5xl:pl-[6vw]">
-                    <div className="text-[12px] leading-[14px] uppercase 3xl:text-[1vw] 5xl:text-[1.2vw]">Overview</div>
+                    <div className="text-[12px] leading-[14px] uppercase 3xl:text-[1vw] 5xl:text-[1.2vw]">Overview:</div>
                     <div className="text-[13px] leading-[15px] py-3 border-b-[1px] 
                                 3xl:text-[1vw] 5xl:text-[1.2vw]">
                         Developed a holistic video campaign, showcasing Mars as an AI research pioneer.

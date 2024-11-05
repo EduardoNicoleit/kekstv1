@@ -55,17 +55,14 @@ const ProductCompo = ({ isSticky, element }) => {
                                                 <div>
                                                     User-Centric <br /> Design
                                                 </div>
-                                                <div className="pt-4">
-
-                                                </div>
                                             </div>
                                             <div className="uppercase hidden lg:block 2xl:hidden sm:text-2xl md:text-3xl lg:text-3xl 2xl:text-4xl 3xl:text-[2.2vw] 5xl:text-[2vw] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px] leading-normal">
                                                 User-Centric Design
                                             </div>
-                                            <div className="leading-normal 2xl:leading-['1.6vw] text-[3.2vw] sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw]
+                                            <div className="leading-normal 2xl:leading-[1.6vw] text-[3.2vw] sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw]
                                             lg:pt-5 xl:pt-[22px] 2xl:pt-[50px]
-                                            lg:pb-8 xl:pb-[78px] 2xl:pb-[180px]
-                                            lg:max-w-[800px]">
+                                            lg:pb-12 xl:pb-[78px] 2xl:pb-[90px] 3xl:pb-[120px]
+                                            lg:max-w-[800px] 3xl:max-w-[50vw]">
                                                 By focusing on the user, we ensure every digital interaction is engaging, intuitive, and impactful, catering to your audience's needs and expectations.
                                             </div>
                                             <div className="text-[#9F81BF] w-16 h-16 sm:top-[95px] lg:top-[50px] xl:top-[75px] 2xl:top-[120px] left-[-32px] font-Helvetica text-[34px] absolute bottom-0 bg-[#210837] text-center">
@@ -84,8 +81,8 @@ const ProductCompo = ({ isSticky, element }) => {
                                             </div>
                                             <div className="leading-normal 2xl:leading-[1.6vw] text-[3.2vw] sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw]
                                             lg:pt-5 xl:pt-[22px] 2xl:pt-[50px]
-                                            lg:pb-10 xl:pb-[82px] 2xl:pb-[200px]
-                                            lg:max-w-[500px]">
+                                            lg:pb-12 xl:pb-[78px] 2xl:pb-[90px] 3xl:pb-[120px]
+                                            lg:max-w-[800px] 3xl:max-w-[50vw]">
                                                 Our strategy integrates both creativity and analytics, using user behavior and market research to inform design decisions, optimizing user experience across all platforms.
                                             </div>
                                             <div className="text-[#9F81BF] w-16 h-16 sm:top-[95px] lg:top-[50px] xl:top-[75px] 2xl:top-[120px] left-[-32px] font-Helvetica text-[34px] absolute bottom-0 bg-[#210837] text-center">
@@ -104,8 +101,8 @@ const ProductCompo = ({ isSticky, element }) => {
                                             </div>
                                             <div className="leading-normal 2xl:leading-[1.6vw] text-[3.2vw] sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw]
                                             lg:pt-5 xl:pt-[22px] 2xl:pt-[50px]
-                                            lg:pb-10 xl:pb-[82px] 2xl:pb-[200px]
-                                            lg:max-w-[500px]">
+                                            lg:pb-12 xl:pb-[78px] 2xl:pb-[90px] 3xl:pb-[120px]
+                                            lg:max-w-[800px] 3xl:max-w-[50vw]">
                                                 We're dedicated to exploring new digital landscapes, we ensure our clients stay ahead in the constantly evolving digital ecosystem.
                                             </div>
                                             <div className="text-[#9F81BF] w-16 h-16 sm:top-[95px] lg:top-[50px] xl:top-[75px] 2xl:top-[120px] left-[-32px] font-Helvetica text-[34px] absolute bottom-0 bg-[#210837] text-center">

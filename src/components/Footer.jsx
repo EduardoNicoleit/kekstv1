@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../assets/img/navbar/logo.svg';
+// import Logo from '../assets/img/navbar/logo.svg';
 import { Link as RouterLink, useLocation } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
 
@@ -76,7 +76,7 @@ const Footer = () => {
                                 <div className='2xl:flex 2xl:flex-col 2xl:justify-start 2xl:items-start'>
                                     <div className='hover:text-[#7a6b87] my-4 xl:my-0 2xl:mt-[2vw] mr-8'>
                                         <NavItem to="process">
-                                            Our Design Thinking Process
+                                            Our Process
                                         </NavItem>
                                     </div>
                                     <div className='hover:text-[#7a6b87] mt-4 2xl:mt-0'>

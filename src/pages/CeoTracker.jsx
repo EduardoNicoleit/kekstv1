@@ -58,7 +58,7 @@ const CeoTracker = ({ isSticky, element }) => {
                                 </div>
                             </div>
                         </div>
-                        {/* Desktop Overview */}
+                        {/* Desktop Overview: */}
                         <div className="hidden lg:block">
                             <div
                                 className="lg:flex-col 2xl:flex-row flex border-white border-y-[1px]
@@ -71,7 +71,7 @@ const CeoTracker = ({ isSticky, element }) => {
                                 <div
                                     className="font-normal lg:pl-[60px] lg:pr-0 lg:pb-4 lg:pt-4 xl:pt-4 xl:pb-4 2xl:pt-0 2xl:pb-[2.2vw] w-[300px] lg:w-[200px] 2xl:w-[308px] 3xl:w-[14vw] mb-0 3xl:pl-[2vw] 3xl:pr-[2vw] 2xl:px-[2vw]"
                                 >
-                                    Overview
+                                    Overview:
                                 </div>
                                 <div className="lg:grid grid-cols-2 w-full items-start 
                                                 2xl:items-center">
@@ -101,13 +101,13 @@ const CeoTracker = ({ isSticky, element }) => {
 
             {/* Content Section */}
             <div className="px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px]">
-                {/* Mobile Overview */}
+                {/* Mobile Overview: */}
                 <div className="block lg:hidden font-Helvetica font-normal 
                                 py-[41px] text-white pl-6
                                 3xl:pl-[4vw] 5xl:pl-[6vw]">
                     <div className="text-[12px] leading-[14px] uppercase 
                                     3xl:text-[1vw] 5xl:text-[1.2vw]">
-                        Overview
+                        Overview:
                     </div>
                     <div className="text-[13px] leading-[15px] py-3 
                                     border-b-[1px] 
