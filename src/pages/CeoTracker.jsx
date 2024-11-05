@@ -143,7 +143,7 @@ const CeoTracker = ({ isSticky, element }) => {
                 </div>
 
                 {/* Image Sections */}
-                <div className="py-8 2xl:py-16 3xl:py-[6vw] 5xl:py-[8vw]">
+                <div className="pt-8 2xl:pt-16 3xl:pt-[6vw] 5xl:pt-[8vw]">
                     <img
                         src="/assets/img/ceotracker/ceo_1.png"
                         className="w-full h-auto object-cover"
@@ -173,7 +173,7 @@ const CeoTracker = ({ isSticky, element }) => {
                 </div>
 
                 {/* More Image Sections */}
-                <div className="py-8 2xl:py-16 3xl:py-[6vw] 5xl:py-[8vw]">
+                <div className="pb-8 2xl:pb-16 3xl:pb-[6vw] 5xl:pb-[8vw]">
                     <img
                         src="/assets/img/ceotracker/ceo_2.png"
                         className="w-full h-auto object-cover"

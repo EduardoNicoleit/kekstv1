@@ -148,7 +148,7 @@ const Deutsche = ({ isSticky, element }) => {
                 </div>
 
                 {/* Video Section */}
-                <div className="py-8 2xl:py-16 3xl:py-[6vw] 5xl:py-[8vw]">
+                <div className="pt-8 2xl:pt-16 3xl:pt-[6vw] 5xl:pt-[8vw]">
                     <video
                         className="w-full h-auto object-cover"
                         autoPlay

@@ -176,7 +176,7 @@ const DTCP = ({ isSticky, element }) => {
                 </div>
 
                 {/* Image Sections */}
-                <div className="py-8 2xl:py-16 3xl:py-[6vw] 5xl:py-[8vw]">
+                <div className="pb-8 2xl:pb-16 3xl:pb-[6vw] 5xl:pb-[8vw]">
                     <img
                         src="/assets/img/dtcp/dtcp_header1.png"
                         className="w-full h-auto object-cover"
