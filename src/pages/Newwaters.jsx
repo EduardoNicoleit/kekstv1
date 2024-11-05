@@ -332,7 +332,7 @@ const Newwaters = ({ isSticky, element }) => {
                                             <div>
                                                 <div className="font-bold text-[15px] lg:text-base xl:text-2xl 
                                                 3xl:text-[1.5vw] 5xl:text-[1vw]">
-                                                    Farmer
+                                                    Farmer Voice
                                                 </div>
                                                 <div className="flex-1">
                                                     <div

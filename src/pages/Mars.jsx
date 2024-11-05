@@ -18,7 +18,7 @@ const Mars = ({ isSticky, element }) => {
             <div className="relative text-white welcome" ref={element}>
                 {/* Desktop Image */}
                 <img
-                    src="/assets/img/mars/Mar.png"
+                    src="/assets/img/mars/header_intra_mars.jpg"
                     alt="Mars Desktop"
                     className="w-full hidden md:block"
                 />
@@ -152,7 +152,7 @@ const Mars = ({ isSticky, element }) => {
                 <div className="flex">
                     <div className="hidden lg:block w-6 lg:w-[60px] 2xl:w-[299px] 3xl:w-[15vw] flex-none"></div>
                     <div className="w-full">
-                        <img src="/assets/img/mars/mars.png" className="w-full" alt="Mars Image" />
+                        <img src="/assets/img/mars/mars.jpg" className="w-full" alt="Mars Image" />
                     </div>
                 </div>
 
