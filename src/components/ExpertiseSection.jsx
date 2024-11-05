@@ -20,11 +20,11 @@ const ExpertiseSection = () => {
                                         {val.title}
                                     </div>
                                 </Link>
-                                <div className="leading-normal font-normal text-[3.2vw] pr-4 pt-1 sm:text-sm sm:pr-[30px] sm:text-left md:text-base md:pr-[30px] md:text-left md:pt-2 lg:text-lg lg:pt-4 lg:pr-8 lg:pr-4 xl:text-xl xl:pt-[15px] xl:pr-0 2xl:text-[20px] 3xl:text-[1.05vw] 2xl:pt-[15px] 3xl:pt-[1.05vw] 2xl:pr-[2vw] 2xl:min-h-[3.5vw] 3xl:leading-[1.6vw]">
+                                <div className="leading-normal font-normal text-[3.2vw] pr-4 pt-1 sm:text-sm sm:pr-[30px] sm:text-left md:text-base md:pr-[30px] md:text-left md:pt-2 lg:text-lg lg:pt-4 lg:pr-8 lg:pr-4 xl:text-xl xl:pt-[15px] xl:pr- 2xl:text-[20px] 3xl:text-[1.05vw] 2xl:pt-[15px] 3xl:pt-[1.05vw] 2xl:pr-[6vw] 2xl:min-h-[3.5vw] 3xl:leading-[1.6vw]">
                                     {val.text}
                                 </div>
                             </div>
-                            <div className="pr-0 2xl:pr-[1.5vw] 3xl:pr-[1.5vw] hidden xl:block flex-none">
+                            <div className="pr-6 2xl:pr-[1.5vw] 3xl:pr-[1.5vw] hidden xl:block flex-none">
                                 <ReadMore linkUrl={val.link_url} />
                             </div>
                         </div>
