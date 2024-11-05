@@ -178,7 +178,7 @@ const CopReport = ({ isSticky, element }) => {
                 <div className="pt-8 2xl:pt-16 3xl:pt-[6vw] flex">
                     <div className="hidden lg:block lg:w-[299px] 3xl:w-[15vw] flex-none"></div>
                     <div className="w-full">
-                        <img src="/assets/img/copreport/cop27_3.png" className="w-full h-auto object-cover" alt="keskt..." />
+                        <img src="/assets/img/copreport/cop27_3.jpg" className="w-full h-auto object-cover" alt="keskt..." />
                     </div>
                 </div>
                 <div className="pt-8 2xl:pt-16 3xl:pt-[6vw] flex border-b-0 md:border-b-[1px]">
@@ -197,10 +197,10 @@ const CopReport = ({ isSticky, element }) => {
                     </div>
                 </div>
                 <div className="pt-8 2xl:pt-16 3xl:pt-[6vw]">
-                    <img src="/assets/img/copreport/cop27_4.png" className="w-full h-auto object-cover 3xl:max-h-[50vw] 5xl:max-h-[60vw]" alt="keskt..." />
+                    <img src="/assets/img/copreport/cop27_4.jpg" className="w-full h-auto object-cover 3xl:max-h-[50vw] 5xl:max-h-[60vw]" alt="keskt..." />
                 </div>
                 <div className="py-8 2xl:py-16 3xl:py-[6vw]">
-                    <img src="/assets/img/copreport/cop27_5.png" className="w-full h-auto object-cover 3xl:max-h-[50vw] 5xl:max-h-[60vw]" alt="keskt..." />
+                    <img src="/assets/img/copreport/cop27_5.jpg" className="w-full h-auto object-cover 3xl:max-h-[50vw] 5xl:max-h-[60vw]" alt="keskt..." />
                 </div>
 
                 {/* Two Images with Hover Effect */}
