@@ -54,7 +54,7 @@ const Newwaters = ({ isSticky, element }) => {
                             <div
                                 className="lg:flex-col 2xl:flex-row flex border-white border-y-[1px]
                                 sm:text-4xl md:text-3xl lg:text-[22px] 3xl:text-[1.2vw] 5xl:text-[1vw]
-                                lg:h-[220px] xl:h-[188px] 2xl:h-[128px] 3xl:h-[15vh] 5xl:h-[18vh]
+                                lg:h-[220px] xl:h-[188px] 2xl:h-[200px] 3xl:h-[18vh] 5xl:h-[20vh]
                                 items-start 2xl:items-center"
                             >
                                 <div

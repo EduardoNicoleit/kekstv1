@@ -41,7 +41,7 @@ const Netclean = ({ isSticky, element }) => {
                             <div
                                 className="lg:flex-col 2xl:flex-row flex border-white border-y-[1px]
                                 sm:text-4xl md:text-3xl lg:text-[22px] 3xl:text-[1.2vw] 5xl:text-[1vw]
-                                lg:h-[220px] xl:h-[188px] 2xl:h-[128px] 3xl:h-[15vh] 5xl:h-[18vh]
+                                lg:h-[220px] xl:h-[188px] 2xl:h-[200px] 3xl:h-[18vh] 5xl:h-[20vh]
                                 items-start 2xl:items-center"
                             >
                                 <div
@@ -131,11 +131,11 @@ const Netclean = ({ isSticky, element }) => {
                 </div>
                 {/* Image Section 1 */}
                 <div className="pb-0 md:pb-8 2xl:pb-16">
-                    <img src="/assets/img/netclean/netclean_1.png" className="w-full" alt="Netclean Image 1" />
+                    <img src="/assets/img/netclean/netclean_1.jpg" className="w-full" alt="Netclean Image 1" />
                 </div>
                 {/* Image Section 2 */}
                 <div className="py-8 md:py-0">
-                    <img src="/assets/img/netclean/netclean_2.png" className="w-full" alt="Netclean Image 2" />
+                    <img src="/assets/img/netclean/netclean_2.jpg" className="w-full" alt="Netclean Image 2" />
                 </div>
                 {/* Image Section 3 */}
                 <div className="flex">
@@ -150,7 +150,7 @@ const Netclean = ({ isSticky, element }) => {
                     <div className="hidden lg:block lg:w-[299px] flex-none border-b-[1px]"></div>
                     <div className="w-full flex flex-col lg:flex-row">
                         <video
-                            className="w-full lg:w-1/2 h-auto object-cover mb-8 lg:mb-0 3xl:max-h-[25vw] 5xl:max-h-[30vw]"
+                            className="w-full lg:w-1/2 h-auto object-contain mb-8 lg:mb-0 3xl:max-h-[45vw]"
                             autoPlay
                             loop
                             muted
@@ -159,13 +159,14 @@ const Netclean = ({ isSticky, element }) => {
                             <source src="/assets/video/netclean/NetClean_movie_2.mp4" type="video/mp4" />
                         </video>
                         <video
-                            className="w-auto lg:w-1/2 h-auto object-cover pt-8 lg:pt-0 3xl:max-h-[25vw] 5xl:max-h-[30vw]"
+                            className="w-auto lg:w-1/2 h-auto object-contain pt-8 lg:pt-0 3xl:max-h-[50vw]"
                             autoPlay
                             loop
                             muted
                             playsInline
                         >
                             <source src="/assets/video/netclean/NetClean_movie_3.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
                         </video>
                     </div>
                 </div>

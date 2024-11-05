@@ -56,11 +56,9 @@ const Deutsche = ({ isSticky, element }) => {
                         <div className="hidden lg:block">
                             <div
                                 className="lg:flex-col 2xl:flex-row flex border-white border-y-[1px]
-                                        sm:text-4xl md:text-3xl lg:text-[22px] 
-                                        3xl:text-[1.2vw] 5xl:text-[1vw]
-                                        lg:h-[220px] xl:h-[188px] 2xl:h-[128px] 
-                                        3xl:h-[15vh] 5xl:h-[18vh]
-                                        items-start 2xl:items-center"
+                                sm:text-4xl md:text-3xl lg:text-[22px] 3xl:text-[1.2vw] 5xl:text-[1vw]
+                                lg:h-[220px] xl:h-[188px] 2xl:h-[200px] 3xl:h-[18vh] 5xl:h-[20vh]
+                                items-start 2xl:items-center"
                             >
                                 <div
                                     className="font-normal lg:pl-[60px] lg:pr-0 lg:pb-4 lg:pt-4 xl:pt-4 xl:pb-4 2xl:pt-0 2xl:pb-[2.2vw] w-[300px] lg:w-[200px] 2xl:w-[308px] 3xl:w-[14vw] mb-0 3xl:pl-[2vw] 3xl:pr-[2vw] 2xl:px-[2vw]"

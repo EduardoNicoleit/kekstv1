@@ -54,7 +54,7 @@ const FarmerVoice = ({ isSticky, element }) => {
                             <div
                                 className="lg:flex-col 2xl:flex-row flex border-white border-y-[1px]
                                 sm:text-4xl md:text-3xl lg:text-[22px] 3xl:text-[1.2vw] 5xl:text-[1vw]
-                                lg:h-[220px] xl:h-[188px] 2xl:h-[128px] 3xl:h-[15vh] 5xl:h-[18vh]
+                                lg:h-[220px] xl:h-[188px] 2xl:h-[200px] 3xl:h-[18vh] 5xl:h-[20vh]
                                 items-start 2xl:items-center"
                             >
                                 <div
@@ -184,16 +184,16 @@ const FarmerVoice = ({ isSticky, element }) => {
                     <img src="/assets/img/farmervoice/farmer_1.png" className="w-full" alt="Farmers Voice Image 1" />
                 </div>
                 <div>
-                    <img src="/assets/img/farmervoice/farmer_2.png" className="w-full" alt="Farmers Voice Image 2" />
+                    <img src="/assets/img/farmervoice/farmer_2.jpg" className="w-full" alt="Farmers Voice Image 2" />
                 </div>
                 <div className="py-8 2xl:py-16 flex">
                     <div className="hidden lg:block lg:w-[299px] 3xl:w-[15vw] flex-none"></div>
                     <div className="w-full">
-                        <img src="/assets/img/farmervoice/farmer_3.png" className="w-full" alt="Farmers Voice Image 5" />
+                        <img src="/assets/img/farmervoice/farmer_3.jpg" className="w-full" alt="Farmers Voice Image 5" />
                     </div>
                 </div>
                 <div>
-                    <img src="/assets/img/farmervoice/farmer_4.png" className="w-full" alt="Farmers Voice Image 4" />
+                    <img src="/assets/img/farmervoice/farmer_4.jpg" className="w-full" alt="Farmers Voice Image 4" />
                 </div>
                 <div className="py-8 2xl:py-16 flex">
                     <div className="hidden lg:block lg:w-[299px] 3xl:w-[15vw] flex-none"></div>
