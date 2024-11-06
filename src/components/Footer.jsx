@@ -36,8 +36,8 @@ const Footer = () => {
         <div>
             <div className='px-2 sm:px-6 md:px-[33px] xl:px-[45px] 2xl:px-[45px] 3xl:px-[3vw] 2xl:pt-[1.6vw]'>
                 <div className='relative pt-0 lg:pt-8 pb-2 2xl:pb-[2.5vw] 3xl:pb-[1.5vw] flex flex-col items-center xl:items-stretch'>
-                    <div className='font-Helvetica text-white text-md lg:text-md xl:text-[14px] 2xl:text-[1vw] grid lg:grid-cols-5 px-0 lg:px-16 w-full '>
-                        <div className='text-start pl-6 sm:pl-0 mb-5 mt-5 xl:mt-0 2xl:mt-[2vw] 2xl:mb-[1.6vw]'>
+                    <div className='font-Helvetica text-white text-14 xl:text-[14px] 2xl:text-[1vw] grid lg:grid-cols-5 px-0 lg:px-16 w-full py-8 lg:py-0'>
+                        <div className='block md:hidden xl:block text-start pl-6 sm:pl-0 mb-5 mt-5 xl:mt-0 2xl:mt-[2vw] 2xl:mb-[1.6vw]'>
                             {/* <NavItem to="welcome">
                                 <img
                                     src={Logo}
@@ -47,10 +47,10 @@ const Footer = () => {
                             </NavItem> */}
                         </div>
                         {/* Navigation Links */}
-                        <div className='grid col-span-3 w-full pb-8 xl:py-0 pl-6 sm:pl-0 md:pl-0 lg:pl-14 xl:pl-0 md:pt-0 cursor-pointer 2xl:leading-[2vw]'>
+                        <div className='grid col-span-3 w-full pb-0 lg:pb-8 xl:py-0 pl-6 sm:pl-0 md:pl-0 lg:pl-14 xl:pl-0 md:pt-0 cursor-pointer 2xl:leading-[2vw]'>
                             <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3 sm:mx-auto xl:mx-0 pt-0 lg:pt-0 w-full lg:w-auto 2xl:pt-0'>
                                 <div className='2xl:flex 2xl:flex-col 2xl:justify-start 2xl:items-start'>
-                                    <div className='hover:text-[#7a6b87] my-4 xl:my-0 2xl:mt-[2vw]'>
+                                    <div className='hover:text-[#7a6b87] my-0 lg:my-4 xl:my-0 2xl:mt-[2vw]'>
                                         <NavItem to="expertise">
                                             Expertise
                                         </NavItem>
@@ -130,15 +130,15 @@ const Footer = () => {
 
                     </div>
                     {/* Divider Line for Mobile */}
-                    <div className='px-2 relative block lg:hidden w-screen my-4'>
+                    <div className='px-2 relative block lg:hidden w-screen'>
                         <div className='absolute h-[1px] block bg-white tom-10 bottom-0 w-[calc(100%-16px)] sm:w-[calc(100%-16px)] left-2 sm:left-2'>
                         </div>
                     </div>
 
                     {/* Footer Links */}
-                    <div className='text-md lg:text-md xl:text-[14px] 2xl:text-[1vw] pl-6 sm:pl-0 grid grid-cols-1 lg:grid-cols-5 xl:grid-cols-5 text-white font-Helvetica pt-0 lg:pt-10 xl:pt-10 mx-auto lg:mx-0 px-0 lg:px-8 xl:px-16 pb-0 lg:pb-10 xl:pb-10 w-full lg:w-auto 2xl:pb-[5vw] 2xl:pt-[5vw]'>
+                    <div className='text-md lg:text-md xl:text-[14px] 2xl:text-[1vw] pl-6 sm:pl-0 grid grid-cols-1 lg:grid-cols-5 xl:grid-cols-5 text-white font-Helvetica pt-8 lg:pt-10 xl:pt-10 mx-auto lg:mx-0 px-0 lg:px-8 xl:px-16 pb-0 lg:pb-10 xl:pb-10 w-full lg:w-auto 2xl:pb-[5vw] 2xl:pt-[5vw]'>
                         <div className='lg:col-span-1'></div>
-                        <div className='pt-4 lg:pr-4 lg:pb-4 xl:py-0 lg:text-left'>
+                        <div className='pt-4 lg:pt-4 lg:pr-4 lg:pb-4 xl:py-0 lg:text-left'>
                             © 2023 Kekst CNC
                         </div>
                         <div className='pt-4 lg:pr-4 lg:pb-4 xl:py-0 text-left lg:text-center xl:text-left'>
@@ -217,7 +217,7 @@ const Footer = () => {
 
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 
