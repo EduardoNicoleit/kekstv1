@@ -158,7 +158,7 @@ const FarmerVoice = ({ isSticky, element }) => {
                 </div>
 
                 {/* Image Sections */}
-                <div className="py-8 2xl:py-16">
+                <div className="">
                     <img src="/assets/img/farmervoice/brand_color.png" className="w-full" alt="Farmers Voice Image 1" />
                 </div>
                 <div className="py-8 2xl:py-16">

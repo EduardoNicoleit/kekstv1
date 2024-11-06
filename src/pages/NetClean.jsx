@@ -159,7 +159,7 @@ const Netclean = ({ isSticky, element }) => {
                             <source src="/assets/video/netclean/NetClean_movie_2.mp4" type="video/mp4" />
                         </video>
                         <video
-                            className="w-auto lg:w-1/2 h-auto object-contain pt-8 lg:pt-0 3xl:max-h-[50vw]"
+                            className="w-auto lg:w-1/2 h-auto object-contain lg:pt-0 3xl:max-h-[50vw]"
                             autoPlay
                             loop
                             muted

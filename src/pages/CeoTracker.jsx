@@ -181,7 +181,7 @@ const CeoTracker = ({ isSticky, element }) => {
 
                     />
                 </div>
-                <div className="py-8 2xl:py-16">
+                <div className="">
                     <img
                         src="/assets/img/ceotracker/ceo_3.png"
                         className="w-full h-auto object-cover"

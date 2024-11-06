@@ -180,7 +180,7 @@ const Newwaters = ({ isSticky, element }) => {
                 </div>
 
                 {/* Image Grid */}
-                <div className="ml-0 lg:ml-[60px] 2xl:ml-[299px] 3xl:ml-[15vw] grid grid-cols-1 md:grid-cols-2 gap-y-8 3xl:gap-y-[2vw] border-white pt-4 pb-12 2xl:pt-[2vw] 2xl:pb-[10vw]">
+                <div className="ml-0 lg:ml-[60px] 2xl:ml-[299px] 3xl:ml-[15vw] grid grid-cols-1 md:grid-cols-2 gap-y-8 3xl:gap-y-[2vw] border-white pb-8 2xl:pt-[2vw] 2xl:pb-[10vw]">
                     {/* Image 1 */}
                     <div className="flex">
                         <div className="w-full">
