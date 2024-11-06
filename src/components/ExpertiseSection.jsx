@@ -10,7 +10,7 @@ const ExpertiseSection = () => {
                 expertiseData2.map((val, index) => (
                     <div
                         key={val.id}
-                        className={`text-white border-b-[1px] border-white pl-4 md:pl-0 ${index === 0 ? '' : 'pt-6 lg:pt-12 xl:pt-[40px] 2xl:pt-[45px] 3xl:pt-[2vw]'
+                        className={`text-white border-b-[1px] border-white pl-4 md:pl-0 ${index === 0 ? 'pt-6' : 'pt-12 lg:pt-12 xl:pt-[40px] 2xl:pt-[45px] 3xl:pt-[2vw]'
                             }`}
                     >
                         <div className="font-Helvetica flex flex-col xl:flex-row justify-between">
@@ -122,7 +122,7 @@ const ExpertiseSection = () => {
                                 <div></div>
                             </div>
                         </div>
-                        <div className="pr-0 xl:pr-20 block xl:hidden md:pt-[0px] lg:pt-[0px] xl:pt-0 pb-4 md:pb-5 lg:pb-[20px] xl:pb-0">
+                        <div className="pr-0 xl:pr-20 block xl:hidden md:pt-[0px] lg:pt-[0px] xl:pt-0 pb-12 md:pb-5 lg:pb-[20px] xl:pb-0">
                             <ReadMore linkUrl={val.link_url} />
                         </div>
                     </div>
