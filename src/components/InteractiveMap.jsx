@@ -141,7 +141,7 @@ Arlington, VA 22201`,
             const screenWidth = window.innerWidth;
 
             if (screenWidth < 768) { // Mobile breakpoint
-                baseFontSize = 45; // Adjust this value as needed
+                baseFontSize = 35; // Adjust this value as needed
             } else {
                 baseFontSize = 18;
             }
@@ -407,7 +407,7 @@ Arlington, VA 22201`,
                     <div className="flex items-center">
                         <div
                             id="lets-talk"
-                            className="font-Helvetica font-bold text-[32px] md:text-[32px] lg:text-[55px] xl:text-[65px] 2xl:text-[4vw] leading-tight pt-2 md:pt-4"
+                            className="font-Helvetica font-bold text-[35px] md:text-[40px] lg:text-[45px] xl:text-[50px] 2xl:text-[2.5vw] leading-tight pt-2 md:pt-4"
                         >
                             Let’s talk
                         </div>
