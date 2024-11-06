@@ -31,7 +31,7 @@ const ExpertiseCustomCompo = ({ isSticky, element, title1, title2, mainText1, ma
                     <div className="px-2 2xl:px-[3vw]">
                         <div className="py-[42px] 2xl:py-[3vw] font-Helvetica text-white">
                             <div className="pl-6 2xl:pl-[2vw]">
-                                <div className="text-xs 2xl:text-[1.2vw] font-normal pb-2 2xl:pb-[0.5vw] uppercase">Our Services</div>
+                                <div className="text-xs 2xl:text-[1.2vw] font-normal pb-2 2xl:pb-[0.5vw] uppercase">Our Services:</div>
                                 <div className="">
                                     {expertiseData.map((data, index) => (
                                         <div key={index} className="border-b-[1px] text-[13px] 2xl:text-[1vw] font-normal flex flex-row border-white items-center py-3 2xl:py-[1vw]">

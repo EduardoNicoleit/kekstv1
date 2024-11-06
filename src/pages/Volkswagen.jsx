@@ -70,7 +70,7 @@ const Volkswagen = () => {
             <div className="px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] 3xl:px-[45px]">
                 {/* Mobile Overview: */}
                 <div className="block lg:hidden font-Helvetica font-normal py-[41px] text-white pl-6">
-                    <div className="text-[12px] leading-[14px] uppercase">Overview:</div>
+                    <div className="text-[13px] leading-[14px] uppercase">Overview:</div>
                     <div className="text-[13px] leading-[15px] py-3 border-b-[1px] pr-6">
                         Crafted a targeted social media campaign for Volkswagen's ESG initiatives.
                     </div>
@@ -86,12 +86,12 @@ const Volkswagen = () => {
                     className="flex flex-col 2xl:flex-row md:pt-[10px] lg:pt-10 xl:pt-[156px] 2xl:pt-[211px] pb-10 lg:pb-20 xl:pb-[106px] 2xl:pb-[134px] w-full font-Helvetica text-white"
                 >
                     <div
-                        className="uppercase xl:normal-case text-start 2xl:text-left font-normal text-[12px] md:text-lg 2xl:text-2xl 3xl:text-[1.2vw] pt-3 xl:w-full 2xl:w-[308px] 3xl:w-[15vw] flex-none px-6 lg:px-[60px] 2xl:px-[2vw] py-6 2xl:py-0.2"
+                        className="uppercase xl:normal-case text-start 2xl:text-left font-normal text-[13px] md:text-lg 2xl:text-2xl 3xl:text-[1.2vw] pt-3 xl:w-full 2xl:w-[308px] 3xl:w-[15vw] flex-none px-6 lg:px-[60px] 2xl:px-[2vw] py-6 2xl:py-0.2"
                     >
                         The partnership:
                     </div>
                     <div
-                        className="font-bold md:font-normal text-[17px] md:text-[28px] 2xl:text-[40px] 3xl:text-[1.8vw] px-6 lg:px-[60px] 2xl:px-[0] 2xl:pr-[3.5vw] w-full leading-tight"
+                        className="font-bold md:font-normal text-[18px] md:text-[28px] 2xl:text-[40px] 3xl:text-[1.8vw] px-6 lg:px-[60px] 2xl:px-[0] 2xl:pr-[3.5vw] w-full leading-tight"
                     >
                         In close collaboration with Volkswagen, we meticulously developed a social media campaign to promote and position the group's global ESG initiatives. Over two months, this campaign engaged audiences through creative posts, aiming to shift perceptions by connecting ESG actions with relatable, real-world scenarios.
                     </div>
@@ -110,7 +110,7 @@ const Volkswagen = () => {
                 </div>
                 {/* Description Section */}
                 <div
-                    className="py-10 2xl:py-[5vw] text-[17px] lg:text-[18px] xl:text-[1.2vw] flex font-normal font-Helvetica text-white"
+                    className="py-10 2xl:py-[5vw] text-[14px] lg:text-[18px] xl:text-[1.2vw] flex font-normal font-Helvetica text-white"
                 >
                     <div className="w-6 lg:w-[60px] 2xl:w-[308px] 3xl:w-[15vw] flex-none"></div>
                     <div className="px-0 pr-6 sm:px-6 lg:px-0 lg:pr-10 2xl:pr-[3.5vw]">
