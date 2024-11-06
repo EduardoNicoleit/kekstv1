@@ -305,7 +305,7 @@ const ProcessCompo = () => {
                                         </div>
                                     </div>
                                     <div className="pt-8 ml-[25px] mr-[25px] md:ml-[20vw] md:mr-[10vw]">
-                                        <div className="font-Helvetica font-bold text-[24px] text-[#C51B89] leading-none">
+                                        <div className="font-Helvetica font-bold text-[20px] text-[#C51B89] leading-none">
                                             {processStateData[0].title}
                                         </div>
                                         <div className="font-Helvetica pt-[10px] text-base font-normal text-white">
@@ -349,7 +349,7 @@ const ProcessCompo = () => {
                                         </div>
                                     </div>
                                     <div className="pt-8 ml-[25px] mr-[25px] md:ml-[20vw] md:mr-[10vw]">
-                                        <div className="font-Helvetica font-bold text-[24px] text-[#C51B89] leading-none">
+                                        <div className="font-Helvetica font-bold text-[20px] text-[#C51B89] leading-none">
                                             {processStateData[1].title}
                                         </div>
                                         <div className="font-Helvetica pt-[10px] text-base font-normal text-white">
@@ -393,7 +393,7 @@ const ProcessCompo = () => {
                                         </div>
                                     </div>
                                     <div className="pt-8 ml-[25px] mr-[25px] md:ml-[20vw] md:mr-[10vw]">
-                                        <div className="font-Helvetica font-bold text-[24px] text-[#C51B89] leading-none">
+                                        <div className="font-Helvetica font-bold text-[20px] text-[#C51B89] leading-none">
                                             {processStateData[2].title}
                                         </div>
                                         <div className="font-Helvetica pt-[10px] text-base font-normal text-white">
@@ -437,7 +437,7 @@ const ProcessCompo = () => {
                                         </div>
                                     </div>
                                     <div className="pt-8 ml-[25px] mr-[25px] md:ml-[20vw] md:mr-[10vw]">
-                                        <div className="font-Helvetica font-bold text-[24px] text-[#C51B89] leading-none">
+                                        <div className="font-Helvetica font-bold text-[20px] text-[#C51B89] leading-none">
                                             {processStateData[3].title}
                                         </div>
                                         <div className="font-Helvetica pt-[10px] text-base font-normal text-white">

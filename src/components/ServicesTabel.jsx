@@ -3,7 +3,7 @@ import React from "react";
 const ExpertiseSection = (props) => {
     return (
         <div className="flex text-white">
-            <div className="hidden 2xl:block flex-none font-Helvetica xl:text-xl 2xl:text-[24px] 3xl:text-[1.2vw] 5xl:text-[1vw] md:w-48 lg:w-[143px] xl:w-[154px] 2xl:w-[308px] 3xl:w-[15vw] py-4 2xl:py-[0.6vw] 3xl:py-[1.1vw] md:px-6 lg:px-10 xl:px-4 2xl:px-10 3xl:px-[2vw]">
+            <div className="uppercase hidden 2xl:block flex-none font-Helvetica xl:text-xl 2xl:text-[24px] 3xl:text-[1.2vw] 5xl:text-[1vw] md:w-48 lg:w-[143px] xl:w-[154px] 2xl:w-[308px] 3xl:w-[15vw] py-4 2xl:py-[0.6vw] 3xl:py-[1.1vw] md:px-6 lg:px-10 xl:px-4 2xl:px-10 3xl:px-[2vw]">
                 Our Services:
             </div>
             <div className="w-full sm:pl-8 md:pl-[33px] lg:pl-[46px] xl:pl-[154px] 2xl:pl-0 px-10 lg:px-0">

@@ -29,7 +29,7 @@ const ExpertiseDataCompo = ({ isSticky, element }) => {
                             <div className="font-Helvetica text-[30px] sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-[80px] 3xl:text-[5.5vw] 5xl:text-[4.5vw] font-bold sm:pl-8 md:pl-[33px] lg:pl-[46px] xl:pl-[154px] 2xl:pl-[308px] 3xl:pl-[15vw] mt-auto py-14 sm:py-6 md:py-8 lg:py-10 xl:py-12 2xl:py-16 3xl:py-[6vw]">
                                 Data <br />Visualization
                             </div>
-                            <div className="hidden sm:block 2xl:hidden font-Helvetica text-base sm:pl-8 md:pl-[33px] lg:pl-[46px] xl:pl-[154px] py-2">
+                            <div className="uppercase hidden sm:block 2xl:hidden font-Helvetica text-base sm:pl-8 md:pl-[33px] lg:pl-[46px] xl:pl-[154px] py-2">
                                 Our Services:
                             </div>
                             <div className="hidden sm:block border-y-[1px] xl:border-x-0 border-white">
