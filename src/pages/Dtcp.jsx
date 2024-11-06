@@ -106,19 +106,19 @@ const DTCP = ({ isSticky, element }) => {
                     </div>
                     <div className="text-[13px] leading-[15px] py-3 
                                     border-b-[1px] 
-                                    3xl:text-[1vw] 5xl:text-[1.2vw]">
+                                    3xl:text-[1vw] 5xl:text-[1.2vw] pr-6">
                         Elevated the Annual Report with
                         Dynamic Visual Narratives.
                     </div>
                     <div className="text-[13px] leading-[15px] py-3 
                                     border-b-[1px] 
-                                    3xl:text-[1vw] 5xl:text-[1.2vw]">
+                                    3xl:text-[1vw] 5xl:text-[1.2vw] pr-6">
                         Transformed Complex Data into
                         Actionable Insights.
                     </div>
                     <div className="text-[13px] leading-[15px] py-3 
                                     border-b-[1px] 
-                                    3xl:text-[1vw] 5xl:text-[1.2vw]">
+                                    3xl:text-[1vw] 5xl:text-[1.2vw] pr-6">
                         Crafted a Visual Identity that Reflects
                         the Company's Trustworthiness.
                     </div>

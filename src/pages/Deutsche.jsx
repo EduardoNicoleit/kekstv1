@@ -109,20 +109,20 @@ const Deutsche = ({ isSticky, element }) => {
                     </div>
                     <div className="text-[13px] leading-[15px] py-3 
                                     border-b-[1px] 
-                                    3xl:text-[1vw] 5xl:text-[1.2vw]">
+                                    3xl:text-[1vw] 5xl:text-[1.2vw] pr-6">
                         Conceptualized Deutsche Bahn's messaging on
                         the topic of "diversity" based on factual insights
                         and the company's reality.
                     </div>
                     <div className="text-[13px] leading-[15px] py-3 
                                     border-b-[1px] 
-                                    3xl:text-[1vw] 5xl:text-[1.2vw]">
+                                    3xl:text-[1vw] 5xl:text-[1.2vw] pr-6">
                         Utilized innovative visual communication to
                         reshape perceptions of diversity.
                     </div>
                     <div className="text-[13px] leading-[15px] py-3 
                                     border-b-[1px] 
-                                    3xl:text-[1vw] 5xl:text-[1.2vw]">
+                                    3xl:text-[1vw] 5xl:text-[1.2vw] pr-6">
                         Deployed a strategic approach targeting
                         key stakeholders and the general public.
                     </div>

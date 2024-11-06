@@ -106,19 +106,19 @@ const Malteser = ({ isSticky, element }) => {
                     </div>
                     <div className="text-[13px] leading-[15px] py-3 
                                     border-b-[1px] 
-                                    3xl:text-[1vw] 5xl:text-[1.2vw]">
+                                    3xl:text-[1vw] 5xl:text-[1.2vw] pr-6">
                         Enhanced Design Identity through
                         innovative data visualization.
                     </div>
                     <div className="text-[13px] leading-[15px] py-3 
                                     border-b-[1px] 
-                                    3xl:text-[1vw] 5xl:text-[1.2vw]">
+                                    3xl:text-[1vw] 5xl:text-[1.2vw] pr-6">
                         Fostered inclusive visual communication
                         reflecting global support.
                     </div>
                     <div className="text-[13px] leading-[15px] py-3 
                                     border-b-[1px] 
-                                    3xl:text-[1vw] 5xl:text-[1.2vw]">
+                                    3xl:text-[1vw] 5xl:text-[1.2vw] pr-6">
                         Simplified intricate data into
                         compelling infographics.
                     </div>

@@ -106,19 +106,19 @@ const BP = ({ isSticky, element }) => {
                     </div>
                     <div className="text-[13px] leading-[15px] py-3 
                                     border-b-[1px] 
-                                    3xl:text-[1vw] 5xl:text-[1.2vw]">
+                                    3xl:text-[1vw] 5xl:text-[1.2vw] pr-6">
                         Developed a series of infographics
                         for bp's GTA FLNG project.
                     </div>
                     <div className="text-[13px] leading-[15px] py-3 
                                     border-b-[1px] 
-                                    3xl:text-[1vw] 5xl:text-[1.2vw]">
+                                    3xl:text-[1vw] 5xl:text-[1.2vw] pr-6">
                         Adapted content for different regions and languages,
                         ensuring cultural and regional relevance.
                     </div>
                     <div className="text-[13px] leading-[15px] py-3 
                                     border-b-[1px] 
-                                    3xl:text-[1vw] 5xl:text-[1.2vw]">
+                                    3xl:text-[1vw] 5xl:text-[1.2vw] pr-6">
                         Utilized a visual strategy to enhance
                         understanding and engagement.
                     </div>

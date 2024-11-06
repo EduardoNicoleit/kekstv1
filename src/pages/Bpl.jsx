@@ -89,21 +89,21 @@ const Bpl = ({ isSticky, element }) => {
                     </div>
                     <div className="text-[13px] leading-[15px] py-3 
                                     border-b-[1px] 
-                                    3xl:text-[1vw] 5xl:text-[1.2vw]">
+                                    3xl:text-[1vw] 5xl:text-[1.2vw] pr-6">
                         Developed a creative strategy and
                         visual identity for BPI's social media
                         communication.
                     </div>
                     <div className="text-[13px] leading-[15px] py-3 
                                     border-b-[1px] 
-                                    3xl:text-[1vw] 5xl:text-[1.2vw]">
+                                    3xl:text-[1vw] 5xl:text-[1.2vw] pr-6">
                         Devised a unique, modern approach for
                         narrative delivery, avoiding generic
                         stock images.
                     </div>
                     <div className="text-[13px] leading-[15px] py-3 
                                     border-b-[1px] 
-                                    3xl:text-[1vw] 5xl:text-[1.2vw]">
+                                    3xl:text-[1vw] 5xl:text-[1.2vw] pr-6">
                         Produced a versatile video campaign
                         suitable for both the AGM and social
                         media engagement.

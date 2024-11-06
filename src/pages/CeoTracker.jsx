@@ -109,14 +109,14 @@ const CeoTracker = ({ isSticky, element }) => {
                     </div>
                     <div className="text-[13px] leading-[15px] py-3 
                                     border-b-[1px] 
-                                    3xl:text-[1vw] 5xl:text-[1.2vw]">
+                                    3xl:text-[1vw] 5xl:text-[1.2vw] pr-6">
                         Launched a report revealing how CEOs
                         managed communication during the world's
                         tumultuous times.
                     </div>
                     <div className="text-[13px] leading-[15px] py-3 
                                     border-b-[1px] 
-                                    3xl:text-[1vw] 5xl:text-[1.2vw]">
+                                    3xl:text-[1vw] 5xl:text-[1.2vw] pr-6">
                         Developed a visual narrative around distinct CEO
                         personas, illustrating various leadership approaches
                         amidst economic, political and societal challenges.
