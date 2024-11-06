@@ -159,7 +159,7 @@ const Bpl = ({ isSticky, element }) => {
                     <img src="/assets/img/bpl/BPI_3.png" className="w-full" alt="keskt..." />
                 </div>
                 <div className="pt-0 md:pt-0">
-                    <img src="/assets/img/bpl/BPI_2.png" className="w-full pb-8 3xl:pb-[6vw]" alt="keskt..." />
+                    <img src="/assets/img/bpl/BPI_2.png" className="w-full" alt="keskt..." />
                 </div>
                 <div className="py-8 2xl:py-16 flex">
                     <div className="hidden lg:block lg:w-[299px] 3xl:w-[15vw] flex-none"></div>
@@ -188,7 +188,7 @@ const Bpl = ({ isSticky, element }) => {
                         </div>
                     </div>
                 </div>
-                <div className="py-8 3xl:py-[6vw]">
+                <div className="">
                     <img src="/assets/img/bpl/BPI_1.png" className="w-full" alt="keskt..." />
                 </div>
                 <div className="py-8 2xl:py-16 flex">
@@ -224,7 +224,7 @@ const Bpl = ({ isSticky, element }) => {
                         </div>
                     </div>
                 </div>
-                <div className="py-8 2xl:py-16 3xl:py-[6vw]">
+                <div className="pb-8 2xl:pb-16 3xl:pb-[6vw]">
                     <img src="/assets/img/bpl/BPI_4.png" className="w-full" alt="keskt..." />
                 </div>
 
