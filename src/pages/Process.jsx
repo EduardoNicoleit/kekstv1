@@ -159,7 +159,7 @@ const ProcessCompo = () => {
                                 </div>
                                 {/* Right Section */}
                                 <div className="flex-1 flex pl-4 2xl:pl-[2vw] justify-start border-l border-white min-h-[150px] 3xl:min-h-[10vw]pr-12 items-left justify-left">
-                                    <div className="items-left justify-left flex flex-col ml-6 font-Helvetica leading-loose 3xl:leading-[1.6vw] text-[3.2vw] sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw] font-normal pr-6 3xl:pr-[1vw] 3xl:pl-[0.5vw] py-2">
+                                    <div className="items-center justify-center flex flex-col ml-6 font-Helvetica leading-loose 3xl:leading-[1.6vw] text-[3.2vw] sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw] font-normal pr-6 3xl:pr-[1vw] 3xl:pl-[0.5vw] 2xl:py-4">
                                         <ul className="list-disc">
                                             <li>
                                                 {currentProcessData.subContent1}
