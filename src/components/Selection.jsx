@@ -17,13 +17,13 @@ const Selections = ({ selectionsData }) => {
                         <div className='pl-0 md:pl-0 flex flex-col 2xl:flex-row font-bold items-start 2xl:items-center py-8 md:py-6 lg:py-8 xl:py-9 2xl:py-[2.5vw]'>
                             <div className='flex-none w-full flex lg:w-[280px] xl:w-[270px] 2xl:w-[20vw] items-center sm:border-none'>
                                 <Link to={data.link_url}>
-                                    <div className='text-[21px] sm:text-2xl md:text-[21px] lg:text-4xl xl:text-4xl 2xl:text-[2vw] font-bold font-Helvetica hover:text-[#7a6b87] pl-0 md:pl-0'>
+                                    <div className='text-[18px] sm:text-[22px] md:text-[26px] lg:text-[32px] xl:text-[34px] 2xl:text-[2vw] font-bold font-Helvetica hover:text-[#7a6b87] pl-0 md:pl-0'>
                                         {data.title}
                                     </div>
                                 </Link>
                                 <div className='hidden 2xl:block h-[1px] 3xl:h-[1.5px] bg-white ml-0 2xl:ml-[1vw] w-full'></div>
                             </div>
-                            <div className='leading-tight pl-0 md:pl-0 pr-5 w-full font-normal text-[3.2vw] sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw] border-0 border-r-0 2xl:border-l-[1px] 3xl:border-l-[2px] 2xl:px-[2.5vw] font-Helvetica pt-2 md:pt-4 lg:pt-2 2xl:pt-0 3xl:leading-[1.6vw]'>
+                            <div className='leading-tight pl-0 md:pl-0 pr-5 w-full font-normal text-sm sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw] border-0 border-r-0 2xl:border-l-[1px] 3xl:border-l-[2px] 2xl:px-[2.5vw] font-Helvetica pt-2 md:pt-4 lg:pt-2 2xl:pt-0 3xl:leading-[1.6vw]'>
                                 {data.content}
                             </div>
                         </div>

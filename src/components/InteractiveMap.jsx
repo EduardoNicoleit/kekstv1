@@ -441,7 +441,7 @@ Arlington, VA 22201`,
                         </div>
                     </a>
                     {/* Address Display */}
-                    <div className="mt-12 md:mt-[80px] lg:mt-[80px] xl:mt-[100px] 2xl:mt-[120px] 3xl:mt-[5vw]">
+                    <div className="mt-8 md:mt-8 lg:mt-8 xl:mt-8 2xl:mt-8 3xl:mt-[2vw]">
                         {/* "Where we are:" text */}
                         <div className="font-Helvetica font-extrabold text-[24px] md:text-[32px] lg:text-[32px] xl:text-[36px] 2xl:text-[38px] 3xl:text-[2.2vw] leading-tight text-white mt-3">
                             {/* Where we are: */}
@@ -470,7 +470,7 @@ Arlington, VA 22201`,
 
                         {/* Address */}
                         <div
-                            className="h-[50px] md:h-auto font-Helvetica sm:text-[10px] md:text-[10px] lg:text-[12px] xl:text-[14px] 2xl:text-[14px] 3xl:text-[0.7vw] font-normal whitespace-pre-line address-display leading-normal py-0 2xl:py-0 3xl:leading-[1.1vw] ml-[28px] xl:ml-[30px] 2xl:ml-[2.5vw]"
+                            className="h-[50px] md:h-auto font-Helvetica text-[10px] md:text-[10px] lg:text-[12px] xl:text-[14px] 2xl:text-[14px] 3xl:text-[0.7vw] font-normal whitespace-pre-line address-display leading-normal py-0 2xl:py-0 3xl:leading-[1.1vw] ml-[28px] xl:ml-[30px] 2xl:ml-[2.5vw]"
                             style={{
                                 opacity: displayedCity ? '1' : '0',
                                 transition: 'opacity 0.2s ease',

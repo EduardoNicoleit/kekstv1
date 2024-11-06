@@ -60,7 +60,7 @@ const ExpertiseDataCompo = ({ isSticky, element }) => {
                                                             </div>
                                                         </div>
                                                         <div className="leading-normal 2xl:leading-[1.6vw]
-                                                        text-[3.2vw] sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw]
+                                                        text-sm sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw]
                                                         lg:pt-5 xl:pt-[22px] 2xl:pt-[50px]
                                                         2xl:pb-[76px]
                                                         lg:max-w-[600px] xl:max-w-[950px] 2xl:max-w-[500px]
@@ -81,7 +81,7 @@ const ExpertiseDataCompo = ({ isSticky, element }) => {
                                                             </div>
                                                         </div>
                                                         <div className="leading-normal 2xl:leading-[1.6vw]
-                                                       text-[3.2vw] sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw]
+                                                       text-sm sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw]
                                                         lg:pt-5 xl:pt-[22px] 2xl:pt-[50px]
                                                         2xl:pb-[76px]
                                                         lg:max-w-[600px] xl:max-w-[950px] 2xl:max-w-[500px]
@@ -102,7 +102,7 @@ const ExpertiseDataCompo = ({ isSticky, element }) => {
                                                             </div>
                                                         </div>
                                                         <div className="leading-normal 2xl:leading-[1.6vw]
-                                                        text-[3.2vw] sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw] 
+                                                        text-sm sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw] 
                                                         lg:pt-5 xl:pt-[22px] 2xl:pt-[50px]
                                                         2xl:pb-[76px]
                                                         lg:max-w-[600px] xl:max-w-[950px] 2xl:max-w-[500px]
@@ -125,7 +125,7 @@ const ExpertiseDataCompo = ({ isSticky, element }) => {
                                                             </div>
                                                         </div>
                                                         <div className="leading-normal 2xl:leading-[1.6vw]
-                                                        text-[3.2vw] sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw]
+                                                        text-sm sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw]
                                                         2xl:pt-[50px]
                                                         2xl:pb-[76px]
                                                         max-w-[500px]

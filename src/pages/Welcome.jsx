@@ -32,7 +32,7 @@ const Welcome = () => {
                                         overflow: 'visible',
                                     }}
                                 >
-                                    <span className="relative z-10 pl-3 pr-4">Move.</span>
+                                    <span className="relative z-10 pl-0 lg:pl-3 pr-4">Move.</span>
                                 </span>
                             </div>
                             <div className="mb-2 sm:mb-4 whitespace-nowrap">

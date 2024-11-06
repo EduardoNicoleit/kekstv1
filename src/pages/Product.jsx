@@ -59,7 +59,7 @@ const ProductCompo = ({ isSticky, element }) => {
                                             <div className="uppercase hidden lg:block 2xl:hidden sm:text-2xl md:text-3xl lg:text-3xl 2xl:text-4xl 3xl:text-[2.2vw] 5xl:text-[2vw] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px] leading-normal">
                                                 User-Centric Design
                                             </div>
-                                            <div className="leading-normal 2xl:leading-[1.6vw] text-[3.2vw] sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw]
+                                            <div className="leading-normal 2xl:leading-[1.6vw] text-sm sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw]
                                             lg:pt-5 xl:pt-[22px] 2xl:pt-[50px]
                                             lg:pb-12 xl:pb-[78px] 2xl:pb-[90px] 3xl:pb-[120px]
                                             lg:max-w-[800px] 3xl:max-w-[50vw]">
@@ -79,7 +79,7 @@ const ProductCompo = ({ isSticky, element }) => {
                                             <div className="uppercase hidden lg:block 2xl:hidden sm:text-2xl md:text-3xl lg:text-3xl 2xl:text-4xl 3xl:text-[2.2vw] 5xl:text-[2vw] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px] leading-normal">
                                                 Data-Driven Insights
                                             </div>
-                                            <div className="leading-normal 2xl:leading-[1.6vw] text-[3.2vw] sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw]
+                                            <div className="leading-normal 2xl:leading-[1.6vw] text-sm sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw]
                                             lg:pt-5 xl:pt-[22px] 2xl:pt-[50px]
                                             lg:pb-12 xl:pb-[78px] 2xl:pb-[90px] 3xl:pb-[120px]
                                             lg:max-w-[800px] 3xl:max-w-[50vw]">
@@ -99,7 +99,7 @@ const ProductCompo = ({ isSticky, element }) => {
                                             <div className="uppercase hidden lg:block 2xl:hidden sm:text-2xl md:text-3xl lg:text-3xl 2xl:text-4xl 3xl:text-[2.2vw] 5xl:text-[2vw] lg:pt-10 xl:pt-[82px] 2xl:pt-[90px] leading-normal">
                                                 Forward-Thinking Design
                                             </div>
-                                            <div className="leading-normal 2xl:leading-[1.6vw] text-[3.2vw] sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw]
+                                            <div className="leading-normal 2xl:leading-[1.6vw] text-sm sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw]
                                             lg:pt-5 xl:pt-[22px] 2xl:pt-[50px]
                                             lg:pb-12 xl:pb-[78px] 2xl:pb-[90px] 3xl:pb-[120px]
                                             lg:max-w-[800px] 3xl:max-w-[50vw]">

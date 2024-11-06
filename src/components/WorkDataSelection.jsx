@@ -44,7 +44,7 @@ const Selections = ({ selectionsData }) => {
                                 ></div>
                             </div>
                             <div
-                                className="leading-tight pl-0 md:pl-0 pr-5 w-full font-normal text-[3.2vw] sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw] border-0 border-r-0 2xl:border-l-[1px] 3xl:border-l-[2px] 2xl:px-[2.5vw] font-Helvetica pt-2 md:pt-4 lg:pt-2 2xl:pt-0 3xl:leading-[1.6vw]"
+                                className="leading-tight pl-0 md:pl-0 pr-5 w-full font-normal text-sm sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw] border-0 border-r-0 2xl:border-l-[1px] 3xl:border-l-[2px] 2xl:px-[2.5vw] font-Helvetica pt-2 md:pt-4 lg:pt-2 2xl:pt-0 3xl:leading-[1.6vw]"
                             >
                                 {data.content}
                             </div>
