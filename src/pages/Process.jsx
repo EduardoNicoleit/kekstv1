@@ -179,13 +179,13 @@ const ProcessCompo = () => {
                         </div>
                     </div>
                     <div className="relative hidden">
-                        <div className="absolute grid grid-cols-3 top-[100px] sm:top-[170px] md:top-[190px] lg:top-[280px] w-full h-full">
+                        {/* <div className="absolute grid grid-cols-3 top-[100px] sm:top-[170px] md:top-[190px] lg:top-[280px] w-full h-full">
                             <div></div>
                             <div>
                                 <img src={wavesHImg} alt="" className="w-full h-[67%] sm:h-[65%] md:h-[64%] lg:h-[68%]" />
                             </div>
                             <div></div>
-                        </div>
+                        </div> */}
                         <div className="w-[1px] bg-white left-1/2 flex items-center justify-center absolute 
                         md:top-0 h-[calc(100%-50px)] sm:h-[calc(100%-110px)] md:h-[calc(100%-100px)] lg:h-[calc(100%-60px)]
                         mt-2 sm:mt-[52px] md:mt-10 lg:mt-0"></div>
