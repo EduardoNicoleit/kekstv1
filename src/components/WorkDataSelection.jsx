@@ -35,7 +35,7 @@ const Selections = ({ selectionsData }) => {
                                 className="w-full flex lg:w-[280px] xl:w-[270px] flex-none 2xl:w-[20vw] items-center sm:border-none pb-2 xl:pb-0"
                             >
                                 <div
-                                    className="md:text-[21px] lg:text-[30px] xl:text-4xl 2xl:text-[2vw] font-bold font-Helvetica 2xl:pr-[1vw] 3xl:leading-[2.5vw]"
+                                    className="text-[18px] lg:text-[30px] xl:text-4xl 2xl:text-[2vw] font-bold font-Helvetica 2xl:pr-[1vw] 3xl:leading-[2.5vw]"
                                 >
                                     {data.title}
                                 </div>
@@ -44,7 +44,7 @@ const Selections = ({ selectionsData }) => {
                                 ></div>
                             </div>
                             <div
-                                className="leading-tight pl-0 md:pl-0 pr-5 w-full font-normal text-sm sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw] border-0 border-r-0 2xl:border-l-[1px] 3xl:border-l-[2px] 2xl:px-[2.5vw] font-Helvetica pt-2 md:pt-4 lg:pt-2 2xl:pt-0 3xl:leading-[1.6vw]"
+                                className="leading-tight pl-0 md:pl-0 pr-5 w-full font-normal text-[14px] sm:text-[14px] lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw] border-0 border-r-0 2xl:border-l-[1px] 3xl:border-l-[2px] 2xl:px-[2.5vw] font-Helvetica pt-2 md:pt-4 lg:pt-2 2xl:pt-0 3xl:leading-[1.6vw]"
                             >
                                 {data.content}
                             </div>
