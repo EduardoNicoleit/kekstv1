@@ -448,9 +448,9 @@ Arlington, VA 22201`,
                         </div>
 
                         {/* City Name with Icon */}
-                        <div className="flex items-center mb-2 mt-4 lg:mt-4 3xl:mt-[1vw]">
+                        <div className="flex items-center mb-2 lg:mt-4 3xl:mt-[1vw]">
                             {/* SVG Icon */}
-                            <div className="mr-2 3xl:mr-[0.5vw] mt-4 lg:mt-6 3xl:mt-[1.5vw]">
+                            <div className="mr-2 3xl:mr-[0.5vw] lg:mt-6 3xl:mt-[1.5vw]">
                                 <svg
                                     className="w-[18px] h-[16px] xl:w-[20px] xl:h-[20px] 2xl:w-[2vw] 2xl:h-[2vw]"
                                     xmlns="http://www.w3.org/2000/svg"
@@ -463,7 +463,7 @@ Arlington, VA 22201`,
                                 </svg>
                             </div>
                             {/* City Name */}
-                            <div className="items-center justify-center lg:mr-4 xl:mr-6 mt-4 lg:mt-6 3xl:mt-[1.5vw] font-Helvetica font-bold text-[17px] lg:text-[20px] xl:text-2xl 2xl:text-3xl 3xl:text-[1.2vw] leading-tight text-white">
+                            <div className="items-center justify-center lg:mr-4 xl:mr-6 lg:mt-6 3xl:mt-[1.5vw] font-Helvetica font-bold text-[17px] lg:text-[20px] xl:text-2xl 2xl:text-3xl 3xl:text-[1.2vw] leading-tight text-white">
                                 {displayedCity?.city}
                             </div>
                         </div>
