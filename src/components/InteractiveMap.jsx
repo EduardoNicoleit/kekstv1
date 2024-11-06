@@ -434,7 +434,7 @@ Arlington, VA 22201`,
                             </div>
 
                             <div className="flex items-center h-full">
-                                <div className="font-Helvetica font-bold text-[17px] lg:text-[20px] xl:text-2xl 2xl:text-3xl 3xl:text-[1.2vw] pl-1 2xl:pl-[0.5vw]">
+                                <div className="font-Helvetica font-bold text-[17px] lg:text-[20px] xl:text-2xl 2xl:text-3xl 3xl:text-[1.2vw] pl-0 2xl:pl-0">
                                     creative@kekstcnc.com
                                 </div>
                             </div>
@@ -470,7 +470,7 @@ Arlington, VA 22201`,
 
                         {/* Address */}
                         <div
-                            className="h-[50px] md:h-auto font-Helvetica sm:text-[12px] md:text-[12px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[1vw] font-normal whitespace-pre-line address-display leading-normal py-4 2xl:py-[1.5vw] 3xl:leading-[1.8vw]"
+                            className="h-[50px] md:h-auto font-Helvetica sm:text-[10px] md:text-[10px] lg:text-[12px] xl:text-[14px] 2xl:text-[14px] 3xl:text-[0.7vw] font-normal whitespace-pre-line address-display leading-normal py-0 2xl:py-0 3xl:leading-[1.1vw] ml-[28px] xl:ml-[30px] 2xl:ml-[2.5vw]"
                             style={{
                                 opacity: displayedCity ? '1' : '0',
                                 transition: 'opacity 0.2s ease',
