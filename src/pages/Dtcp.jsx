@@ -100,7 +100,7 @@ const DTCP = ({ isSticky, element }) => {
                 <div className="block lg:hidden font-Helvetica font-normal 
                                 py-[41px] text-white pl-6
                                 3xl:pl-[4vw] 5xl:pl-[6vw]">
-                    <div className="text-[12px] leading-[14px] uppercase 
+                    <div className="text-[13px] leading-[14px] uppercase 
                                     3xl:text-[1vw] 5xl:text-[1.2vw]">
                         Overview:
                     </div>
@@ -132,12 +132,12 @@ const DTCP = ({ isSticky, element }) => {
                     w-full font-Helvetica text-white"
                 >
                     <div
-                        className="uppercase xl:normal-case text-start 2xl:text-left font-normal text-[12px] md:text-lg 2xl:text-2xl 3xl:text-[1.2vw] pt-3 xl:w-full 2xl:w-[308px] 3xl:w-[15vw] flex-none px-6 lg:px-[60px] 2xl:px-[2vw] py-6 2xl:py-0.2"
+                        className="uppercase xl:normal-case text-start 2xl:text-left font-normal text-[13px] md:text-lg 2xl:text-2xl 3xl:text-[1.2vw] pt-3 xl:w-full 2xl:w-[308px] 3xl:w-[15vw] flex-none px-6 lg:px-[60px] 2xl:px-[2vw] py-6 2xl:py-0.2"
                     >
                         The partnership:
                     </div>
                     <div
-                        className="font-bold md:font-normal text-[17px] md:text-[28px] 2xl:text-[40px] 3xl:text-[1.8vw] px-6 lg:px-[60px] 2xl:px-[0] 2xl:pr-[3.5vw] w-full leading-tight"
+                        className="font-bold md:font-normal text-[18px] md:text-[28px] 2xl:text-[40px] 3xl:text-[1.8vw] px-6 lg:px-[60px] 2xl:px-[0] 2xl:pr-[3.5vw] w-full leading-tight"
                     >
                         Partnering with DTCP, we've transformed their Annual Reports, infusing them with a narrative that resonates with the company's unique essence; dynamic and innovative. This approach was meticulously crafted to engage stakeholders, effectively conveying the company's accomplishments and future aspirations through a blend of captivating visual storytelling and insightful infographics. By integrating these elements, we ensured that the report not only invigorates readers but also authentically reflects our pioneering ethos.
                     </div>
@@ -163,7 +163,7 @@ const DTCP = ({ isSticky, element }) => {
 
                 {/* Description Section */}
                 <div
-                    className="py-10 2xl:py-[5vw] text-[17px] lg:text-[18px] xl:text-[1.2vw] flex font-normal font-Helvetica text-white"
+                    className="py-10 2xl:py-[5vw] text-[14px] lg:text-[18px] xl:text-[1.2vw] flex font-normal font-Helvetica text-white"
                 >
                     <div className="md:w-6 lg:w-[60px] 
                                     2xl:w-[299px] 3xl:w-[15vw] flex-none"></div>
