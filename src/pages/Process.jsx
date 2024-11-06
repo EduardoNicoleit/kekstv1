@@ -178,7 +178,7 @@ const ProcessCompo = () => {
 
                         </div>
                     </div>
-                    {/* <div className="relative hidden">
+                    <div className="relative hidden">
                         <div className="absolute grid grid-cols-3 top-[100px] sm:top-[170px] md:top-[190px] lg:top-[280px] w-full h-full">
                             <div></div>
                             <div>
@@ -459,12 +459,12 @@ const ProcessCompo = () => {
                                             </div>
                                         </div>
                                     </div>
-                                </div> */}
-                    {/* </Carousel>
+                                </div>
+                            </Carousel>
                         </div>
-                    </div> */}
+                    </div>
                 </div>
-                {/* <div className="hidden sm:block xl:hidden">
+                <div className="hidden sm:block xl:hidden">
                     <Dialog open={open && mobileState} handler={handleOpen}>
                         <DialogHeader className="bg-[#210837] justify-end items-center">
                             <div className="mr-1" onClick={handleOpen}>
@@ -494,7 +494,7 @@ const ProcessCompo = () => {
                             </div>
                         </DialogBody>
                     </Dialog>
-                </div> */}
+                </div>
             </div >
         </div >
     )
