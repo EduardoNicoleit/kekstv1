@@ -24,7 +24,9 @@ UAE`,
             city: "Berlin",
             address: `Mädler Haus
 Friedrichstraße 58
-10117 Berlin`,
+10117 Berlin
+Germany`,
+
             position: "berlin"
         },
         {
@@ -76,7 +78,8 @@ Germany`,
             city: "New York",
             address: `New York (Headquarters)
 1675 Broadway, 30th Floor
-New York, NY 10019`,
+New York, NY 10019
+USA`,
             position: "new-york"
         },
         {
@@ -92,8 +95,9 @@ France`,
             className: ".st13",
             city: "Riyadh",
             address: `Roshn Front Business Area
-Building S4
-Riyadh, Kingdom of Saudi Arabia 13413`,
+13413, Building S4
+Riyadh
+Kingdom of Saudi Arabia`,
             position: "riyadh"
         },
         {
@@ -128,7 +132,8 @@ Japan`,
             city: "Washington, D.C.",
             address: `Washington, D.C.
 1515 N. Courthouse Rd.
-Arlington, VA 22201`,
+Arlington, VA 22201
+USA`,
             position: "washington"
         }
     ];
@@ -407,7 +412,7 @@ Arlington, VA 22201`,
                     <div className="flex items-center">
                         <div
                             id="lets-talk"
-                            className="font-Helvetica font-bold text-[35px] md:text-[40px] lg:text-[45px] xl:text-[50px] 2xl:text-[2.5vw] leading-tight pt-2 md:pt-4"
+                            className="font-Helvetica font-bold text-[35px] md:text-[40px] lg:text-[45px] xl:text-[50px] 2xl:text-[2.5vw] leading-tight pt-6 md:pt-6"
                         >
                             Let’s talk
                         </div>
