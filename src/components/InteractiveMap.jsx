@@ -16,7 +16,7 @@ const InteractiveMap = () => {
             city: "Abu Dhabi",
             address: `P.O. Box 77863
 Abu Dhabi
-UAE`,
+UAEE`,
             position: "abu-dhabi"
         },
         {
