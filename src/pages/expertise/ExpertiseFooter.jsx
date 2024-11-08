@@ -8,7 +8,7 @@ const ExpertiseFooter = () => {
     const isActive = (path) => location.pathname === path;
 
     return (
-        <div className="border-y-[1px] px-6 sm:px-6 flex flex-col py-8 sm:py-3 md:py-10 lg:py-12 2xl:py-[4vw] 3xl:py-[5vw] font-Helvetica text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-2xl 2xl:text-[2.5vw] 3xl:text-[2vw]">
+        <div className="border-t-[1px] px-6 sm:px-6 flex flex-col py-8 sm:py-3 md:py-10 lg:py-12 2xl:py-[4vw] 3xl:py-[5vw] font-Helvetica text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-2xl 2xl:text-[2.5vw] 3xl:text-[2vw]">
             <div className="mx-0 lg:mx-auto">
                 <div className={`uppercase flex py-2 md:py-4 lg:py-5 2xl:py-[2vw] 3xl:py-[1.5vw] group items-center ${isActive('/expertise') ? 'text-[#7a6b87]' : 'text-white hover:text-[#7a6b87]'}`}>
                     <div>
