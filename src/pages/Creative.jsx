@@ -1,85 +1,63 @@
-import React, { useEffect } from "react";
-import locationImg from '../assets/img/home/location.png'
+import React from "react";
+// import locationImg from '../assets/img/home/world.svg'
+import { InteractiveMap } from "../components";
+import { Divider } from "../components";
+
 
 const CreativeCompo = () => {
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, []);
     return (
         <div>
-            <div className="text-white font-Arial relative">
-                <div className="bg-[url('assets/img/home/creative_bg.png')] bg-contain bg-inherit w-full text-white font-Arial px-2 lg:px-4 xl:px-[25px] 2xl:px-[50px] bottom-0 top-0 pb-10 md:pb-0">
+            <div className="text-white font-Helvetica relative">
+                <div className="bg-[url('assets/img/home/creative_bg.png')] bg-no-repeat bg-cover text-white font-Helvetica px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] bottom-0 top-0 pb-10 md:pb-16 2xl:pb-[5vw] 3xl:pb-[5.5vw]">
                     <div className="bottom-0 top-0 w-full">
-                        <div className="flex text-white lg:pt-12 xl:pt-[62px] 2xl:pt-[98px]">
-                            <div className="flex w-full items-center">
-                                <div className="h-5 md:h-4 xl:h-[30px] hidden md:flex w-9 sm:w-6 md:w-[26px] lg:w-[51px] xl:w-[100px] border-r-0 xl:border-r-[1px] relative items-center">
-                                    <div className="h-[1px] bg-white md:w-[34px] lg:w-[59px] xl:w-[92px] 2xl:w-[300px]"></div>
-                                </div>
-                                <div className="flex items-center w-full">
-                                    <div className="font-bold text-[32px] md:text-3xl lg:text-[45px] px-[9px] font-Arial">
-                                        Get to know us
-                                    </div>
-                                    <div className="h-[1px] flex-1 bg-white">
-                                    </div>
-                                </div>
-                            </div>
+                        <div className="flex text-white">
+                            <Divider title="Get to know us" />
                         </div>
-                        <div className="font-Arial text-[17px] md:text-[18px] lg:text-[28px] xl:text-4xl pl-[9px] md:pl-[34px] lg:pl-[59px] xl:pl-[100px] mr-2 md:mr-20 py-6 lg:py-12 xl:py-[60px]">
-                            What distinguishes us is the unique fusion of Kekst CNC's renowned expertise <br />in strategic communication worldwide, coupled with our prowess in design thinking, innovative solutions, and impactful activation strategies. This combination guarantees seamless execution and unparalleled results across every project dimension.
+                        <div className="font-Helvetica leading-normal font-normal 3xl:leading-[1.6vw] text-sm sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw] pl-5 pr-4 md:pl-[34px] lg:pl-[59px] xl:pr-[140px] xl:pl-[100px] 2xl:pl-[308px] lg:pr-[100px] 3xl:pr-[10vw] pb-8 lg:pb-[60px] xl:pb-[60px] 2xl:pb-[60px] 3xl:pb-[3vw]">
+                            What distinguishes us is the unique fusion of Kekst CNC's renowned expertise in strategic communication worldwide, coupled with our prowess in design thinking, innovative solutions, and impactful activation strategies. This combination guarantees seamless execution and unparalleled results across every project dimension.
                         </div>
-                        <div className="pl-[9px] md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px] xl:pr-[90px] 2xl:pr-[290px]">
-                            <div className="grid grid-cols-1 lg:grid-cols-2 font-Arial">
+                        <div className="pl-5 md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px] xl:pr-[90px] 2xl:pr-[90px]">
+                            <div className="grid grid-cols-1 lg:grid-cols-2 font-Helvetica gap-3 md:gap-3 lg:gap-10 xl:gap-18 2xl:gap-18 3xl:gap-[2vw] pb-12 2xl:pb-[5vw]">
                                 <div>
-                                    <div className="font-bold text-[23px] md:text-5xl lg:text-[45px] xl:text-[93px] 2xl:text-8xl 3xl:text-9xl pt-0 md:pt-4 lg:pt-0 pb-6 md:pb-8 lg:pb-12 xl:pb-[60px]">
+                                    <div className="font-bold text-[30px] md:text-[35px] lg:text-[60px] xl:text-[105px] 2xl:text-[128px] 3xl:text-[6vw] pt-0 md:pt-4 lg:pt-0 pb-6 md:pb-8 lg:pb-12 xl:pb-[60px] 2xl:py-[3vw]">
                                         Global
                                     </div>
-                                    <div className="flex font-normal text-[17px] lg:text-lg xl:text-2xl lg:h-[120px] xl:h-[130px] 2xl:h-[160px]">
-                                        <div>
-                                            01.
-                                        </div>
-                                        <div className="flex-1 pl-1 px-10">
-                                            Our creative team is a global force of the <br /> best and brightest minds in the industry.
+                                    <div className="flex font-normal 3xl:leading-[1.6vw] text-sm sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw] lg:h-[120px] xl:h-[130px] 2xl:h-[160px] 3xl:h-[7vw] 2xl:leading-[2.2vw]">
+                                        <div>01.</div>
+                                        <div className="flex-1 pl-2 pb-2 3xl:pb-[1vw] px-4 2xl:pl-[1vw] 2xl:pr-[3.5vw] 3xl:pr-[7vw]">
+                                            Our creative team is a global force of the best and brightest minds in the industry.
                                         </div>
                                     </div>
-                                    <div className="pt-8 lg:pt-0 flex font-normal text-[17px] lg:text-lg xl:text-2xl pb-8 xl:pb-0">
-                                        <div>
-                                            02.
-                                        </div>
-                                        <div className="flex-1 pl-1 px-10">
-                                            By combining forces across locations, we bring our clients’ visions to life through seamless collaboration and unparalleled creative expertise.
+                                    <div className="mt-4 lg:mt-2 xl:mt-[30px] 2xl:mt-[2vw] flex font-normal 3xl:leading-[1.6vw] text-sm sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw] pb-6 xl:pb-0 2xl:leading-[2.2vw]">
+                                        <div>02.</div>
+                                        <div className="flex-1 pl-2 pb-2 3xl:pb-[1vw] px-4 2xl:pl-[1vw] 2xl:pr-[3.5vw] 3xl:pr-[7vw]">
+                                            By combining forces across locations, we bring our client’s visions to life through seamless collaboration and unparalleled creative expertise.
                                         </div>
                                     </div>
                                 </div>
                                 <div>
-                                    <div className="font-bold text-[23px] md:text-5xl lg:text-[45px] xl:text-[93px] 2xl:text-8xl 3xl:text-9xl pt-0 md:pt-4 lg:pt-0 pb-6 md:pb-8 lg:pb-12 xl:pb-[60px]">
+                                    <div className="font-bold text-[30px] md:text-[35px] lg:text-[60px] xl:text-[105px] 2xl:text-[128px] 3xl:text-[6vw] pt-0 md:pt-4 lg:pt-0 pb-6 md:pb-8 lg:pb-12 xl:pb-[60px] 2xl:py-[3vw]">
                                         Creative
                                     </div>
-                                    <div className="flex font-normal text-[17px] lg:text-lg xl:text-2xl lg:h-[120px] xl:h-[130px] 2xl:h-[160px]">
-                                        <div>
-                                            01.
-                                        </div>
-                                        <div className="flex-1 pl-1 px-10">
+                                    <div className="flex font-normal 3xl:leading-[1.6vw] text-sm sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw] lg:h-[120px] xl:h-[130px] 2xl:h-[160px] 3xl:h-[7vw] 2xl:leading-[2.2vw]">
+                                        <div>01.</div>
+                                        <div className="flex-1 pb-2 xl:pb-4 3xl:pb-[10vw] pl-2 px-4 2xl:pl-[1vw] 2xl:pr-[3.5vw] 3xl:pr-[5vw]">
                                             We combine strategy, design and technology to create impactful solutions that inspire change and shape the future.
                                         </div>
                                     </div>
-                                    <div className="pt-8 lg:pt-0 pl-0 lg:pl-4 flex basis-1/2 font-normal text-[17px] lg:text-lg xl:text-2xl pb-8 xl:pb-0">
-                                        <div>
-                                            02.
-                                        </div>
-                                        <div className="flex-1 pl-1 px-10">
+                                    <div className="mt-4 md:mt-2 lg:mt-2 xl:mt-[30px] 2xl:mt-[2vw] flex basis-1/2 font-normal 3xl:leading-[1.6vw] text-sm sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw] pb-6 xl:pb-0 2xl:leading-[2.2vw]">
+                                        <div>02.</div>
+                                        <div className="flex-1 pb-2 3xl:pb-[1vw] pl-2 px-4 2xl:pl-[1vw] 2xl:pr-[3.5vw] 3xl:pr-[10vw]">
                                             We focus on real results that amplify your message’s impact.
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="h-[1px] bg-white sm:my-3 md:my-4 lg:my-6 xl:my-8 2xl:my-10 3xl:my-20 md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:ml-[290px]"></div>
+                        <div><InteractiveMap /></div>
+
                     </div>
-                </div>
-                <div className="bottom-0 top-[100px] md:top-20 px-[9px] lg:px-4 xl:px-[25px] 2xl:px-[50px]">
-                    <div>
-                        <img src={locationImg} alt="keskt..." className="pl-[9px] md:pl-[34px] lg:pl-[59px] xl:pl-[100px] 2xl:pl-[308px]" />
-                    </div>
+
                 </div>
             </div>
         </div>

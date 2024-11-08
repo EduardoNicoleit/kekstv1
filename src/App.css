@@ -4,3 +4,10 @@
   margin-left: 0.25rem;
   padding-top: 0;
 }
+.bottom-4 {
+  display: none;
+}
+img.moved-right {
+  transform: translateX(+15px);
+  /* Adjust the position of bg images */
+}

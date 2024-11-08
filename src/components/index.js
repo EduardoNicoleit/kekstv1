@@ -1,4 +1,4 @@
-import Contact from "./Contact";
+import Footer from "./Footer";
 import Divider from "./Divider";
 import ExpertiseSection from "./ExpertiseSection";
 import Selection from "./Selection";
@@ -7,5 +7,7 @@ import ReadMore from "./ReadMore";
 import ServicesTable from './ServicesTabel';
 import ExpertiseCustomCompo from './ExpertiseCustomCompo'
 import MainBorder from './MainBorder'
+import InteractiveMap from './InteractiveMap'
+import Map from './Map'
 
-export { Contact, Divider, ExpertiseSection, Selection, ReadMore, ServicesTable, ExpertiseCustomCompo, MainBorder, WorkDataSelection }
+export { Footer, Divider, ExpertiseSection, Selection, ReadMore, ServicesTable, ExpertiseCustomCompo, MainBorder, WorkDataSelection, InteractiveMap, Map }

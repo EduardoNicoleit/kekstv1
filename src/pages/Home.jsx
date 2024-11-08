@@ -1,40 +1,97 @@
 import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+import { scroller } from 'react-scroll';
+
 import Navbar from "./Navbar";
 import Expertise from './Expertise';
 import Works from './Works';
 import Process from './Process';
 import CreativeCompo from './Creative';
 import Manifesto from './Manifesto';
-import { Contact, MainBorder } from '../components';
-import ExpandImg from '../assets/img/home/home_05.png';
+import { Footer, MainBorder } from '../components';
+import Welcome from './Welcome';
 
-const Home = ({ isSticky, element }) => {
+const Home = () => {
+    const location = useLocation();
+
     useEffect(() => {
+        // Scroll to the top when the component loads
         window.scrollTo(0, 0);
-    }, []);
+
+        // If there's a hash in the URL, scroll to the corresponding section
+        if (location.hash) {
+            const target = location.hash.replace('#', '');
+            scroller.scrollTo(target, {
+                smooth: true,
+                duration: 500,
+                offset: -100, // Adjust this offset based on your navbar height
+            });
+        }
+    }, [location]);
+
     return (
-        <div className='relative'>
-            <video width="100%" height="100%" controls>
-                <source src="assets/video/test.mp4" type="video/mp4" />
+        <div className="relative">
+            {/* Fullscreen Video Divider */}
+            <div className="absolute z-10 mt-[95vh] hidden sm:block overflow-hidden w-full pr-2 lg:pr-4 xl:pr-[25px] 2xl:pr-[45px] 3xl:pr-[45px] pl-2 lg:pl-4 xl:pl-[25px] 2xl:pl-[45px] 3xl:pl-[45px]">
+                <img
+                    src="../assets/img/home/linhas.svg"
+                    alt="line"
+                    className="object-cover w-full h-auto"
+                />
+            </div>
+
+            <video
+                className="w-full h-screen object-cover hidden sm:block"
+                autoPlay
+                loop
+                muted
+                playsInline
+            >
+                <source src="assets/video/kekst.mp4" type="video/mp4" />
             </video>
-            <Navbar sticky={isSticky} />
-            <div>
-                <div className="welcome">
-                    <img src={ExpandImg} alt="keskt..." className="w-full h-full" ref={element} />
-                </div>
+
+            {/* Mobile Video */}
+            <div className='z-10 mt-[468px] absolute overflow-hidden h-[150px] mr-2 ml-2 block sm:hidden'>
+                <img src="../assets/img/home/divider.svg" alt="line" className='w-full object-cover scale-150' />
+            </div>
+
+            <video
+                className="w-full h-[531px] object-cover block sm:hidden"
+                autoPlay
+                loop
+                muted
+                playsInline
+            >
+                <source src="../../assets/video/kekst.mp4" type="video/mp4" />
+            </video>
+
+            <Navbar />
+
+            {/* Sections with IDs for scrolling */}
+            <div id="welcome" className="section">
+                <Welcome />
+            </div>
+            <div id="expertise" className="section">
                 <Expertise />
-                <div className='hidden xl:block h-[300px] w-full'></div>
+            </div>
+            <div id="works" className="section">
                 <Works />
-                <div className="hidden xl:block h-[300px] w-full"></div>
+            </div>
+            <div id="process" className="section">
                 <Process />
-                <div className="hidden xl:block h-[300px] w-full"></div>
+            </div>
+            <div id="creative" className="section">
                 <CreativeCompo />
+            </div>
+            {/* <div id="manifesto" className="section">
                 <Manifesto />
-                <Contact />
+            </div> */}
+            <div id="lets-talk" className="section">
+                <Footer />
             </div>
             <MainBorder />
         </div>
-    )
-}
+    );
+};
 
 export default Home;
