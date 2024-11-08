@@ -24,7 +24,9 @@ UAE`,
             city: "Berlin",
             address: `Mädler Haus
 Friedrichstraße 58
-10117 Berlin`,
+10117 Berlin
+Germany`,
+
             position: "berlin"
         },
         {
@@ -76,7 +78,8 @@ Germany`,
             city: "New York",
             address: `New York (Headquarters)
 1675 Broadway, 30th Floor
-New York, NY 10019`,
+New York, NY 10019
+USA`,
             position: "new-york"
         },
         {
@@ -92,8 +95,9 @@ France`,
             className: ".st13",
             city: "Riyadh",
             address: `Roshn Front Business Area
-Building S4
-Riyadh, Kingdom of Saudi Arabia 13413`,
+13413, Building S4
+Riyadh
+Kingdom of Saudi Arabia`,
             position: "riyadh"
         },
         {
@@ -128,7 +132,8 @@ Japan`,
             city: "Washington, D.C.",
             address: `Washington, D.C.
 1515 N. Courthouse Rd.
-Arlington, VA 22201`,
+Arlington, VA 22201
+USA`,
             position: "washington"
         }
     ];
@@ -141,7 +146,7 @@ Arlington, VA 22201`,
             const screenWidth = window.innerWidth;
 
             if (screenWidth < 768) { // Mobile breakpoint
-                baseFontSize = 45; // Adjust this value as needed
+                baseFontSize = 35; // Adjust this value as needed
             } else {
                 baseFontSize = 18;
             }
@@ -407,7 +412,7 @@ Arlington, VA 22201`,
                     <div className="flex items-center">
                         <div
                             id="lets-talk"
-                            className="font-Helvetica font-bold text-[32px] md:text-[32px] lg:text-[55px] xl:text-[65px] 2xl:text-[4vw] leading-tight pt-2 md:pt-4"
+                            className="font-Helvetica font-bold text-[35px] md:text-[40px] lg:text-[45px] xl:text-[50px] 2xl:text-[2.5vw] leading-tight pt-6 md:pt-6"
                         >
                             Let’s talk
                         </div>
@@ -434,23 +439,23 @@ Arlington, VA 22201`,
                             </div>
 
                             <div className="flex items-center h-full">
-                                <div className="font-Helvetica font-bold text-[17px] lg:text-[20px] xl:text-2xl 2xl:text-3xl 3xl:text-[1.2vw] pl-1 2xl:pl-[0.5vw]">
+                                <div className="font-Helvetica font-bold text-[17px] lg:text-[20px] xl:text-2xl 2xl:text-3xl 3xl:text-[1.2vw] pl-0 2xl:pl-0">
                                     creative@kekstcnc.com
                                 </div>
                             </div>
                         </div>
                     </a>
                     {/* Address Display */}
-                    <div className="mt-12 md:mt-[80px] lg:mt-[80px] xl:mt-[100px] 2xl:mt-[120px] 3xl:mt-[5vw]">
+                    <div className="mt-8 md:mt-8 lg:mt-8 xl:mt-8 2xl:mt-8 3xl:mt-[2vw]">
                         {/* "Where we are:" text */}
                         <div className="font-Helvetica font-extrabold text-[24px] md:text-[32px] lg:text-[32px] xl:text-[36px] 2xl:text-[38px] 3xl:text-[2.2vw] leading-tight text-white mt-3">
                             {/* Where we are: */}
                         </div>
 
                         {/* City Name with Icon */}
-                        <div className="flex items-center mb-2 mt-4 lg:mt-4 3xl:mt-[1vw]">
+                        <div className="flex items-center mb-2 lg:mt-4 3xl:mt-[1vw]">
                             {/* SVG Icon */}
-                            <div className="mr-2 3xl:mr-[0.5vw] mt-4 lg:mt-6 3xl:mt-[1.5vw]">
+                            <div className="mr-2 3xl:mr-[0.5vw] lg:mt-6 3xl:mt-[1.5vw]">
                                 <svg
                                     className="w-[18px] h-[16px] xl:w-[20px] xl:h-[20px] 2xl:w-[2vw] 2xl:h-[2vw]"
                                     xmlns="http://www.w3.org/2000/svg"
@@ -463,14 +468,14 @@ Arlington, VA 22201`,
                                 </svg>
                             </div>
                             {/* City Name */}
-                            <div className="items-center justify-center lg:mr-4 xl:mr-6 mt-4 lg:mt-6 3xl:mt-[1.5vw] font-Helvetica font-bold text-[17px] lg:text-[20px] xl:text-2xl 2xl:text-3xl 3xl:text-[1.2vw] leading-tight text-white">
+                            <div className="items-center justify-center lg:mr-4 xl:mr-6 lg:mt-6 3xl:mt-[1.5vw] font-Helvetica font-bold text-[17px] lg:text-[20px] xl:text-2xl 2xl:text-3xl 3xl:text-[1.2vw] leading-tight text-white">
                                 {displayedCity?.city}
                             </div>
                         </div>
 
                         {/* Address */}
                         <div
-                            className="h-[50px] md:h-auto font-Helvetica sm:text-[12px] md:text-[12px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[1vw] font-normal whitespace-pre-line address-display leading-normal py-4 2xl:py-[1.5vw] 3xl:leading-[1.8vw]"
+                            className="h-[50px] md:h-auto font-Helvetica text-[10px] md:text-[10px] lg:text-[12px] xl:text-[14px] 2xl:text-[14px] 3xl:text-[0.7vw] font-normal whitespace-pre-line address-display leading-normal py-0 2xl:py-0 3xl:leading-[1.1vw] ml-[28px] xl:ml-[30px] 2xl:ml-[2.5vw]"
                             style={{
                                 opacity: displayedCity ? '1' : '0',
                                 transition: 'opacity 0.2s ease',

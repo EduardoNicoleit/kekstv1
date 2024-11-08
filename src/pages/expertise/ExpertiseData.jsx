@@ -29,7 +29,7 @@ const ExpertiseDataCompo = ({ isSticky, element }) => {
                             <div className="font-Helvetica text-[30px] sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-[80px] 3xl:text-[5.5vw] 5xl:text-[4.5vw] font-bold sm:pl-8 md:pl-[33px] lg:pl-[46px] xl:pl-[154px] 2xl:pl-[308px] 3xl:pl-[15vw] mt-auto py-14 sm:py-6 md:py-8 lg:py-10 xl:py-12 2xl:py-16 3xl:py-[6vw]">
                                 Data <br />Visualization
                             </div>
-                            <div className="hidden sm:block 2xl:hidden font-Helvetica text-base sm:pl-8 md:pl-[33px] lg:pl-[46px] xl:pl-[154px] py-2">
+                            <div className="uppercase hidden sm:block 2xl:hidden font-Helvetica text-base sm:pl-8 md:pl-[33px] lg:pl-[46px] xl:pl-[154px] py-2">
                                 Our Services:
                             </div>
                             <div className="hidden sm:block border-y-[1px] xl:border-x-0 border-white">
@@ -40,7 +40,7 @@ const ExpertiseDataCompo = ({ isSticky, element }) => {
                 </div>
                 <div className="px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px] 3xl:px-[45px]">
                     <div>
-                        <p className="sm:px-8 md:px-[33px] lg:px-[46px] xl:px-[154px] 2xl:px-[308px] 3xl:px-[15vw] font-Helvetica font-normal text-[16px] sm:text-[20px] md:text-[24px] lg:text-[40px] xl:text-[36px] 2xl:text-[42px] 3xl:text-[2.5vw] 5xl:text-[2.2vw] sm:py-10 md:py-[74px] 2xl:py-[2vw] text-white leading-tight 3xl:leading-[3vw]">
+                        <p className="sm:px-8 md:px-[33px] lg:px-[46px] xl:px-[154px] 2xl:px-[308px] 3xl:px-[15vw] font-Helvetica font-normal text-[17px] md:text-[28px] 2xl:text-[40px] 3xl:text-[1.8vw] sm:py-10 md:py-[74px] 2xl:py-[2.5vw] text-white leading-tight 3xl:leading-[2.5vw]">
                             <span className="text-[#9F81BF] font-bold">We specialize in making data compelling with powerful visual storytelling.</span> Our expertise spans all forms of data visualization, including dynamic infographics and interactive platforms, for both print and digital. We're dedicated to turning complex data into clear, visually impactful stories that inform and drive engagement and insight.
                         </p>
                         <div className="text-white font-Helvetica">
@@ -59,8 +59,8 @@ const ExpertiseDataCompo = ({ isSticky, element }) => {
                                                                 NARRATIVE DATA <br /> EXPLORATION
                                                             </div>
                                                         </div>
-                                                        <div className="leading-normal 2xl:leading-[2.5vw]
-                                                        sm:text-base md:text-xl lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-[1.5vw] 5xl:text-[1.2vw] 
+                                                        <div className="leading-normal 2xl:leading-[1.6vw]
+                                                        text-sm sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw]
                                                         lg:pt-5 xl:pt-[22px] 2xl:pt-[50px]
                                                         2xl:pb-[76px]
                                                         lg:max-w-[600px] xl:max-w-[950px] 2xl:max-w-[500px]
@@ -80,8 +80,8 @@ const ExpertiseDataCompo = ({ isSticky, element }) => {
                                                                 AESTHETIC PRECISION <br /> MEETS DATA
                                                             </div>
                                                         </div>
-                                                        <div className="leading-normal 2xl:leading-[2.5vw]
-                                                        sm:text-base md:text-xl lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-[1.5vw] 5xl:text-[1.2vw] 
+                                                        <div className="leading-normal 2xl:leading-[1.6vw]
+                                                       text-sm sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw]
                                                         lg:pt-5 xl:pt-[22px] 2xl:pt-[50px]
                                                         2xl:pb-[76px]
                                                         lg:max-w-[600px] xl:max-w-[950px] 2xl:max-w-[500px]
@@ -101,8 +101,8 @@ const ExpertiseDataCompo = ({ isSticky, element }) => {
                                                                 CREATING LASTING <br /> IMPRESSIONS WITH DATA
                                                             </div>
                                                         </div>
-                                                        <div className="leading-normal 2xl:leading-[2.5vw]
-                                                        sm:text-base md:text-xl lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-[1.5vw] 5xl:text-[1.2vw] 
+                                                        <div className="leading-normal 2xl:leading-[1.6vw]
+                                                        text-sm sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw] 
                                                         lg:pt-5 xl:pt-[22px] 2xl:pt-[50px]
                                                         2xl:pb-[76px]
                                                         lg:max-w-[600px] xl:max-w-[950px] 2xl:max-w-[500px]
@@ -124,8 +124,8 @@ const ExpertiseDataCompo = ({ isSticky, element }) => {
                                                                 AESTHETIC PRECISION <br />MEETS DATA
                                                             </div>
                                                         </div>
-                                                        <div className="leading-normal 2xl:leading-[2.5vw]
-                                                        sm:text-base md:text-xl lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-[1.5vw] 5xl:text-[1.2vw] 
+                                                        <div className="leading-normal 2xl:leading-[1.6vw]
+                                                        text-sm sm:text-sm lg:text-lg xl:text-xl 2xl:text-[20px] 3xl:text-[1.05vw]
                                                         2xl:pt-[50px]
                                                         2xl:pb-[76px]
                                                         max-w-[500px]

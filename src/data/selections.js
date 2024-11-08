@@ -33,7 +33,7 @@ export const selectionsData = [
     },
     {
         id: 5,
-        img_url: '/assets/img/selections/NewWaters.png',
+        img_url: '/assets/img/selections/NewWaters.jpg',
         mobile_img_url: '/assets/img/selections/NewWaters1.jpg',
         title: 'NewWaters',
         content: "Crafting NewWaters' corporate identity to embody fluid innovation in a transforming market.",
@@ -144,7 +144,7 @@ export const worksData = [
     },
     {
         id: 5,
-        img_url: '/assets/img/selections/NewWaters.png',
+        img_url: '/assets/img/selections/NewWaters.jpg',
         img_url1: '/assets/img/selections/NewWaters1.jpg',
         img_url2: '/assets/img/selections/NewWaters1.jpg',
         title: 'NewWaters',

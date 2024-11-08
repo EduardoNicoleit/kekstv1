@@ -134,7 +134,7 @@ const Navbar = () => {
                                     </li>
                                     <li className="cursor-pointer hover:text-gray-400 transition duration-300 ease-in-out hover:scale-105">
                                         <NavItem to="process" offset={-100}>
-                                            Our Design Thinking Process
+                                            Our Process
                                         </NavItem>
                                     </li>
                                     <li className="cursor-pointer hover:text-gray-400 transition duration-300 ease-in-out hover:scale-105">
@@ -205,7 +205,7 @@ const Navbar = () => {
                                 </li>
                                 <li className="py-2 w-full hover:text-[#9F81BF]">
                                     <NavItem to="process" onClick={() => setToggle(false)}>
-                                        Our Design Thinking Process
+                                        Our Process
                                     </NavItem>
                                 </li>
                                 <li className="py-2 w-full hover:text-[#9F81BF]">

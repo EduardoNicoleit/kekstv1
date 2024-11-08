@@ -7,7 +7,7 @@ const Divider = (props) => {
                 <div className="h-[1px] 3xl:h-[2px] bg-white md:w-[34px] lg:w-[59px] xl:w-[91px] 2xl:w-[299px]"></div>
             </div>
             <div className="flex items-center w-full">
-                <div className="font-bold text-[32px] md:text-3xl lg:text-[45px] xl:text-[50px] 2xl:text-[2.5vw] pl-4 md:pl-2 2xl:pl-3 pr-5 font-Helvetica 2xl:pt-[4vh] 2xl:pb-[4vh]">
+                <div className="font-bold text-[35px] md:text-[40px] lg:text-[45px] xl:text-[50px] 2xl:text-[2.5vw] pl-4 md:pl-2 2xl:pl-3 pr-5 font-Helvetica 2xl:pt-[4vh] 2xl:pb-[4vh]">
                     {props.title}
                 </div>
                 <div className="h-[1px] 3xl:h-[2px] flex-1 bg-white"></div>

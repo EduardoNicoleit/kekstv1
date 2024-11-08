@@ -34,7 +34,7 @@ const CeoTracker = ({ isSticky, element }) => {
                     <div className="flex flex-col px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px]">
                         {/* Title */}
                         <div className="flex">
-                            <div className="w-[33px] lg:w-[60px] 2xl:w-[299px] 
+                            <div className="w-6 lg:w-[60px] 2xl:w-[299px] 
                                             3xl:w-[15vw] flex-none"></div>
                             <div>
                                 <div className="font-Helvetica font-normal text-[25px] 
@@ -58,23 +58,18 @@ const CeoTracker = ({ isSticky, element }) => {
                                 </div>
                             </div>
                         </div>
-                        {/* Desktop Overview */}
+                        {/* Desktop Overview: */}
                         <div className="hidden lg:block">
                             <div
                                 className="lg:flex-col 2xl:flex-row flex border-white border-y-[1px]
-                                sm:text-4xl md:text-3xl lg:text-[22px] 
-                                3xl:text-[1.2vw] 5xl:text-[1vw]
-                                lg:h-[220px] xl:h-[188px] 2xl:h-[128px] 
-                                3xl:h-[15vh] 5xl:h-[18vh]
+                                sm:text-4xl md:text-3xl lg:text-[22px] 3xl:text-[1.2vw] 5xl:text-[1vw]
+                                lg:h-[220px] xl:h-[188px] 2xl:h-[200px] 3xl:h-[18vh] 5xl:h-[20vh]
                                 items-start 2xl:items-center"
                             >
                                 <div
-                                    className="lg:pl-[60px] lg:py-4 xl:py-5 
-                                    2xl:py-0 3xl:py-[2vw] 5xl:py-[3vw]
-                                    w-[300px] lg:w-[200px] 2xl:w-[318px] 
-                                    3xl:w-[15vw] mb-0 2xl:mb-12"
+                                    className="font-normal lg:pl-[60px] lg:pr-0 lg:pb-4 lg:pt-4 xl:pt-4 xl:pb-4 2xl:pt-0 2xl:pb-[2.2vw] w-[300px] lg:w-[200px] 2xl:w-[308px] 3xl:w-[14vw] mb-0 3xl:pl-[2vw] 3xl:pr-[2vw] 2xl:px-[2vw]"
                                 >
-                                    Overview
+                                    Overview:
                                 </div>
                                 <div className="lg:grid grid-cols-2 w-full items-start 
                                                 2xl:items-center">
@@ -104,24 +99,24 @@ const CeoTracker = ({ isSticky, element }) => {
 
             {/* Content Section */}
             <div className="px-2 lg:px-4 xl:px-[25px] 2xl:px-[45px]">
-                {/* Mobile Overview */}
+                {/* Mobile Overview: */}
                 <div className="block lg:hidden font-Helvetica font-normal 
-                                py-[41px] text-white pl-6 sm:pl-[33px] 
+                                py-[41px] text-white pl-6
                                 3xl:pl-[4vw] 5xl:pl-[6vw]">
-                    <div className="text-[12px] leading-[14px] uppercase 
+                    <div className="text-[13px] leading-[14px] uppercase 
                                     3xl:text-[1vw] 5xl:text-[1.2vw]">
-                        Overview
+                        Overview:
                     </div>
                     <div className="text-[13px] leading-[15px] py-3 
                                     border-b-[1px] 
-                                    3xl:text-[1vw] 5xl:text-[1.2vw]">
+                                    3xl:text-[1vw] 5xl:text-[1.2vw] pr-6">
                         Launched a report revealing how CEOs
                         managed communication during the world's
                         tumultuous times.
                     </div>
                     <div className="text-[13px] leading-[15px] py-3 
                                     border-b-[1px] 
-                                    3xl:text-[1vw] 5xl:text-[1.2vw]">
+                                    3xl:text-[1vw] 5xl:text-[1.2vw] pr-6">
                         Developed a visual narrative around distinct CEO
                         personas, illustrating various leadership approaches
                         amidst economic, political and societal challenges.
@@ -136,25 +131,19 @@ const CeoTracker = ({ isSticky, element }) => {
                             w-full font-Helvetica text-white"
                 >
                     <div
-                        className="uppercase xl:normal-case text-start 
-                        2xl:text-left font-normal text-[12px] md:text-lg 
-                        2xl:text-2xl 3xl:text-[1.2vw] 5xl:text-[1vw] 
-                        pt-3 xl:w-full 2xl:w-[299px] 3xl:w-[15vw] 
-                        flex-none px-6 lg:px-[60px] 2xl:px-[2vw] 
-                        py-6 2xl:py-0 3xl:px-[2vw] 5xl:px-[3vw] 
-                        3xl:py-[2vw] 5xl:py-[3vw]"
+                        className="uppercase xl:normal-case text-start 2xl:text-left font-normal text-[13px] md:text-lg 2xl:text-2xl 3xl:text-[1.2vw] pt-3 xl:w-full 2xl:w-[308px] 3xl:w-[15vw] flex-none px-6 lg:px-[60px] 2xl:px-[2vw] py-6 2xl:py-0.2"
                     >
                         The partnership:
                     </div>
                     <div
-                        className="font-bold md:font-normal text-[17px] md:text-[28px] 2xl:text-[40px] 3xl:text-[1.8vw] px-6 lg:px-[60px] 2xl:px-[0] 2xl:pr-[3.5vw] w-full leading-tight"
+                        className="font-bold md:font-normal text-[18px] md:text-[28px] 2xl:text-[40px] 3xl:text-[1.8vw] px-6 lg:px-[60px] 2xl:px-[0] 2xl:pr-[3.5vw] w-full leading-tight"
                     >
                         We have released a report derived from an analysis conducted by our Keskt CNC team, revealing how executive communications teams managed during the world's tumultuous times. Thousands of posts have provided insights into how the LinkedIn algorithm operates, the top priorities for CEOs, and how executive communications adjusted amidst ongoing conflict in Europe.
                     </div>
                 </div>
 
                 {/* Image Sections */}
-                <div className="py-8 2xl:py-16 3xl:py-[6vw] 5xl:py-[8vw]">
+                <div className="pt-8 2xl:pt-16 3xl:pt-[6vw] 5xl:pt-[8vw]">
                     <img
                         src="/assets/img/ceotracker/ceo_1.png"
                         className="w-full h-auto object-cover"
@@ -165,26 +154,23 @@ const CeoTracker = ({ isSticky, element }) => {
 
                 {/* Description Section */}
                 <div
-                    className="py-10 2xl:py-[5vw] text-[17px] lg:text-[18px] xl:text-[1.2vw] flex font-normal font-Helvetica text-white"
+                    className="py-10 2xl:py-[5vw] text-[14px] lg:text-[18px] xl:text-[1.2vw] flex font-normal font-Helvetica text-white"
                 >
-                    <div className="md:w-[33px] lg:w-[60px] 
+                    <div className="md:w-6 lg:w-[60px] 
                                     2xl:w-[299px] 3xl:w-[15vw] flex-none"></div>
                     <div className="px-6 md:px-0 pr-6 sm:px-6 lg:px-0 
                                     lg:pr-10 2xl:pr-[3.5vw] leading-tight">
-                        <div className="pb-5 3xl:pb-[2.5vw]">
+                        <div className="pb-5">
                             With governments, media, and social media platforms amplifying polarization and politicization on critical societal issues, businesses and CEOs find themselves increasingly vulnerable. CEOs are seen as vital contributors to discussions on diversity, equity, and inclusion (DE&I) and sustainability, necessitating their engagement. However, they must ensure that their statements are grounded in factual information and yield tangible results rather than mere rhetoric.
                         </div>
-                        <div className="pb-5 3xl:pb-[2.5vw]">
+                        <div className="pb-5">
                             The report employs visual storytelling, crafted around distinct CEO personas, illustrating various leadership approaches amidst economic, political and societal challenges. This underscores CEOs' adaptability and diverse communication strategies, as they navigate through today's complex landscape of shifting expectations and adversities.
-                        </div>
-                        <div>
-                            Through strategic visual storytelling, we brought the GTA FLNG project to life, emphasizing its significance in meeting the energy needs of Mauritania and Senegal and establishing a world-class LNG hub. The infographics served as a powerful tool in bp's communication strategy, effectively bridging the gap between complex technical information and public understanding.
                         </div>
                     </div>
                 </div>
 
                 {/* More Image Sections */}
-                <div className="py-8 2xl:py-16 3xl:py-[6vw] 5xl:py-[8vw]">
+                <div className="pb-8 2xl:pb-16 3xl:pb-[6vw] 5xl:pb-[8vw]">
                     <img
                         src="/assets/img/ceotracker/ceo_2.png"
                         className="w-full h-auto object-cover"
@@ -192,7 +178,7 @@ const CeoTracker = ({ isSticky, element }) => {
 
                     />
                 </div>
-                <div className="py-8 2xl:py-16">
+                <div className="">
                     <img
                         src="/assets/img/ceotracker/ceo_3.png"
                         className="w-full h-auto object-cover"
@@ -269,128 +255,148 @@ const CeoTracker = ({ isSticky, element }) => {
                     <div className="flex text-white font-Helvetica">
                         <div className="grid grid-cols-2 w-full min-h-[300px] md:min-h-[400px]">
                             {/* First Image Container */}
-                            <div className="overflow-hidden md:border-r md:border-white">
+                            <div className="overflow-hidden border-r border-white relative group">
                                 <Link to="/works/bp">
                                     <div
                                         className="cursor-pointer py-[26px] 2xl:py-[100px] 
-                                                3xl:py-[6vw] px-[15px] md:px-10 
-                                                3xl:px-[2vw] flex flex-col h-full
-                                                bg-[url('assets/img/ceotracker/bp.png')] 
-                                                md:bg-[url('assets/img/ceotracker/bp_3b.png')] 
-                                                bg-no-repeat bg-cover
-                                                transition duration-300 ease-in-out hover:scale-105 
-                                                5xl:py-[10vw] 5xl:px-[3vw]"
+                                   3xl:py-[6vw] 5xl:py-[10vw] 
+                                   px-[15px] md:px-10 3xl:px-[2vw] 5xl:px-[3vw] 
+                                   flex flex-col h-full relative"
                                     >
-                                        <div
-                                            className="font-bold text-[15px] lg:text-base 
-                                                       xl:text-2xl 3xl:text-[1.5vw] 
-                                                       5xl:text-[1vw]"
-                                        >
-                                            bp
-                                        </div>
-                                        <div className="flex-1">
-                                            <div
-                                                className="max-w-[440px] 3xl:max-w-[20vw] 
-                                                           py-[26px] lg:py-[43px] 
-                                                           xl:py-[67px] 3xl:py-[4vw] 
-                                                           font-normal text-[12px] lg:text-[21px] 
-                                                           xl:text-[32px] 2xl:text-[40px] 
-                                                           3xl:text-[1.3vw] 5xl:text-[1.2vw] 
-                                                           leading-tight 5xl:py-[5vw]"
-                                            >
-                                                Creating culturally tailored infographics to showcase bp's Greater Tortue Ahmeyim (GTA) FLNG project's achievements, fostering global understanding and engagement.
-                                            </div>
-                                        </div>
-                                        <div className="flex py-8 items-center pl-4 
-                                                        3xl:py-[2vw] 5xl:py-[2.5vw]">
-                                            <div
-                                                className="uppercase font-normal text-[13px] 
-                                                           lg:text-xs xl:text-lg 
-                                                           3xl:text-[1.1vw] 5xl:text-[1.2vw]"
-                                            >
-                                                read more
-                                            </div>
+                                        {/* Background image using pseudo-element */}
+                                        <div className="absolute inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out 
+                                        bg-[url('assets/img/ceotracker/bp.png')] 
+                                        md:bg-[url('assets/img/ceotracker/bp_3b.png')] 
+                                        group-hover:scale-110 
+                                        before:content-[''] before:absolute before:inset-0 
+                                        before:bg-cover before:bg-center before:bg-no-repeat 
+                                        before:transition-transform before:duration-300 
+                                        before:ease-in-out before:scale-100 group-hover:before:scale-110" />
+
+                                        {/* Content overlay */}
+                                        <div className="relative z-10 flex flex-col justify-between h-full">
+                                            {/* Title and Description */}
                                             <div>
-                                                <svg
-                                                    className="ml-3 pt-[2px] w-6 h-6 
-                                                            3xl:w-[1.5vw] 3xl:h-[1.5vw] 
-                                                            5xl:w-[1vw] 5xl:h-[1vw]"
-                                                    viewBox="0 0 24 24"
-                                                    fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg"
+                                                <div className="font-bold text-[15px] lg:text-base xl:text-2xl 
+                                                3xl:text-[1.5vw] 5xl:text-[1vw]">
+                                                    bp
+                                                </div>
+                                                <div className="flex-1">
+                                                    <div
+                                                        className="max-w-[440px] 3xl:max-w-[20vw] 
+                                                   py-[26px] lg:py-[43px] 
+                                                   xl:py-[67px] 3xl:py-[4vw] 
+                                                   font-normal text-[12px] lg:text-[21px] 
+                                                   xl:text-[32px] 2xl:text-[40px] 
+                                                   3xl:text-[1.3vw] 5xl:text-[1.2vw] 
+                                                   leading-tight 5xl:py-[5vw]"
+                                                    >
+                                                        Creating culturally tailored infographics to showcase bp's Greater Tortue Ahmeyim (GTA) FLNG project's achievements, fostering global understanding and engagement.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            {/* Read More Section */}
+                                            <div className="flex py-8 items-center pl-4 
+                                            3xl:py-[2vw] 5xl:py-[2.5vw]">
+                                                <div
+                                                    className="uppercase font-normal text-[13px] 
+                                               lg:text-xs xl:text-lg 
+                                               3xl:text-[1.1vw] 5xl:text-[1.2vw]"
                                                 >
-                                                    <g id="arrow_outward">
-                                                        <path
-                                                            id="Vector"
-                                                            d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z"
-                                                            fill="white"
-                                                        />
-                                                    </g>
-                                                </svg>
+                                                    read more
+                                                </div>
+                                                <div>
+                                                    <svg
+                                                        className="ml-3 pt-[2px] w-6 h-6 
+                                               3xl:w-[1.5vw] 3xl:h-[1.5vw] 
+                                               5xl:w-[1vw] 5xl:h-[1vw]"
+                                                        viewBox="0 0 24 24"
+                                                        fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                    >
+                                                        <g id="arrow_outward">
+                                                            <path
+                                                                id="Vector"
+                                                                d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z"
+                                                                fill="white"
+                                                            />
+                                                        </g>
+                                                    </svg>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </Link>
                             </div>
                             {/* Second Image Container */}
-                            <div className="overflow-hidden">
+                            <div className="overflow-hidden relative group">
                                 <Link to="/works/deutsche">
                                     <div
                                         className="cursor-pointer py-[26px] 2xl:py-[100px] 
-                                                3xl:py-[6vw] px-[15px] md:px-10 
-                                                3xl:px-[2vw] flex flex-col h-full
-                                                bg-[url('assets/img/ceotracker/DB_1.png')] 
-                                                md:bg-[url('assets/img/ceotracker/DB_4.png')] 
-                                                bg-no-repeat bg-cover
-                                                transition duration-300 ease-in-out hover:scale-105 
-                                                5xl:py-[10vw] 5xl:px-[3vw]"
+                                   3xl:py-[6vw] 5xl:py-[10vw] 
+                                   px-[15px] md:px-10 3xl:px-[2vw] 5xl:px-[3vw] 
+                                   flex flex-col h-full relative"
                                     >
-                                        <div
-                                            className="font-bold text-[15px] lg:text-base 
-                                                       xl:text-2xl 3xl:text-[1.5vw] 
-                                                       5xl:text-[1vw]"
-                                        >
-                                            Deutsche Bahn
-                                        </div>
-                                        <div className="flex-1">
-                                            <div
-                                                className="max-w-[440px] 3xl:max-w-[20vw] 
-                                                           py-[26px] lg:py-[43px] 
-                                                           xl:py-[67px] 3xl:py-[4vw] 
-                                                           font-normal text-[12px] lg:text-[21px] 
-                                                           xl:text-[32px] 2xl:text-[40px] 
-                                                           3xl:text-[1.3vw] 5xl:text-[1.2vw] 
-                                                           leading-tight 5xl:py-[5vw]"
-                                            >
-                                                Crafting inclusive campaigns through strategic messaging and innovative visuals to redefine perceptions and engage diverse audiences.
-                                            </div>
-                                        </div>
-                                        <div className="flex py-8 items-center pl-4 
-                                                        3xl:py-[2vw] 5xl:py-[2.5vw]">
-                                            <div
-                                                className="uppercase font-normal text-[13px] 
-                                                           lg:text-xs xl:text-lg 
-                                                           3xl:text-[1.1vw] 5xl:text-[1.2vw]"
-                                            >
-                                                read more
-                                            </div>
+                                        {/* Background image using pseudo-element */}
+                                        <div className="absolute inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out 
+                                        bg-[url('assets/img/ceotracker/DB_1.png')] 
+                                        md:bg-[url('assets/img/ceotracker/DB_4.png')] 
+                                        group-hover:scale-110 
+                                        before:content-[''] before:absolute before:inset-0 
+                                        before:bg-cover before:bg-center before:bg-no-repeat 
+                                        before:transition-transform before:duration-300 
+                                        before:ease-in-out before:scale-100 group-hover:before:scale-110" />
+
+                                        {/* Content overlay */}
+                                        <div className="relative z-10 flex flex-col justify-between h-full">
+                                            {/* Title and Description */}
                                             <div>
-                                                <svg
-                                                    className="ml-3 pt-[2px] w-6 h-6 
-                                                            3xl:w-[1.5vw] 3xl:h-[1.5vw] 
-                                                            5xl:w-[1vw] 5xl:h-[1vw]"
-                                                    viewBox="0 0 24 24"
-                                                    fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg"
+                                                <div className="font-bold text-[15px] lg:text-base xl:text-2xl 
+                                                3xl:text-[1.5vw] 5xl:text-[1vw]">
+                                                    Deutsche Bahn
+                                                </div>
+                                                <div className="flex-1">
+                                                    <div
+                                                        className="max-w-[440px] 3xl:max-w-[20vw] 
+                                                   py-[26px] lg:py-[43px] 
+                                                   xl:py-[67px] 3xl:py-[4vw] 
+                                                   font-normal text-[12px] lg:text-[21px] 
+                                                   xl:text-[32px] 2xl:text-[40px] 
+                                                   3xl:text-[1.3vw] 5xl:text-[1.2vw] 
+                                                   leading-tight 5xl:py-[5vw]"
+                                                    >
+                                                        Crafting inclusive campaigns through strategic messaging and innovative visuals to redefine perceptions and engage diverse audiences.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            {/* Read More Section */}
+                                            <div className="flex py-8 items-center pl-4 
+                                            3xl:py-[2vw] 5xl:py-[2.5vw]">
+                                                <div
+                                                    className="uppercase font-normal text-[13px] 
+                                               lg:text-xs xl:text-lg 
+                                               3xl:text-[1.1vw] 5xl:text-[1.2vw]"
                                                 >
-                                                    <g id="arrow_outward">
-                                                        <path
-                                                            id="Vector"
-                                                            d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z"
-                                                            fill="white"
-                                                        />
-                                                    </g>
-                                                </svg>
+                                                    read more
+                                                </div>
+                                                <div>
+                                                    <svg
+                                                        className="ml-3 pt-[2px] w-6 h-6 
+                                               3xl:w-[1.5vw] 3xl:h-[1.5vw] 
+                                               5xl:w-[1vw] 5xl:h-[1vw]"
+                                                        viewBox="0 0 24 24"
+                                                        fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                    >
+                                                        <g id="arrow_outward">
+                                                            <path
+                                                                id="Vector"
+                                                                d="M6.5 5.5V7.5H15.09L5.5 17.09L6.91 18.5L16.5 8.91V17.5H18.5V5.5H6.5Z"
+                                                                fill="white"
+                                                            />
+                                                        </g>
+                                                    </svg>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -399,6 +405,9 @@ const CeoTracker = ({ isSticky, element }) => {
                         </div>
                     </div>
                 </div>
+
+
+
             </div>
 
             {/* Footer and MainBorder Components */}
