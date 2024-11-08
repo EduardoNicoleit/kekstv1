@@ -224,7 +224,7 @@ const Netclean = ({ isSticky, element }) => {
                                                    3xl:text-[1.3vw] 5xl:text-[1.2vw] 
                                                    leading-tight 5xl:py-[5vw]"
                                                     >
-                                                        Partnering with BPI to spotlight its crucial role in advancing the pharmaceutical industry through engaging narratives and innovative visual strategies.
+                                                        Partnering with Volkswagen to enhance their global ESG narrative, from strategic audience engagement to shaping future sustainability pathways.
                                                     </div>
                                                 </div>
                                             </div>
