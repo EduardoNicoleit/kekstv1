@@ -34,8 +34,8 @@ const NavItem = ({ to, children, offset = -100 }) => {
 const Footer = () => {
     return (
         <div>
-            <div className='px-2 sm:px-6 md:px-[33px] xl:px-[45px] 2xl:px-[45px] 3xl:px-[3vw] 2xl:pt-[1.6vw]'>
-                <div className='relative pt-0 lg:pt-8 pb-2 2xl:pb-[2.5vw] 3xl:pb-[1.5vw] flex flex-col items-center xl:items-stretch'>
+            <div className='mx-2 lg:mx-4 xl:mx-[25px] 2xl:mx-[45px] 3xl:mx-[45px] 2xl:pt-[1.6vw]'>
+                <div className='px-0 sm:px-6 md:px-8 lg:px-0 relative pt-0 lg:pt-8 pb-2 2xl:pb-[2.5vw] 3xl:pb-[1.5vw] flex flex-col items-center xl:items-stretch border-t-[1px] border-white'>
                     <div className='font-Helvetica text-white text-14 xl:text-[14px] 2xl:text-[1vw] grid lg:grid-cols-5 px-0 lg:px-16 w-full py-8 lg:py-0'>
                         <div className='block hidden xl:block text-start pl-6 sm:pl-0 mb-5 mt-5 xl:mt-0 2xl:mt-[2vw] 2xl:mb-[1.6vw]'>
                             {/* <NavItem to="welcome">
