@@ -224,12 +224,12 @@ const BP = ({ isSticky, element }) => {
                 </div>
 
                 {/* Two Images with Hover Effect */}
-                <div className="w-full border-t border-b border-white">
+                <div className="w-full border-t border-white">
                     <div className="flex text-white font-Helvetica">
                         <div className="grid grid-cols-2 w-full min-h-[300px] md:min-h-[400px]">
                             {/* First Image Container */}
                             <div className="overflow-hidden border-r border-white relative group">
-                                <Link to="/works/bpl">
+                                <Link to="/works/dtcp">
                                     <div className="cursor-pointer py-[26px] 2xl:py-[100px] 3xl:py-[6vw] px-[15px] md:px-10 3xl:px-[2vw] flex flex-col h-full relative">
                                         {/* Background image using pseudo-element */}
                                         <div className="absolute inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out bg-[url('assets/img/bp/dtcp_geader_1.png')] md:bg-[url('assets/img/bp/dtcp_geader.png')] group-hover:scale-110 before:content-[''] before:absolute before:inset-0 before:bg-cover before:bg-center before:bg-no-repeat before:transition-transform before:duration-300 before:ease-in-out before:scale-100 group-hover:before:scale-110" />

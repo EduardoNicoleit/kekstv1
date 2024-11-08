@@ -224,7 +224,7 @@ const DTCP = ({ isSticky, element }) => {
                 </div>
 
                 {/* Two Images with Hover Effect */}
-                <div className="w-full border-t border-b border-white pt-0">
+                <div className="w-full border-t border-white pt-0">
                     <div className="flex text-white font-Helvetica">
                         <div className="grid grid-cols-2 w-full min-h-[300px] md:min-h-[400px]">
                             {/* First Image Container */}

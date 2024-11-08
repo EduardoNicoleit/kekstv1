@@ -185,7 +185,7 @@ const Netclean = ({ isSticky, element }) => {
                 </div>
 
                 {/* Two Images with Hover Effect */}
-                <div className="w-full border-t border-b border-white pt-0">
+                <div className="w-full border-t border-white pt-0">
                     <div className="flex text-white font-Helvetica">
                         <div className="grid grid-cols-2 w-full min-h-[300px] md:min-h-[400px]">
                             {/* First Image Container */}
@@ -224,7 +224,7 @@ const Netclean = ({ isSticky, element }) => {
                                                    3xl:text-[1.3vw] 5xl:text-[1.2vw] 
                                                    leading-tight 5xl:py-[5vw]"
                                                     >
-                                                        Partnering with BPI to spotlight its crucial role in advancing the pharmaceutical industry through engaging narratives and innovative visual strategies.
+                                                        Partnering with Volkswagen to enhance their global ESG narrative, from strategic audience engagement to shaping future sustainability pathways.
                                                     </div>
                                                 </div>
                                             </div>

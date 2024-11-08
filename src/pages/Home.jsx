@@ -7,7 +7,7 @@ import Expertise from './Expertise';
 import Works from './Works';
 import Process from './Process';
 import CreativeCompo from './Creative';
-import Manifesto from './Manifesto';
+// import Manifesto from './Manifesto';
 import { Footer, MainBorder } from '../components';
 import Welcome from './Welcome';
 
