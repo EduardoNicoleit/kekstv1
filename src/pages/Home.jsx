@@ -83,9 +83,9 @@ const Home = () => {
             <div id="creative" className="section">
                 <CreativeCompo />
             </div>
-            {/* <div id="manifesto" className="section">
+            <div id="manifesto" className="section">
                 <Manifesto />
-            </div> */}
+            </div>
             <div id="lets-talk" className="section">
                 <Footer />
             </div>
