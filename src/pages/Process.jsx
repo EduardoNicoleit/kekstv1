@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Divider } from "../components";
 // import wavesVideo from "../assets/animation/Waves.mov";
-import wavesHImg from "../assets/img/home/Waves_h.png";
+// import wavesHImg from "../assets/img/home/Waves_h.png";
 import CloseImg from "../assets/img/icons/close.svg";
 import AddImg from "../assets/img/icons/add.svg";
 import CloseModalImg from "../assets/img/icons/close1.png";
