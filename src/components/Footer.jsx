@@ -92,40 +92,23 @@ const Footer = () => {
                         <div
                             className="hidden lg:flex lg:flex-col ml-6 sm:ml-0 md:ml-0 xl:ml-16 3xl:ml-[5vw] space-x-10 lg:space-x-0 lg:space-y-1 mt-5 xl:mt-1 2xl:mt-[2vw] 2xl:gap-1 3xl:gap-[0.5vw]"
                         >
-                            <div className="flex flex-col lg:flex-row lg:items-center">
-                                <svg
-                                    className='w-[28px] h-[28px] 2xl:w-[2vw] 2xl:h-[2vw] 3xl:w-[1.8vw] 3xl:h-[1.8vw]'
-                                    viewBox="0 0 35 35"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        d="M33.7,8.8c0-4.8-4-8.8-8.8-8.8H8.8C4,0,0,4,0,8.8v16.1c0,4.8,4,8.8,8.8,8.8l16.1,0c4.8,0,8.8-4,8.8-8.8L33.7,8.8z M13,24.2H9.8V13.7H13V24.2z M11.4,12.3c-1,0-1.9-0.8-1.9-1.9c0-1,0.8-1.9,1.9-1.9c1,0,1.9,0.8,1.9,1.9C13.3,11.4,12.5,12.3,11.4,12.3z M25.2,24.2H22v-5.1c0-1.2,0-2.8-1.7-2.8c-1.7,0-2,1.3-2,2.7v5.2h-3.3V13.7h3.1v1.4h0c0.4-0.8,1.5-1.7,3.1-1.7 c3.3,0,3.9,2.2,3.9,5V24.2z"
-                                        fill="#FFFFFF"
-                                    />
-                                </svg>
-                                <span className="hidden lg:inline-block ml-2 text-white">LinkedIn</span>
-                            </div>
-                            <div className="flex flex-col lg:flex-row lg:items-center">
-                                <svg
-                                    className='w-[28px] h-[28px] 2xl:w-[2vw] 2xl:h-[2vw] 3xl:w-[1.8vw] 3xl:h-[1.8vw]'
-                                    viewBox="0 0 35 35"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <g>
+                            <a href="https://www.linkedin.com/company/kekst-cnc/" target="_blank" rel="noopener noreferrer">
+                                <div className="flex flex-col lg:flex-row lg:items-center">
+                                    <svg
+                                        className='w-[28px] h-[28px] 2xl:w-[2vw] 2xl:h-[2vw] 3xl:w-[1.8vw] 3xl:h-[1.8vw]'
+                                        viewBox="0 0 35 35"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
                                         <path
-                                            d="M11.7,8.7H10c-0.1,0-0.1,0.1-0.1,0.2l12,15.9c0,0,0.1,0,0.1,0h1.8c0.1,0,0.1-0.1,0.1-0.2L11.7,8.7 C11.8,8.7,11.7,8.7,11.7,8.7z"
+                                            d="M33.7,8.8c0-4.8-4-8.8-8.8-8.8H8.8C4,0,0,4,0,8.8v16.1c0,4.8,4,8.8,8.8,8.8l16.1,0c4.8,0,8.8-4,8.8-8.8L33.7,8.8z M13,24.2H9.8V13.7H13V24.2z M11.4,12.3c-1,0-1.9-0.8-1.9-1.9c0-1,0.8-1.9,1.9-1.9c1,0,1.9,0.8,1.9,1.9C13.3,11.4,12.5,12.3,11.4,12.3z M25.2,24.2H22v-5.1c0-1.2,0-2.8-1.7-2.8c-1.7,0-2,1.3-2,2.7v5.2h-3.3V13.7h3.1v1.4h0c0.4-0.8,1.5-1.7,3.1-1.7 c3.3,0,3.9,2.2,3.9,5V24.2z"
                                             fill="#FFFFFF"
                                         />
-                                        <path
-                                            d="M24.9,0H8.8C4,0,0,4,0,8.8v16.1c0,4.8,4,8.8,8.8,8.8h16.1c4.8,0,8.8-4,8.8-8.8V8.8C33.7,4,29.7,0,24.9,0z M21,26.8l-5.3-7l-5.9,7H6.4l7.7-9.1L5.9,6.9h6.8l5,6.6l5.5-6.6h3.3l-7.3,8.6l8.5,11.3H21z"
-                                            fill="#FFFFFF"
-                                        />
-                                    </g>
-                                </svg>
-                                <span className="hidden lg:inline-block ml-2 text-white">X (Twitter) </span>
-                            </div>
+                                    </svg>
+                                    <span className="hidden lg:inline-block ml-2 text-white">LinkedIn</span>
+                                </div>
+                            </a>
+
                         </div>
 
                     </div>
@@ -139,7 +122,7 @@ const Footer = () => {
                     <div className='text-md lg:text-md xl:text-[14px] 2xl:text-[1vw] pl-6 sm:pl-0 grid grid-cols-1 lg:grid-cols-5 xl:grid-cols-5 text-white font-Helvetica pt-8 lg:pt-10 xl:pt-10 mx-auto lg:mx-0 px-0 lg:px-8 xl:px-16 pb-0 lg:pb-10 xl:pb-10 w-full lg:w-auto 2xl:pb-[5vw] 2xl:pt-[5vw]'>
                         <div className='lg:col-span-1'></div>
                         <div className='pt-4 lg:pt-4 lg:pr-4 lg:pb-4 xl:py-0 lg:text-left'>
-                            © 2023 Kekst CNC
+                            © 2024 Kekst CNC
                         </div>
                         <div className='pt-4 lg:pr-4 lg:pb-4 xl:py-0 text-left lg:text-center xl:text-left'>
                             All Rights Reserved
@@ -168,7 +151,7 @@ const Footer = () => {
                         <div className='flex pr-4 py-2 xl:mt-0 items-center hover:cursor-pointer'>
                             {/* LinkedIn Icon */}
                             <a
-                                href="https://www.linkedin.com"
+                                href="https://www.linkedin.com/company/kekst-cnc/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className='px-0 lg:px-4 xl:px-12'
@@ -185,32 +168,6 @@ const Footer = () => {
                                     />
                                 </svg>
                             </a>
-                            {/* Twitter Icon */}
-                            <a
-                                href="https://www.twitter.com"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className='ml-8 lg:ml-4 xl:ml-0'
-                            >
-                                <svg
-                                    className='w-[28px] h-[28px] 2xl:w-[2vw] 2xl:h-[2vw] 3xl:w-[1.8vw] 3xl:h-[1.8vw]'
-                                    viewBox="0 0 35 35"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <g>
-                                        <path
-                                            d="M11.7,8.7H10c-0.1,0-0.1,0.1-0.1,0.2l12,15.9c0,0,0.1,0,0.1,0h1.8c0.1,0,0.1-0.1,0.1-0.2L11.7,8.7 C11.8,8.7,11.7,8.7,11.7,8.7z"
-                                            fill="white"
-                                        />
-                                        <path
-                                            d="M24.9,0H8.8C4,0,0,4,0,8.8v16.1c0,4.8,4,8.8,8.8,8.8h16.1c4.8,0,8.8-4,8.8-8.8V8.8C33.7,4,29.7,0,24.9,0z M21,26.8l-5.3-7l-5.9,7H6.4l7.7-9.1L5.9,6.9h6.8l5,6.6l5.5-6.6h3.3l-7.3,8.6l8.5,11.3H21z"
-                                            fill="white"
-                                        />
-                                    </g>
-                                </svg>
-                            </a>
-
                         </div>
                     </div>
 
